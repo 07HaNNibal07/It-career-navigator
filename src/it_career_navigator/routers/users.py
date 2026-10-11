@@ -9,6 +9,10 @@ from typing import Annotated
 from sqlalchemy import select
 from it_career_navigator.auth import hash_password, verify_password
 from it_career_navigator.auth import create_access_token
+from it_career_navigator.auth import decode_jwt
+from it_career_navigator.config import settings
+
+
 router = APIRouter(tags=["users"], prefix="/users")
 
 @router.get("")
@@ -65,9 +69,36 @@ async def login_user(
     token = create_access_token({"sub": str(user.id)})
     return {"access_token": token, "token_type": "bearer"}
 
-@router.get("/me")
-async def read_current_user(current_user: Person = Depends(oauth2_scheme)):
-    return current_user
+@router.get("/me", response_model=PersonResponse)
+async def read_current_user(
+    db: Annotated[AsyncSession, Depends(get_db)],
+    token: Annotated[str, Depends(oauth2_scheme)],
+):
+    payload = decode_jwt(
+        token,
+        settings.secret_key,
+        [settings.algorithm],
+    )
+
+    user_id = payload.get("sub")
+    if user_id is None:
+        raise HTTPException(
+            status_code=status.HTTP_401_UNAUTHORIZED,
+            detail="Invalid token",
+        )
+
+    result = await db.execute(
+        select(Person).where(Person.id == int(user_id))
+    )
+    user = result.scalar_one_or_none()
+
+    if not user:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail="User not found",
+        )
+
+    return user
 
 @router.get("/{user_id}")
 async def read_user(user_id: int):
