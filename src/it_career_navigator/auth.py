@@ -1,9 +1,11 @@
+import secrets
+
 from typing_extensions import Annotated
 
 from pwdlib import PasswordHash
-from fastapi import Depends, HTTPException
+from fastapi import Depends, HTTPException, status
 from it_career_navigator.config import settings
-from fastapi.security import OAuth2PasswordBearer
+from fastapi.security import APIKeyHeader, OAuth2PasswordBearer
 import jwt
 from datetime import datetime, timedelta,UTC
 
@@ -55,3 +57,32 @@ def get_current_user(
     return {"id": int(user_id)}
 
 CurrentUser = Annotated[dict, Depends(get_current_user)]
+
+
+
+internal_api_key_header = APIKeyHeader(
+    name="X-Internal-API-Key",
+    auto_error=False,
+)
+async def verify_internal_api_key(
+    provided_key: Annotated[str | None, Depends(internal_api_key_header)],
+) -> None:
+    expected_key = settings.internal_api_key
+
+    if expected_key is None:
+        raise HTTPException(
+            status_code=status.HTTP_503_SERVICE_UNAVAILABLE,
+            detail="Internal API key is not configured",
+        )
+
+    if provided_key is None or not secrets.compare_digest(
+        provided_key,
+        expected_key.get_secret_value(),
+    ):
+        raise HTTPException(
+            status_code=status.HTTP_401_UNAUTHORIZED,
+            detail="Invalid internal API key",
+        )
+
+
+InternalAPIKey = Annotated[None, Depends(verify_internal_api_key)]

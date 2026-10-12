@@ -9,7 +9,7 @@ class Person(Base):
     name: Mapped[str] = mapped_column(String(50))
     surname: Mapped[str] = mapped_column(String(50))
     age: Mapped[int] = mapped_column()
-    email: Mapped[str] = mapped_column(String(100))
+    email: Mapped[str] = mapped_column(String(100), unique=True)
     phone: Mapped[str] = mapped_column(String(20))
     password: Mapped[str] = mapped_column(String(100))
     skills: Mapped[list["PersonSkills"]] = relationship(back_populates="person")
@@ -18,7 +18,7 @@ class Skills(Base):
     __tablename__ = "skills"
 
     id: Mapped[int] = mapped_column(primary_key=True, autoincrement=True)
-    name: Mapped[str] = mapped_column(String(50))
+    name: Mapped[str] = mapped_column(String(50), unique=True)
     persons: Mapped[list["PersonSkills"]] = relationship(back_populates="skill")
     
 class PersonSkills(Base):

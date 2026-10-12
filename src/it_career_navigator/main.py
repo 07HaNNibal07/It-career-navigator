@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from it_career_navigator.routers import users
+from it_career_navigator.routers import users, internal
 from contextlib import asynccontextmanager
 from it_career_navigator.database import get_db,Base,engine
 
@@ -15,3 +15,4 @@ app = FastAPI(lifespan=lifespan)
 def read_root():
     return {"Hello": "World"}
 app.include_router(users.router)
+app.include_router(internal.router)
