@@ -1,13 +1,13 @@
 from fastapi import APIRouter,Depends, HTTPException, status
-from it_career_navigator.schemas import PersonCreate, PersonResponse, PersonLogin
+from it_career_navigator.schemas import PersonCreate, PersonResponse, PersonLogin, SkillCreate, SkillResponse
 from it_career_navigator.auth import oauth2_scheme
 from fastapi.security import OAuth2PasswordRequestForm
-from it_career_navigator.models import Person
-from it_career_navigator.database import get_db
+from it_career_navigator.models import Person, Skills, PersonSkills
+from it_career_navigator.database import Get_DB
 from sqlalchemy.ext.asyncio import AsyncSession
 from typing import Annotated
 from sqlalchemy import select
-from it_career_navigator.auth import hash_password, verify_password
+from it_career_navigator.auth import hash_password, verify_password, CurrentUser
 from it_career_navigator.auth import create_access_token
 from it_career_navigator.auth import decode_jwt
 from it_career_navigator.config import settings
@@ -23,7 +23,7 @@ async def read_users():
 @router.post("/create_user", response_model=PersonResponse)
 async def create_user(
     user: PersonCreate,
-    db: Annotated[AsyncSession, Depends(get_db)],
+    db: Get_DB,
 ):
     result = await db.execute(
         select(Person).where(Person.email == user.email)
@@ -53,7 +53,7 @@ async def create_user(
 @router.post("/login")
 async def login_user(
     form_data: Annotated[OAuth2PasswordRequestForm, Depends()],
-    db: Annotated[AsyncSession, Depends(get_db)],
+    db: Get_DB,
 ):
     result = await db.execute(
         select(Person).where(Person.email == form_data.username)
@@ -71,21 +71,10 @@ async def login_user(
 
 @router.get("/me", response_model=PersonResponse)
 async def read_current_user(
-    db: Annotated[AsyncSession, Depends(get_db)],
-    token: Annotated[str, Depends(oauth2_scheme)],
+    db: Get_DB,
+    current_user: CurrentUser,
 ):
-    payload = decode_jwt(
-        token,
-        settings.secret_key,
-        [settings.algorithm],
-    )
-
-    user_id = payload.get("sub")
-    if user_id is None:
-        raise HTTPException(
-            status_code=status.HTTP_401_UNAUTHORIZED,
-            detail="Invalid token",
-        )
+    user_id = current_user["id"]
 
     result = await db.execute(
         select(Person).where(Person.id == int(user_id))
@@ -103,3 +92,57 @@ async def read_current_user(
 @router.get("/{user_id}")
 async def read_user(user_id: int):
     return {"username": f"user{user_id}"}
+
+
+@router.delete("/{user_id}")
+async def delete_user(user_id: int, db: Get_DB):
+    result = await db.execute(
+        select(Person).where(Person.id == user_id)
+    )
+    user = result.scalar_one_or_none()
+
+    if not user:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail="User not found",
+        )
+
+    await db.delete(user)
+    await db.commit()
+    return {"detail": "User deleted successfully"}
+
+@router.post('/add_skills')
+async def add_skills(
+    user_id: int,
+    skills: list[SkillCreate],
+    current_user: CurrentUser,
+    db: Get_DB,
+):
+    result = await db.execute(
+        select(Person).where(Person.id == user_id)
+    )
+    user = result.scalar_one_or_none()
+
+    if not user:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail="User not found",
+        )
+
+    for skill in skills:
+        result = await db.execute(
+            select(Skills).where(Skills.name == skill.name)
+        )
+        db_skill = result.scalar_one_or_none()
+        if not db_skill:
+            db_skill = Skills(name=skill.name)
+            db.add(db_skill)
+            await db.commit()
+            await db.refresh(db_skill)
+
+        person_skill = PersonSkills(person_id=user.id, skill_id=db_skill.id)
+        db.add(person_skill)
+
+    await db.commit()
+    await db.refresh(user)
+    return user

@@ -1,5 +1,8 @@
+from typing_extensions import Annotated
+
 from pwdlib import PasswordHash
-from fastapi import HTTPException
+from fastapi import Depends, HTTPException
+from it_career_navigator.config import settings
 from fastapi.security import OAuth2PasswordBearer
 import jwt
 from datetime import datetime, timedelta,UTC
@@ -32,3 +35,23 @@ def create_access_token(data: dict) -> str:
     expire = datetime.now(UTC) + timedelta(minutes=settings.access_token_expire_minutes)
     to_encode.update({"exp": expire})
     return encode_jwt(to_encode, settings.secret_key, settings.algorithm)
+
+def get_current_user(
+    token: Annotated[str, Depends(oauth2_scheme)],
+) -> dict:
+    payload = decode_jwt(
+        token,
+        settings.secret_key,
+        [settings.algorithm],
+    )
+
+    user_id = payload.get("sub")
+    if user_id is None:
+        raise HTTPException(
+            status_code=401,
+            detail="Invalid token",
+        )
+
+    return {"id": int(user_id)}
+
+CurrentUser = Annotated[dict, Depends(get_current_user)]

@@ -6,7 +6,7 @@ class BasePerson(BaseModel):
     email: EmailStr
     age: int
     phone: str = Field(..., max_length=20)
-    
+    skills: list[str] = []
 
 
 class PersonCreate(BasePerson):
@@ -20,3 +20,14 @@ class PersonResponse(BasePerson):
 class PersonLogin(BaseModel):
     email: EmailStr
     password: str = Field(..., max_length=100)
+
+class SkillBase(BaseModel):
+    name: str = Field(..., max_length=50)
+
+class SkillCreate(SkillBase):
+    pass
+
+class SkillResponse(SkillBase):
+    id: int
+    class Config:
+        orm_mode = True
