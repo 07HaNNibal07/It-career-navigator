@@ -1,4 +1,4 @@
-from pydantic import BaseModel, EmailStr, Field
+from pydantic import BaseModel, EmailStr, Field,ConfigDict
 
 class BasePerson(BaseModel):
     name: str = Field(..., max_length=50)
@@ -14,8 +14,7 @@ class PersonCreate(BasePerson):
 
 class PersonResponse(BasePerson):
     id: int
-    class Config:
-        orm_mode = True
+    model_config = ConfigDict(from_attributes=True)
         
 class PersonLogin(BaseModel):
     email: EmailStr
@@ -29,5 +28,5 @@ class SkillCreate(SkillBase):
 
 class SkillResponse(SkillBase):
     id: int
-    class Config:
-        orm_mode = True
+    model_config = ConfigDict(from_attributes=True)
+    

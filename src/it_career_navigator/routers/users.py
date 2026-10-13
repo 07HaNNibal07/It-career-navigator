@@ -94,8 +94,10 @@ async def read_user(user_id: int):
     return {"username": f"user{user_id}"}
 
 
-@router.delete("/{user_id}")
-async def delete_user(user_id: int, db: Get_DB):
+@router.delete("/delete_user")
+async def delete_user(current_user: CurrentUser,
+                      db: Get_DB):
+    user_id = current_user["id"]
     result = await db.execute(
         select(Person).where(Person.id == user_id)
     )
@@ -113,13 +115,12 @@ async def delete_user(user_id: int, db: Get_DB):
 
 @router.post('/add_skills')
 async def add_skills(
-    user_id: int,
     skills: list[SkillCreate],
     current_user: CurrentUser,
     db: Get_DB,
 ):
     result = await db.execute(
-        select(Person).where(Person.id == user_id)
+        select(Person).where(Person.id == current_user["id"])
     )
     user = result.scalar_one_or_none()
 
