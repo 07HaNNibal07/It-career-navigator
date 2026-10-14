@@ -1,7 +1,10 @@
 import os
 import asyncio
 
-os.environ["DB_URL"] = "sqlite+aiosqlite:///./test_api.db"
+os.environ["DB_URL"] = (
+    "postgresql+asyncpg://career_user:test_password"
+    "@localhost:15432/it_career_navigator_test"
+)
 os.environ["SECRET_KEY"] = "test-secret-key-only-for-pytest"
 os.environ["INTERNAL_API_KEY"] = "test-internal-key"
 

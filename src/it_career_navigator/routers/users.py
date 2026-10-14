@@ -97,9 +97,20 @@ async def read_current_user(
 
     return user
 
-@router.get("/{user_id}")
-async def read_user(user_id: int):
-    return {"username": f"user{user_id}"}
+@router.get("/{user_id}", response_model=PersonResponse)
+async def read_user(user_id: int, db: Get_DB):
+    result = await db.execute(
+        select(Person).options(selectinload(Person.skills).selectinload(PersonSkills.skill)).where(Person.id == user_id)
+    )
+    user = result.scalar_one_or_none()
+
+    if not user:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail="User not found",
+        )
+
+    return user
 
 
 @router.patch("/update_user", response_model=PersonResponse)

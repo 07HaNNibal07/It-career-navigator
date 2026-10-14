@@ -10,7 +10,7 @@ class Settings(BaseSettings):
     
     
     
-    model_config = SettingsConfigDict(env_file=".env")
+    model_config = SettingsConfigDict(env_file=".env",extra="ignore")
     
     
 settings = Settings()

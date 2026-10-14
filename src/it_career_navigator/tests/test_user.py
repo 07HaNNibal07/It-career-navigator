@@ -27,11 +27,27 @@ async def test_register_user(client):
 
 @pytest.mark.anyio
 async def test_login_user(client):
+    email = "login@test.com"
+    password = "strong-password-123"
+
+    create_response = await client.post(
+        "/users/create_user",
+        json={
+            "name": "Ilgar",
+            "surname": "Babaev",
+            "email": email,
+            "age": 20,
+            "phone": "+78005553535",
+            "password": password,
+        },
+    )
+    assert create_response.status_code == 200
+
     response = await client.post(
         "/users/login",
         data={
-            "username": "ilgar@test.com",
-            "password": "strong-password-123",
+            "username": email,
+            "password": password,
         },
     )
 

@@ -9,9 +9,9 @@ SQLALCHEMY_DATABASE_URL = settings.db_url
 
 
 engine = create_async_engine(
-    SQLALCHEMY_DATABASE_URL, connect_args={"check_same_thread": False}
+    SQLALCHEMY_DATABASE_URL
 )
-SessionLocal = async_sessionmaker(autocommit=False, autoflush=False, bind=engine)
+SessionLocal = async_sessionmaker(bind=engine,expire_on_commit=False)
 
 class Base(DeclarativeBase):
     pass

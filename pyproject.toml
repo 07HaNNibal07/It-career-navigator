@@ -9,6 +9,8 @@ authors = [
 requires-python = ">=3.14"
 dependencies = [
     "aiosqlite>=0.22.1",
+    "alembic>=1.20.0",
+    "asyncpg>=0.32.0",
     "fastapi[standard]>=0.143.0",
     "greenlet>=3.5.6",
     "pwdlib[argon2]>=0.3.1",
