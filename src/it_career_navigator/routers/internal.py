@@ -1,10 +1,10 @@
 from fastapi import APIRouter, Depends, HTTPException, status
 from it_career_navigator.auth import InternalAPIKey
 from it_career_navigator.database import Get_DB
-from it_career_navigator.models import User, Skill, UserSkill
+from it_career_navigator.models import User, Skill, UserSkill, Direction
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy import select
-from it_career_navigator.schemas import SkillCreate, SkillResponse
+from it_career_navigator.schemas import SkillCreate, SkillResponse, DirectionCreate, DirectionResponse
 
 router = APIRouter(tags=["internal"], prefix="/internal")
 
@@ -38,3 +38,23 @@ async def delete_skills(
         await db.delete(skill)
     await db.commit()
     return skills
+
+@router.post("/create_directions", response_model=DirectionResponse)
+async def create_direction(
+    direction: DirectionCreate,
+    db: Get_DB,
+    _: InternalAPIKey,
+):
+    direction_exists = await db.execute(select(Direction).where(Direction.name == direction.name))
+    direction_exists = direction_exists.scalars().first()
+    if direction_exists:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail="Direction already exists",
+        )
+    new_direction = Direction(name=direction.name)
+    db.add(new_direction)
+    await db.commit()
+    await db.refresh(new_direction)
+    return new_direction
+

@@ -1,7 +1,7 @@
 from pydantic import BaseModel, EmailStr, Field,ConfigDict
 
 
-class BasePerson(BaseModel):
+class BaseUser(BaseModel):
     name: str = Field(..., max_length=50)
     surname: str = Field(..., max_length=50)
     email: EmailStr
@@ -11,11 +11,11 @@ class BasePerson(BaseModel):
 
 
 
-class PersonCreate(BasePerson):
+class UserCreate(BaseUser):
     password: str = Field(..., max_length=100)
 
 
-class PersonUpdate(BasePerson):
+class UserUpdate(BaseUser):
     name: str | None = Field(None, max_length=50)
     surname: str | None = Field(None, max_length=50)
     email: EmailStr | None = None
@@ -38,7 +38,26 @@ class SkillResponse(SkillBase):
     id: int
     model_config = ConfigDict(from_attributes=True)
 
-class PersonResponse(BasePerson):
+class UserResponse(BaseUser):
     id: int
     skills: list[SkillResponse] = []
+    target_level: str | None = None
+    direction_id: int | None = None
+    model_config = ConfigDict(from_attributes=True)
+
+class DirectionResponse(BaseModel):
+    id: int
+    name: str = Field(..., max_length=50)
+    
+    model_config = ConfigDict(from_attributes=True)
+
+class UserTargetUpdate(BaseModel):
+    target_level: str | None = None
+    direction_id: int | None = None
+    
+    model_config = ConfigDict(from_attributes=True)
+
+class DirectionCreate(BaseModel):
+    name: str = Field(..., max_length=50)
+    
     model_config = ConfigDict(from_attributes=True)

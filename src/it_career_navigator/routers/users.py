@@ -1,5 +1,6 @@
 from fastapi import APIRouter,Depends, HTTPException, status
-from it_career_navigator.schemas import SkillResponse, PersonCreate, PersonResponse, PersonLogin, PersonUpdate, SkillCreate, SkillResponse
+from fastapi import APIRouter, Depends, HTTPException, status
+from it_career_navigator.schemas import UserResponse, UserCreate, UserUpdate, UserTargetUpdate, SkillResponse, SkillCreate
 from it_career_navigator.auth import oauth2_scheme
 from fastapi.security import OAuth2PasswordRequestForm
 from it_career_navigator.models import User, Skill, UserSkill
@@ -20,9 +21,9 @@ async def read_users():
     return [{"username": "user1"}, {"username": "user2"}]
 
 
-@router.post("/create_user", response_model=PersonResponse)
+@router.post("/create_user", response_model=UserResponse)
 async def create_user(
-    user: PersonCreate,
+    user: UserCreate,
     db: Get_DB,
 ):
     result = await db.execute(
@@ -47,7 +48,7 @@ async def create_user(
     db.add(new_user)
     await db.commit()
     await db.refresh(new_user)
-    return PersonResponse(
+    return UserResponse(
         id=new_user.id,
         name=new_user.name,
         surname=new_user.surname,
@@ -77,7 +78,7 @@ async def login_user(
     token = create_access_token({"sub": str(user.id)})
     return {"access_token": token, "token_type": "bearer"}
 
-@router.get("/me", response_model=PersonResponse)
+@router.get("/me", response_model=UserResponse)
 async def read_current_user(
     db: Get_DB,
     current_user: CurrentUser,
@@ -97,7 +98,7 @@ async def read_current_user(
 
     return user
 
-@router.get("/{user_id}", response_model=PersonResponse)
+@router.get("/{user_id}", response_model=UserResponse)
 async def read_user(user_id: int, db: Get_DB):
     result = await db.execute(
         select(User).options(selectinload(User.skills).selectinload(UserSkill.skill)).where(User.id == user_id)
@@ -113,9 +114,9 @@ async def read_user(user_id: int, db: Get_DB):
     return user
 
 
-@router.patch("/update_user", response_model=PersonResponse)
+@router.patch("/update_user", response_model=UserResponse)
 async def update_user(
-    user_update: PersonUpdate,
+    user_update: UserUpdate,
     current_user: CurrentUser,
     db: Get_DB,
 ):
@@ -145,7 +146,7 @@ async def update_user(
     )
     user = result.scalar_one()
 
-    return PersonResponse(
+    return UserResponse(
         id=user.id,
         name=user.name,
         surname=user.surname,
@@ -177,7 +178,7 @@ async def delete_user(current_user: CurrentUser,
     await db.commit()
     return {"detail": "User deleted successfully"}
 
-@router.post('/add_skills', response_model=PersonResponse)
+@router.post('/add_skills', response_model=UserResponse)
 async def add_skills(
     skills: list[SkillCreate],
     current_user: CurrentUser,
@@ -213,7 +214,7 @@ async def add_skills(
         select(User).options(selectinload(User.skills).selectinload(UserSkill.skill)).where(User.id == user.id)
     )
     user = result.scalar_one_or_none()
-    return PersonResponse(
+    return UserResponse(
         id=user.id,
         name=user.name,
         surname=user.surname,
@@ -227,7 +228,7 @@ async def add_skills(
 )
 
 
-@router.delete("/delete_skills", response_model=PersonResponse)
+@router.delete("/delete_skills", response_model=UserResponse)
 async def delete_skills(
     skills: list[SkillCreate],
     current_user: CurrentUser,
@@ -260,7 +261,7 @@ async def delete_skills(
         user.skills.remove(person_skill)
         await db.delete(person_skill)
 
-    response = PersonResponse(
+    response = UserResponse(
         id=user.id,
         name=user.name,
         surname=user.surname,
@@ -276,3 +277,51 @@ async def delete_skills(
     await db.commit()
     return response
     
+@router.patch("/update_target", response_model=UserResponse)
+async def update_target(
+    target_update: UserTargetUpdate,
+    current_user: CurrentUser,
+    db: Get_DB,
+):
+    result = await db.execute(
+        select(User)
+        .where(User.id == current_user["id"])
+    )
+    user = result.scalar_one_or_none()
+
+    if not user:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail="User not found",
+        )
+
+    if target_update.target_level is not None:
+        user.target_level = target_update.target_level
+    if target_update.direction_id is not None:
+        user.direction_id = target_update.direction_id
+
+    await db.commit()
+    result = await db.execute(
+        select(User)
+        .options(
+            selectinload(User.skills).selectinload(UserSkill.skill)
+        )
+        .where(User.id == current_user["id"])
+    )
+    user = result.scalar_one()
+
+
+    return UserResponse(
+        id=user.id,
+        name=user.name,
+        surname=user.surname,
+        email=user.email,
+        age=user.age,
+        phone=user.phone,
+        skills=[
+            SkillResponse.model_validate(person_skill.skill)
+            for person_skill in user.skills
+        ],
+        target_level=user.target_level,
+        direction_id=user.direction_id,
+    )

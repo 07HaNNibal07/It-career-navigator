@@ -261,3 +261,58 @@ async def test_update_user_with_token(client):
     assert response.json()["age"] == 21
     assert response.json()["phone"] == "+78005553536"
 
+
+@pytest.mark.anyio
+async def test_update_target_with_token(client):
+    direction_response = await client.post(
+        "/internal/create_directions",
+        json={
+            "name": "Python Backend",
+        },
+        headers={
+            "X-Internal-API-Key": "test-internal-key",
+        },
+    )
+
+    assert direction_response.status_code == 200
+
+    direction_id = direction_response.json()["id"]
+
+    create_response = await client.post(
+        "/users/create_user",
+        json={
+            "name": "Ilgar",
+            "surname": "Babaev",
+            "email": "ilgar@test.com",
+            "age": 20,
+            "phone": "+78005553535",
+            "password": "strong-password-123",
+        },
+    )
+    assert create_response.status_code == 200
+
+    login_response = await client.post(
+        "/users/login",
+        data={
+            "username": "ilgar@test.com",
+            "password": "strong-password-123",
+        },
+    )
+    assert login_response.status_code == 200
+
+    token = login_response.json()["access_token"]
+
+    response = await client.patch(
+        "/users/update_target",
+        json={
+            "target_level": "Senior",
+            "direction_id": direction_id,
+        },
+        headers={
+            "Authorization": f"Bearer {token}",
+        },
+    )
+
+    assert response.status_code == 200
+    assert response.json()["target_level"] == "Senior"
+    assert response.json()["direction_id"] == direction_id
