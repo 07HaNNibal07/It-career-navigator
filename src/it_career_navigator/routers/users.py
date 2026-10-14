@@ -2,7 +2,7 @@ from fastapi import APIRouter,Depends, HTTPException, status
 from it_career_navigator.schemas import SkillResponse, PersonCreate, PersonResponse, PersonLogin, PersonUpdate, SkillCreate, SkillResponse
 from it_career_navigator.auth import oauth2_scheme
 from fastapi.security import OAuth2PasswordRequestForm
-from it_career_navigator.models import Person, Skills, PersonSkills
+from it_career_navigator.models import User, Skill, UserSkill
 from it_career_navigator.database import Get_DB
 from sqlalchemy.ext.asyncio import AsyncSession
 from typing import Annotated
@@ -26,7 +26,7 @@ async def create_user(
     db: Get_DB,
 ):
     result = await db.execute(
-        select(Person).where(Person.email == user.email)
+        select(User).where(User.email == user.email)
     )
     existing_user = result.scalar_one_or_none()
 
@@ -36,7 +36,7 @@ async def create_user(
             detail="Email already registered",
         )
 
-    new_user = Person(
+    new_user = User(
         name=user.name,
         surname=user.surname,
         email=user.email,
@@ -64,7 +64,7 @@ async def login_user(
     db: Get_DB,
 ):
     result = await db.execute(
-        select(Person).where(Person.email == form_data.username)
+        select(User).where(User.email == form_data.username)
     )
     user = result.scalar_one_or_none()
 
@@ -85,7 +85,7 @@ async def read_current_user(
     user_id = current_user["id"]
 
     result = await db.execute(
-        select(Person).options(selectinload(Person.skills).selectinload(PersonSkills.skill)).where(Person.id == int(user_id))
+        select(User).options(selectinload(User.skills).selectinload(UserSkill.skill)).where(User.id == int(user_id))
     )
     user = result.scalar_one_or_none()
 
@@ -100,7 +100,7 @@ async def read_current_user(
 @router.get("/{user_id}", response_model=PersonResponse)
 async def read_user(user_id: int, db: Get_DB):
     result = await db.execute(
-        select(Person).options(selectinload(Person.skills).selectinload(PersonSkills.skill)).where(Person.id == user_id)
+        select(User).options(selectinload(User.skills).selectinload(UserSkill.skill)).where(User.id == user_id)
     )
     user = result.scalar_one_or_none()
 
@@ -120,7 +120,7 @@ async def update_user(
     db: Get_DB,
 ):
     result = await db.execute(
-        select(Person).where(Person.id == current_user["id"])
+        select(User).where(User.id == current_user["id"])
     )
     user = result.scalar_one_or_none()
 
@@ -137,11 +137,11 @@ async def update_user(
     await db.commit()
     
     result = await db.execute(
-    select(Person)
+    select(User)
     .options(
-        selectinload(Person.skills).selectinload(PersonSkills.skill)
+        selectinload(User.skills).selectinload(UserSkill.skill)
     )
-    .where(Person.id == current_user["id"])
+    .where(User.id == current_user["id"])
     )
     user = result.scalar_one()
 
@@ -163,7 +163,7 @@ async def delete_user(current_user: CurrentUser,
                       db: Get_DB):
     user_id = current_user["id"]
     result = await db.execute(
-        select(Person).where(Person.id == user_id)
+        select(User).where(User.id == user_id)
     )
     user = result.scalar_one_or_none()
 
@@ -184,7 +184,7 @@ async def add_skills(
     db: Get_DB,
 ):
     result = await db.execute(
-        select(Person).where(Person.id == current_user["id"])
+        select(User).where(User.id == current_user["id"])
     )
     user = result.scalar_one_or_none()
 
@@ -196,21 +196,21 @@ async def add_skills(
 
     for skill in skills:
         result = await db.execute(
-            select(Skills).where(Skills.name == skill.name)
+            select(Skill).where(Skill.name == skill.name)
         )
         db_skill = result.scalar_one_or_none()
         if not db_skill:
-            db_skill = Skills(name=skill.name)
+            db_skill = Skill(name=skill.name)
             db.add(db_skill)
             await db.commit()
             await db.refresh(db_skill)
 
-        person_skill = PersonSkills(person_id=user.id, skill_id=db_skill.id)
-        db.add(person_skill)
+        user_skill = UserSkill(user_id=user.id, skill_id=db_skill.id)
+        db.add(user_skill)
 
     await db.commit()
     result = await db.execute(
-        select(Person).options(selectinload(Person.skills).selectinload(PersonSkills.skill)).where(Person.id == user.id)
+        select(User).options(selectinload(User.skills).selectinload(UserSkill.skill)).where(User.id == user.id)
     )
     user = result.scalar_one_or_none()
     return PersonResponse(
@@ -234,11 +234,11 @@ async def delete_skills(
     db: Get_DB,
 ):
     result = await db.execute(
-        select(Person)
+        select(User)
         .options(
-            selectinload(Person.skills).selectinload(PersonSkills.skill)
+            selectinload(User.skills).selectinload(UserSkill.skill)
         )
-        .where(Person.id == current_user["id"])
+        .where(User.id == current_user["id"])
     )
     user = result.scalar_one_or_none()
 

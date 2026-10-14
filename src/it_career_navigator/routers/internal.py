@@ -1,7 +1,7 @@
 from fastapi import APIRouter, Depends, HTTPException, status
 from it_career_navigator.auth import InternalAPIKey
 from it_career_navigator.database import Get_DB
-from it_career_navigator.models import Person, Skills, PersonSkills
+from it_career_navigator.models import User, Skill, UserSkill
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy import select
 from it_career_navigator.schemas import SkillCreate, SkillResponse
@@ -14,14 +14,14 @@ async def create_skill(
     db: Get_DB,
     _: InternalAPIKey,
 ):
-    skill_exists = await db.execute(select(Skills).where(Skills.name == skill.name))
+    skill_exists = await db.execute(select(Skill).where(Skill.name == skill.name))
     skill_exists = skill_exists.scalars().first()
     if skill_exists:
         raise HTTPException(
             status_code=status.HTTP_400_BAD_REQUEST,
             detail="Skill already exists",
         )
-    new_skill = Skills(name=skill.name)
+    new_skill = Skill(name=skill.name)
     db.add(new_skill)
     await db.commit()
     await db.refresh(new_skill)
@@ -32,7 +32,7 @@ async def delete_skills(
     db: Get_DB,
     _: InternalAPIKey,
 ):
-    result = await db.execute(select(Skills))
+    result = await db.execute(select(Skill))
     skills = result.scalars().all()
     for skill in skills:
         await db.delete(skill)
