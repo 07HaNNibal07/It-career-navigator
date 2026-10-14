@@ -22,6 +22,8 @@ class PersonUpdate(BasePerson):
     age: int | None = None
     phone: str | None = Field(None, max_length=20)
     model_config = ConfigDict(from_attributes=True)
+    
+    
 class PersonLogin(BaseModel):
     email: EmailStr
     password: str = Field(..., max_length=100)

@@ -8,7 +8,7 @@ from it_career_navigator.schemas import SkillCreate, SkillResponse
 
 router = APIRouter(tags=["internal"], prefix="/internal")
 
-@router.post("/skills", response_model=SkillResponse)
+@router.post("/create_skills", response_model=SkillResponse)
 async def create_skill(
     skill: SkillCreate,
     db: Get_DB,
@@ -26,3 +26,15 @@ async def create_skill(
     await db.commit()
     await db.refresh(new_skill)
     return new_skill
+
+@router.delete("/delete_skills", response_model=list[SkillResponse])
+async def delete_skills(
+    db: Get_DB,
+    _: InternalAPIKey,
+):
+    result = await db.execute(select(Skills))
+    skills = result.scalars().all()
+    for skill in skills:
+        await db.delete(skill)
+    await db.commit()
+    return skills
