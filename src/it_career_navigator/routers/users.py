@@ -1,5 +1,5 @@
 from fastapi import APIRouter,Depends, HTTPException, status
-from it_career_navigator.schemas import PersonCreate, PersonResponse, PersonLogin, SkillCreate, SkillResponse
+from it_career_navigator.schemas import SkillResponse, PersonCreate, PersonResponse, PersonLogin, PersonUpdate, SkillCreate, SkillResponse
 from it_career_navigator.auth import oauth2_scheme
 from fastapi.security import OAuth2PasswordRequestForm
 from it_career_navigator.models import Person, Skills, PersonSkills
@@ -11,7 +11,7 @@ from it_career_navigator.auth import hash_password, verify_password, CurrentUser
 from it_career_navigator.auth import create_access_token
 from it_career_navigator.auth import decode_jwt
 from it_career_navigator.config import settings
-
+from sqlalchemy.orm import selectinload
 
 router = APIRouter(tags=["users"], prefix="/users")
 
@@ -47,7 +47,15 @@ async def create_user(
     db.add(new_user)
     await db.commit()
     await db.refresh(new_user)
-    return new_user
+    return PersonResponse(
+        id=new_user.id,
+        name=new_user.name,
+        surname=new_user.surname,
+        email=new_user.email,
+        age=new_user.age,
+        phone=new_user.phone,
+        skills=[],
+)
 
 
 @router.post("/login")
@@ -77,7 +85,7 @@ async def read_current_user(
     user_id = current_user["id"]
 
     result = await db.execute(
-        select(Person).where(Person.id == int(user_id))
+        select(Person).options(selectinload(Person.skills).selectinload(PersonSkills.skill)).where(Person.id == int(user_id))
     )
     user = result.scalar_one_or_none()
 
@@ -93,6 +101,51 @@ async def read_current_user(
 async def read_user(user_id: int):
     return {"username": f"user{user_id}"}
 
+
+@router.patch("/update_user", response_model=PersonResponse)
+async def update_user(
+    user_update: PersonUpdate,
+    current_user: CurrentUser,
+    db: Get_DB,
+):
+    result = await db.execute(
+        select(Person).where(Person.id == current_user["id"])
+    )
+    user = result.scalar_one_or_none()
+
+    if not user:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail="User not found",
+        )
+
+    for field, value in user_update.model_dump(exclude_unset=True).items():
+        setattr(user, field, value)
+
+    db.add(user)
+    await db.commit()
+    
+    result = await db.execute(
+    select(Person)
+    .options(
+        selectinload(Person.skills).selectinload(PersonSkills.skill)
+    )
+    .where(Person.id == current_user["id"])
+    )
+    user = result.scalar_one()
+
+    return PersonResponse(
+        id=user.id,
+        name=user.name,
+        surname=user.surname,
+        email=user.email,
+        age=user.age,
+        phone=user.phone,
+        skills=[
+            SkillResponse.model_validate(person_skill.skill)
+            for person_skill in user.skills
+        ],
+    )
 
 @router.delete("/delete_user")
 async def delete_user(current_user: CurrentUser,
@@ -113,7 +166,7 @@ async def delete_user(current_user: CurrentUser,
     await db.commit()
     return {"detail": "User deleted successfully"}
 
-@router.post('/add_skills')
+@router.post('/add_skills', response_model=PersonResponse)
 async def add_skills(
     skills: list[SkillCreate],
     current_user: CurrentUser,
@@ -145,5 +198,70 @@ async def add_skills(
         db.add(person_skill)
 
     await db.commit()
-    await db.refresh(user)
-    return user
+    result = await db.execute(
+        select(Person).options(selectinload(Person.skills).selectinload(PersonSkills.skill)).where(Person.id == user.id)
+    )
+    user = result.scalar_one_or_none()
+    return PersonResponse(
+        id=user.id,
+        name=user.name,
+        surname=user.surname,
+        email=user.email,
+        age=user.age,
+        phone=user.phone,
+        skills=[
+            SkillResponse.model_validate(person_skill.skill)
+            for person_skill in user.skills
+        ],
+)
+
+
+@router.delete("/delete_skills", response_model=PersonResponse)
+async def delete_skills(
+    skills: list[SkillCreate],
+    current_user: CurrentUser,
+    db: Get_DB,
+):
+    result = await db.execute(
+        select(Person)
+        .options(
+            selectinload(Person.skills).selectinload(PersonSkills.skill)
+        )
+        .where(Person.id == current_user["id"])
+    )
+    user = result.scalar_one_or_none()
+
+    if not user:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail="User not found",
+        )
+
+    requested_names = {skill.name for skill in skills}
+
+    links_to_delete = [
+        person_skill
+        for person_skill in user.skills
+        if person_skill.skill.name in requested_names
+    ]
+
+    for person_skill in links_to_delete:
+        user.skills.remove(person_skill)
+        await db.delete(person_skill)
+
+    response = PersonResponse(
+        id=user.id,
+        name=user.name,
+        surname=user.surname,
+        email=user.email,
+        age=user.age,
+        phone=user.phone,
+        skills=[
+            SkillResponse.model_validate(person_skill.skill)
+            for person_skill in user.skills
+        ],
+    )
+
+    await db.commit()
+    return response
+    
