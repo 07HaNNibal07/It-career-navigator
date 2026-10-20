@@ -2,7 +2,7 @@ from datetime import datetime
 
 from sqlalchemy.orm import relationship, Mapped, mapped_column
 from it_career_navigator.database import Base
-from sqlalchemy import DateTime, String, ForeignKey,String,Text,UniqueConstraint
+from sqlalchemy import DateTime, ForeignKey,String,Text,UniqueConstraint
 
 
 class User(Base):
@@ -27,6 +27,7 @@ class Skill(Base):
     id: Mapped[int] = mapped_column(primary_key=True, autoincrement=True)
     name: Mapped[str] = mapped_column(String(50), unique=True)
     users: Mapped[list["UserSkill"]] = relationship(back_populates="skill")
+    vacancy_requirements: Mapped[list["VacancyRequirement"]] = relationship(back_populates="skill")
     
 class UserSkill(Base):
     __tablename__ = "user_skills"
@@ -75,7 +76,7 @@ class Vacancy(Base):
     direction: Mapped["Direction | None"] = relationship(
         back_populates="vacancies"
     )
-
+    requirements: Mapped[list["VacancyRequirement"]] = relationship(back_populates="vacancy")
     __table_args__ = (
         UniqueConstraint(
             "source",
@@ -83,3 +84,22 @@ class Vacancy(Base):
             name="uq_vacancies_source_external_id",
         ),
     )
+
+class VacancyRequirement(Base):
+    __tablename__ = "vacancy_requirements"
+
+    id: Mapped[int] = mapped_column(primary_key=True, autoincrement=True)
+    vacancy_id: Mapped[int] = mapped_column(ForeignKey("vacancies.id", ondelete="CASCADE"))
+    skill_id: Mapped[int] = mapped_column(ForeignKey("skills.id", ondelete="CASCADE"))
+    is_required: Mapped[bool] = mapped_column(default=True)
+    vacancy: Mapped["Vacancy"] = relationship(back_populates="requirements")
+    skill: Mapped["Skill"] = relationship(back_populates="vacancy_requirements")
+    
+    __table_args__ = (
+        UniqueConstraint(
+            "vacancy_id",
+            "skill_id",
+            name="uq_vacancy_requirements_vacancy_id_skill_id",
+        ),
+    )
+    

@@ -98,3 +98,34 @@ async def test_create_duplicate_vacancy(client):
 
     assert duplicate_response.status_code == 400
     assert duplicate_response.json()["detail"] == "Vacancy already exists"
+
+@pytest.mark.anyio
+async def test_create_vacancy_requirement_with_valid_key(client):
+    skill_response = await client.post(
+        "/internal/create_skills",
+        json={"name": "RequirementPython"},
+        headers=VALID_HEADERS,
+    )
+    assert skill_response.status_code == 200
+
+    vacancy_response = await client.post(
+        VACANCY_URL,
+        json=VACANCY_DATA,
+        headers=VALID_HEADERS,
+    )
+    assert vacancy_response.status_code == 200
+
+    response = await client.post(
+        "/internal/create_vacancy_requirement",
+        json={
+            "vacancy_id": vacancy_response.json()["id"],
+            "skill_id": skill_response.json()["id"],
+            "is_required": True,
+        },
+        headers=VALID_HEADERS,
+    )
+
+    assert response.status_code == 200
+    assert response.json()["vacancy_id"] == vacancy_response.json()["id"]
+    assert response.json()["skill_id"] == skill_response.json()["id"]
+    assert response.json()["is_required"] is True

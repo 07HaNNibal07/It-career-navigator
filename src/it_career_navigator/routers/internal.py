@@ -1,10 +1,10 @@
 from fastapi import APIRouter, Depends, HTTPException, status
 from it_career_navigator.auth import InternalAPIKey
 from it_career_navigator.database import Get_DB
-from it_career_navigator.models import User, Skill, UserSkill, Direction, Vacancy
+from it_career_navigator.models import User, Skill, UserSkill, Direction, Vacancy, VacancyRequirement
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy import select, and_
-from it_career_navigator.schemas import SkillCreate, SkillResponse, DirectionCreate, DirectionResponse, VacancyCreate, VacancyResponse
+from it_career_navigator.schemas import SkillCreate, SkillResponse, DirectionCreate, DirectionResponse, VacancyCreate, VacancyResponse, VacancyRequirementCreate, VacancyRequirementResponse
 
 router = APIRouter(tags=["internal"], prefix="/internal")
 
@@ -102,3 +102,50 @@ async def create_vacancy(
     await db.commit()
     await db.refresh(new_vacancy)
     return new_vacancy
+
+@router.post("/create_vacancy_requirement", response_model=VacancyRequirementResponse)
+async def create_vacancy_requirement(
+    vacancy_requirement: VacancyRequirementCreate,
+    db: Get_DB,
+    _: InternalAPIKey,
+):
+    vacancy_exists = await db.execute(select(Vacancy).where(Vacancy.id == vacancy_requirement.vacancy_id))
+    vacancy_exists = vacancy_exists.scalars().first()
+    if not vacancy_exists:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail="Vacancy does not exist",
+        )
+
+    skill_exists = await db.execute(select(Skill).where(Skill.id == vacancy_requirement.skill_id))
+    skill_exists = skill_exists.scalars().first()
+    if not skill_exists:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail="Skill does not exist",
+        )
+
+    vacancy_requirement_exists = await db.execute(
+        select(VacancyRequirement).where(
+            and_(
+                VacancyRequirement.vacancy_id == vacancy_requirement.vacancy_id,
+                VacancyRequirement.skill_id == vacancy_requirement.skill_id
+            )
+        )
+    )
+    vacancy_requirement_exists = vacancy_requirement_exists.scalars().first()
+    if vacancy_requirement_exists:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail="Vacancy requirement already exists",
+        )
+
+    new_vacancy_requirement = VacancyRequirement(
+        vacancy_id=vacancy_requirement.vacancy_id,
+        skill_id=vacancy_requirement.skill_id,
+        is_required=vacancy_requirement.is_required
+    )
+    db.add(new_vacancy_requirement)
+    await db.commit()
+    await db.refresh(new_vacancy_requirement)
+    return new_vacancy_requirement

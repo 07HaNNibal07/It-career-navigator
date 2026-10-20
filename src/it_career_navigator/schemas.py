@@ -92,3 +92,18 @@ class VacancyResponse(BaseModel):
     published_at: datetime | None = None
 
     model_config = ConfigDict(from_attributes=True)
+
+class VacancyRequirementCreate(BaseModel):
+    vacancy_id: int
+    skill_id: int
+    is_required: bool
+
+    model_config = ConfigDict(from_attributes=True)
+
+class VacancyRequirementResponse(BaseModel):
+    id: int
+    vacancy_id: int
+    skill_id: int
+    is_required: bool
+
+    model_config = ConfigDict(from_attributes=True)
