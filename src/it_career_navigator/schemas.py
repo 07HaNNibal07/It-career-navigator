@@ -1,4 +1,5 @@
 from pydantic import BaseModel, EmailStr, Field,ConfigDict
+from datetime import datetime
 
 
 class BaseUser(BaseModel):
@@ -60,4 +61,34 @@ class UserTargetUpdate(BaseModel):
 class DirectionCreate(BaseModel):
     name: str = Field(..., max_length=50)
     
+    model_config = ConfigDict(from_attributes=True)
+    
+class VacancyCreate(BaseModel):
+    source: str = Field(..., max_length=50)
+    external_id: str = Field(..., max_length=100)
+    title: str = Field(..., max_length=200)
+    company: str | None = Field(None, max_length=150)
+    url: str | None = Field(None, max_length=500)
+    description: str
+    
+    direction_id: int | None = None
+    level: str | None = Field(None, max_length=30)
+    published_at: datetime | None = None
+    model_config = ConfigDict(from_attributes=True)
+
+
+
+class VacancyResponse(BaseModel):
+    id: int
+    source: str = Field(..., max_length=50)
+    external_id: str = Field(..., max_length=100)
+    title: str = Field(..., max_length=200)
+    company: str | None = Field(None, max_length=150)
+    url: str | None = Field(None, max_length=500)
+    description: str
+
+    direction_id: int | None = None
+    level: str | None = Field(None, max_length=30)
+    published_at: datetime | None = None
+
     model_config = ConfigDict(from_attributes=True)

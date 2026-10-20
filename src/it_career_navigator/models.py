@@ -1,6 +1,8 @@
+from datetime import datetime
+
 from sqlalchemy.orm import relationship, Mapped, mapped_column
 from it_career_navigator.database import Base
-from sqlalchemy import String, ForeignKey
+from sqlalchemy import DateTime, String, ForeignKey,String,Text,UniqueConstraint
 
 
 class User(Base):
@@ -42,4 +44,42 @@ class Direction(Base):
     id: Mapped[int] = mapped_column(primary_key=True, autoincrement=True)
     name: Mapped[str] = mapped_column(String(50), unique=True)
     users: Mapped[list["User"]] = relationship(back_populates="direction")
+    vacancies: Mapped[list["Vacancy"]] = relationship(back_populates="direction")
+
+class Vacancy(Base):
+    __tablename__ = "vacancies"
+
+    id: Mapped[int] = mapped_column(primary_key=True, autoincrement=True)
+
+    source: Mapped[str] = mapped_column(String(50))
+    external_id: Mapped[str] = mapped_column(String(100))
+
+    title: Mapped[str] = mapped_column(String(200))
+    company: Mapped[str | None] = mapped_column(String(150), nullable=True)
+    url: Mapped[str | None] = mapped_column(String(500), nullable=True)
+
     
+    description: Mapped[str] = mapped_column(Text)
+
+    published_at: Mapped[datetime | None] = mapped_column(
+        DateTime(timezone=True),
+        nullable=True,
+    )
+
+    direction_id: Mapped[int | None] = mapped_column(
+        ForeignKey("directions.id", ondelete="SET NULL"),
+        nullable=True,
+    )
+    level: Mapped[str | None] = mapped_column(String(30), nullable=True)
+
+    direction: Mapped["Direction | None"] = relationship(
+        back_populates="vacancies"
+    )
+
+    __table_args__ = (
+        UniqueConstraint(
+            "source",
+            "external_id",
+            name="uq_vacancies_source_external_id",
+        ),
+    )
