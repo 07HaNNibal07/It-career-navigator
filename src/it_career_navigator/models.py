@@ -28,6 +28,7 @@ class Skill(Base):
     name: Mapped[str] = mapped_column(String(50), unique=True)
     users: Mapped[list["UserSkill"]] = relationship(back_populates="skill")
     vacancy_requirements: Mapped[list["VacancyRequirement"]] = relationship(back_populates="skill")
+    aliases: Mapped[list["SkillAlias"]] = relationship(back_populates="skill")
     
 class UserSkill(Base):
     __tablename__ = "user_skills"
@@ -103,3 +104,10 @@ class VacancyRequirement(Base):
         ),
     )
     
+class SkillAlias(Base):
+    __tablename__ = "skill_aliases"
+    
+    id: Mapped[int] = mapped_column(primary_key=True, autoincrement=True)
+    alias: Mapped[str] = mapped_column(String(100), unique=True)
+    skill_id: Mapped[int] = mapped_column(ForeignKey("skills.id", ondelete="CASCADE"))
+    skill: Mapped["Skill"] = relationship(back_populates="aliases")

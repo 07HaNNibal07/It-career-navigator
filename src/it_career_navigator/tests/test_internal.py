@@ -156,3 +156,36 @@ async def test_create_vacancy_requirement_without_key(client):
     assert response.status_code == 401
     assert response.json()["detail"] == "Invalid internal API key"
 
+@pytest.mark.anyio
+async def test_create_skill_alias_with_valid_key(client):
+    skill_response = await client.post(
+        "/internal/create_skills",
+        json={"name": "Python"},
+        headers=VALID_HEADERS,
+    )
+    assert skill_response.status_code == 200
+
+    response = await client.post(
+        "/internal/create_skill_alias",
+        json={
+            "alias": "Py",
+            "skill_id": skill_response.json()["id"],
+        },
+        headers=VALID_HEADERS,
+    )
+
+    duplicate_response = await client.post(
+        "/internal/create_skill_alias",
+        json={
+            "alias": "Py",
+            "skill_id": skill_response.json()["id"],
+        },
+        headers=VALID_HEADERS,
+    )
+
+    assert duplicate_response.status_code == 400
+    assert duplicate_response.json()["detail"] == "Skill alias already exists"
+
+    assert response.status_code == 200
+    assert response.json()["alias"] == "Py"
+    assert response.json()["skill_id"] == skill_response.json()["id"]

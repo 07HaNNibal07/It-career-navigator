@@ -1,10 +1,10 @@
 from fastapi import APIRouter, Depends, HTTPException, status
 from it_career_navigator.auth import InternalAPIKey
 from it_career_navigator.database import Get_DB
-from it_career_navigator.models import User, Skill, UserSkill, Direction, Vacancy, VacancyRequirement
+from it_career_navigator.models import SkillAlias, User, Skill, UserSkill, Direction, Vacancy, VacancyRequirement
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy import select, and_
-from it_career_navigator.schemas import SkillCreate, SkillResponse, DirectionCreate, DirectionResponse, VacancyCreate, VacancyResponse, VacancyRequirementCreate, VacancyRequirementResponse
+from it_career_navigator.schemas import SkillAliasResponse, SkillAliasCreate, SkillCreate, SkillResponse, DirectionCreate, DirectionResponse, VacancyCreate, VacancyResponse, VacancyRequirementCreate, VacancyRequirementResponse
 
 router = APIRouter(tags=["internal"], prefix="/internal")
 
@@ -149,3 +149,36 @@ async def create_vacancy_requirement(
     await db.commit()
     await db.refresh(new_vacancy_requirement)
     return new_vacancy_requirement
+
+@router.post("/create_skill_alias", response_model=SkillAliasResponse)
+async def create_skill_alias(
+    skill_alias: SkillAliasCreate,
+    db: Get_DB,
+    _: InternalAPIKey,
+):
+    skill_exists = await db.execute(select(Skill).where(Skill.id == skill_alias.skill_id))
+    skill_exists = skill_exists.scalars().first()
+    if not skill_exists:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail="Skill does not exist",
+        )
+
+    skill_alias_exists = await db.execute(
+        select(SkillAlias).where(SkillAlias.alias == skill_alias.alias)
+    )
+    skill_alias_exists = skill_alias_exists.scalars().first()
+    if skill_alias_exists:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail="Skill alias already exists",
+        )
+
+    new_skill_alias = SkillAlias(
+        alias=skill_alias.alias,
+        skill_id=skill_alias.skill_id
+    )
+    db.add(new_skill_alias)
+    await db.commit()
+    await db.refresh(new_skill_alias)
+    return new_skill_alias

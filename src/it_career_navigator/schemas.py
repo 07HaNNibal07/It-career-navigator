@@ -107,3 +107,16 @@ class VacancyRequirementResponse(BaseModel):
     is_required: bool
 
     model_config = ConfigDict(from_attributes=True)
+
+class SkillAliasCreate(BaseModel):
+    alias: str = Field(..., max_length=100)
+    skill_id: int
+
+    model_config = ConfigDict(from_attributes=True)
+
+class SkillAliasResponse(BaseModel):
+    id: int
+    alias: str = Field(..., max_length=100)
+    skill_id: int
+
+    model_config = ConfigDict(from_attributes=True)
