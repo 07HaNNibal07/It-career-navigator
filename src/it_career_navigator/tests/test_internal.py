@@ -125,7 +125,34 @@ async def test_create_vacancy_requirement_with_valid_key(client):
         headers=VALID_HEADERS,
     )
 
+    duplicate_response = await client.post(
+        "/internal/create_vacancy_requirement",
+        json={
+            "vacancy_id": vacancy_response.json()["id"],
+            "skill_id": skill_response.json()["id"],
+            "is_required": True,
+        },
+        headers=VALID_HEADERS,
+    )
+
+    assert duplicate_response.status_code == 400
+    assert (
+        duplicate_response.json()["detail"]
+        == "Vacancy requirement already exists"
+    )
+    
     assert response.status_code == 200
     assert response.json()["vacancy_id"] == vacancy_response.json()["id"]
     assert response.json()["skill_id"] == skill_response.json()["id"]
     assert response.json()["is_required"] is True
+
+@pytest.mark.anyio
+async def test_create_vacancy_requirement_without_key(client):
+    response = await client.post(
+        "/internal/create_vacancy_requirement",
+        json={"vacancy_id": 1, "skill_id": 1, "is_required": True},
+    )
+
+    assert response.status_code == 401
+    assert response.json()["detail"] == "Invalid internal API key"
+
