@@ -1,0 +1,28 @@
+{
+  "Timestamp": "2026-10-21T01:22:44.3312960+03:00",
+  "AvailableMiB": 1864.609375,
+  "UsedGiB": 13.887752532958984,
+  "CommittedGiB": 15.23074722290039,
+  "CommitLimitGiB": 23.708660125732422,
+  "NonpagedMiB": 417.62109375,
+  "PagedMiB": 421.26953125,
+  "PagedResidentMiB": 363.546875,
+  "PagesInputPersec": 11,
+  "PagesOutputPersec": 0,
+  "PageFiles": [
+    {
+      "AllocatedBaseSize": 8192,
+      "CurrentUsage": 25,
+      "PeakUsage": 27
+    }
+  ],
+  "DeviceGuard": {
+    "VirtualizationBasedSecurityStatus": 2,
+    "SecurityServicesConfigured": [
+      2
+    ],
+    "SecurityServicesRunning": [
+      2
+    ]
+  }
+}

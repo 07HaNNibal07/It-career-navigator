@@ -1,0 +1,92 @@
+[
+  {
+    "Name": "",
+    "Location": "HKU\\S-1-5-18\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run",
+    "Executable": ""
+  },
+  {
+    "Name": "Ollama",
+    "Location": "Startup",
+    "Executable": "Ollama.lnk"
+  },
+  {
+    "Name": "OneDrive",
+    "Location": "HKU\\S-1-5-21-1431667616-1053624162-1991109852-1001\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run",
+    "Executable": "C:\\Program Files\\Microsoft OneDrive\\OneDrive.exe"
+  },
+  {
+    "Name": "Steam",
+    "Location": "HKU\\S-1-5-21-1431667616-1053624162-1991109852-1001\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run",
+    "Executable": "C:\\Program Files (x86)\\Steam\\steam.exe"
+  },
+  {
+    "Name": "Figma Agent",
+    "Location": "HKU\\S-1-5-21-1431667616-1053624162-1991109852-1001\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run",
+    "Executable": "C:\\Users\\Ильгар\\AppData\\Local\\FigmaAgent\\figma_agent.exe"
+  },
+  {
+    "Name": "Rave",
+    "Location": "HKU\\S-1-5-21-1431667616-1053624162-1991109852-1001\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run",
+    "Executable": "C:\\Users\\Ильгар\\AppData\\Local\\Programs\\rave-desktop\\Rave.exe"
+  },
+  {
+    "Name": "Discord",
+    "Location": "HKU\\S-1-5-21-1431667616-1053624162-1991109852-1001\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run",
+    "Executable": "C:\\Users\\Ильгар\\AppData\\Local\\Discord\\Update.exe"
+  },
+  {
+    "Name": "YandexBrowserAutoLaunch_7CC419F778E5B3114A541EDE3EF07EAB",
+    "Location": "HKU\\S-1-5-21-1431667616-1053624162-1991109852-1001\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run",
+    "Executable": "C:\\Users\\Ильгар\\AppData\\Local\\Yandex\\YandexBrowser\\Application\\browser.exe"
+  },
+  {
+    "Name": "Teams",
+    "Location": "HKU\\S-1-5-21-1431667616-1053624162-1991109852-1001\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run",
+    "Executable": "C:\\Users\\Ильгар\\AppData\\Local\\Microsoft\\WindowsApps\\MSTeams_8wekyb3d8bbwe\\ms-teams.exe"
+  },
+  {
+    "Name": "Docker Desktop",
+    "Location": "HKU\\S-1-5-21-1431667616-1053624162-1991109852-1001\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run",
+    "Executable": "C:\\Program Files\\Docker\\Docker\\Docker Desktop.exe"
+  },
+  {
+    "Name": "Claude",
+    "Location": "HKU\\S-1-5-21-1431667616-1053624162-1991109852-1001\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run",
+    "Executable": "C:\\Users\\Ильгар\\AppData\\Local\\AnthropicClaude\\claude.exe"
+  },
+  {
+    "Name": "com.squirrel.Postman-Agent.PostmanAgent",
+    "Location": "HKU\\S-1-5-21-1431667616-1053624162-1991109852-1001\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run",
+    "Executable": "C:\\Users\\Ильгар\\AppData\\Local\\Postman-Agent\\Postman Agent.exe"
+  },
+  {
+    "Name": "electron.app.BlueStacks Services",
+    "Location": "HKU\\S-1-5-21-1431667616-1053624162-1991109852-1001\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run",
+    "Executable": "C:\\Users\\Ильгар\\AppData\\Local\\Programs\\bluestacks-services\\BlueStacksServices.exe"
+  },
+  {
+    "Name": "MicrosoftEdgeAutoLaunch_22B40A953FF06EABEE1C048C00717779",
+    "Location": "HKU\\S-1-5-21-1431667616-1053624162-1991109852-1001\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run",
+    "Executable": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe"
+  },
+  {
+    "Name": "",
+    "Location": "HKU\\.DEFAULT\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run",
+    "Executable": ""
+  },
+  {
+    "Name": "Canon LBP2900 Status Window",
+    "Location": "Common Startup",
+    "Executable": "C:\\Windows\\System32\\spool\\drivers\\x64\\3\\CNAB4LAD.EXE"
+  },
+  {
+    "Name": "SecurityHealth",
+    "Location": "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run",
+    "Executable": "%windir%\\system32\\SecurityHealthSystray.exe"
+  },
+  {
+    "Name": "RtkAudUService",
+    "Location": "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run",
+    "Executable": "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\realtekservice.inf_amd64_a112e46fc636d880\\RtkAudUService64.exe"
+  }
+]

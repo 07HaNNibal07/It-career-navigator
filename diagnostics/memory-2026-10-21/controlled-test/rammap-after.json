@@ -1,0 +1,16 @@
+{
+  "Source": "Fresh RAMMap Use Counts snapshot from process 20312 launched 2026-10-21T01:33:55+03:00; transcribed from observed screenshot",
+  "Unit": "KiB",
+  "ShareableActive": 227088,
+  "ShareableTotal": 324636,
+  "ProcessPrivateActive": 5228688,
+  "MappedFileActive": 1898904,
+  "TotalPhysical": 16471724,
+  "TotalActive": 9262140,
+  "TotalStandby": 1544036,
+  "TotalModified": 383876,
+  "TotalModifiedNoWrite": 68,
+  "TotalTransition": 12,
+  "TotalZeroed": 5163452,
+  "TotalFree": 118140
+}

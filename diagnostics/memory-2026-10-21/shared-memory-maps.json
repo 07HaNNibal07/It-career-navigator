@@ -1,0 +1,6490 @@
+[
+  {
+    "Timestamp": "2026-10-21T01:15:36.6759167+03:00",
+    "Name": "AdobeIPCBroker",
+    "PID": 13704,
+    "Error": 0,
+    "ResidentBytes": 10592256,
+    "ShareableResidentBytes": 9465856,
+    "PrivateResidentBytes": 1126400,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:36.7151050+03:00",
+    "Name": "AdobeNotificationClient",
+    "PID": 17844,
+    "Error": 0,
+    "ResidentBytes": 15175680,
+    "ShareableResidentBytes": 15151104,
+    "PrivateResidentBytes": 24576,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:36.7219123+03:00",
+    "Name": "AggregatorHost",
+    "PID": 7396,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:36.7446937+03:00",
+    "Name": "AmneziaVPN",
+    "PID": 7132,
+    "Error": 0,
+    "ResidentBytes": 201338880,
+    "ShareableResidentBytes": 78372864,
+    "PrivateResidentBytes": 122966016,
+    "Regions": [
+      {
+        "AllocationBase": "0x19345C40000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 67108864,
+        "ResidentBytes": 67108864,
+        "ShareableResidentBytes": 0,
+        "SharedResidentBytes": 0,
+        "PrivateResidentBytes": 67108864
+      },
+      {
+        "AllocationBase": "0x19338820000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 16576512,
+        "ResidentBytes": 15261696,
+        "ShareableResidentBytes": 16384,
+        "SharedResidentBytes": 16384,
+        "PrivateResidentBytes": 15245312
+      },
+      {
+        "AllocationBase": "0x1933A380000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 20619264,
+        "ResidentBytes": 8548352,
+        "ShareableResidentBytes": 557056,
+        "SharedResidentBytes": 557056,
+        "PrivateResidentBytes": 7991296
+      },
+      {
+        "AllocationBase": "0x19335BC0000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 8384512,
+        "ResidentBytes": 8048640,
+        "ShareableResidentBytes": 0,
+        "SharedResidentBytes": 0,
+        "PrivateResidentBytes": 8048640
+      },
+      {
+        "AllocationBase": "0x7FF8FD0F0000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Program Files\\AmneziaVPN\\Qt6ShaderTools.dll",
+        "RegionBytes": 11235328,
+        "ResidentBytes": 6967296,
+        "ShareableResidentBytes": 6938624,
+        "SharedResidentBytes": 6938624,
+        "PrivateResidentBytes": 28672
+      },
+      {
+        "AllocationBase": "0x7FF8FF570000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Program Files\\AmneziaVPN\\Qt6Gui.dll",
+        "RegionBytes": 9674752,
+        "ResidentBytes": 4616192,
+        "ShareableResidentBytes": 4464640,
+        "SharedResidentBytes": 4464640,
+        "PrivateResidentBytes": 151552
+      }
+    ]
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:36.7687419+03:00",
+    "Name": "AmneziaVPN-service",
+    "PID": 4560,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:36.7691848+03:00",
+    "Name": "AmneziaVPN-service",
+    "PID": 16856,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:36.7832448+03:00",
+    "Name": "Ascon.AU.ControlCenter",
+    "PID": 21116,
+    "Error": 0,
+    "ResidentBytes": 79253504,
+    "ShareableResidentBytes": 56262656,
+    "PrivateResidentBytes": 22990848,
+    "Regions": [
+      {
+        "AllocationBase": "0x21C0ACD0000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 9392128,
+        "ResidentBytes": 8949760,
+        "ShareableResidentBytes": 8192,
+        "SharedResidentBytes": 8192,
+        "PrivateResidentBytes": 8941568
+      },
+      {
+        "AllocationBase": "0x7FF9723A0000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Windows\\assembly\\NativeImages_v4.0.30319_64\\mscorlib\\924e6db108935ec2ad12d0992d572588\\mscorlib.ni.dll",
+        "RegionBytes": 23449600,
+        "ResidentBytes": 7630848,
+        "ShareableResidentBytes": 6782976,
+        "SharedResidentBytes": 6782976,
+        "PrivateResidentBytes": 847872
+      },
+      {
+        "AllocationBase": "0x7FF9118D0000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Windows\\assembly\\NativeImages_v4.0.30319_64\\Presentatio5ae0f00f#\\2ac4a606e0c819dc634d09a27d819192\\PresentationFramework.ni.dll",
+        "RegionBytes": 24489984,
+        "ResidentBytes": 5251072,
+        "ShareableResidentBytes": 4292608,
+        "SharedResidentBytes": 4292608,
+        "PrivateResidentBytes": 958464
+      },
+      {
+        "AllocationBase": "0x7FF9772D0000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\clr.dll",
+        "RegionBytes": 10108928,
+        "ResidentBytes": 4845568,
+        "ShareableResidentBytes": 4722688,
+        "SharedResidentBytes": 4722688,
+        "PrivateResidentBytes": 122880
+      },
+      {
+        "AllocationBase": "0x21C24620000",
+        "Type": "Mapped",
+        "File": "\\Device\\HarddiskVolume3\\Program Files (x86)\\ASCON\\ASCON Services\\Ascon.AU.ControlCenter.exe",
+        "RegionBytes": 1052672,
+        "ResidentBytes": 1052672,
+        "ShareableResidentBytes": 1052672,
+        "SharedResidentBytes": 1052672,
+        "PrivateResidentBytes": 0
+      }
+    ]
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:36.7865905+03:00",
+    "Name": "assistant",
+    "PID": 19652,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:36.7869956+03:00",
+    "Name": "ast_service",
+    "PID": 4568,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:36.7873943+03:00",
+    "Name": "audiodg",
+    "PID": 3892,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:36.7951459+03:00",
+    "Name": "BlueStacksServices",
+    "PID": 8492,
+    "Error": 0,
+    "ResidentBytes": 51867648,
+    "ShareableResidentBytes": 46669824,
+    "PrivateResidentBytes": 5197824,
+    "Regions": [
+      {
+        "AllocationBase": "0x7FF6B5470000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Users\\Ильгар\\AppData\\Local\\Programs\\bluestacks-services\\BlueStacksServices.exe",
+        "RegionBytes": 166084608,
+        "ResidentBytes": 32182272,
+        "ShareableResidentBytes": 31879168,
+        "SharedResidentBytes": 31879168,
+        "PrivateResidentBytes": 303104
+      },
+      {
+        "AllocationBase": "0x7DF543A20000",
+        "Type": "Mapped",
+        "File": "",
+        "RegionBytes": 86323200,
+        "ResidentBytes": 2498560,
+        "ShareableResidentBytes": 2498560,
+        "SharedResidentBytes": 2498560,
+        "PrivateResidentBytes": 0
+      }
+    ]
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:36.8087869+03:00",
+    "Name": "BlueStacksServices",
+    "PID": 8684,
+    "Error": 0,
+    "ResidentBytes": 63696896,
+    "ShareableResidentBytes": 52633600,
+    "PrivateResidentBytes": 11063296,
+    "Regions": [
+      {
+        "AllocationBase": "0x7FF6B5470000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Users\\Ильгар\\AppData\\Local\\Programs\\bluestacks-services\\BlueStacksServices.exe",
+        "RegionBytes": 166084608,
+        "ResidentBytes": 42586112,
+        "ShareableResidentBytes": 42008576,
+        "SharedResidentBytes": 42008576,
+        "PrivateResidentBytes": 577536
+      },
+      {
+        "AllocationBase": "0x7DF543A20000",
+        "Type": "Mapped",
+        "File": "",
+        "RegionBytes": 86360064,
+        "ResidentBytes": 2461696,
+        "ShareableResidentBytes": 397312,
+        "SharedResidentBytes": 397312,
+        "PrivateResidentBytes": 2064384
+      }
+    ]
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:36.8269244+03:00",
+    "Name": "BlueStacksServices",
+    "PID": 18152,
+    "Error": 0,
+    "ResidentBytes": 103788544,
+    "ShareableResidentBytes": 71380992,
+    "PrivateResidentBytes": 32407552,
+    "Regions": [
+      {
+        "AllocationBase": "0x7FF6B5470000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Users\\Ильгар\\AppData\\Local\\Programs\\bluestacks-services\\BlueStacksServices.exe",
+        "RegionBytes": 166084608,
+        "ResidentBytes": 37441536,
+        "ShareableResidentBytes": 36892672,
+        "SharedResidentBytes": 36892672,
+        "PrivateResidentBytes": 548864
+      },
+      {
+        "AllocationBase": "0x14D00000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 14397440,
+        "ResidentBytes": 13119488,
+        "ShareableResidentBytes": 135168,
+        "SharedResidentBytes": 135168,
+        "PrivateResidentBytes": 12984320
+      },
+      {
+        "AllocationBase": "0x5C5FFFFF0000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 11472896,
+        "ResidentBytes": 11137024,
+        "ShareableResidentBytes": 192512,
+        "SharedResidentBytes": 192512,
+        "PrivateResidentBytes": 10944512
+      },
+      {
+        "AllocationBase": "0x7FF9868C0000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Windows\\System32\\OneCoreUAPCommonProxyStub.dll",
+        "RegionBytes": 6664192,
+        "ResidentBytes": 4415488,
+        "ShareableResidentBytes": 4411392,
+        "SharedResidentBytes": 4411392,
+        "PrivateResidentBytes": 4096
+      },
+      {
+        "AllocationBase": "0x7DF543A20000",
+        "Type": "Mapped",
+        "File": "",
+        "RegionBytes": 86429696,
+        "ResidentBytes": 3014656,
+        "ShareableResidentBytes": 2990080,
+        "SharedResidentBytes": 2990080,
+        "PrivateResidentBytes": 24576
+      }
+    ]
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:36.8406811+03:00",
+    "Name": "BlueStacksServices",
+    "PID": 18364,
+    "Error": 0,
+    "ResidentBytes": 75190272,
+    "ShareableResidentBytes": 55582720,
+    "PrivateResidentBytes": 19607552,
+    "Regions": [
+      {
+        "AllocationBase": "0x7FF6B5470000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Users\\Ильгар\\AppData\\Local\\Programs\\bluestacks-services\\BlueStacksServices.exe",
+        "RegionBytes": 166084608,
+        "ResidentBytes": 26103808,
+        "ShareableResidentBytes": 25735168,
+        "SharedResidentBytes": 25735168,
+        "PrivateResidentBytes": 368640
+      },
+      {
+        "AllocationBase": "0x7DF543A20000",
+        "Type": "Mapped",
+        "File": "",
+        "RegionBytes": 86327296,
+        "ResidentBytes": 3063808,
+        "ShareableResidentBytes": 1015808,
+        "SharedResidentBytes": 1015808,
+        "PrivateResidentBytes": 2048000
+      }
+    ]
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:36.8571818+03:00",
+    "Name": "ChatGPT",
+    "PID": 1844,
+    "Error": 0,
+    "ResidentBytes": 60968960,
+    "ShareableResidentBytes": 50061312,
+    "PrivateResidentBytes": 10907648,
+    "Regions": [
+      {
+        "AllocationBase": "0x7FF8AFB60000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Program Files\\WindowsApps\\OpenAI.Codex_26.1013.4894.0_x64__2p2nqsd0c76g0\\app\\chrome.dll",
+        "RegionBytes": 332767232,
+        "ResidentBytes": 37269504,
+        "ShareableResidentBytes": 36413440,
+        "SharedResidentBytes": 36413440,
+        "PrivateResidentBytes": 856064
+      },
+      {
+        "AllocationBase": "0x314000000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 7798784,
+        "ResidentBytes": 5951488,
+        "ShareableResidentBytes": 643072,
+        "SharedResidentBytes": 643072,
+        "PrivateResidentBytes": 5308416
+      },
+      {
+        "AllocationBase": "0x7DF543A20000",
+        "Type": "Mapped",
+        "File": "",
+        "RegionBytes": 83804160,
+        "ResidentBytes": 1921024,
+        "ShareableResidentBytes": 1847296,
+        "SharedResidentBytes": 1847296,
+        "PrivateResidentBytes": 73728
+      }
+    ]
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:36.8877585+03:00",
+    "Name": "ChatGPT",
+    "PID": 4892,
+    "Error": 0,
+    "ResidentBytes": 355233792,
+    "ShareableResidentBytes": 99713024,
+    "PrivateResidentBytes": 255520768,
+    "Regions": [
+      {
+        "AllocationBase": "0x33C00000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 156647424,
+        "ResidentBytes": 151543808,
+        "ShareableResidentBytes": 19521536,
+        "SharedResidentBytes": 19521536,
+        "PrivateResidentBytes": 132022272
+      },
+      {
+        "AllocationBase": "0x2EE000000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 100061184,
+        "ResidentBytes": 93073408,
+        "ShareableResidentBytes": 1286144,
+        "SharedResidentBytes": 1286144,
+        "PrivateResidentBytes": 91787264
+      },
+      {
+        "AllocationBase": "0x7FF8AFB60000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Program Files\\WindowsApps\\OpenAI.Codex_26.1013.4894.0_x64__2p2nqsd0c76g0\\app\\chrome.dll",
+        "RegionBytes": 332767232,
+        "ResidentBytes": 64704512,
+        "ShareableResidentBytes": 63684608,
+        "SharedResidentBytes": 63684608,
+        "PrivateResidentBytes": 1019904
+      },
+      {
+        "AllocationBase": "0x33AD00000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 9961472,
+        "ResidentBytes": 9347072,
+        "ShareableResidentBytes": 0,
+        "SharedResidentBytes": 0,
+        "PrivateResidentBytes": 9347072
+      },
+      {
+        "AllocationBase": "0x31400000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 11665408,
+        "ResidentBytes": 8900608,
+        "ShareableResidentBytes": 0,
+        "SharedResidentBytes": 0,
+        "PrivateResidentBytes": 8900608
+      },
+      {
+        "AllocationBase": "0x7FF8E0000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 6557696,
+        "ResidentBytes": 5607424,
+        "ShareableResidentBytes": 0,
+        "SharedResidentBytes": 0,
+        "PrivateResidentBytes": 5607424
+      },
+      {
+        "AllocationBase": "0x7DF543A20000",
+        "Type": "Mapped",
+        "File": "",
+        "RegionBytes": 83804160,
+        "ResidentBytes": 2564096,
+        "ShareableResidentBytes": 2490368,
+        "SharedResidentBytes": 2490368,
+        "PrivateResidentBytes": 73728
+      },
+      {
+        "AllocationBase": "0x21C4D340000",
+        "Type": "Mapped",
+        "File": "\\Device\\HarddiskVolume3\\Program Files\\WindowsApps\\OpenAI.Codex_26.1013.4894.0_x64__2p2nqsd0c76g0\\app\\icudtl.dat",
+        "RegionBytes": 10821632,
+        "ResidentBytes": 1310720,
+        "ShareableResidentBytes": 1310720,
+        "SharedResidentBytes": 1310720,
+        "PrivateResidentBytes": 0
+      }
+    ]
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:36.9319633+03:00",
+    "Name": "ChatGPT",
+    "PID": 5436,
+    "Error": 0,
+    "ResidentBytes": 682090496,
+    "ShareableResidentBytes": 110149632,
+    "PrivateResidentBytes": 571940864,
+    "Regions": [
+      {
+        "AllocationBase": "0x24400000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 339623936,
+        "ResidentBytes": 333029376,
+        "ShareableResidentBytes": 19759104,
+        "SharedResidentBytes": 19759104,
+        "PrivateResidentBytes": 313270272
+      },
+      {
+        "AllocationBase": "0x6A0800000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 148717568,
+        "ResidentBytes": 142528512,
+        "ShareableResidentBytes": 1085440,
+        "SharedResidentBytes": 1085440,
+        "PrivateResidentBytes": 141443072
+      },
+      {
+        "AllocationBase": "0x7FF8AFB60000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Program Files\\WindowsApps\\OpenAI.Codex_26.1013.4894.0_x64__2p2nqsd0c76g0\\app\\chrome.dll",
+        "RegionBytes": 332767232,
+        "ResidentBytes": 73433088,
+        "ShareableResidentBytes": 72400896,
+        "SharedResidentBytes": 72400896,
+        "PrivateResidentBytes": 1032192
+      },
+      {
+        "AllocationBase": "0x510800000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 68681728,
+        "ResidentBytes": 60301312,
+        "ShareableResidentBytes": 0,
+        "SharedResidentBytes": 0,
+        "PrivateResidentBytes": 60301312
+      },
+      {
+        "AllocationBase": "0x7FF8E0000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 28053504,
+        "ResidentBytes": 28045312,
+        "ShareableResidentBytes": 0,
+        "SharedResidentBytes": 0,
+        "PrivateResidentBytes": 28045312
+      },
+      {
+        "AllocationBase": "0x1E5300000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 19660800,
+        "ResidentBytes": 18984960,
+        "ShareableResidentBytes": 0,
+        "SharedResidentBytes": 0,
+        "PrivateResidentBytes": 18984960
+      },
+      {
+        "AllocationBase": "0x7DF543A20000",
+        "Type": "Mapped",
+        "File": "",
+        "RegionBytes": 83804160,
+        "ResidentBytes": 3096576,
+        "ShareableResidentBytes": 3010560,
+        "SharedResidentBytes": 3010560,
+        "PrivateResidentBytes": 86016
+      },
+      {
+        "AllocationBase": "0x23346340000",
+        "Type": "Mapped",
+        "File": "\\Device\\HarddiskVolume3\\Program Files\\WindowsApps\\OpenAI.Codex_26.1013.4894.0_x64__2p2nqsd0c76g0\\app\\icudtl.dat",
+        "RegionBytes": 10821632,
+        "ResidentBytes": 1622016,
+        "ShareableResidentBytes": 1622016,
+        "SharedResidentBytes": 1622016,
+        "PrivateResidentBytes": 0
+      }
+    ]
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:36.9482867+03:00",
+    "Name": "ChatGPT",
+    "PID": 6240,
+    "Error": 0,
+    "ResidentBytes": 122949632,
+    "ShareableResidentBytes": 56164352,
+    "PrivateResidentBytes": 66785280,
+    "Regions": [
+      {
+        "AllocationBase": "0x7FF8AFB60000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Program Files\\WindowsApps\\OpenAI.Codex_26.1013.4894.0_x64__2p2nqsd0c76g0\\app\\chrome.dll",
+        "RegionBytes": 332767232,
+        "ResidentBytes": 43982848,
+        "ShareableResidentBytes": 43106304,
+        "SharedResidentBytes": 43106304,
+        "PrivateResidentBytes": 876544
+      },
+      {
+        "AllocationBase": "0x1DD00000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 31604736,
+        "ResidentBytes": 29454336,
+        "ShareableResidentBytes": 106496,
+        "SharedResidentBytes": 106496,
+        "PrivateResidentBytes": 29347840
+      },
+      {
+        "AllocationBase": "0x7C1000000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 30023680,
+        "ResidentBytes": 28094464,
+        "ShareableResidentBytes": 720896,
+        "SharedResidentBytes": 720896,
+        "PrivateResidentBytes": 27373568
+      },
+      {
+        "AllocationBase": "0x7DF543A20000",
+        "Type": "Mapped",
+        "File": "",
+        "RegionBytes": 83804160,
+        "ResidentBytes": 1953792,
+        "ShareableResidentBytes": 1875968,
+        "SharedResidentBytes": 1875968,
+        "PrivateResidentBytes": 77824
+      }
+    ]
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:36.9566788+03:00",
+    "Name": "ChatGPT",
+    "PID": 7044,
+    "Error": 0,
+    "ResidentBytes": 23035904,
+    "ShareableResidentBytes": 19873792,
+    "PrivateResidentBytes": 3162112,
+    "Regions": [
+      {
+        "AllocationBase": "0x7FF8AFB60000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Program Files\\WindowsApps\\OpenAI.Codex_26.1013.4894.0_x64__2p2nqsd0c76g0\\app\\chrome.dll",
+        "RegionBytes": 332767232,
+        "ResidentBytes": 7094272,
+        "ShareableResidentBytes": 6684672,
+        "SharedResidentBytes": 6684672,
+        "PrivateResidentBytes": 409600
+      },
+      {
+        "AllocationBase": "0x7DF543A20000",
+        "Type": "Mapped",
+        "File": "",
+        "RegionBytes": 83804160,
+        "ResidentBytes": 1146880,
+        "ShareableResidentBytes": 1085440,
+        "SharedResidentBytes": 1085440,
+        "PrivateResidentBytes": 61440
+      }
+    ]
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:36.9686453+03:00",
+    "Name": "ChatGPT",
+    "PID": 7276,
+    "Error": 0,
+    "ResidentBytes": 64278528,
+    "ShareableResidentBytes": 51503104,
+    "PrivateResidentBytes": 12775424,
+    "Regions": [
+      {
+        "AllocationBase": "0x7FF8AFB60000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Program Files\\WindowsApps\\OpenAI.Codex_26.1013.4894.0_x64__2p2nqsd0c76g0\\app\\chrome.dll",
+        "RegionBytes": 332767232,
+        "ResidentBytes": 37167104,
+        "ShareableResidentBytes": 36311040,
+        "SharedResidentBytes": 36311040,
+        "PrivateResidentBytes": 856064
+      },
+      {
+        "AllocationBase": "0x570000000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 10059776,
+        "ResidentBytes": 7639040,
+        "ShareableResidentBytes": 1683456,
+        "SharedResidentBytes": 1683456,
+        "PrivateResidentBytes": 5955584
+      },
+      {
+        "AllocationBase": "0x7DF543A20000",
+        "Type": "Mapped",
+        "File": "",
+        "RegionBytes": 83804160,
+        "ResidentBytes": 1884160,
+        "ShareableResidentBytes": 1810432,
+        "SharedResidentBytes": 1810432,
+        "PrivateResidentBytes": 73728
+      }
+    ]
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:36.9825749+03:00",
+    "Name": "ChatGPT",
+    "PID": 12072,
+    "Error": 0,
+    "ResidentBytes": 65212416,
+    "ShareableResidentBytes": 51372032,
+    "PrivateResidentBytes": 13840384,
+    "Regions": [
+      {
+        "AllocationBase": "0x7FF8AFB60000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Program Files\\WindowsApps\\OpenAI.Codex_26.1013.4894.0_x64__2p2nqsd0c76g0\\app\\chrome.dll",
+        "RegionBytes": 332767232,
+        "ResidentBytes": 39788544,
+        "ShareableResidentBytes": 38920192,
+        "SharedResidentBytes": 38920192,
+        "PrivateResidentBytes": 868352
+      },
+      {
+        "AllocationBase": "0x114800000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 7229440,
+        "ResidentBytes": 5816320,
+        "ShareableResidentBytes": 311296,
+        "SharedResidentBytes": 311296,
+        "PrivateResidentBytes": 5505024
+      },
+      {
+        "AllocationBase": "0x7DF543A20000",
+        "Type": "Mapped",
+        "File": "",
+        "RegionBytes": 83804160,
+        "ResidentBytes": 1822720,
+        "ShareableResidentBytes": 1748992,
+        "SharedResidentBytes": 1748992,
+        "PrivateResidentBytes": 73728
+      }
+    ]
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:36.9990728+03:00",
+    "Name": "ChatGPT",
+    "PID": 16664,
+    "Error": 0,
+    "ResidentBytes": 73875456,
+    "ShareableResidentBytes": 41127936,
+    "PrivateResidentBytes": 32747520,
+    "Regions": [
+      {
+        "AllocationBase": "0x482800000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 34607104,
+        "ResidentBytes": 30113792,
+        "ShareableResidentBytes": 221184,
+        "SharedResidentBytes": 221184,
+        "PrivateResidentBytes": 29892608
+      },
+      {
+        "AllocationBase": "0x7FF8AFB60000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Program Files\\WindowsApps\\OpenAI.Codex_26.1013.4894.0_x64__2p2nqsd0c76g0\\app\\chrome.dll",
+        "RegionBytes": 332767232,
+        "ResidentBytes": 23650304,
+        "ShareableResidentBytes": 23216128,
+        "SharedResidentBytes": 23216128,
+        "PrivateResidentBytes": 434176
+      },
+      {
+        "AllocationBase": "0x7DF543A20000",
+        "Type": "Mapped",
+        "File": "",
+        "RegionBytes": 83800064,
+        "ResidentBytes": 2080768,
+        "ShareableResidentBytes": 2080768,
+        "SharedResidentBytes": 2080768,
+        "PrivateResidentBytes": 0
+      }
+    ]
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.0300580+03:00",
+    "Name": "ChatGPT",
+    "PID": 17068,
+    "Error": 0,
+    "ResidentBytes": 321982464,
+    "ShareableResidentBytes": 80592896,
+    "PrivateResidentBytes": 241389568,
+    "Regions": [
+      {
+        "AllocationBase": "0x2AE8F000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 23945216,
+        "ResidentBytes": 23400448,
+        "ShareableResidentBytes": 0,
+        "SharedResidentBytes": 0,
+        "PrivateResidentBytes": 23400448
+      },
+      {
+        "AllocationBase": "0x2AE8C000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 23973888,
+        "ResidentBytes": 23318528,
+        "ShareableResidentBytes": 0,
+        "SharedResidentBytes": 0,
+        "PrivateResidentBytes": 23318528
+      },
+      {
+        "AllocationBase": "0x7FF8AFB60000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Program Files\\WindowsApps\\OpenAI.Codex_26.1013.4894.0_x64__2p2nqsd0c76g0\\app\\chrome.dll",
+        "RegionBytes": 332767232,
+        "ResidentBytes": 23146496,
+        "ShareableResidentBytes": 22597632,
+        "SharedResidentBytes": 22597632,
+        "PrivateResidentBytes": 548864
+      },
+      {
+        "AllocationBase": "0x2AE731C0000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 25501696,
+        "ResidentBytes": 22294528,
+        "ShareableResidentBytes": 53248,
+        "SharedResidentBytes": 53248,
+        "PrivateResidentBytes": 22241280
+      },
+      {
+        "AllocationBase": "0x2AE87000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 20078592,
+        "ResidentBytes": 19849216,
+        "ShareableResidentBytes": 0,
+        "SharedResidentBytes": 0,
+        "PrivateResidentBytes": 19849216
+      },
+      {
+        "AllocationBase": "0x2AE85000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 20570112,
+        "ResidentBytes": 19144704,
+        "ShareableResidentBytes": 16384,
+        "SharedResidentBytes": 16384,
+        "PrivateResidentBytes": 19128320
+      },
+      {
+        "AllocationBase": "0x790800000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 17350656,
+        "ResidentBytes": 16093184,
+        "ShareableResidentBytes": 229376,
+        "SharedResidentBytes": 229376,
+        "PrivateResidentBytes": 15863808
+      },
+      {
+        "AllocationBase": "0x2AE80000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 16351232,
+        "ResidentBytes": 16023552,
+        "ShareableResidentBytes": 40960,
+        "SharedResidentBytes": 40960,
+        "PrivateResidentBytes": 15982592
+      },
+      {
+        "AllocationBase": "0x2AE89000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 14221312,
+        "ResidentBytes": 14221312,
+        "ShareableResidentBytes": 0,
+        "SharedResidentBytes": 0,
+        "PrivateResidentBytes": 14221312
+      },
+      {
+        "AllocationBase": "0x2AE89D90000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 14090240,
+        "ResidentBytes": 14090240,
+        "ShareableResidentBytes": 0,
+        "SharedResidentBytes": 0,
+        "PrivateResidentBytes": 14090240
+      },
+      {
+        "AllocationBase": "0x2AE83000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 14635008,
+        "ResidentBytes": 13963264,
+        "ShareableResidentBytes": 81920,
+        "SharedResidentBytes": 81920,
+        "PrivateResidentBytes": 13881344
+      },
+      {
+        "AllocationBase": "0x2AE7F000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 12754944,
+        "ResidentBytes": 12079104,
+        "ShareableResidentBytes": 45056,
+        "SharedResidentBytes": 45056,
+        "PrivateResidentBytes": 12034048
+      },
+      {
+        "AllocationBase": "0x2AE76000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 15482880,
+        "ResidentBytes": 10215424,
+        "ShareableResidentBytes": 212992,
+        "SharedResidentBytes": 212992,
+        "PrivateResidentBytes": 10002432
+      },
+      {
+        "AllocationBase": "0x2AE8B000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 12091392,
+        "ResidentBytes": 9478144,
+        "ShareableResidentBytes": 86016,
+        "SharedResidentBytes": 86016,
+        "PrivateResidentBytes": 9392128
+      },
+      {
+        "AllocationBase": "0x2AE81000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 10596352,
+        "ResidentBytes": 8318976,
+        "ShareableResidentBytes": 3031040,
+        "SharedResidentBytes": 3031040,
+        "PrivateResidentBytes": 5287936
+      },
+      {
+        "AllocationBase": "0x2AE70000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 7221248,
+        "ResidentBytes": 6864896,
+        "ShareableResidentBytes": 12288,
+        "SharedResidentBytes": 12288,
+        "PrivateResidentBytes": 6852608
+      },
+      {
+        "AllocationBase": "0x2AE7E000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 15835136,
+        "ResidentBytes": 6328320,
+        "ShareableResidentBytes": 0,
+        "SharedResidentBytes": 0,
+        "PrivateResidentBytes": 6328320
+      },
+      {
+        "AllocationBase": "0x7FF919B50000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Windows\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_357acc06f2c40efb\\igd11dxva64.dll",
+        "RegionBytes": 77045760,
+        "ResidentBytes": 5189632,
+        "ShareableResidentBytes": 5029888,
+        "SharedResidentBytes": 5029888,
+        "PrivateResidentBytes": 159744
+      },
+      {
+        "AllocationBase": "0x7DF543A20000",
+        "Type": "Mapped",
+        "File": "",
+        "RegionBytes": 83804160,
+        "ResidentBytes": 2920448,
+        "ShareableResidentBytes": 2859008,
+        "SharedResidentBytes": 2859008,
+        "PrivateResidentBytes": 61440
+      }
+    ]
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.0380774+03:00",
+    "Name": "ChatGPT",
+    "PID": 18740,
+    "Error": 0,
+    "ResidentBytes": 9506816,
+    "ShareableResidentBytes": 8482816,
+    "PrivateResidentBytes": 1024000,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.0820784+03:00",
+    "Name": "ChatGPT",
+    "PID": 19028,
+    "Error": 0,
+    "ResidentBytes": 492773376,
+    "ShareableResidentBytes": 175161344,
+    "PrivateResidentBytes": 317612032,
+    "Regions": [
+      {
+        "AllocationBase": "0x6C7800000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 147042304,
+        "ResidentBytes": 143638528,
+        "ShareableResidentBytes": 13107200,
+        "SharedResidentBytes": 13107200,
+        "PrivateResidentBytes": 130531328
+      },
+      {
+        "AllocationBase": "0x2D600000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 137728000,
+        "ResidentBytes": 134418432,
+        "ShareableResidentBytes": 225280,
+        "SharedResidentBytes": 225280,
+        "PrivateResidentBytes": 134193152
+      },
+      {
+        "AllocationBase": "0x7FF8AFB60000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Program Files\\WindowsApps\\OpenAI.Codex_26.1013.4894.0_x64__2p2nqsd0c76g0\\app\\chrome.dll",
+        "RegionBytes": 332767232,
+        "ResidentBytes": 89960448,
+        "ShareableResidentBytes": 88907776,
+        "SharedResidentBytes": 88907776,
+        "PrivateResidentBytes": 1052672
+      },
+      {
+        "AllocationBase": "0x761900000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 16252928,
+        "ResidentBytes": 14385152,
+        "ShareableResidentBytes": 647168,
+        "SharedResidentBytes": 647168,
+        "PrivateResidentBytes": 13737984
+      },
+      {
+        "AllocationBase": "0x7FF8E0000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 13373440,
+        "ResidentBytes": 12730368,
+        "ShareableResidentBytes": 0,
+        "SharedResidentBytes": 0,
+        "PrivateResidentBytes": 12730368
+      },
+      {
+        "AllocationBase": "0x1F582000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 6311936,
+        "ResidentBytes": 6221824,
+        "ShareableResidentBytes": 45056,
+        "SharedResidentBytes": 45056,
+        "PrivateResidentBytes": 6176768
+      },
+      {
+        "AllocationBase": "0x2DC00000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 7340032,
+        "ResidentBytes": 5103616,
+        "ShareableResidentBytes": 0,
+        "SharedResidentBytes": 0,
+        "PrivateResidentBytes": 5103616
+      },
+      {
+        "AllocationBase": "0x7FF9868C0000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Windows\\System32\\OneCoreUAPCommonProxyStub.dll",
+        "RegionBytes": 6664192,
+        "ResidentBytes": 4485120,
+        "ShareableResidentBytes": 4481024,
+        "SharedResidentBytes": 4481024,
+        "PrivateResidentBytes": 4096
+      },
+      {
+        "AllocationBase": "0x7DF543A20000",
+        "Type": "Mapped",
+        "File": "",
+        "RegionBytes": 83800064,
+        "ResidentBytes": 4165632,
+        "ShareableResidentBytes": 4141056,
+        "SharedResidentBytes": 4141056,
+        "PrivateResidentBytes": 24576
+      },
+      {
+        "AllocationBase": "0x1F686F40000",
+        "Type": "Mapped",
+        "File": "\\Device\\HarddiskVolume3\\Windows\\Globalization\\ELS\\SpellDictionaries\\MsSp7ru.lex",
+        "RegionBytes": 7761920,
+        "ResidentBytes": 2256896,
+        "ShareableResidentBytes": 2256896,
+        "SharedResidentBytes": 2256896,
+        "PrivateResidentBytes": 0
+      },
+      {
+        "AllocationBase": "0x1F584830000",
+        "Type": "Mapped",
+        "File": "\\Device\\HarddiskVolume3\\Program Files\\WindowsApps\\OpenAI.Codex_26.1013.4894.0_x64__2p2nqsd0c76g0\\app\\icudtl.dat",
+        "RegionBytes": 10821632,
+        "ResidentBytes": 1400832,
+        "ShareableResidentBytes": 1400832,
+        "SharedResidentBytes": 1400832,
+        "PrivateResidentBytes": 0
+      }
+    ]
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.1102595+03:00",
+    "Name": "ChatGPT",
+    "PID": 20220,
+    "Error": 0,
+    "ResidentBytes": 306241536,
+    "ShareableResidentBytes": 88133632,
+    "PrivateResidentBytes": 218107904,
+    "Regions": [
+      {
+        "AllocationBase": "0x89800000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 104923136,
+        "ResidentBytes": 100470784,
+        "ShareableResidentBytes": 1515520,
+        "SharedResidentBytes": 1515520,
+        "PrivateResidentBytes": 98955264
+      },
+      {
+        "AllocationBase": "0x29800000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 75890688,
+        "ResidentBytes": 72962048,
+        "ShareableResidentBytes": 86016,
+        "SharedResidentBytes": 86016,
+        "PrivateResidentBytes": 72876032
+      },
+      {
+        "AllocationBase": "0x7FF8AFB60000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Program Files\\WindowsApps\\OpenAI.Codex_26.1013.4894.0_x64__2p2nqsd0c76g0\\app\\chrome.dll",
+        "RegionBytes": 332767232,
+        "ResidentBytes": 69574656,
+        "ShareableResidentBytes": 68632576,
+        "SharedResidentBytes": 68632576,
+        "PrivateResidentBytes": 942080
+      },
+      {
+        "AllocationBase": "0x7A3800000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 25427968,
+        "ResidentBytes": 21598208,
+        "ShareableResidentBytes": 8192,
+        "SharedResidentBytes": 8192,
+        "PrivateResidentBytes": 21590016
+      },
+      {
+        "AllocationBase": "0x656200000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 10485760,
+        "ResidentBytes": 10194944,
+        "ShareableResidentBytes": 0,
+        "SharedResidentBytes": 0,
+        "PrivateResidentBytes": 10194944
+      },
+      {
+        "AllocationBase": "0x7FF8E0000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 6819840,
+        "ResidentBytes": 6438912,
+        "ShareableResidentBytes": 0,
+        "SharedResidentBytes": 0,
+        "PrivateResidentBytes": 6438912
+      },
+      {
+        "AllocationBase": "0x7DF543A20000",
+        "Type": "Mapped",
+        "File": "",
+        "RegionBytes": 83804160,
+        "ResidentBytes": 2965504,
+        "ShareableResidentBytes": 2891776,
+        "SharedResidentBytes": 2891776,
+        "PrivateResidentBytes": 73728
+      },
+      {
+        "AllocationBase": "0x1B9B6540000",
+        "Type": "Mapped",
+        "File": "\\Device\\HarddiskVolume3\\Program Files\\WindowsApps\\OpenAI.Codex_26.1013.4894.0_x64__2p2nqsd0c76g0\\app\\icudtl.dat",
+        "RegionBytes": 10821632,
+        "ResidentBytes": 1675264,
+        "ShareableResidentBytes": 1675264,
+        "SharedResidentBytes": 1675264,
+        "PrivateResidentBytes": 0
+      }
+    ]
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.1222491+03:00",
+    "Name": "ChatGPT",
+    "PID": 20460,
+    "Error": 0,
+    "ResidentBytes": 33132544,
+    "ShareableResidentBytes": 26271744,
+    "PrivateResidentBytes": 6860800,
+    "Regions": [
+      {
+        "AllocationBase": "0x7FF8AFB60000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Program Files\\WindowsApps\\OpenAI.Codex_26.1013.4894.0_x64__2p2nqsd0c76g0\\app\\chrome.dll",
+        "RegionBytes": 332767232,
+        "ResidentBytes": 15728640,
+        "ShareableResidentBytes": 14934016,
+        "SharedResidentBytes": 14934016,
+        "PrivateResidentBytes": 794624
+      },
+      {
+        "AllocationBase": "0x7DF543A20000",
+        "Type": "Mapped",
+        "File": "",
+        "RegionBytes": 83804160,
+        "ResidentBytes": 1339392,
+        "ShareableResidentBytes": 1265664,
+        "SharedResidentBytes": 1265664,
+        "PrivateResidentBytes": 73728
+      }
+    ]
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.1303974+03:00",
+    "Name": "ChatGPT",
+    "PID": 21172,
+    "Error": 0,
+    "ResidentBytes": 22937600,
+    "ShareableResidentBytes": 18984960,
+    "PrivateResidentBytes": 3952640,
+    "Regions": [
+      {
+        "AllocationBase": "0x7FF8AFB60000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Program Files\\WindowsApps\\OpenAI.Codex_26.1013.4894.0_x64__2p2nqsd0c76g0\\app\\chrome.dll",
+        "RegionBytes": 332767232,
+        "ResidentBytes": 9703424,
+        "ShareableResidentBytes": 9256960,
+        "SharedResidentBytes": 9256960,
+        "PrivateResidentBytes": 446464
+      },
+      {
+        "AllocationBase": "0x7DF543A20000",
+        "Type": "Mapped",
+        "File": "",
+        "RegionBytes": 83804160,
+        "ResidentBytes": 1277952,
+        "ShareableResidentBytes": 1208320,
+        "SharedResidentBytes": 1208320,
+        "PrivateResidentBytes": 69632
+      }
+    ]
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.1420000+03:00",
+    "Name": "chrome",
+    "PID": 5932,
+    "Error": 0,
+    "ResidentBytes": 83537920,
+    "ShareableResidentBytes": 54824960,
+    "PrivateResidentBytes": 28712960,
+    "Regions": [
+      {
+        "AllocationBase": "0x7FF8C38C0000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Program Files\\Google\\Chrome\\Application\\155.0.8059.85\\chrome.dll",
+        "RegionBytes": 305254400,
+        "ResidentBytes": 41017344,
+        "ShareableResidentBytes": 40177664,
+        "SharedResidentBytes": 40177664,
+        "PrivateResidentBytes": 839680
+      },
+      {
+        "AllocationBase": "0x23E00000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 16793600,
+        "ResidentBytes": 13062144,
+        "ShareableResidentBytes": 962560,
+        "SharedResidentBytes": 962560,
+        "PrivateResidentBytes": 12099584
+      },
+      {
+        "AllocationBase": "0x2A6800000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 14475264,
+        "ResidentBytes": 11726848,
+        "ShareableResidentBytes": 724992,
+        "SharedResidentBytes": 724992,
+        "PrivateResidentBytes": 11001856
+      },
+      {
+        "AllocationBase": "0x7DF543A20000",
+        "Type": "Mapped",
+        "File": "",
+        "RegionBytes": 83804160,
+        "ResidentBytes": 1785856,
+        "ShareableResidentBytes": 1716224,
+        "SharedResidentBytes": 1716224,
+        "PrivateResidentBytes": 69632
+      }
+    ]
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.1503824+03:00",
+    "Name": "chrome",
+    "PID": 7232,
+    "Error": 0,
+    "ResidentBytes": 32034816,
+    "ShareableResidentBytes": 25460736,
+    "PrivateResidentBytes": 6574080,
+    "Regions": [
+      {
+        "AllocationBase": "0x7FF8C38C0000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Program Files\\Google\\Chrome\\Application\\155.0.8059.85\\chrome.dll",
+        "RegionBytes": 305254400,
+        "ResidentBytes": 15503360,
+        "ShareableResidentBytes": 14757888,
+        "SharedResidentBytes": 14757888,
+        "PrivateResidentBytes": 745472
+      },
+      {
+        "AllocationBase": "0x7DF543A20000",
+        "Type": "Mapped",
+        "File": "",
+        "RegionBytes": 83804160,
+        "ResidentBytes": 1204224,
+        "ShareableResidentBytes": 1134592,
+        "SharedResidentBytes": 1134592,
+        "PrivateResidentBytes": 69632
+      }
+    ]
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.1846826+03:00",
+    "Name": "chrome",
+    "PID": 8976,
+    "Error": 0,
+    "ResidentBytes": 473038848,
+    "ShareableResidentBytes": 89718784,
+    "PrivateResidentBytes": 383320064,
+    "Regions": [
+      {
+        "AllocationBase": "0x1FA4DB30000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 31404032,
+        "ResidentBytes": 31399936,
+        "ShareableResidentBytes": 0,
+        "SharedResidentBytes": 0,
+        "PrivateResidentBytes": 31399936
+      },
+      {
+        "AllocationBase": "0x1FA4FB30000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 29167616,
+        "ResidentBytes": 29122560,
+        "ShareableResidentBytes": 0,
+        "SharedResidentBytes": 0,
+        "PrivateResidentBytes": 29122560
+      },
+      {
+        "AllocationBase": "0x1FA572D0000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 27959296,
+        "ResidentBytes": 27561984,
+        "ShareableResidentBytes": 0,
+        "SharedResidentBytes": 0,
+        "PrivateResidentBytes": 27561984
+      },
+      {
+        "AllocationBase": "0x1FA3ADB0000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 28205056,
+        "ResidentBytes": 25645056,
+        "ShareableResidentBytes": 24576,
+        "SharedResidentBytes": 24576,
+        "PrivateResidentBytes": 25620480
+      },
+      {
+        "AllocationBase": "0x1FA4BB30000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 24571904,
+        "ResidentBytes": 23629824,
+        "ShareableResidentBytes": 4096,
+        "SharedResidentBytes": 4096,
+        "PrivateResidentBytes": 23625728
+      },
+      {
+        "AllocationBase": "0x7FF8C38C0000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Program Files\\Google\\Chrome\\Application\\155.0.8059.85\\chrome.dll",
+        "RegionBytes": 305254400,
+        "ResidentBytes": 21852160,
+        "ShareableResidentBytes": 21401600,
+        "SharedResidentBytes": 21401600,
+        "PrivateResidentBytes": 450560
+      },
+      {
+        "AllocationBase": "0x42C000000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 22552576,
+        "ResidentBytes": 20983808,
+        "ShareableResidentBytes": 610304,
+        "SharedResidentBytes": 610304,
+        "PrivateResidentBytes": 20373504
+      },
+      {
+        "AllocationBase": "0x1FA41280000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 16576512,
+        "ResidentBytes": 16556032,
+        "ShareableResidentBytes": 0,
+        "SharedResidentBytes": 0,
+        "PrivateResidentBytes": 16556032
+      },
+      {
+        "AllocationBase": "0x1FA42250000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 16576512,
+        "ResidentBytes": 16494592,
+        "ShareableResidentBytes": 32768,
+        "SharedResidentBytes": 32768,
+        "PrivateResidentBytes": 16461824
+      },
+      {
+        "AllocationBase": "0x1FA441F0000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 16576512,
+        "ResidentBytes": 16490496,
+        "ShareableResidentBytes": 81920,
+        "SharedResidentBytes": 81920,
+        "PrivateResidentBytes": 16408576
+      },
+      {
+        "AllocationBase": "0x1FA47160000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 16576512,
+        "ResidentBytes": 16486400,
+        "ShareableResidentBytes": 143360,
+        "SharedResidentBytes": 143360,
+        "PrivateResidentBytes": 16343040
+      },
+      {
+        "AllocationBase": "0x1FA43220000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 16576512,
+        "ResidentBytes": 16465920,
+        "ShareableResidentBytes": 32768,
+        "SharedResidentBytes": 32768,
+        "PrivateResidentBytes": 16433152
+      },
+      {
+        "AllocationBase": "0x1FA46190000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 16576512,
+        "ResidentBytes": 16449536,
+        "ShareableResidentBytes": 32768,
+        "SharedResidentBytes": 32768,
+        "PrivateResidentBytes": 16416768
+      },
+      {
+        "AllocationBase": "0x1FA451C0000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 16576512,
+        "ResidentBytes": 16445440,
+        "ShareableResidentBytes": 69632,
+        "SharedResidentBytes": 69632,
+        "PrivateResidentBytes": 16375808
+      },
+      {
+        "AllocationBase": "0x1FA48130000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 16576512,
+        "ResidentBytes": 16396288,
+        "ShareableResidentBytes": 139264,
+        "SharedResidentBytes": 139264,
+        "PrivateResidentBytes": 16257024
+      },
+      {
+        "AllocationBase": "0x1FA49100000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 16576512,
+        "ResidentBytes": 15577088,
+        "ShareableResidentBytes": 0,
+        "SharedResidentBytes": 0,
+        "PrivateResidentBytes": 15577088
+      },
+      {
+        "AllocationBase": "0x1FA3F370000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 16576512,
+        "ResidentBytes": 15024128,
+        "ShareableResidentBytes": 0,
+        "SharedResidentBytes": 0,
+        "PrivateResidentBytes": 15024128
+      },
+      {
+        "AllocationBase": "0x1FA53080000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 16289792,
+        "ResidentBytes": 14049280,
+        "ShareableResidentBytes": 86016,
+        "SharedResidentBytes": 86016,
+        "PrivateResidentBytes": 13963264
+      },
+      {
+        "AllocationBase": "0x1FA51B30000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 16576512,
+        "ResidentBytes": 10473472,
+        "ShareableResidentBytes": 57344,
+        "SharedResidentBytes": 57344,
+        "PrivateResidentBytes": 10416128
+      },
+      {
+        "AllocationBase": "0x1FA3CFD0000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 12189696,
+        "ResidentBytes": 9908224,
+        "ShareableResidentBytes": 3100672,
+        "SharedResidentBytes": 3100672,
+        "PrivateResidentBytes": 6807552
+      },
+      {
+        "AllocationBase": "0x1FA40A80000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 8384512,
+        "ResidentBytes": 8384512,
+        "ShareableResidentBytes": 0,
+        "SharedResidentBytes": 0,
+        "PrivateResidentBytes": 8384512
+      },
+      {
+        "AllocationBase": "0x7FF98C410000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Windows\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_357acc06f2c40efb\\igc64.dll",
+        "RegionBytes": 73940992,
+        "ResidentBytes": 5210112,
+        "ShareableResidentBytes": 4628480,
+        "SharedResidentBytes": 4628480,
+        "PrivateResidentBytes": 581632
+      },
+      {
+        "AllocationBase": "0x7FF919B50000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Windows\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_357acc06f2c40efb\\igd11dxva64.dll",
+        "RegionBytes": 77045760,
+        "ResidentBytes": 5189632,
+        "ShareableResidentBytes": 5029888,
+        "SharedResidentBytes": 5029888,
+        "PrivateResidentBytes": 159744
+      },
+      {
+        "AllocationBase": "0x7DF543A20000",
+        "Type": "Mapped",
+        "File": "",
+        "RegionBytes": 83808256,
+        "ResidentBytes": 3006464,
+        "ShareableResidentBytes": 2936832,
+        "SharedResidentBytes": 2936832,
+        "PrivateResidentBytes": 69632
+      },
+      {
+        "AllocationBase": "0x1FA52B00000",
+        "Type": "Mapped",
+        "File": "",
+        "RegionBytes": 4194304,
+        "ResidentBytes": 2289664,
+        "ShareableResidentBytes": 2289664,
+        "SharedResidentBytes": 2289664,
+        "PrivateResidentBytes": 0
+      }
+    ]
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.2101651+03:00",
+    "Name": "chrome",
+    "PID": 13444,
+    "Error": 0,
+    "ResidentBytes": 211439616,
+    "ShareableResidentBytes": 48693248,
+    "PrivateResidentBytes": 162746368,
+    "Regions": [
+      {
+        "AllocationBase": "0x1BF00000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 93208576,
+        "ResidentBytes": 89833472,
+        "ShareableResidentBytes": 0,
+        "SharedResidentBytes": 0,
+        "PrivateResidentBytes": 89833472
+      },
+      {
+        "AllocationBase": "0x5D3000000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 44785664,
+        "ResidentBytes": 42749952,
+        "ShareableResidentBytes": 0,
+        "SharedResidentBytes": 0,
+        "PrivateResidentBytes": 42749952
+      },
+      {
+        "AllocationBase": "0x7FF8C38C0000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Program Files\\Google\\Chrome\\Application\\155.0.8059.85\\chrome.dll",
+        "RegionBytes": 305254400,
+        "ResidentBytes": 37552128,
+        "ShareableResidentBytes": 36712448,
+        "SharedResidentBytes": 36712448,
+        "PrivateResidentBytes": 839680
+      },
+      {
+        "AllocationBase": "0x1C000000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 22061056,
+        "ResidentBytes": 22061056,
+        "ShareableResidentBytes": 0,
+        "SharedResidentBytes": 0,
+        "PrivateResidentBytes": 22061056
+      },
+      {
+        "AllocationBase": "0x7DF543A20000",
+        "Type": "Mapped",
+        "File": "",
+        "RegionBytes": 83804160,
+        "ResidentBytes": 1966080,
+        "ShareableResidentBytes": 1871872,
+        "SharedResidentBytes": 1871872,
+        "PrivateResidentBytes": 94208
+      }
+    ]
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.2519767+03:00",
+    "Name": "chrome",
+    "PID": 19208,
+    "Error": 0,
+    "ResidentBytes": 326971392,
+    "ShareableResidentBytes": 170975232,
+    "PrivateResidentBytes": 155996160,
+    "Regions": [
+      {
+        "AllocationBase": "0x1000000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 152686592,
+        "ResidentBytes": 148934656,
+        "ShareableResidentBytes": 8740864,
+        "SharedResidentBytes": 8740864,
+        "PrivateResidentBytes": 140193792
+      },
+      {
+        "AllocationBase": "0x7FF8C38C0000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Program Files\\Google\\Chrome\\Application\\155.0.8059.85\\chrome.dll",
+        "RegionBytes": 305254400,
+        "ResidentBytes": 82522112,
+        "ShareableResidentBytes": 81698816,
+        "SharedResidentBytes": 81698816,
+        "PrivateResidentBytes": 823296
+      },
+      {
+        "AllocationBase": "0x27928CE0000",
+        "Type": "Mapped",
+        "File": "\\Device\\HarddiskVolume3\\Users\\Ильгар\\AppData\\Local\\Google\\Chrome\\User Data\\Profile 1\\History",
+        "RegionBytes": 58195968,
+        "ResidentBytes": 12443648,
+        "ShareableResidentBytes": 12443648,
+        "SharedResidentBytes": 12443648,
+        "PrivateResidentBytes": 0
+      },
+      {
+        "AllocationBase": "0x7FF9868C0000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Windows\\System32\\OneCoreUAPCommonProxyStub.dll",
+        "RegionBytes": 6664192,
+        "ResidentBytes": 4513792,
+        "ShareableResidentBytes": 4509696,
+        "SharedResidentBytes": 4509696,
+        "PrivateResidentBytes": 4096
+      },
+      {
+        "AllocationBase": "0x7DF543A20000",
+        "Type": "Mapped",
+        "File": "",
+        "RegionBytes": 83800064,
+        "ResidentBytes": 4005888,
+        "ShareableResidentBytes": 4005888,
+        "SharedResidentBytes": 4005888,
+        "PrivateResidentBytes": 0
+      },
+      {
+        "AllocationBase": "0x27931420000",
+        "Type": "Mapped",
+        "File": "\\Device\\HarddiskVolume3\\Users\\Ильгар\\AppData\\Local\\Google\\Chrome\\User Data\\Safe Browsing\\ChromeExtMalware.store.32_13436977415682024",
+        "RegionBytes": 1921024,
+        "ResidentBytes": 1921024,
+        "ShareableResidentBytes": 1921024,
+        "SharedResidentBytes": 1921024,
+        "PrivateResidentBytes": 0
+      },
+      {
+        "AllocationBase": "0x27924AB0000",
+        "Type": "Mapped",
+        "File": "\\Device\\HarddiskVolume3\\Users\\Ильгар\\AppData\\Local\\Google\\Chrome\\User Data\\BrowserMetrics\\BrowserMetrics-6AD7E6FF-4B08.pma",
+        "RegionBytes": 4194304,
+        "ResidentBytes": 1814528,
+        "ShareableResidentBytes": 1814528,
+        "SharedResidentBytes": 1814528,
+        "PrivateResidentBytes": 0
+      }
+    ]
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.2735977+03:00",
+    "Name": "chrome",
+    "PID": 19764,
+    "Error": 0,
+    "ResidentBytes": 63639552,
+    "ShareableResidentBytes": 43692032,
+    "PrivateResidentBytes": 19947520,
+    "Regions": [
+      {
+        "AllocationBase": "0x7FF8C38C0000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Program Files\\Google\\Chrome\\Application\\155.0.8059.85\\chrome.dll",
+        "RegionBytes": 305254400,
+        "ResidentBytes": 22376448,
+        "ShareableResidentBytes": 21991424,
+        "SharedResidentBytes": 21991424,
+        "PrivateResidentBytes": 385024
+      },
+      {
+        "AllocationBase": "0x5E6000000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 18259968,
+        "ResidentBytes": 16805888,
+        "ShareableResidentBytes": 151552,
+        "SharedResidentBytes": 151552,
+        "PrivateResidentBytes": 16654336
+      },
+      {
+        "AllocationBase": "0x23FEA030000",
+        "Type": "Mapped",
+        "File": "\\Device\\HarddiskVolume3\\Users\\Ильгар\\AppData\\Local\\Google\\Chrome\\User Data\\Profile 1\\Network\\Cookies",
+        "RegionBytes": 2392064,
+        "ResidentBytes": 2326528,
+        "ShareableResidentBytes": 2326528,
+        "SharedResidentBytes": 2326528,
+        "PrivateResidentBytes": 0
+      },
+      {
+        "AllocationBase": "0x23FE9E00000",
+        "Type": "Mapped",
+        "File": "\\Device\\HarddiskVolume3\\Users\\Ильгар\\AppData\\Local\\Google\\Chrome\\User Data\\Profile 1\\Network\\Reporting and NEL",
+        "RegionBytes": 2195456,
+        "ResidentBytes": 2011136,
+        "ShareableResidentBytes": 2011136,
+        "SharedResidentBytes": 2011136,
+        "PrivateResidentBytes": 0
+      },
+      {
+        "AllocationBase": "0x7DF543A20000",
+        "Type": "Mapped",
+        "File": "",
+        "RegionBytes": 83800064,
+        "ResidentBytes": 1966080,
+        "ShareableResidentBytes": 1966080,
+        "SharedResidentBytes": 1966080,
+        "PrivateResidentBytes": 0
+      }
+    ]
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.2924212+03:00",
+    "Name": "chrome",
+    "PID": 19820,
+    "Error": 0,
+    "ResidentBytes": 76468224,
+    "ShareableResidentBytes": 54226944,
+    "PrivateResidentBytes": 22241280,
+    "Regions": [
+      {
+        "AllocationBase": "0x7FF8C38C0000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Program Files\\Google\\Chrome\\Application\\155.0.8059.85\\chrome.dll",
+        "RegionBytes": 305254400,
+        "ResidentBytes": 42364928,
+        "ShareableResidentBytes": 41504768,
+        "SharedResidentBytes": 41504768,
+        "PrivateResidentBytes": 860160
+      },
+      {
+        "AllocationBase": "0x5F0800000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 12206080,
+        "ResidentBytes": 10248192,
+        "ShareableResidentBytes": 368640,
+        "SharedResidentBytes": 368640,
+        "PrivateResidentBytes": 9879552
+      },
+      {
+        "AllocationBase": "0x7DF543A20000",
+        "Type": "Mapped",
+        "File": "",
+        "RegionBytes": 83804160,
+        "ResidentBytes": 1703936,
+        "ShareableResidentBytes": 1634304,
+        "SharedResidentBytes": 1634304,
+        "PrivateResidentBytes": 69632
+      }
+    ]
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.3503323+03:00",
+    "Name": "chrome",
+    "PID": 20296,
+    "Error": 0,
+    "ResidentBytes": 580931584,
+    "ShareableResidentBytes": 110936064,
+    "PrivateResidentBytes": 469995520,
+    "Regions": [
+      {
+        "AllocationBase": "0x2E700000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 207319040,
+        "ResidentBytes": 204001280,
+        "ShareableResidentBytes": 544768,
+        "SharedResidentBytes": 544768,
+        "PrivateResidentBytes": 203456512
+      },
+      {
+        "AllocationBase": "0x587000000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 149864448,
+        "ResidentBytes": 144334848,
+        "ShareableResidentBytes": 2367488,
+        "SharedResidentBytes": 2367488,
+        "PrivateResidentBytes": 141967360
+      },
+      {
+        "AllocationBase": "0x7FF8C38C0000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Program Files\\Google\\Chrome\\Application\\155.0.8059.85\\chrome.dll",
+        "RegionBytes": 305254400,
+        "ResidentBytes": 85094400,
+        "ShareableResidentBytes": 84062208,
+        "SharedResidentBytes": 84062208,
+        "PrivateResidentBytes": 1032192
+      },
+      {
+        "AllocationBase": "0x533000000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 78381056,
+        "ResidentBytes": 74420224,
+        "ShareableResidentBytes": 0,
+        "SharedResidentBytes": 0,
+        "PrivateResidentBytes": 74420224
+      },
+      {
+        "AllocationBase": "0x7FF8E0000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 24121344,
+        "ResidentBytes": 23867392,
+        "ShareableResidentBytes": 0,
+        "SharedResidentBytes": 0,
+        "PrivateResidentBytes": 23867392
+      },
+      {
+        "AllocationBase": "0x3DAF00000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 15204352,
+        "ResidentBytes": 15081472,
+        "ShareableResidentBytes": 0,
+        "SharedResidentBytes": 0,
+        "PrivateResidentBytes": 15081472
+      },
+      {
+        "AllocationBase": "0x7DF543A20000",
+        "Type": "Mapped",
+        "File": "",
+        "RegionBytes": 83804160,
+        "ResidentBytes": 3198976,
+        "ShareableResidentBytes": 3108864,
+        "SharedResidentBytes": 3108864,
+        "PrivateResidentBytes": 90112
+      },
+      {
+        "AllocationBase": "0x19E9B870000",
+        "Type": "Mapped",
+        "File": "",
+        "RegionBytes": 4198400,
+        "ResidentBytes": 2330624,
+        "ShareableResidentBytes": 2330624,
+        "SharedResidentBytes": 2330624,
+        "PrivateResidentBytes": 0
+      },
+      {
+        "AllocationBase": "0x19E9BFF0000",
+        "Type": "Mapped",
+        "File": "",
+        "RegionBytes": 4194304,
+        "ResidentBytes": 2289664,
+        "ShareableResidentBytes": 2289664,
+        "SharedResidentBytes": 2289664,
+        "PrivateResidentBytes": 0
+      },
+      {
+        "AllocationBase": "0x19E36AB0000",
+        "Type": "Mapped",
+        "File": "\\Device\\HarddiskVolume3\\Program Files\\Google\\Chrome\\Application\\155.0.8059.85\\icudtl.dat",
+        "RegionBytes": 10821632,
+        "ResidentBytes": 1507328,
+        "ShareableResidentBytes": 1507328,
+        "SharedResidentBytes": 1507328,
+        "PrivateResidentBytes": 0
+      },
+      {
+        "AllocationBase": "0x19E9A8A0000",
+        "Type": "Mapped",
+        "File": "",
+        "RegionBytes": 2097152,
+        "ResidentBytes": 1056768,
+        "ShareableResidentBytes": 1056768,
+        "SharedResidentBytes": 1056768,
+        "PrivateResidentBytes": 0
+      }
+    ]
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.3594161+03:00",
+    "Name": "chrome",
+    "PID": 20832,
+    "Error": 0,
+    "ResidentBytes": 20934656,
+    "ShareableResidentBytes": 16523264,
+    "PrivateResidentBytes": 4411392,
+    "Regions": [
+      {
+        "AllocationBase": "0x7FF8C38C0000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Program Files\\Google\\Chrome\\Application\\155.0.8059.85\\chrome.dll",
+        "RegionBytes": 305254400,
+        "ResidentBytes": 8114176,
+        "ShareableResidentBytes": 7741440,
+        "SharedResidentBytes": 7741440,
+        "PrivateResidentBytes": 372736
+      },
+      {
+        "AllocationBase": "0x7DF543A20000",
+        "Type": "Mapped",
+        "File": "",
+        "RegionBytes": 83804160,
+        "ResidentBytes": 1073152,
+        "ShareableResidentBytes": 1007616,
+        "SharedResidentBytes": 1007616,
+        "PrivateResidentBytes": 65536
+      }
+    ]
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.3634645+03:00",
+    "Name": "chrome",
+    "PID": 21360,
+    "Error": 0,
+    "ResidentBytes": 10153984,
+    "ShareableResidentBytes": 9035776,
+    "PrivateResidentBytes": 1118208,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.3677168+03:00",
+    "Name": "cmd",
+    "PID": 2148,
+    "Error": 0,
+    "ResidentBytes": 8241152,
+    "ShareableResidentBytes": 6053888,
+    "PrivateResidentBytes": 2187264,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.3701422+03:00",
+    "Name": "cmd",
+    "PID": 13388,
+    "Error": 0,
+    "ResidentBytes": 8167424,
+    "ShareableResidentBytes": 6369280,
+    "PrivateResidentBytes": 1798144,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.3725762+03:00",
+    "Name": "cmd",
+    "PID": 15980,
+    "Error": 0,
+    "ResidentBytes": 8216576,
+    "ShareableResidentBytes": 6389760,
+    "PrivateResidentBytes": 1826816,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.3750273+03:00",
+    "Name": "cmd",
+    "PID": 19720,
+    "Error": 0,
+    "ResidentBytes": 8171520,
+    "ShareableResidentBytes": 6139904,
+    "PrivateResidentBytes": 2031616,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.3757571+03:00",
+    "Name": "CNAB4RPD",
+    "PID": 7032,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.3846141+03:00",
+    "Name": "codex",
+    "PID": 5084,
+    "Error": 0,
+    "ResidentBytes": 95494144,
+    "ShareableResidentBytes": 93667328,
+    "PrivateResidentBytes": 1826816,
+    "Regions": [
+      {
+        "AllocationBase": "0x7FF6C5C40000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Users\\Ильгар\\AppData\\Local\\OpenAI\\Codex\\bin\\896a0166b774037a\\codex.exe",
+        "RegionBytes": 341348352,
+        "ResidentBytes": 83394560,
+        "ShareableResidentBytes": 83316736,
+        "SharedResidentBytes": 83316736,
+        "PrivateResidentBytes": 77824
+      }
+    ]
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.3952298+03:00",
+    "Name": "codex",
+    "PID": 5276,
+    "Error": 0,
+    "ResidentBytes": 96358400,
+    "ShareableResidentBytes": 92749824,
+    "PrivateResidentBytes": 3608576,
+    "Regions": [
+      {
+        "AllocationBase": "0x7FF6C5C40000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Users\\Ильгар\\AppData\\Local\\OpenAI\\Codex\\bin\\896a0166b774037a\\codex.exe",
+        "RegionBytes": 341348352,
+        "ResidentBytes": 83120128,
+        "ShareableResidentBytes": 83013632,
+        "SharedResidentBytes": 83013632,
+        "PrivateResidentBytes": 106496
+      }
+    ]
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.4060799+03:00",
+    "Name": "codex",
+    "PID": 15756,
+    "Error": 0,
+    "ResidentBytes": 96505856,
+    "ShareableResidentBytes": 92753920,
+    "PrivateResidentBytes": 3751936,
+    "Regions": [
+      {
+        "AllocationBase": "0x7FF6C5C40000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Users\\Ильгар\\AppData\\Local\\OpenAI\\Codex\\bin\\896a0166b774037a\\codex.exe",
+        "RegionBytes": 341348352,
+        "ResidentBytes": 83120128,
+        "ShareableResidentBytes": 83013632,
+        "SharedResidentBytes": 83013632,
+        "PrivateResidentBytes": 106496
+      }
+    ]
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.4153380+03:00",
+    "Name": "codex",
+    "PID": 19252,
+    "Error": 0,
+    "ResidentBytes": 64577536,
+    "ShareableResidentBytes": 60411904,
+    "PrivateResidentBytes": 4165632,
+    "Regions": [
+      {
+        "AllocationBase": "0x7FF6C5C40000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Users\\Ильгар\\AppData\\Local\\OpenAI\\Codex\\bin\\896a0166b774037a\\codex.exe",
+        "RegionBytes": 341348352,
+        "ResidentBytes": 47374336,
+        "ShareableResidentBytes": 47271936,
+        "SharedResidentBytes": 47271936,
+        "PrivateResidentBytes": 102400
+      }
+    ]
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.4253393+03:00",
+    "Name": "codex",
+    "PID": 20112,
+    "Error": 0,
+    "ResidentBytes": 95502336,
+    "ShareableResidentBytes": 93663232,
+    "PrivateResidentBytes": 1839104,
+    "Regions": [
+      {
+        "AllocationBase": "0x7FF6C5C40000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Users\\Ильгар\\AppData\\Local\\OpenAI\\Codex\\bin\\896a0166b774037a\\codex.exe",
+        "RegionBytes": 341348352,
+        "ResidentBytes": 83394560,
+        "ShareableResidentBytes": 83316736,
+        "SharedResidentBytes": 83316736,
+        "PrivateResidentBytes": 77824
+      }
+    ]
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.4482214+03:00",
+    "Name": "codex",
+    "PID": 21024,
+    "Error": 0,
+    "ResidentBytes": 259047424,
+    "ShareableResidentBytes": 104960000,
+    "PrivateResidentBytes": 154087424,
+    "Regions": [
+      {
+        "AllocationBase": "0x7FF6C5C40000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Users\\Ильгар\\AppData\\Local\\OpenAI\\Codex\\bin\\896a0166b774037a\\codex.exe",
+        "RegionBytes": 341348352,
+        "ResidentBytes": 82305024,
+        "ShareableResidentBytes": 82128896,
+        "SharedResidentBytes": 82128896,
+        "PrivateResidentBytes": 176128
+      },
+      {
+        "AllocationBase": "0x1BB30900000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 15790080,
+        "ResidentBytes": 14811136,
+        "ShareableResidentBytes": 53248,
+        "SharedResidentBytes": 53248,
+        "PrivateResidentBytes": 14757888
+      },
+      {
+        "AllocationBase": "0x1BB2F930000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 16277504,
+        "ResidentBytes": 14807040,
+        "ShareableResidentBytes": 69632,
+        "SharedResidentBytes": 69632,
+        "PrivateResidentBytes": 14737408
+      },
+      {
+        "AllocationBase": "0x1BB2D990000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 14905344,
+        "ResidentBytes": 14163968,
+        "ShareableResidentBytes": 4096,
+        "SharedResidentBytes": 4096,
+        "PrivateResidentBytes": 14159872
+      },
+      {
+        "AllocationBase": "0x1BB2E960000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 15314944,
+        "ResidentBytes": 13824000,
+        "ShareableResidentBytes": 12288,
+        "SharedResidentBytes": 12288,
+        "PrivateResidentBytes": 13811712
+      },
+      {
+        "AllocationBase": "0x1BB29100000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 15728640,
+        "ResidentBytes": 13041664,
+        "ShareableResidentBytes": 94208,
+        "SharedResidentBytes": 94208,
+        "PrivateResidentBytes": 12947456
+      },
+      {
+        "AllocationBase": "0x1BB32350000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 14766080,
+        "ResidentBytes": 12681216,
+        "ShareableResidentBytes": 172032,
+        "SharedResidentBytes": 172032,
+        "PrivateResidentBytes": 12509184
+      },
+      {
+        "AllocationBase": "0x1BB2AD70000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 14528512,
+        "ResidentBytes": 12673024,
+        "ShareableResidentBytes": 40960,
+        "SharedResidentBytes": 40960,
+        "PrivateResidentBytes": 12632064
+      },
+      {
+        "AllocationBase": "0x1BB2C2A0000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 13291520,
+        "ResidentBytes": 11825152,
+        "ShareableResidentBytes": 40960,
+        "SharedResidentBytes": 40960,
+        "PrivateResidentBytes": 11784192
+      },
+      {
+        "AllocationBase": "0x1BB33320000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 13701120,
+        "ResidentBytes": 8093696,
+        "ShareableResidentBytes": 184320,
+        "SharedResidentBytes": 184320,
+        "PrivateResidentBytes": 7909376
+      },
+      {
+        "AllocationBase": "0x1BB27990000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 6746112,
+        "ResidentBytes": 5967872,
+        "ShareableResidentBytes": 4096,
+        "SharedResidentBytes": 4096,
+        "PrivateResidentBytes": 5963776
+      },
+      {
+        "AllocationBase": "0x1BB342F0000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 7397376,
+        "ResidentBytes": 4489216,
+        "ShareableResidentBytes": 24576,
+        "SharedResidentBytes": 24576,
+        "PrivateResidentBytes": 4464640
+      },
+      {
+        "AllocationBase": "0x1BB28190000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 4198400,
+        "ResidentBytes": 4198400,
+        "ShareableResidentBytes": 0,
+        "SharedResidentBytes": 0,
+        "PrivateResidentBytes": 4198400
+      }
+    ]
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.4552786+03:00",
+    "Name": "codex-code-mode-host",
+    "PID": 9392,
+    "Error": 0,
+    "ResidentBytes": 39325696,
+    "ShareableResidentBytes": 30662656,
+    "PrivateResidentBytes": 8663040,
+    "Regions": [
+      {
+        "AllocationBase": "0x7FF639670000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Users\\Ильгар\\AppData\\Local\\OpenAI\\Codex\\bin\\896a0166b774037a\\codex-code-mode-host.exe",
+        "RegionBytes": 75141120,
+        "ResidentBytes": 22405120,
+        "ShareableResidentBytes": 22159360,
+        "SharedResidentBytes": 22159360,
+        "PrivateResidentBytes": 245760
+      }
+    ]
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.4645586+03:00",
+    "Name": "codex-computer-use",
+    "PID": 2920,
+    "Error": 0,
+    "ResidentBytes": 51564544,
+    "ShareableResidentBytes": 32526336,
+    "PrivateResidentBytes": 19038208,
+    "Regions": [
+      {
+        "AllocationBase": "0x2A4AF690000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 9441280,
+        "ResidentBytes": 9441280,
+        "ShareableResidentBytes": 0,
+        "SharedResidentBytes": 0,
+        "PrivateResidentBytes": 9441280
+      }
+    ]
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.4748189+03:00",
+    "Name": "codex-computer-use-swift",
+    "PID": 816,
+    "Error": 0,
+    "ResidentBytes": 47464448,
+    "ShareableResidentBytes": 34185216,
+    "PrivateResidentBytes": 13279232,
+    "Regions": [
+      {
+        "AllocationBase": "0x7FF61E4A0000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Users\\Ильгар\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\78fb63cda1a9e2b2\\bin\\node_modules\\@oai\\sky\\bin\\windows\\swift\\x64\\codex-computer-use-swift.exe",
+        "RegionBytes": 56856576,
+        "ResidentBytes": 5971968,
+        "ShareableResidentBytes": 5513216,
+        "SharedResidentBytes": 5513216,
+        "PrivateResidentBytes": 458752
+      }
+    ]
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.4784218+03:00",
+    "Name": "conhost",
+    "PID": 1504,
+    "Error": 0,
+    "ResidentBytes": 7548928,
+    "ShareableResidentBytes": 6725632,
+    "PrivateResidentBytes": 823296,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.4818539+03:00",
+    "Name": "conhost",
+    "PID": 1556,
+    "Error": 0,
+    "ResidentBytes": 7507968,
+    "ShareableResidentBytes": 6713344,
+    "PrivateResidentBytes": 794624,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.4842890+03:00",
+    "Name": "conhost",
+    "PID": 1924,
+    "Error": 0,
+    "ResidentBytes": 7385088,
+    "ShareableResidentBytes": 6803456,
+    "PrivateResidentBytes": 581632,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.4870218+03:00",
+    "Name": "conhost",
+    "PID": 2000,
+    "Error": 0,
+    "ResidentBytes": 7340032,
+    "ShareableResidentBytes": 6725632,
+    "PrivateResidentBytes": 614400,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.4901547+03:00",
+    "Name": "conhost",
+    "PID": 2524,
+    "Error": 0,
+    "ResidentBytes": 10035200,
+    "ShareableResidentBytes": 9207808,
+    "PrivateResidentBytes": 827392,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.4929078+03:00",
+    "Name": "conhost",
+    "PID": 3260,
+    "Error": 0,
+    "ResidentBytes": 7188480,
+    "ShareableResidentBytes": 6373376,
+    "PrivateResidentBytes": 815104,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.4955772+03:00",
+    "Name": "conhost",
+    "PID": 4140,
+    "Error": 0,
+    "ResidentBytes": 7413760,
+    "ShareableResidentBytes": 6569984,
+    "PrivateResidentBytes": 843776,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.4980404+03:00",
+    "Name": "conhost",
+    "PID": 4240,
+    "Error": 0,
+    "ResidentBytes": 7192576,
+    "ShareableResidentBytes": 6635520,
+    "PrivateResidentBytes": 557056,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.5005236+03:00",
+    "Name": "conhost",
+    "PID": 4280,
+    "Error": 0,
+    "ResidentBytes": 7360512,
+    "ShareableResidentBytes": 6811648,
+    "PrivateResidentBytes": 548864,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.5029797+03:00",
+    "Name": "conhost",
+    "PID": 5032,
+    "Error": 0,
+    "ResidentBytes": 7217152,
+    "ShareableResidentBytes": 6627328,
+    "PrivateResidentBytes": 589824,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.5056331+03:00",
+    "Name": "conhost",
+    "PID": 5200,
+    "Error": 0,
+    "ResidentBytes": 7221248,
+    "ShareableResidentBytes": 6639616,
+    "PrivateResidentBytes": 581632,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.5064295+03:00",
+    "Name": "conhost",
+    "PID": 6428,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.5066893+03:00",
+    "Name": "conhost",
+    "PID": 6864,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.5088280+03:00",
+    "Name": "conhost",
+    "PID": 6900,
+    "Error": 0,
+    "ResidentBytes": 7417856,
+    "ShareableResidentBytes": 6553600,
+    "PrivateResidentBytes": 864256,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.5108116+03:00",
+    "Name": "conhost",
+    "PID": 7000,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.5110939+03:00",
+    "Name": "conhost",
+    "PID": 7008,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.5131296+03:00",
+    "Name": "conhost",
+    "PID": 8196,
+    "Error": 0,
+    "ResidentBytes": 7368704,
+    "ShareableResidentBytes": 6823936,
+    "PrivateResidentBytes": 544768,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.5155444+03:00",
+    "Name": "conhost",
+    "PID": 9928,
+    "Error": 0,
+    "ResidentBytes": 7327744,
+    "ShareableResidentBytes": 6791168,
+    "PrivateResidentBytes": 536576,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.5179184+03:00",
+    "Name": "conhost",
+    "PID": 11012,
+    "Error": 0,
+    "ResidentBytes": 7348224,
+    "ShareableResidentBytes": 6795264,
+    "PrivateResidentBytes": 552960,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.5202516+03:00",
+    "Name": "conhost",
+    "PID": 14604,
+    "Error": 0,
+    "ResidentBytes": 7221248,
+    "ShareableResidentBytes": 6627328,
+    "PrivateResidentBytes": 593920,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.5226015+03:00",
+    "Name": "conhost",
+    "PID": 15424,
+    "Error": 0,
+    "ResidentBytes": 7393280,
+    "ShareableResidentBytes": 6803456,
+    "PrivateResidentBytes": 589824,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.5249801+03:00",
+    "Name": "conhost",
+    "PID": 16788,
+    "Error": 0,
+    "ResidentBytes": 7372800,
+    "ShareableResidentBytes": 6799360,
+    "PrivateResidentBytes": 573440,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.5273712+03:00",
+    "Name": "conhost",
+    "PID": 19240,
+    "Error": 0,
+    "ResidentBytes": 7217152,
+    "ShareableResidentBytes": 6619136,
+    "PrivateResidentBytes": 598016,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.5296919+03:00",
+    "Name": "conhost",
+    "PID": 19964,
+    "Error": 0,
+    "ResidentBytes": 7233536,
+    "ShareableResidentBytes": 6615040,
+    "PrivateResidentBytes": 618496,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.5321673+03:00",
+    "Name": "conhost",
+    "PID": 21352,
+    "Error": 0,
+    "ResidentBytes": 7196672,
+    "ShareableResidentBytes": 6602752,
+    "PrivateResidentBytes": 593920,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.5408762+03:00",
+    "Name": "CrossDeviceResume",
+    "PID": 12164,
+    "Error": 0,
+    "ResidentBytes": 59662336,
+    "ShareableResidentBytes": 45576192,
+    "PrivateResidentBytes": 14086144,
+    "Regions": [
+      {
+        "AllocationBase": "0x1D97F000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 6397952,
+        "ResidentBytes": 5713920,
+        "ShareableResidentBytes": 253952,
+        "SharedResidentBytes": 253952,
+        "PrivateResidentBytes": 5459968
+      },
+      {
+        "AllocationBase": "0x1D906000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 5545984,
+        "ResidentBytes": 5533696,
+        "ShareableResidentBytes": 1294336,
+        "SharedResidentBytes": 1294336,
+        "PrivateResidentBytes": 4239360
+      },
+      {
+        "AllocationBase": "0x7DF543A20000",
+        "Type": "Mapped",
+        "File": "",
+        "RegionBytes": 83755008,
+        "ResidentBytes": 1183744,
+        "ShareableResidentBytes": 1159168,
+        "SharedResidentBytes": 1159168,
+        "PrivateResidentBytes": 24576
+      }
+    ]
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.5620451+03:00",
+    "Name": "CrossDeviceService",
+    "PID": 12680,
+    "Error": 0,
+    "ResidentBytes": 99540992,
+    "ShareableResidentBytes": 80986112,
+    "PrivateResidentBytes": 18554880,
+    "Regions": [
+      {
+        "AllocationBase": "0x1D8AA410000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 8908800,
+        "ResidentBytes": 8613888,
+        "ShareableResidentBytes": 12288,
+        "SharedResidentBytes": 12288,
+        "PrivateResidentBytes": 8601600
+      },
+      {
+        "AllocationBase": "0x7FF944EF0000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.26082.74.0_x64__cw5n1h2txyewy\\System.Private.CoreLib.dll",
+        "RegionBytes": 9093120,
+        "ResidentBytes": 5840896,
+        "ShareableResidentBytes": 5681152,
+        "SharedResidentBytes": 5681152,
+        "PrivateResidentBytes": 159744
+      },
+      {
+        "AllocationBase": "0x7FF9868C0000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Windows\\System32\\OneCoreUAPCommonProxyStub.dll",
+        "RegionBytes": 6664192,
+        "ResidentBytes": 4476928,
+        "ShareableResidentBytes": 4472832,
+        "SharedResidentBytes": 4472832,
+        "PrivateResidentBytes": 4096
+      },
+      {
+        "AllocationBase": "0x7DF543A20000",
+        "Type": "Mapped",
+        "File": "",
+        "RegionBytes": 83771392,
+        "ResidentBytes": 1343488,
+        "ShareableResidentBytes": 1314816,
+        "SharedResidentBytes": 1314816,
+        "PrivateResidentBytes": 28672
+      }
+    ]
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.5814850+03:00",
+    "Name": "csrss",
+    "PID": 1068,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.5829141+03:00",
+    "Name": "csrss",
+    "PID": 1180,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.5839573+03:00",
+    "Name": "ctfmon",
+    "PID": 7888,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.5844376+03:00",
+    "Name": "DefenderSessionHelper",
+    "PID": 10992,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.5846226+03:00",
+    "Name": "dwm",
+    "PID": 1780,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.5849750+03:00",
+    "Name": "esif_uf",
+    "PID": 5544,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.6308609+03:00",
+    "Name": "explorer",
+    "PID": 12048,
+    "Error": 0,
+    "ResidentBytes": 348700672,
+    "ShareableResidentBytes": 202321920,
+    "PrivateResidentBytes": 146378752,
+    "Regions": [
+      {
+        "AllocationBase": "0x22E20000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 16576512,
+        "ResidentBytes": 16064512,
+        "ShareableResidentBytes": 0,
+        "SharedResidentBytes": 0,
+        "PrivateResidentBytes": 16064512
+      },
+      {
+        "AllocationBase": "0x14670000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 16576512,
+        "ResidentBytes": 15888384,
+        "ShareableResidentBytes": 49152,
+        "SharedResidentBytes": 49152,
+        "PrivateResidentBytes": 15839232
+      },
+      {
+        "AllocationBase": "0x21900000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 16576512,
+        "ResidentBytes": 15798272,
+        "ShareableResidentBytes": 421888,
+        "SharedResidentBytes": 421888,
+        "PrivateResidentBytes": 15376384
+      },
+      {
+        "AllocationBase": "0x18400000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 16576512,
+        "ResidentBytes": 15110144,
+        "ShareableResidentBytes": 0,
+        "SharedResidentBytes": 0,
+        "PrivateResidentBytes": 15110144
+      },
+      {
+        "AllocationBase": "0x2BB00000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 16576512,
+        "ResidentBytes": 14495744,
+        "ShareableResidentBytes": 16384,
+        "SharedResidentBytes": 16384,
+        "PrivateResidentBytes": 14479360
+      },
+      {
+        "AllocationBase": "0x7DA0000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 20025344,
+        "ResidentBytes": 14114816,
+        "ShareableResidentBytes": 110592,
+        "SharedResidentBytes": 110592,
+        "PrivateResidentBytes": 14004224
+      },
+      {
+        "AllocationBase": "0x7FF97FE70000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Windows\\System32\\Windows.UI.Xaml.dll",
+        "RegionBytes": 17965056,
+        "ResidentBytes": 9428992,
+        "ShareableResidentBytes": 9392128,
+        "SharedResidentBytes": 9392128,
+        "PrivateResidentBytes": 36864
+      },
+      {
+        "AllocationBase": "0x112F0000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 8384512,
+        "ResidentBytes": 8052736,
+        "ShareableResidentBytes": 0,
+        "SharedResidentBytes": 0,
+        "PrivateResidentBytes": 8052736
+      },
+      {
+        "AllocationBase": "0x30DE0000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 6848512,
+        "ResidentBytes": 6402048,
+        "ShareableResidentBytes": 0,
+        "SharedResidentBytes": 0,
+        "PrivateResidentBytes": 6402048
+      },
+      {
+        "AllocationBase": "0x7FF94C7E0000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Windows\\System32\\twinui.pcshell.dll",
+        "RegionBytes": 10117120,
+        "ResidentBytes": 6381568,
+        "ShareableResidentBytes": 6324224,
+        "SharedResidentBytes": 6324224,
+        "PrivateResidentBytes": 57344
+      },
+      {
+        "AllocationBase": "0x7FF947570000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Windows\\SystemApps\\Microsoft.WindowsAppRuntime.CBS.2_8wekyb3d8bbwe\\Microsoft.ui.xaml.dll",
+        "RegionBytes": 15347712,
+        "ResidentBytes": 5812224,
+        "ShareableResidentBytes": 5783552,
+        "SharedResidentBytes": 5783552,
+        "PrivateResidentBytes": 28672
+      },
+      {
+        "AllocationBase": "0x7FF998CB0000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Windows\\System32\\windows.storage.dll",
+        "RegionBytes": 9105408,
+        "ResidentBytes": 5578752,
+        "ShareableResidentBytes": 5521408,
+        "SharedResidentBytes": 5521408,
+        "PrivateResidentBytes": 57344
+      },
+      {
+        "AllocationBase": "0x7FF9868C0000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Windows\\System32\\OneCoreUAPCommonProxyStub.dll",
+        "RegionBytes": 6664192,
+        "ResidentBytes": 4685824,
+        "ShareableResidentBytes": 4681728,
+        "SharedResidentBytes": 4681728,
+        "PrivateResidentBytes": 4096
+      },
+      {
+        "AllocationBase": "0x7DF543A20000",
+        "Type": "Mapped",
+        "File": "",
+        "RegionBytes": 83791872,
+        "ResidentBytes": 4673536,
+        "ShareableResidentBytes": 4628480,
+        "SharedResidentBytes": 4628480,
+        "PrivateResidentBytes": 45056
+      }
+    ]
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.6431233+03:00",
+    "Name": "fontdrvhost",
+    "PID": 1536,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.6433958+03:00",
+    "Name": "fontdrvhost",
+    "PID": 1544,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.6435982+03:00",
+    "Name": "GameInputRedistService",
+    "PID": 4676,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.6473534+03:00",
+    "Name": "GameInputRedistService",
+    "PID": 10924,
+    "Error": 0,
+    "ResidentBytes": 18325504,
+    "ShareableResidentBytes": 16691200,
+    "PrivateResidentBytes": 1634304,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.6485912+03:00",
+    "Name": "GameInputSvc",
+    "PID": 11268,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.6488316+03:00",
+    "Name": "GameInputSvc",
+    "PID": 12308,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.6490353+03:00",
+    "Name": "gamingservices",
+    "PID": 6060,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.6492196+03:00",
+    "Name": "gamingservicesnet",
+    "PID": 6128,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.6494003+03:00",
+    "Name": "igfxCUIServiceN",
+    "PID": 2512,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.6531427+03:00",
+    "Name": "igfxEMN",
+    "PID": 12084,
+    "Error": 0,
+    "ResidentBytes": 19099648,
+    "ShareableResidentBytes": 16609280,
+    "PrivateResidentBytes": 2490368,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.6543471+03:00",
+    "Name": "IntelAudioService",
+    "PID": 4684,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.6545633+03:00",
+    "Name": "IntelCpHDCPSvc",
+    "PID": 1356,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.6547468+03:00",
+    "Name": "JetBrains.Etw.Collector.Host",
+    "PID": 4648,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.6551003+03:00",
+    "Name": "jhi_service",
+    "PID": 4656,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.6591656+03:00",
+    "Name": "jucheck",
+    "PID": 17384,
+    "Error": 0,
+    "ResidentBytes": 22360064,
+    "ShareableResidentBytes": 18939904,
+    "PrivateResidentBytes": 3420160,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.6634915+03:00",
+    "Name": "jusched",
+    "PID": 3504,
+    "Error": 0,
+    "ResidentBytes": 17760256,
+    "ShareableResidentBytes": 15802368,
+    "PrivateResidentBytes": 1957888,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.6647598+03:00",
+    "Name": "ksde",
+    "PID": 13412,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.6693574+03:00",
+    "Name": "ksdeui",
+    "PID": 11740,
+    "Error": 0,
+    "ResidentBytes": 4812800,
+    "ShareableResidentBytes": 3293184,
+    "PrivateResidentBytes": 1519616,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.6703963+03:00",
+    "Name": "LsaIso",
+    "PID": 1336,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.6706184+03:00",
+    "Name": "lsass",
+    "PID": 1344,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.6707948+03:00",
+    "Name": "Memory Compression",
+    "PID": 3204,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.6787070+03:00",
+    "Name": "MicrosoftStartFeedProvider",
+    "PID": 14400,
+    "Error": 0,
+    "ResidentBytes": 50343936,
+    "ShareableResidentBytes": 44331008,
+    "PrivateResidentBytes": 6012928,
+    "Regions": [
+      {
+        "AllocationBase": "0x7FF9868C0000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Windows\\System32\\OneCoreUAPCommonProxyStub.dll",
+        "RegionBytes": 6664192,
+        "ResidentBytes": 4370432,
+        "ShareableResidentBytes": 4366336,
+        "SharedResidentBytes": 4366336,
+        "PrivateResidentBytes": 4096
+      },
+      {
+        "AllocationBase": "0x7DF543A20000",
+        "Type": "Mapped",
+        "File": "",
+        "RegionBytes": 83779584,
+        "ResidentBytes": 1077248,
+        "ShareableResidentBytes": 1048576,
+        "SharedResidentBytes": 1048576,
+        "PrivateResidentBytes": 28672
+      }
+    ]
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.6805541+03:00",
+    "Name": "MpDefenderCoreService",
+    "PID": 4824,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.6972964+03:00",
+    "Name": "msedgewebview2",
+    "PID": 11784,
+    "Error": 0,
+    "ResidentBytes": 132616192,
+    "ShareableResidentBytes": 102363136,
+    "PrivateResidentBytes": 30253056,
+    "Regions": [
+      {
+        "AllocationBase": "0x7FF922E70000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedge.dll",
+        "RegionBytes": 354725888,
+        "ResidentBytes": 56455168,
+        "ShareableResidentBytes": 55189504,
+        "SharedResidentBytes": 55189504,
+        "PrivateResidentBytes": 1265664
+      },
+      {
+        "AllocationBase": "0x564800000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 23060480,
+        "ResidentBytes": 22470656,
+        "ShareableResidentBytes": 303104,
+        "SharedResidentBytes": 303104,
+        "PrivateResidentBytes": 22167552
+      },
+      {
+        "AllocationBase": "0x7DF543A20000",
+        "Type": "Mapped",
+        "File": "",
+        "RegionBytes": 83812352,
+        "ResidentBytes": 2977792,
+        "ShareableResidentBytes": 2969600,
+        "SharedResidentBytes": 2969600,
+        "PrivateResidentBytes": 8192
+      }
+    ]
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.7047789+03:00",
+    "Name": "msedgewebview2",
+    "PID": 13536,
+    "Error": 0,
+    "ResidentBytes": 13467648,
+    "ShareableResidentBytes": 12120064,
+    "PrivateResidentBytes": 1347584,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.7150495+03:00",
+    "Name": "msedgewebview2",
+    "PID": 14740,
+    "Error": 0,
+    "ResidentBytes": 47067136,
+    "ShareableResidentBytes": 37556224,
+    "PrivateResidentBytes": 9510912,
+    "Regions": [
+      {
+        "AllocationBase": "0x7FF922E70000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedge.dll",
+        "RegionBytes": 354725888,
+        "ResidentBytes": 21622784,
+        "ShareableResidentBytes": 21151744,
+        "SharedResidentBytes": 21151744,
+        "PrivateResidentBytes": 471040
+      },
+      {
+        "AllocationBase": "0x460000000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 6975488,
+        "ResidentBytes": 6889472,
+        "ShareableResidentBytes": 118784,
+        "SharedResidentBytes": 118784,
+        "PrivateResidentBytes": 6770688
+      },
+      {
+        "AllocationBase": "0x7DF543A20000",
+        "Type": "Mapped",
+        "File": "",
+        "RegionBytes": 83804160,
+        "ResidentBytes": 1576960,
+        "ShareableResidentBytes": 1576960,
+        "SharedResidentBytes": 1576960,
+        "PrivateResidentBytes": 0
+      }
+    ]
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.7331926+03:00",
+    "Name": "msedgewebview2",
+    "PID": 14748,
+    "Error": 0,
+    "ResidentBytes": 78106624,
+    "ShareableResidentBytes": 51171328,
+    "PrivateResidentBytes": 26935296,
+    "Regions": [
+      {
+        "AllocationBase": "0x7FF922E70000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedge.dll",
+        "RegionBytes": 354725888,
+        "ResidentBytes": 16236544,
+        "ShareableResidentBytes": 15708160,
+        "SharedResidentBytes": 15708160,
+        "PrivateResidentBytes": 528384
+      },
+      {
+        "AllocationBase": "0x7FF98C410000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Windows\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_357acc06f2c40efb\\igc64.dll",
+        "RegionBytes": 73940992,
+        "ResidentBytes": 9732096,
+        "ShareableResidentBytes": 9121792,
+        "SharedResidentBytes": 9121792,
+        "PrivateResidentBytes": 610304
+      },
+      {
+        "AllocationBase": "0x23EE1FF0000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 9248768,
+        "ResidentBytes": 7761920,
+        "ShareableResidentBytes": 0,
+        "SharedResidentBytes": 0,
+        "PrivateResidentBytes": 7761920
+      },
+      {
+        "AllocationBase": "0x23EEC000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 15835136,
+        "ResidentBytes": 6328320,
+        "ShareableResidentBytes": 0,
+        "SharedResidentBytes": 0,
+        "PrivateResidentBytes": 6328320
+      },
+      {
+        "AllocationBase": "0x7DF543A20000",
+        "Type": "Mapped",
+        "File": "",
+        "RegionBytes": 83820544,
+        "ResidentBytes": 1757184,
+        "ShareableResidentBytes": 1675264,
+        "SharedResidentBytes": 1675264,
+        "PrivateResidentBytes": 81920
+      }
+    ]
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.7453319+03:00",
+    "Name": "msedgewebview2",
+    "PID": 14856,
+    "Error": 0,
+    "ResidentBytes": 21127168,
+    "ShareableResidentBytes": 17948672,
+    "PrivateResidentBytes": 3178496,
+    "Regions": [
+      {
+        "AllocationBase": "0x7FF922E70000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedge.dll",
+        "RegionBytes": 354725888,
+        "ResidentBytes": 9342976,
+        "ShareableResidentBytes": 8912896,
+        "SharedResidentBytes": 8912896,
+        "PrivateResidentBytes": 430080
+      }
+    ]
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.7673602+03:00",
+    "Name": "msedgewebview2",
+    "PID": 14996,
+    "Error": 0,
+    "ResidentBytes": 111280128,
+    "ShareableResidentBytes": 70770688,
+    "PrivateResidentBytes": 40509440,
+    "Regions": [
+      {
+        "AllocationBase": "0x7FF922E70000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\msedge.dll",
+        "RegionBytes": 354725888,
+        "ResidentBytes": 52338688,
+        "ShareableResidentBytes": 51134464,
+        "SharedResidentBytes": 51134464,
+        "PrivateResidentBytes": 1204224
+      },
+      {
+        "AllocationBase": "0x44E800000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 26415104,
+        "ResidentBytes": 23101440,
+        "ShareableResidentBytes": 2285568,
+        "SharedResidentBytes": 2285568,
+        "PrivateResidentBytes": 20815872
+      },
+      {
+        "AllocationBase": "0x24800000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 7766016,
+        "ResidentBytes": 5988352,
+        "ShareableResidentBytes": 73728,
+        "SharedResidentBytes": 73728,
+        "PrivateResidentBytes": 5914624
+      },
+      {
+        "AllocationBase": "0x2271BAD0000",
+        "Type": "Mapped",
+        "File": "\\Device\\HarddiskVolume3\\Users\\Ильгар\\AppData\\Local\\Packages\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\LocalState\\EBWebView\\Subresource Filter\\Indexed Rules\\38\\10.34.0.84\\Ruleset Data",
+        "RegionBytes": 5832704,
+        "ResidentBytes": 1708032,
+        "ShareableResidentBytes": 1708032,
+        "SharedResidentBytes": 1708032,
+        "PrivateResidentBytes": 0
+      },
+      {
+        "AllocationBase": "0x7DF543A20000",
+        "Type": "Mapped",
+        "File": "",
+        "RegionBytes": 83820544,
+        "ResidentBytes": 1683456,
+        "ShareableResidentBytes": 1597440,
+        "SharedResidentBytes": 1597440,
+        "PrivateResidentBytes": 86016
+      },
+      {
+        "AllocationBase": "0x226304B0000",
+        "Type": "Mapped",
+        "File": "\\Device\\HarddiskVolume3\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\155.0.4283.62\\icudtl.dat",
+        "RegionBytes": 12410880,
+        "ResidentBytes": 1585152,
+        "ShareableResidentBytes": 1585152,
+        "SharedResidentBytes": 1585152,
+        "PrivateResidentBytes": 0
+      }
+    ]
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.7709227+03:00",
+    "Name": "MsMpEng",
+    "PID": 4784,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.7714513+03:00",
+    "Name": "mysqld",
+    "PID": 4856,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.7718615+03:00",
+    "Name": "mysqld",
+    "PID": 6844,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.7722320+03:00",
+    "Name": "NgcIso",
+    "PID": 14756,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.7726195+03:00",
+    "Name": "NisSrv",
+    "PID": 15808,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.7952335+03:00",
+    "Name": "node",
+    "PID": 4376,
+    "Error": 0,
+    "ResidentBytes": 103956480,
+    "ShareableResidentBytes": 57872384,
+    "PrivateResidentBytes": 46084096,
+    "Regions": [
+      {
+        "AllocationBase": "0x7FF7F2BC0000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Users\\Ильгар\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\78fb63cda1a9e2b2\\bin\\node.exe",
+        "RegionBytes": 93782016,
+        "ResidentBytes": 21929984,
+        "ShareableResidentBytes": 21786624,
+        "SharedResidentBytes": 21786624,
+        "PrivateResidentBytes": 143360
+      },
+      {
+        "AllocationBase": "0x16EC5A60000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 4665344,
+        "ResidentBytes": 4665344,
+        "ShareableResidentBytes": 4661248,
+        "SharedResidentBytes": 4661248,
+        "PrivateResidentBytes": 4096
+      }
+    ]
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.8068618+03:00",
+    "Name": "node",
+    "PID": 7112,
+    "Error": 0,
+    "ResidentBytes": 47718400,
+    "ShareableResidentBytes": 32260096,
+    "PrivateResidentBytes": 15458304,
+    "Regions": [
+      {
+        "AllocationBase": "0x7FF7F2BC0000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Users\\Ильгар\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\78fb63cda1a9e2b2\\bin\\node.exe",
+        "RegionBytes": 93782016,
+        "ResidentBytes": 18259968,
+        "ShareableResidentBytes": 18112512,
+        "SharedResidentBytes": 18112512,
+        "PrivateResidentBytes": 147456
+      }
+    ]
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.8133051+03:00",
+    "Name": "node",
+    "PID": 8116,
+    "Error": 0,
+    "ResidentBytes": 44539904,
+    "ShareableResidentBytes": 34459648,
+    "PrivateResidentBytes": 10080256,
+    "Regions": [
+      {
+        "AllocationBase": "0x7FF7F2BC0000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Users\\Ильгар\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\78fb63cda1a9e2b2\\bin\\node.exe",
+        "RegionBytes": 93782016,
+        "ResidentBytes": 22265856,
+        "ShareableResidentBytes": 22122496,
+        "SharedResidentBytes": 22122496,
+        "PrivateResidentBytes": 143360
+      }
+    ]
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.8195825+03:00",
+    "Name": "node",
+    "PID": 13604,
+    "Error": 0,
+    "ResidentBytes": 51666944,
+    "ShareableResidentBytes": 36265984,
+    "PrivateResidentBytes": 15400960,
+    "Regions": [
+      {
+        "AllocationBase": "0x7FF7F2BC0000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Users\\Ильгар\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\78fb63cda1a9e2b2\\bin\\node.exe",
+        "RegionBytes": 93782016,
+        "ResidentBytes": 22261760,
+        "ShareableResidentBytes": 22114304,
+        "SharedResidentBytes": 22114304,
+        "PrivateResidentBytes": 147456
+      }
+    ]
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.8398062+03:00",
+    "Name": "node",
+    "PID": 16564,
+    "Error": 0,
+    "ResidentBytes": 136015872,
+    "ShareableResidentBytes": 46714880,
+    "PrivateResidentBytes": 89300992,
+    "Regions": [
+      {
+        "AllocationBase": "0x7FF61DC80000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Users\\Ильгар\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin\\node.exe",
+        "RegionBytes": 93216768,
+        "ResidentBytes": 33910784,
+        "ShareableResidentBytes": 33542144,
+        "SharedResidentBytes": 33542144,
+        "PrivateResidentBytes": 368640
+      },
+      {
+        "AllocationBase": "0x1735F590000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 20312064,
+        "ResidentBytes": 20312064,
+        "ShareableResidentBytes": 0,
+        "SharedResidentBytes": 0,
+        "PrivateResidentBytes": 20312064
+      }
+    ]
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.8577639+03:00",
+    "Name": "node",
+    "PID": 18912,
+    "Error": 0,
+    "ResidentBytes": 104054784,
+    "ShareableResidentBytes": 58732544,
+    "PrivateResidentBytes": 45322240,
+    "Regions": [
+      {
+        "AllocationBase": "0x7FF7F2BC0000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Users\\Ильгар\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\78fb63cda1a9e2b2\\bin\\node.exe",
+        "RegionBytes": 93782016,
+        "ResidentBytes": 22355968,
+        "ShareableResidentBytes": 22212608,
+        "SharedResidentBytes": 22212608,
+        "PrivateResidentBytes": 143360
+      },
+      {
+        "AllocationBase": "0x1D46FBA0000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 4665344,
+        "ResidentBytes": 4665344,
+        "ShareableResidentBytes": 4661248,
+        "SharedResidentBytes": 4661248,
+        "PrivateResidentBytes": 4096
+      }
+    ]
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.8672174+03:00",
+    "Name": "node",
+    "PID": 19488,
+    "Error": 0,
+    "ResidentBytes": 39890944,
+    "ShareableResidentBytes": 29855744,
+    "PrivateResidentBytes": 10035200,
+    "Regions": [
+      {
+        "AllocationBase": "0x7FF7F2BC0000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Users\\Ильгар\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\78fb63cda1a9e2b2\\bin\\node.exe",
+        "RegionBytes": 93782016,
+        "ResidentBytes": 17657856,
+        "ShareableResidentBytes": 17514496,
+        "SharedResidentBytes": 17514496,
+        "PrivateResidentBytes": 143360
+      }
+    ]
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.8751525+03:00",
+    "Name": "node",
+    "PID": 20304,
+    "Error": 0,
+    "ResidentBytes": 48209920,
+    "ShareableResidentBytes": 30732288,
+    "PrivateResidentBytes": 17477632,
+    "Regions": [
+      {
+        "AllocationBase": "0x7FF7F2BC0000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Users\\Ильгар\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\78fb63cda1a9e2b2\\bin\\node.exe",
+        "RegionBytes": 93782016,
+        "ResidentBytes": 23060480,
+        "ShareableResidentBytes": 22679552,
+        "SharedResidentBytes": 22679552,
+        "PrivateResidentBytes": 380928
+      }
+    ]
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.8833833+03:00",
+    "Name": "node",
+    "PID": 21484,
+    "Error": 0,
+    "ResidentBytes": 55193600,
+    "ShareableResidentBytes": 32882688,
+    "PrivateResidentBytes": 22310912,
+    "Regions": [
+      {
+        "AllocationBase": "0x7FF7F2BC0000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Users\\Ильгар\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\78fb63cda1a9e2b2\\bin\\node.exe",
+        "RegionBytes": 93782016,
+        "ResidentBytes": 25182208,
+        "ShareableResidentBytes": 24801280,
+        "SharedResidentBytes": 24801280,
+        "PrivateResidentBytes": 380928
+      }
+    ]
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.8872944+03:00",
+    "Name": "node_repl",
+    "PID": 1604,
+    "Error": 0,
+    "ResidentBytes": 10665984,
+    "ShareableResidentBytes": 8998912,
+    "PrivateResidentBytes": 1667072,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.8905488+03:00",
+    "Name": "node_repl",
+    "PID": 3908,
+    "Error": 0,
+    "ResidentBytes": 11157504,
+    "ShareableResidentBytes": 9531392,
+    "PrivateResidentBytes": 1626112,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.8939557+03:00",
+    "Name": "node_repl",
+    "PID": 7732,
+    "Error": 0,
+    "ResidentBytes": 11583488,
+    "ShareableResidentBytes": 9551872,
+    "PrivateResidentBytes": 2031616,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.8976207+03:00",
+    "Name": "node_repl",
+    "PID": 15356,
+    "Error": 0,
+    "ResidentBytes": 13148160,
+    "ShareableResidentBytes": 10825728,
+    "PrivateResidentBytes": 2322432,
+    "Regions": [
+      {
+        "AllocationBase": "0x7FF6B7EA0000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Users\\Ильгар\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\78fb63cda1a9e2b2\\bin\\node_repl.exe",
+        "RegionBytes": 23130112,
+        "ResidentBytes": 4939776,
+        "ShareableResidentBytes": 4919296,
+        "SharedResidentBytes": 4919296,
+        "PrivateResidentBytes": 20480
+      }
+    ]
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.9011224+03:00",
+    "Name": "node_repl",
+    "PID": 16108,
+    "Error": 0,
+    "ResidentBytes": 11407360,
+    "ShareableResidentBytes": 9551872,
+    "PrivateResidentBytes": 1855488,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.9046090+03:00",
+    "Name": "node_repl",
+    "PID": 17732,
+    "Error": 0,
+    "ResidentBytes": 11124736,
+    "ShareableResidentBytes": 9527296,
+    "PrivateResidentBytes": 1597440,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.9063335+03:00",
+    "Name": "nvcontainer",
+    "PID": 4724,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.9065651+03:00",
+    "Name": "nvcontainer",
+    "PID": 10396,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.9105047+03:00",
+    "Name": "nvcontainer",
+    "PID": 11112,
+    "Error": 0,
+    "ResidentBytes": 20070400,
+    "ShareableResidentBytes": 16850944,
+    "PrivateResidentBytes": 3219456,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.9150997+03:00",
+    "Name": "nvcontainer",
+    "PID": 11168,
+    "Error": 0,
+    "ResidentBytes": 19517440,
+    "ShareableResidentBytes": 16121856,
+    "PrivateResidentBytes": 3395584,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.9282590+03:00",
+    "Name": "nvcontainer",
+    "PID": 11216,
+    "Error": 0,
+    "ResidentBytes": 74166272,
+    "ShareableResidentBytes": 41394176,
+    "PrivateResidentBytes": 32772096,
+    "Regions": [
+      {
+        "AllocationBase": "0x240D88F0000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 12460032,
+        "ResidentBytes": 12206080,
+        "ShareableResidentBytes": 0,
+        "SharedResidentBytes": 0,
+        "PrivateResidentBytes": 12206080
+      },
+      {
+        "AllocationBase": "0x240D5CE0000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 5267456,
+        "ResidentBytes": 4743168,
+        "ShareableResidentBytes": 0,
+        "SharedResidentBytes": 0,
+        "PrivateResidentBytes": 4743168
+      },
+      {
+        "AllocationBase": "0x7FF9868C0000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Windows\\System32\\OneCoreUAPCommonProxyStub.dll",
+        "RegionBytes": 6664192,
+        "ResidentBytes": 4493312,
+        "ShareableResidentBytes": 4489216,
+        "SharedResidentBytes": 4489216,
+        "PrivateResidentBytes": 4096
+      },
+      {
+        "AllocationBase": "0x7DF543A20000",
+        "Type": "Mapped",
+        "File": "",
+        "RegionBytes": 83771392,
+        "ResidentBytes": 1282048,
+        "ShareableResidentBytes": 1277952,
+        "SharedResidentBytes": 1277952,
+        "PrivateResidentBytes": 4096
+      }
+    ]
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.9313084+03:00",
+    "Name": "NVDisplay.Container",
+    "PID": 2744,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.9316010+03:00",
+    "Name": "NVDisplay.Container",
+    "PID": 5400,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.9318232+03:00",
+    "Name": "OfficeClickToRun",
+    "PID": 4792,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.9407893+03:00",
+    "Name": "ollama",
+    "PID": 2456,
+    "Error": 0,
+    "ResidentBytes": 69177344,
+    "ShareableResidentBytes": 53272576,
+    "PrivateResidentBytes": 15904768,
+    "Regions": [
+      {
+        "AllocationBase": "0x7FF6DA270000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Users\\Ильгар\\AppData\\Local\\Programs\\Ollama\\ollama.exe",
+        "RegionBytes": 61919232,
+        "ResidentBytes": 28073984,
+        "ShareableResidentBytes": 27746304,
+        "SharedResidentBytes": 27746304,
+        "PrivateResidentBytes": 327680
+      },
+      {
+        "AllocationBase": "0x7FF8D5BE0000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Windows\\System32\\DriverStore\\FileRepository\\nvmii.inf_amd64_52a4c0ca7914a7b3\\nvgpucomp64.dll",
+        "RegionBytes": 110788608,
+        "ResidentBytes": 5869568,
+        "ShareableResidentBytes": 4792320,
+        "SharedResidentBytes": 4792320,
+        "PrivateResidentBytes": 1077248
+      }
+    ]
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.9505952+03:00",
+    "Name": "ollama app",
+    "PID": 21148,
+    "Error": 0,
+    "ResidentBytes": 48402432,
+    "ShareableResidentBytes": 40312832,
+    "PrivateResidentBytes": 8089600,
+    "Regions": [
+      {
+        "AllocationBase": "0x7FF761570000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Users\\Ильгар\\AppData\\Local\\Programs\\Ollama\\ollama app.exe",
+        "RegionBytes": 61292544,
+        "ResidentBytes": 27697152,
+        "ShareableResidentBytes": 27160576,
+        "SharedResidentBytes": 27160576,
+        "PrivateResidentBytes": 536576
+      }
+    ]
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.9522193+03:00",
+    "Name": "OneApp.IGCC.WinService",
+    "PID": 4592,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.9525157+03:00",
+    "Name": "pg_ctl",
+    "PID": 4580,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.9527220+03:00",
+    "Name": "pg_ctl",
+    "PID": 4700,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.9529358+03:00",
+    "Name": "pg_ctl",
+    "PID": 4744,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.9808056+03:00",
+    "Name": "PhoneExperienceHost",
+    "PID": 16368,
+    "Error": 0,
+    "ResidentBytes": 180768768,
+    "ShareableResidentBytes": 144601088,
+    "PrivateResidentBytes": 36167680,
+    "Regions": [
+      {
+        "AllocationBase": "0x1ED18410000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 10567680,
+        "ResidentBytes": 10244096,
+        "ShareableResidentBytes": 4096,
+        "SharedResidentBytes": 4096,
+        "PrivateResidentBytes": 10240000
+      },
+      {
+        "AllocationBase": "0x7FF9053F0000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.26082.121.0_x64__8wekyb3d8bbwe\\System.Private.CoreLib.dll",
+        "RegionBytes": 16023552,
+        "ResidentBytes": 7901184,
+        "ShareableResidentBytes": 7655424,
+        "SharedResidentBytes": 7655424,
+        "PrivateResidentBytes": 245760
+      },
+      {
+        "AllocationBase": "0x7FF8F0940000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.26082.121.0_x64__8wekyb3d8bbwe\\Microsoft.Windows.SDK.NET.dll",
+        "RegionBytes": 60633088,
+        "ResidentBytes": 7864320,
+        "ShareableResidentBytes": 7245824,
+        "SharedResidentBytes": 7245824,
+        "PrivateResidentBytes": 618496
+      },
+      {
+        "AllocationBase": "0x1F4F8000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 8155136,
+        "ResidentBytes": 7602176,
+        "ShareableResidentBytes": 73728,
+        "SharedResidentBytes": 73728,
+        "PrivateResidentBytes": 7528448
+      },
+      {
+        "AllocationBase": "0x1F4F3000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 5545984,
+        "ResidentBytes": 5505024,
+        "ShareableResidentBytes": 1294336,
+        "SharedResidentBytes": 1294336,
+        "PrivateResidentBytes": 4210688
+      },
+      {
+        "AllocationBase": "0x7FF9868C0000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Windows\\System32\\OneCoreUAPCommonProxyStub.dll",
+        "RegionBytes": 6664192,
+        "ResidentBytes": 4440064,
+        "ShareableResidentBytes": 4431872,
+        "SharedResidentBytes": 4431872,
+        "PrivateResidentBytes": 8192
+      },
+      {
+        "AllocationBase": "0x7DF543A20000",
+        "Type": "Mapped",
+        "File": "",
+        "RegionBytes": 83795968,
+        "ResidentBytes": 2248704,
+        "ShareableResidentBytes": 2211840,
+        "SharedResidentBytes": 2211840,
+        "PrivateResidentBytes": 36864
+      }
+    ]
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.9884116+03:00",
+    "Name": "PolynomAppServer",
+    "PID": 4768,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.9886974+03:00",
+    "Name": "postgres",
+    "PID": 6440,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.9888826+03:00",
+    "Name": "postgres",
+    "PID": 6964,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.9890554+03:00",
+    "Name": "postgres",
+    "PID": 6976,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.9892293+03:00",
+    "Name": "postgres",
+    "PID": 7584,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.9894210+03:00",
+    "Name": "postgres",
+    "PID": 7648,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.9895930+03:00",
+    "Name": "postgres",
+    "PID": 7956,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.9897653+03:00",
+    "Name": "postgres",
+    "PID": 8016,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.9899482+03:00",
+    "Name": "postgres",
+    "PID": 8156,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.9901475+03:00",
+    "Name": "postgres",
+    "PID": 8164,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.9903230+03:00",
+    "Name": "postgres",
+    "PID": 8396,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.9905047+03:00",
+    "Name": "postgres",
+    "PID": 8412,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.9907193+03:00",
+    "Name": "postgres",
+    "PID": 8420,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.9909022+03:00",
+    "Name": "postgres",
+    "PID": 8528,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.9910698+03:00",
+    "Name": "postgres",
+    "PID": 8536,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.9912362+03:00",
+    "Name": "postgres",
+    "PID": 8548,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.9914026+03:00",
+    "Name": "postgres",
+    "PID": 8560,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.9915688+03:00",
+    "Name": "postgres",
+    "PID": 8572,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.9917346+03:00",
+    "Name": "postgres",
+    "PID": 8744,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.9919207+03:00",
+    "Name": "postgres",
+    "PID": 8752,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.9920832+03:00",
+    "Name": "postgres",
+    "PID": 8760,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:37.9922462+03:00",
+    "Name": "PresentationFontCache",
+    "PID": 11336,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.0082568+03:00",
+    "Name": "pwsh",
+    "PID": 1848,
+    "Error": 0,
+    "ResidentBytes": 171823104,
+    "ShareableResidentBytes": 99012608,
+    "PrivateResidentBytes": 72810496,
+    "Regions": [
+      {
+        "AllocationBase": "0x1EE8E550000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 22368256,
+        "ResidentBytes": 22315008,
+        "ShareableResidentBytes": 0,
+        "SharedResidentBytes": 0,
+        "PrivateResidentBytes": 22315008
+      },
+      {
+        "AllocationBase": "0x1F67E920000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 19648512,
+        "ResidentBytes": 19648512,
+        "ShareableResidentBytes": 0,
+        "SharedResidentBytes": 0,
+        "PrivateResidentBytes": 19648512
+      },
+      {
+        "AllocationBase": "0x7FF8AE8A0000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Users\\Ильгар\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell\\System.Management.Automation.dll",
+        "RegionBytes": 19636224,
+        "ResidentBytes": 10801152,
+        "ShareableResidentBytes": 10264576,
+        "SharedResidentBytes": 10264576,
+        "PrivateResidentBytes": 536576
+      },
+      {
+        "AllocationBase": "0x7FF902290000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Users\\Ильгар\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell\\System.Private.CoreLib.dll",
+        "RegionBytes": 16023552,
+        "ResidentBytes": 9310208,
+        "ShareableResidentBytes": 9064448,
+        "SharedResidentBytes": 9064448,
+        "PrivateResidentBytes": 245760
+      },
+      {
+        "AllocationBase": "0x7FF8AA1B0000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Users\\Ильгар\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell\\Microsoft.CodeAnalysis.CSharp.dll",
+        "RegionBytes": 18526208,
+        "ResidentBytes": 8699904,
+        "ShareableResidentBytes": 8294400,
+        "SharedResidentBytes": 8294400,
+        "PrivateResidentBytes": 405504
+      },
+      {
+        "AllocationBase": "0x1F67E0E0000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 8384512,
+        "ResidentBytes": 8269824,
+        "ShareableResidentBytes": 0,
+        "SharedResidentBytes": 0,
+        "PrivateResidentBytes": 8269824
+      },
+      {
+        "AllocationBase": "0x1EE80000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 6340608,
+        "ResidentBytes": 6103040,
+        "ShareableResidentBytes": 0,
+        "SharedResidentBytes": 0,
+        "PrivateResidentBytes": 6103040
+      },
+      {
+        "AllocationBase": "0x7FF8AB360000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Users\\Ильгар\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell\\Microsoft.CodeAnalysis.dll",
+        "RegionBytes": 8118272,
+        "ResidentBytes": 4366336,
+        "ShareableResidentBytes": 4096000,
+        "SharedResidentBytes": 4096000,
+        "PrivateResidentBytes": 270336
+      },
+      {
+        "AllocationBase": "0x7DF543A20000",
+        "Type": "Mapped",
+        "File": "",
+        "RegionBytes": 83791872,
+        "ResidentBytes": 1212416,
+        "ShareableResidentBytes": 638976,
+        "SharedResidentBytes": 638976,
+        "PrivateResidentBytes": 573440
+      }
+    ]
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.0357598+03:00",
+    "Name": "pwsh",
+    "PID": 9284,
+    "Error": 0,
+    "ResidentBytes": 162557952,
+    "ShareableResidentBytes": 96870400,
+    "PrivateResidentBytes": 65687552,
+    "Regions": [
+      {
+        "AllocationBase": "0x2DD75050000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 36352000,
+        "ResidentBytes": 36282368,
+        "ShareableResidentBytes": 0,
+        "SharedResidentBytes": 0,
+        "PrivateResidentBytes": 36282368
+      },
+      {
+        "AllocationBase": "0x7FF8AE8A0000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Users\\Ильгар\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell\\System.Management.Automation.dll",
+        "RegionBytes": 19636224,
+        "ResidentBytes": 12132352,
+        "ShareableResidentBytes": 11583488,
+        "SharedResidentBytes": 11583488,
+        "PrivateResidentBytes": 548864
+      },
+      {
+        "AllocationBase": "0x7FF902290000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Users\\Ильгар\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell\\System.Private.CoreLib.dll",
+        "RegionBytes": 16023552,
+        "ResidentBytes": 9957376,
+        "ShareableResidentBytes": 9711616,
+        "SharedResidentBytes": 9711616,
+        "PrivateResidentBytes": 245760
+      },
+      {
+        "AllocationBase": "0x2DD15BE0000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 8527872,
+        "ResidentBytes": 7061504,
+        "ShareableResidentBytes": 0,
+        "SharedResidentBytes": 0,
+        "PrivateResidentBytes": 7061504
+      },
+      {
+        "AllocationBase": "0x2DD15270000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 7864320,
+        "ResidentBytes": 6901760,
+        "ShareableResidentBytes": 0,
+        "SharedResidentBytes": 0,
+        "PrivateResidentBytes": 6901760
+      },
+      {
+        "AllocationBase": "0x7FF8A87A0000",
+        "Type": "Mapped",
+        "File": "",
+        "RegionBytes": 2007040,
+        "ResidentBytes": 1961984,
+        "ShareableResidentBytes": 1961984,
+        "SharedResidentBytes": 1961984,
+        "PrivateResidentBytes": 0
+      },
+      {
+        "AllocationBase": "0x7DF543A20000",
+        "Type": "Mapped",
+        "File": "",
+        "RegionBytes": 83767296,
+        "ResidentBytes": 1343488,
+        "ShareableResidentBytes": 770048,
+        "SharedResidentBytes": 770048,
+        "PrivateResidentBytes": 573440
+      }
+    ]
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.0423981+03:00",
+    "Name": "Registry",
+    "PID": 232,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.0427304+03:00",
+    "Name": "RtkAudUService64",
+    "PID": 4760,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.0484887+03:00",
+    "Name": "RuntimeBroker",
+    "PID": 4364,
+    "Error": 0,
+    "ResidentBytes": 28377088,
+    "ShareableResidentBytes": 26181632,
+    "PrivateResidentBytes": 2195456,
+    "Regions": [
+      {
+        "AllocationBase": "0x7FF9868C0000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Windows\\System32\\OneCoreUAPCommonProxyStub.dll",
+        "RegionBytes": 6664192,
+        "ResidentBytes": 4534272,
+        "ShareableResidentBytes": 4530176,
+        "SharedResidentBytes": 4530176,
+        "PrivateResidentBytes": 4096
+      }
+    ]
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.0620221+03:00",
+    "Name": "RuntimeBroker",
+    "PID": 13552,
+    "Error": 0,
+    "ResidentBytes": 68841472,
+    "ShareableResidentBytes": 60563456,
+    "PrivateResidentBytes": 8278016,
+    "Regions": [
+      {
+        "AllocationBase": "0x20870000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 6967296,
+        "ResidentBytes": 6176768,
+        "ShareableResidentBytes": 90112,
+        "SharedResidentBytes": 90112,
+        "PrivateResidentBytes": 6086656
+      },
+      {
+        "AllocationBase": "0x7FF998CB0000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Windows\\System32\\windows.storage.dll",
+        "RegionBytes": 9105408,
+        "ResidentBytes": 4710400,
+        "ShareableResidentBytes": 4653056,
+        "SharedResidentBytes": 4653056,
+        "PrivateResidentBytes": 57344
+      },
+      {
+        "AllocationBase": "0x7FF9868C0000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Windows\\System32\\OneCoreUAPCommonProxyStub.dll",
+        "RegionBytes": 6664192,
+        "ResidentBytes": 4616192,
+        "ShareableResidentBytes": 4612096,
+        "SharedResidentBytes": 4612096,
+        "PrivateResidentBytes": 4096
+      },
+      {
+        "AllocationBase": "0x7DF543A20000",
+        "Type": "Mapped",
+        "File": "",
+        "RegionBytes": 83750912,
+        "ResidentBytes": 1658880,
+        "ShareableResidentBytes": 1658880,
+        "SharedResidentBytes": 1658880,
+        "PrivateResidentBytes": 0
+      }
+    ]
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.0696461+03:00",
+    "Name": "RuntimeBroker",
+    "PID": 15240,
+    "Error": 0,
+    "ResidentBytes": 15122432,
+    "ShareableResidentBytes": 13983744,
+    "PrivateResidentBytes": 1138688,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.0776263+03:00",
+    "Name": "RuntimeBroker",
+    "PID": 19024,
+    "Error": 0,
+    "ResidentBytes": 19709952,
+    "ShareableResidentBytes": 18190336,
+    "PrivateResidentBytes": 1519616,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.0797613+03:00",
+    "Name": "SearchFilterHost",
+    "PID": 11244,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.0802384+03:00",
+    "Name": "SearchFilterHost",
+    "PID": 17984,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.1114921+03:00",
+    "Name": "SearchHost",
+    "PID": 12644,
+    "Error": 0,
+    "ResidentBytes": 160182272,
+    "ShareableResidentBytes": 117039104,
+    "PrivateResidentBytes": 43143168,
+    "Regions": [
+      {
+        "AllocationBase": "0x1C18C000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 13209600,
+        "ResidentBytes": 13197312,
+        "ShareableResidentBytes": 40960,
+        "SharedResidentBytes": 40960,
+        "PrivateResidentBytes": 13156352
+      },
+      {
+        "AllocationBase": "0x1C18B000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 11370496,
+        "ResidentBytes": 11313152,
+        "ShareableResidentBytes": 8192,
+        "SharedResidentBytes": 8192,
+        "PrivateResidentBytes": 11304960
+      },
+      {
+        "AllocationBase": "0x7FF98C410000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Windows\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_357acc06f2c40efb\\igc64.dll",
+        "RegionBytes": 73940992,
+        "ResidentBytes": 9994240,
+        "ShareableResidentBytes": 9383936,
+        "SharedResidentBytes": 9383936,
+        "PrivateResidentBytes": 610304
+      },
+      {
+        "AllocationBase": "0x7FF97FE70000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Windows\\System32\\Windows.UI.Xaml.dll",
+        "RegionBytes": 17965056,
+        "ResidentBytes": 8892416,
+        "ShareableResidentBytes": 8826880,
+        "SharedResidentBytes": 8826880,
+        "PrivateResidentBytes": 65536
+      },
+      {
+        "AllocationBase": "0x1C180000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 7479296,
+        "ResidentBytes": 6836224,
+        "ShareableResidentBytes": 45056,
+        "SharedResidentBytes": 45056,
+        "PrivateResidentBytes": 6791168
+      },
+      {
+        "AllocationBase": "0x7FF940B50000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\SearchUx.InternalWebApi.dll",
+        "RegionBytes": 7909376,
+        "ResidentBytes": 5332992,
+        "ShareableResidentBytes": 5287936,
+        "SharedResidentBytes": 5287936,
+        "PrivateResidentBytes": 45056
+      },
+      {
+        "AllocationBase": "0x7FF9868C0000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Windows\\System32\\OneCoreUAPCommonProxyStub.dll",
+        "RegionBytes": 6664192,
+        "ResidentBytes": 4603904,
+        "ShareableResidentBytes": 4562944,
+        "SharedResidentBytes": 4562944,
+        "PrivateResidentBytes": 40960
+      },
+      {
+        "AllocationBase": "0x7FF941330000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\\SearchUx.UI.dll",
+        "RegionBytes": 12394496,
+        "ResidentBytes": 4292608,
+        "ShareableResidentBytes": 4218880,
+        "SharedResidentBytes": 4218880,
+        "PrivateResidentBytes": 73728
+      },
+      {
+        "AllocationBase": "0x1C185000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 4251648,
+        "ResidentBytes": 4210688,
+        "ShareableResidentBytes": 0,
+        "SharedResidentBytes": 0,
+        "PrivateResidentBytes": 4210688
+      },
+      {
+        "AllocationBase": "0x7DF543A20000",
+        "Type": "Mapped",
+        "File": "",
+        "RegionBytes": 83750912,
+        "ResidentBytes": 2928640,
+        "ShareableResidentBytes": 2924544,
+        "SharedResidentBytes": 2924544,
+        "PrivateResidentBytes": 4096
+      }
+    ]
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.1179430+03:00",
+    "Name": "SearchIndexer",
+    "PID": 18592,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.1184880+03:00",
+    "Name": "SearchProtocolHost",
+    "PID": 5328,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.1189084+03:00",
+    "Name": "Secure System",
+    "PID": 188,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.1192865+03:00",
+    "Name": "SecurityHealthService",
+    "PID": 6224,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.1244599+03:00",
+    "Name": "SecurityHealthSystray",
+    "PID": 16024,
+    "Error": 0,
+    "ResidentBytes": 13934592,
+    "ShareableResidentBytes": 12795904,
+    "PrivateResidentBytes": 1138688,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.1273067+03:00",
+    "Name": "services",
+    "PID": 1288,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.1467858+03:00",
+    "Name": "ShellExperienceHost",
+    "PID": 8120,
+    "Error": 0,
+    "ResidentBytes": 100454400,
+    "ShareableResidentBytes": 79949824,
+    "PrivateResidentBytes": 20504576,
+    "Regions": [
+      {
+        "AllocationBase": "0x7FF98C410000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Windows\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_357acc06f2c40efb\\igc64.dll",
+        "RegionBytes": 73940992,
+        "ResidentBytes": 9994240,
+        "ShareableResidentBytes": 9383936,
+        "SharedResidentBytes": 9383936,
+        "PrivateResidentBytes": 610304
+      },
+      {
+        "AllocationBase": "0x7FF97FE70000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Windows\\System32\\Windows.UI.Xaml.dll",
+        "RegionBytes": 17965056,
+        "ResidentBytes": 9048064,
+        "ShareableResidentBytes": 8982528,
+        "SharedResidentBytes": 8982528,
+        "PrivateResidentBytes": 65536
+      },
+      {
+        "AllocationBase": "0x18255000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 6529024,
+        "ResidentBytes": 5869568,
+        "ShareableResidentBytes": 12288,
+        "SharedResidentBytes": 12288,
+        "PrivateResidentBytes": 5857280
+      },
+      {
+        "AllocationBase": "0x7FF9868C0000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Windows\\System32\\OneCoreUAPCommonProxyStub.dll",
+        "RegionBytes": 6664192,
+        "ResidentBytes": 4579328,
+        "ShareableResidentBytes": 4538368,
+        "SharedResidentBytes": 4538368,
+        "PrivateResidentBytes": 40960
+      },
+      {
+        "AllocationBase": "0x1825B000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 4251648,
+        "ResidentBytes": 4210688,
+        "ShareableResidentBytes": 0,
+        "SharedResidentBytes": 0,
+        "PrivateResidentBytes": 4210688
+      },
+      {
+        "AllocationBase": "0x7DF543A20000",
+        "Type": "Mapped",
+        "File": "",
+        "RegionBytes": 83734528,
+        "ResidentBytes": 1994752,
+        "ShareableResidentBytes": 1982464,
+        "SharedResidentBytes": 1982464,
+        "PrivateResidentBytes": 12288
+      }
+    ]
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.1746877+03:00",
+    "Name": "ShellHost",
+    "PID": 12240,
+    "Error": 0,
+    "ResidentBytes": 140750848,
+    "ShareableResidentBytes": 99618816,
+    "PrivateResidentBytes": 41132032,
+    "Regions": [
+      {
+        "AllocationBase": "0x25178840000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 13262848,
+        "ResidentBytes": 12869632,
+        "ShareableResidentBytes": 0,
+        "SharedResidentBytes": 0,
+        "PrivateResidentBytes": 12869632
+      },
+      {
+        "AllocationBase": "0x7FF97FE70000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Windows\\System32\\Windows.UI.Xaml.dll",
+        "RegionBytes": 17965056,
+        "ResidentBytes": 10166272,
+        "ShareableResidentBytes": 10129408,
+        "SharedResidentBytes": 10129408,
+        "PrivateResidentBytes": 36864
+      },
+      {
+        "AllocationBase": "0x25176E90000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 8081408,
+        "ResidentBytes": 7774208,
+        "ShareableResidentBytes": 0,
+        "SharedResidentBytes": 0,
+        "PrivateResidentBytes": 7774208
+      },
+      {
+        "AllocationBase": "0x7FF9868C0000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Windows\\System32\\OneCoreUAPCommonProxyStub.dll",
+        "RegionBytes": 6664192,
+        "ResidentBytes": 4468736,
+        "ShareableResidentBytes": 4464640,
+        "SharedResidentBytes": 4464640,
+        "PrivateResidentBytes": 4096
+      },
+      {
+        "AllocationBase": "0x7DF543A20000",
+        "Type": "Mapped",
+        "File": "",
+        "RegionBytes": 83775488,
+        "ResidentBytes": 2633728,
+        "ShareableResidentBytes": 2596864,
+        "SharedResidentBytes": 2596864,
+        "PrivateResidentBytes": 36864
+      }
+    ]
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.1988180+03:00",
+    "Name": "sihost",
+    "PID": 11208,
+    "Error": 0,
+    "ResidentBytes": 52469760,
+    "ShareableResidentBytes": 46923776,
+    "PrivateResidentBytes": 5545984,
+    "Regions": [
+      {
+        "AllocationBase": "0x7FF9868C0000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Windows\\System32\\OneCoreUAPCommonProxyStub.dll",
+        "RegionBytes": 6664192,
+        "ResidentBytes": 4538368,
+        "ShareableResidentBytes": 4530176,
+        "SharedResidentBytes": 4530176,
+        "PrivateResidentBytes": 8192
+      },
+      {
+        "AllocationBase": "0x7DF543A20000",
+        "Type": "Mapped",
+        "File": "",
+        "RegionBytes": 83767296,
+        "ResidentBytes": 1273856,
+        "ShareableResidentBytes": 1236992,
+        "SharedResidentBytes": 1236992,
+        "PrivateResidentBytes": 36864
+      }
+    ]
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.2073757+03:00",
+    "Name": "smartscreen",
+    "PID": 16064,
+    "Error": 0,
+    "ResidentBytes": 13774848,
+    "ShareableResidentBytes": 12410880,
+    "PrivateResidentBytes": 1363968,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.2085953+03:00",
+    "Name": "smss",
+    "PID": 736,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.2289440+03:00",
+    "Name": "SnippingTool",
+    "PID": 10640,
+    "Error": 0,
+    "ResidentBytes": 175067136,
+    "ShareableResidentBytes": 95674368,
+    "PrivateResidentBytes": 79392768,
+    "Regions": [
+      {
+        "AllocationBase": "0x2753CAE0000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 13279232,
+        "ResidentBytes": 13209600,
+        "ShareableResidentBytes": 0,
+        "SharedResidentBytes": 0,
+        "PrivateResidentBytes": 13209600
+      },
+      {
+        "AllocationBase": "0x2B5D48D0000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 14766080,
+        "ResidentBytes": 13037568,
+        "ShareableResidentBytes": 0,
+        "SharedResidentBytes": 0,
+        "PrivateResidentBytes": 13037568
+      },
+      {
+        "AllocationBase": "0x2B5DB000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 12582912,
+        "ResidentBytes": 12193792,
+        "ShareableResidentBytes": 0,
+        "SharedResidentBytes": 0,
+        "PrivateResidentBytes": 12193792
+      },
+      {
+        "AllocationBase": "0x7FF8AC4C0000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Program Files\\WindowsApps\\Microsoft.ScreenSketch_11.2608.41.0_x64__8wekyb3d8bbwe\\SnippingTool\\SnippingTool.Net.RuntimeComponent.dll",
+        "RegionBytes": 25186304,
+        "ResidentBytes": 11902976,
+        "ShareableResidentBytes": 11182080,
+        "SharedResidentBytes": 11182080,
+        "PrivateResidentBytes": 720896
+      },
+      {
+        "AllocationBase": "0x7FF97FE70000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Windows\\System32\\Windows.UI.Xaml.dll",
+        "RegionBytes": 17965056,
+        "ResidentBytes": 10526720,
+        "ShareableResidentBytes": 10461184,
+        "SharedResidentBytes": 10461184,
+        "PrivateResidentBytes": 65536
+      },
+      {
+        "AllocationBase": "0x2B5DC000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 9441280,
+        "ResidentBytes": 9441280,
+        "ShareableResidentBytes": 0,
+        "SharedResidentBytes": 0,
+        "PrivateResidentBytes": 9441280
+      },
+      {
+        "AllocationBase": "0x2B5D2000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 15949824,
+        "ResidentBytes": 9060352,
+        "ShareableResidentBytes": 0,
+        "SharedResidentBytes": 0,
+        "PrivateResidentBytes": 9060352
+      },
+      {
+        "AllocationBase": "0x2B5E4000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 11825152,
+        "ResidentBytes": 8605696,
+        "ShareableResidentBytes": 0,
+        "SharedResidentBytes": 0,
+        "PrivateResidentBytes": 8605696
+      },
+      {
+        "AllocationBase": "0x2753A000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 8130560,
+        "ResidentBytes": 7868416,
+        "ShareableResidentBytes": 0,
+        "SharedResidentBytes": 0,
+        "PrivateResidentBytes": 7868416
+      },
+      {
+        "AllocationBase": "0x7FF9868C0000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Windows\\System32\\OneCoreUAPCommonProxyStub.dll",
+        "RegionBytes": 6664192,
+        "ResidentBytes": 4476928,
+        "ShareableResidentBytes": 4435968,
+        "SharedResidentBytes": 4435968,
+        "PrivateResidentBytes": 40960
+      },
+      {
+        "AllocationBase": "0x7DF543A20000",
+        "Type": "Mapped",
+        "File": "",
+        "RegionBytes": 83767296,
+        "ResidentBytes": 2199552,
+        "ShareableResidentBytes": 2174976,
+        "SharedResidentBytes": 2174976,
+        "PrivateResidentBytes": 24576
+      }
+    ]
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.2327325+03:00",
+    "Name": "spoolsv",
+    "PID": 4128,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.2333675+03:00",
+    "Name": "sqlwriter",
+    "PID": 4804,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.2559392+03:00",
+    "Name": "StartMenuExperienceHost",
+    "PID": 13304,
+    "Error": 0,
+    "ResidentBytes": 190287872,
+    "ShareableResidentBytes": 123445248,
+    "PrivateResidentBytes": 66842624,
+    "Regions": [
+      {
+        "AllocationBase": "0x25116000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 13295616,
+        "ResidentBytes": 13217792,
+        "ShareableResidentBytes": 53248,
+        "SharedResidentBytes": 53248,
+        "PrivateResidentBytes": 13164544
+      },
+      {
+        "AllocationBase": "0x2512F000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 11616256,
+        "ResidentBytes": 11280384,
+        "ShareableResidentBytes": 32768,
+        "SharedResidentBytes": 32768,
+        "PrivateResidentBytes": 11247616
+      },
+      {
+        "AllocationBase": "0x7FF97FE70000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Windows\\System32\\Windows.UI.Xaml.dll",
+        "RegionBytes": 17965056,
+        "ResidentBytes": 10113024,
+        "ShareableResidentBytes": 10076160,
+        "SharedResidentBytes": 10076160,
+        "PrivateResidentBytes": 36864
+      },
+      {
+        "AllocationBase": "0x2511A000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 9654272,
+        "ResidentBytes": 9543680,
+        "ShareableResidentBytes": 192512,
+        "SharedResidentBytes": 192512,
+        "PrivateResidentBytes": 9351168
+      },
+      {
+        "AllocationBase": "0x2590AC00000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 16777216,
+        "ResidentBytes": 9154560,
+        "ShareableResidentBytes": 200704,
+        "SharedResidentBytes": 200704,
+        "PrivateResidentBytes": 8953856
+      },
+      {
+        "AllocationBase": "0x25129000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 9777152,
+        "ResidentBytes": 8916992,
+        "ShareableResidentBytes": 0,
+        "SharedResidentBytes": 0,
+        "PrivateResidentBytes": 8916992
+      },
+      {
+        "AllocationBase": "0x25124000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 7892992,
+        "ResidentBytes": 7213056,
+        "ShareableResidentBytes": 94208,
+        "SharedResidentBytes": 94208,
+        "PrivateResidentBytes": 7118848
+      },
+      {
+        "AllocationBase": "0x7FF9868C0000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Windows\\System32\\OneCoreUAPCommonProxyStub.dll",
+        "RegionBytes": 6664192,
+        "ResidentBytes": 4587520,
+        "ShareableResidentBytes": 4583424,
+        "SharedResidentBytes": 4583424,
+        "PrivateResidentBytes": 4096
+      },
+      {
+        "AllocationBase": "0x7DF543A20000",
+        "Type": "Mapped",
+        "File": "",
+        "RegionBytes": 83738624,
+        "ResidentBytes": 2957312,
+        "ShareableResidentBytes": 2940928,
+        "SharedResidentBytes": 2940928,
+        "PrivateResidentBytes": 16384
+      }
+    ]
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.2594071+03:00",
+    "Name": "svchost",
+    "PID": 1408,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.2596503+03:00",
+    "Name": "svchost",
+    "PID": 1484,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.2598259+03:00",
+    "Name": "svchost",
+    "PID": 1500,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.2599906+03:00",
+    "Name": "svchost",
+    "PID": 1664,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.2601666+03:00",
+    "Name": "svchost",
+    "PID": 1680,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.2603264+03:00",
+    "Name": "svchost",
+    "PID": 1720,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.2604846+03:00",
+    "Name": "svchost",
+    "PID": 1884,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.2606467+03:00",
+    "Name": "svchost",
+    "PID": 1900,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.2608072+03:00",
+    "Name": "svchost",
+    "PID": 1952,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.2609676+03:00",
+    "Name": "svchost",
+    "PID": 2028,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.2611261+03:00",
+    "Name": "svchost",
+    "PID": 2036,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.2612851+03:00",
+    "Name": "svchost",
+    "PID": 2060,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.2614687+03:00",
+    "Name": "svchost",
+    "PID": 2084,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.2616517+03:00",
+    "Name": "svchost",
+    "PID": 2108,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.2618089+03:00",
+    "Name": "svchost",
+    "PID": 2188,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.2619670+03:00",
+    "Name": "svchost",
+    "PID": 2276,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.2621453+03:00",
+    "Name": "svchost",
+    "PID": 2308,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.2623017+03:00",
+    "Name": "svchost",
+    "PID": 2320,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.2624580+03:00",
+    "Name": "svchost",
+    "PID": 2356,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.2626232+03:00",
+    "Name": "svchost",
+    "PID": 2420,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.2627778+03:00",
+    "Name": "svchost",
+    "PID": 2428,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.2629358+03:00",
+    "Name": "svchost",
+    "PID": 2444,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.2631044+03:00",
+    "Name": "svchost",
+    "PID": 2828,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.2632614+03:00",
+    "Name": "svchost",
+    "PID": 2960,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.2634162+03:00",
+    "Name": "svchost",
+    "PID": 3032,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.2635703+03:00",
+    "Name": "svchost",
+    "PID": 3132,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.2637252+03:00",
+    "Name": "svchost",
+    "PID": 3140,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.2638797+03:00",
+    "Name": "svchost",
+    "PID": 3252,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.2640436+03:00",
+    "Name": "svchost",
+    "PID": 3272,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.2642640+03:00",
+    "Name": "svchost",
+    "PID": 3388,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.2644698+03:00",
+    "Name": "svchost",
+    "PID": 3420,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.2646995+03:00",
+    "Name": "svchost",
+    "PID": 3436,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.2648826+03:00",
+    "Name": "svchost",
+    "PID": 3508,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.2650457+03:00",
+    "Name": "svchost",
+    "PID": 3604,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.2652246+03:00",
+    "Name": "svchost",
+    "PID": 3664,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.2653816+03:00",
+    "Name": "svchost",
+    "PID": 3672,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.2655357+03:00",
+    "Name": "svchost",
+    "PID": 3744,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.2656896+03:00",
+    "Name": "svchost",
+    "PID": 3868,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.2658434+03:00",
+    "Name": "svchost",
+    "PID": 3928,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.2660003+03:00",
+    "Name": "svchost",
+    "PID": 3988,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.2661660+03:00",
+    "Name": "svchost",
+    "PID": 4084,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.2663204+03:00",
+    "Name": "svchost",
+    "PID": 4332,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.2664815+03:00",
+    "Name": "svchost",
+    "PID": 4484,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.2666401+03:00",
+    "Name": "svchost",
+    "PID": 4576,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.2667934+03:00",
+    "Name": "svchost",
+    "PID": 4604,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.2669457+03:00",
+    "Name": "svchost",
+    "PID": 4620,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.2670985+03:00",
+    "Name": "svchost",
+    "PID": 4668,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.2672509+03:00",
+    "Name": "svchost",
+    "PID": 4708,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.2674076+03:00",
+    "Name": "svchost",
+    "PID": 4716,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.2675724+03:00",
+    "Name": "svchost",
+    "PID": 4732,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.2677267+03:00",
+    "Name": "svchost",
+    "PID": 5012,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.2678846+03:00",
+    "Name": "svchost",
+    "PID": 5664,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.2680499+03:00",
+    "Name": "svchost",
+    "PID": 5800,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.2682197+03:00",
+    "Name": "svchost",
+    "PID": 5892,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.2683747+03:00",
+    "Name": "svchost",
+    "PID": 5952,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.2685339+03:00",
+    "Name": "svchost",
+    "PID": 5984,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.2686897+03:00",
+    "Name": "svchost",
+    "PID": 6032,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.2688662+03:00",
+    "Name": "svchost",
+    "PID": 6432,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.2718858+03:00",
+    "Name": "svchost",
+    "PID": 7060,
+    "Error": 0,
+    "ResidentBytes": 16777216,
+    "ShareableResidentBytes": 15523840,
+    "PrivateResidentBytes": 1253376,
+    "Regions": [
+      {
+        "AllocationBase": "0x7FF9868C0000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Windows\\System32\\OneCoreUAPCommonProxyStub.dll",
+        "RegionBytes": 6664192,
+        "ResidentBytes": 4390912,
+        "ShareableResidentBytes": 4386816,
+        "SharedResidentBytes": 4386816,
+        "PrivateResidentBytes": 4096
+      }
+    ]
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.2728332+03:00",
+    "Name": "svchost",
+    "PID": 7464,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.2730308+03:00",
+    "Name": "svchost",
+    "PID": 7504,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.2731984+03:00",
+    "Name": "svchost",
+    "PID": 8584,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.2733592+03:00",
+    "Name": "svchost",
+    "PID": 8940,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.2744592+03:00",
+    "Name": "svchost",
+    "PID": 8944,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.2746389+03:00",
+    "Name": "svchost",
+    "PID": 9984,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.2748130+03:00",
+    "Name": "svchost",
+    "PID": 10120,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.2750003+03:00",
+    "Name": "svchost",
+    "PID": 10660,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.2751631+03:00",
+    "Name": "svchost",
+    "PID": 10692,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.2753261+03:00",
+    "Name": "svchost",
+    "PID": 10700,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.2755140+03:00",
+    "Name": "svchost",
+    "PID": 10756,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.2810620+03:00",
+    "Name": "svchost",
+    "PID": 11300,
+    "Error": 0,
+    "ResidentBytes": 38490112,
+    "ShareableResidentBytes": 31789056,
+    "PrivateResidentBytes": 6701056,
+    "Regions": [
+      {
+        "AllocationBase": "0x24AD4000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 5652480,
+        "ResidentBytes": 5570560,
+        "ShareableResidentBytes": 40960,
+        "SharedResidentBytes": 40960,
+        "PrivateResidentBytes": 5529600
+      },
+      {
+        "AllocationBase": "0x7FF9868C0000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Windows\\System32\\OneCoreUAPCommonProxyStub.dll",
+        "RegionBytes": 6664192,
+        "ResidentBytes": 4481024,
+        "ShareableResidentBytes": 4476928,
+        "SharedResidentBytes": 4476928,
+        "PrivateResidentBytes": 4096
+      }
+    ]
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.2855405+03:00",
+    "Name": "svchost",
+    "PID": 11372,
+    "Error": 0,
+    "ResidentBytes": 12115968,
+    "ShareableResidentBytes": 11018240,
+    "PrivateResidentBytes": 1097728,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.2964037+03:00",
+    "Name": "svchost",
+    "PID": 11408,
+    "Error": 0,
+    "ResidentBytes": 54644736,
+    "ShareableResidentBytes": 46907392,
+    "PrivateResidentBytes": 7737344,
+    "Regions": [
+      {
+        "AllocationBase": "0x16149000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 5210112,
+        "ResidentBytes": 5197824,
+        "ShareableResidentBytes": 20480,
+        "SharedResidentBytes": 20480,
+        "PrivateResidentBytes": 5177344
+      },
+      {
+        "AllocationBase": "0x7FF9868C0000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Windows\\System32\\OneCoreUAPCommonProxyStub.dll",
+        "RegionBytes": 6664192,
+        "ResidentBytes": 4526080,
+        "ShareableResidentBytes": 4521984,
+        "SharedResidentBytes": 4521984,
+        "PrivateResidentBytes": 4096
+      },
+      {
+        "AllocationBase": "0x7DF543A20000",
+        "Type": "Mapped",
+        "File": "",
+        "RegionBytes": 83726336,
+        "ResidentBytes": 1187840,
+        "ShareableResidentBytes": 1187840,
+        "SharedResidentBytes": 1187840,
+        "PrivateResidentBytes": 0
+      }
+    ]
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.2986755+03:00",
+    "Name": "svchost",
+    "PID": 11608,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.2989733+03:00",
+    "Name": "svchost",
+    "PID": 11672,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.2992002+03:00",
+    "Name": "svchost",
+    "PID": 12104,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.2993715+03:00",
+    "Name": "svchost",
+    "PID": 12252,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.3041188+03:00",
+    "Name": "svchost",
+    "PID": 12428,
+    "Error": 0,
+    "ResidentBytes": 31391744,
+    "ShareableResidentBytes": 28852224,
+    "PrivateResidentBytes": 2539520,
+    "Regions": [
+      {
+        "AllocationBase": "0x7FF9868C0000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Windows\\System32\\OneCoreUAPCommonProxyStub.dll",
+        "RegionBytes": 6664192,
+        "ResidentBytes": 4485120,
+        "ShareableResidentBytes": 4476928,
+        "SharedResidentBytes": 4476928,
+        "PrivateResidentBytes": 8192
+      }
+    ]
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.3053774+03:00",
+    "Name": "svchost",
+    "PID": 12816,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.3080155+03:00",
+    "Name": "svchost",
+    "PID": 13076,
+    "Error": 0,
+    "ResidentBytes": 15360000,
+    "ShareableResidentBytes": 14307328,
+    "PrivateResidentBytes": 1052672,
+    "Regions": [
+      {
+        "AllocationBase": "0x7FF9868C0000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Windows\\System32\\OneCoreUAPCommonProxyStub.dll",
+        "RegionBytes": 6664192,
+        "ResidentBytes": 4374528,
+        "ShareableResidentBytes": 4370432,
+        "SharedResidentBytes": 4370432,
+        "PrivateResidentBytes": 4096
+      }
+    ]
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.3100231+03:00",
+    "Name": "svchost",
+    "PID": 13120,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.3103658+03:00",
+    "Name": "svchost",
+    "PID": 13180,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.3168422+03:00",
+    "Name": "svchost",
+    "PID": 13560,
+    "Error": 0,
+    "ResidentBytes": 35217408,
+    "ShareableResidentBytes": 31952896,
+    "PrivateResidentBytes": 3264512,
+    "Regions": [
+      {
+        "AllocationBase": "0x7FF9868C0000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Windows\\System32\\OneCoreUAPCommonProxyStub.dll",
+        "RegionBytes": 6664192,
+        "ResidentBytes": 4452352,
+        "ShareableResidentBytes": 4448256,
+        "SharedResidentBytes": 4448256,
+        "PrivateResidentBytes": 4096
+      }
+    ]
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.3182796+03:00",
+    "Name": "svchost",
+    "PID": 13620,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.3185266+03:00",
+    "Name": "svchost",
+    "PID": 14364,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.3256545+03:00",
+    "Name": "svchost",
+    "PID": 14684,
+    "Error": 0,
+    "ResidentBytes": 23269376,
+    "ShareableResidentBytes": 19128320,
+    "PrivateResidentBytes": 4141056,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.3281568+03:00",
+    "Name": "svchost",
+    "PID": 14864,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.3285525+03:00",
+    "Name": "svchost",
+    "PID": 16688,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.3288931+03:00",
+    "Name": "svchost",
+    "PID": 18044,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.3292344+03:00",
+    "Name": "svchost",
+    "PID": 19400,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.3295270+03:00",
+    "Name": "svchost",
+    "PID": 20260,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.3298416+03:00",
+    "Name": "svchost",
+    "PID": 20568,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.3372703+03:00",
+    "Name": "taskhostw",
+    "PID": 11588,
+    "Error": 0,
+    "ResidentBytes": 20770816,
+    "ShareableResidentBytes": 18505728,
+    "PrivateResidentBytes": 2265088,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.3396519+03:00",
+    "Name": "taskhostw",
+    "PID": 18728,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.3399270+03:00",
+    "Name": "Taskmgr",
+    "PID": 20524,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.3562606+03:00",
+    "Name": "TextInputHost",
+    "PID": 15612,
+    "Error": 0,
+    "ResidentBytes": 92917760,
+    "ShareableResidentBytes": 72003584,
+    "PrivateResidentBytes": 20914176,
+    "Regions": [
+      {
+        "AllocationBase": "0x7FF97FE70000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Windows\\System32\\Windows.UI.Xaml.dll",
+        "RegionBytes": 17965056,
+        "ResidentBytes": 7651328,
+        "ShareableResidentBytes": 7614464,
+        "SharedResidentBytes": 7614464,
+        "PrivateResidentBytes": 36864
+      },
+      {
+        "AllocationBase": "0x20E89000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 8228864,
+        "ResidentBytes": 7143424,
+        "ShareableResidentBytes": 241664,
+        "SharedResidentBytes": 241664,
+        "PrivateResidentBytes": 6901760
+      },
+      {
+        "AllocationBase": "0x20E94000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 6148096,
+        "ResidentBytes": 5345280,
+        "ShareableResidentBytes": 774144,
+        "SharedResidentBytes": 774144,
+        "PrivateResidentBytes": 4571136
+      },
+      {
+        "AllocationBase": "0x7FF9868C0000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Windows\\System32\\OneCoreUAPCommonProxyStub.dll",
+        "RegionBytes": 6664192,
+        "ResidentBytes": 4505600,
+        "ShareableResidentBytes": 4501504,
+        "SharedResidentBytes": 4501504,
+        "PrivateResidentBytes": 4096
+      },
+      {
+        "AllocationBase": "0x20E8E000000",
+        "Type": "Private",
+        "File": "",
+        "RegionBytes": 4251648,
+        "ResidentBytes": 4210688,
+        "ShareableResidentBytes": 0,
+        "SharedResidentBytes": 0,
+        "PrivateResidentBytes": 4210688
+      },
+      {
+        "AllocationBase": "0x7DF543A20000",
+        "Type": "Mapped",
+        "File": "",
+        "RegionBytes": 83742720,
+        "ResidentBytes": 1810432,
+        "ShareableResidentBytes": 1806336,
+        "SharedResidentBytes": 1806336,
+        "PrivateResidentBytes": 4096
+      }
+    ]
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.3601426+03:00",
+    "Name": "TiWorker",
+    "PID": 1832,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.3604035+03:00",
+    "Name": "TrustedInstaller",
+    "PID": 3152,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.3666663+03:00",
+    "Name": "WidgetBoard",
+    "PID": 13144,
+    "Error": 0,
+    "ResidentBytes": 34951168,
+    "ShareableResidentBytes": 32313344,
+    "PrivateResidentBytes": 2637824,
+    "Regions": [
+      {
+        "AllocationBase": "0x7FF9868C0000",
+        "Type": "Image",
+        "File": "\\Device\\HarddiskVolume3\\Windows\\System32\\OneCoreUAPCommonProxyStub.dll",
+        "RegionBytes": 6664192,
+        "ResidentBytes": 4452352,
+        "ShareableResidentBytes": 4448256,
+        "SharedResidentBytes": 4448256,
+        "PrivateResidentBytes": 4096
+      }
+    ]
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.3739396+03:00",
+    "Name": "WidgetService",
+    "PID": 14044,
+    "Error": 0,
+    "ResidentBytes": 27553792,
+    "ShareableResidentBytes": 24567808,
+    "PrivateResidentBytes": 2985984,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.3757184+03:00",
+    "Name": "wininit",
+    "PID": 1172,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.3760177+03:00",
+    "Name": "winlogon",
+    "PID": 1268,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.3762122+03:00",
+    "Name": "wlanext",
+    "PID": 9416,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.3764000+03:00",
+    "Name": "WMIADAP",
+    "PID": 11464,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.3765831+03:00",
+    "Name": "WmiApSrv",
+    "PID": 16044,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.3767709+03:00",
+    "Name": "WmiPrvSE",
+    "PID": 7596,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.3769609+03:00",
+    "Name": "WmiPrvSE",
+    "PID": 10404,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.3771460+03:00",
+    "Name": "WmiPrvSE",
+    "PID": 16128,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.3773285+03:00",
+    "Name": "WMIRegistrationService",
+    "PID": 4776,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.3775108+03:00",
+    "Name": "wslservice",
+    "PID": 4612,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.3777057+03:00",
+    "Name": "WUDFHost",
+    "PID": 1512,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.3778964+03:00",
+    "Name": "WUDFHost",
+    "PID": 4036,
+    "Error": 5,
+    "ResidentBytes": 0,
+    "ShareableResidentBytes": 0,
+    "PrivateResidentBytes": 0,
+    "Regions": []
+  }
+]

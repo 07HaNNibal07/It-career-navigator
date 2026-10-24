@@ -1,0 +1,20 @@
+[
+  {
+    "Name": "luid_0x00000000_0x000100C1_phys_0",
+    "DedicatedUsage": 0,
+    "SharedUsage": 262144,
+    "TotalCommitted": 4476928
+  },
+  {
+    "Name": "luid_0x00000000_0x0001008A_phys_0",
+    "DedicatedUsage": 0,
+    "SharedUsage": 8192,
+    "TotalCommitted": 2125824
+  },
+  {
+    "Name": "luid_0x00000000_0x0000FE07_phys_0",
+    "DedicatedUsage": 0,
+    "SharedUsage": 602406912,
+    "TotalCommitted": 764461056
+  }
+]

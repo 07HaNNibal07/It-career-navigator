@@ -1,0 +1,10 @@
+{
+  "BeforeActiveMiB": 4478.41015625,
+  "AfterActiveMiB": 221.765625,
+  "ActiveReductionMiB": 4256.64453125,
+  "ActiveReductionGiB": 4.156879425048828,
+  "BeforeTotalMiB": 4573.734375,
+  "AfterTotalMiB": 317.02734375,
+  "TotalReductionMiB": 4256.70703125,
+  "ActiveReductionPercent": 95.04811713838878
+}

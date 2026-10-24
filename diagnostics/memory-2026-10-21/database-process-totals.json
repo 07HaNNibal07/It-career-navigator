@@ -1,0 +1,59 @@
+[
+  {
+    "Service": "MySQL80",
+    "PIDs": [
+      4856,
+      6844
+    ],
+    "PrivateWSMiB": 147.8125,
+    "PrivateCommitMiB": 614.05078125,
+    "SumWorkingSetsMiB": 206.82421875
+  },
+  {
+    "Service": "PostgreSQL",
+    "PIDs": [
+      4700,
+      6440,
+      8560,
+      8572,
+      8744,
+      8752,
+      8760
+    ],
+    "PrivateWSMiB": 9.58984375,
+    "PrivateCommitMiB": 63.359375,
+    "SumWorkingSetsMiB": 143.73828125
+  },
+  {
+    "Service": "postgresql-x64-16",
+    "PIDs": [
+      4580,
+      6964,
+      7956,
+      7648,
+      7584,
+      8528,
+      8536,
+      8548
+    ],
+    "PrivateWSMiB": 11.45703125,
+    "PrivateCommitMiB": 26.7578125,
+    "SumWorkingSetsMiB": 100.28125
+  },
+  {
+    "Service": "postgresql-x64-17",
+    "PIDs": [
+      4744,
+      6976,
+      8016,
+      8156,
+      8164,
+      8396,
+      8412,
+      8420
+    ],
+    "PrivateWSMiB": 11.44921875,
+    "PrivateCommitMiB": 25.43359375,
+    "SumWorkingSetsMiB": 100.66015625
+  }
+]

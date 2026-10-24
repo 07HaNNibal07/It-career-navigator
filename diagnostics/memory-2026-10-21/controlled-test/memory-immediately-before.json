@@ -1,0 +1,38 @@
+[
+  {
+    "Timestamp": "2026-10-21T01:33:27.2113885+03:00",
+    "VisiblePhysicalBytes": 16867045376,
+    "AvailableBytes": 2330222592,
+    "UsedPhysicalBytes": 14536822784,
+    "CommittedBytes": 17011027968,
+    "CommitLimit": 25456979968,
+    "NonpagedBytes": 465129472,
+    "PagedResidentBytes": 397402112,
+    "PagesInputPersec": 0,
+    "PagesOutputPersec": 0
+  },
+  {
+    "Timestamp": "2026-10-21T01:33:28.5854546+03:00",
+    "VisiblePhysicalBytes": 16867045376,
+    "AvailableBytes": 2302738432,
+    "UsedPhysicalBytes": 14564306944,
+    "CommittedBytes": 17030352896,
+    "CommitLimit": 25456979968,
+    "NonpagedBytes": 463339520,
+    "PagedResidentBytes": 396570624,
+    "PagesInputPersec": 0,
+    "PagesOutputPersec": 0
+  },
+  {
+    "Timestamp": "2026-10-21T01:33:29.9441031+03:00",
+    "VisiblePhysicalBytes": 16867045376,
+    "AvailableBytes": 2331426816,
+    "UsedPhysicalBytes": 14535618560,
+    "CommittedBytes": 17005297664,
+    "CommitLimit": 25456979968,
+    "NonpagedBytes": 464150528,
+    "PagedResidentBytes": 396742656,
+    "PagesInputPersec": 0,
+    "PagesOutputPersec": 0
+  }
+]

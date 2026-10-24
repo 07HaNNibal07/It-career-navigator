@@ -1,0 +1,233 @@
+[
+  {
+    "Name": "dwm.exe",
+    "ProcessId": 1780,
+    "ParentProcessId": 1268,
+    "ExecutablePath": "C:\\WINDOWS\\system32\\dwm.exe",
+    "MemoryOverrides": null
+  },
+  {
+    "Name": "NVDisplay.Container.exe",
+    "ProcessId": 2744,
+    "ParentProcessId": 1288,
+    "ExecutablePath": "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\nvmii.inf_amd64_52a4c0ca7914a7b3\\Display.NvContainer\\NVDisplay.Container.exe",
+    "MemoryOverrides": null
+  },
+  {
+    "Name": "pg_ctl.exe",
+    "ProcessId": 4580,
+    "ParentProcessId": 1288,
+    "ExecutablePath": "C:\\Program Files\\PostgreSQL\\16\\bin\\pg_ctl.exe",
+    "MemoryOverrides": null
+  },
+  {
+    "Name": "pg_ctl.exe",
+    "ProcessId": 4700,
+    "ParentProcessId": 1288,
+    "ExecutablePath": "C:\\Program Files\\ASCON\\KOMPAS-3D v25 Study\\Libs\\PolynomLib\\Templates\\LocalBase\\bin\\pg_ctl.exe",
+    "MemoryOverrides": null
+  },
+  {
+    "Name": "nvcontainer.exe",
+    "ProcessId": 4724,
+    "ParentProcessId": 1288,
+    "ExecutablePath": "C:\\Program Files\\NVIDIA Corporation\\NvContainer\\nvcontainer.exe",
+    "MemoryOverrides": null
+  },
+  {
+    "Name": "pg_ctl.exe",
+    "ProcessId": 4744,
+    "ParentProcessId": 1288,
+    "ExecutablePath": "C:\\Program Files\\PostgreSQL\\17\\bin\\pg_ctl.exe",
+    "MemoryOverrides": null
+  },
+  {
+    "Name": "mysqld.exe",
+    "ProcessId": 4856,
+    "ParentProcessId": 1288,
+    "ExecutablePath": "C:\\Program Files\\MySQL\\MySQL Server 8.0\\bin\\mysqld.exe",
+    "MemoryOverrides": null
+  },
+  {
+    "Name": "NVDisplay.Container.exe",
+    "ProcessId": 5400,
+    "ParentProcessId": 2744,
+    "ExecutablePath": "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\nvmii.inf_amd64_52a4c0ca7914a7b3\\Display.NvContainer\\NVDisplay.Container.exe",
+    "MemoryOverrides": null
+  },
+  {
+    "Name": "mysqld.exe",
+    "ProcessId": 6844,
+    "ParentProcessId": 4856,
+    "ExecutablePath": "C:\\Program Files\\MySQL\\MySQL Server 8.0\\bin\\mysqld.exe",
+    "MemoryOverrides": null
+  },
+  {
+    "Name": "postgres.exe",
+    "ProcessId": 6964,
+    "ParentProcessId": 4580,
+    "ExecutablePath": "C:\\Program Files\\PostgreSQL\\16\\bin\\postgres.exe",
+    "MemoryOverrides": null
+  },
+  {
+    "Name": "postgres.exe",
+    "ProcessId": 6976,
+    "ParentProcessId": 4744,
+    "ExecutablePath": "C:\\Program Files\\PostgreSQL\\17\\bin\\postgres.exe",
+    "MemoryOverrides": null
+  },
+  {
+    "Name": "postgres.exe",
+    "ProcessId": 6440,
+    "ParentProcessId": 4700,
+    "ExecutablePath": "C:\\Program Files\\ASCON\\KOMPAS-3D v25 Study\\Libs\\PolynomLib\\Templates\\LocalBase\\bin\\postgres.exe",
+    "MemoryOverrides": null
+  },
+  {
+    "Name": "postgres.exe",
+    "ProcessId": 7956,
+    "ParentProcessId": 6964,
+    "ExecutablePath": "C:\\Program Files\\PostgreSQL\\16\\bin\\postgres.exe",
+    "MemoryOverrides": null
+  },
+  {
+    "Name": "postgres.exe",
+    "ProcessId": 8016,
+    "ParentProcessId": 6976,
+    "ExecutablePath": "C:\\Program Files\\PostgreSQL\\17\\bin\\postgres.exe",
+    "MemoryOverrides": null
+  },
+  {
+    "Name": "postgres.exe",
+    "ProcessId": 8156,
+    "ParentProcessId": 6976,
+    "ExecutablePath": "C:\\Program Files\\PostgreSQL\\17\\bin\\postgres.exe",
+    "MemoryOverrides": null
+  },
+  {
+    "Name": "postgres.exe",
+    "ProcessId": 8164,
+    "ParentProcessId": 6976,
+    "ExecutablePath": "C:\\Program Files\\PostgreSQL\\17\\bin\\postgres.exe",
+    "MemoryOverrides": null
+  },
+  {
+    "Name": "postgres.exe",
+    "ProcessId": 7648,
+    "ParentProcessId": 6964,
+    "ExecutablePath": "C:\\Program Files\\PostgreSQL\\16\\bin\\postgres.exe",
+    "MemoryOverrides": null
+  },
+  {
+    "Name": "postgres.exe",
+    "ProcessId": 7584,
+    "ParentProcessId": 6964,
+    "ExecutablePath": "C:\\Program Files\\PostgreSQL\\16\\bin\\postgres.exe",
+    "MemoryOverrides": null
+  },
+  {
+    "Name": "postgres.exe",
+    "ProcessId": 8396,
+    "ParentProcessId": 6976,
+    "ExecutablePath": "C:\\Program Files\\PostgreSQL\\17\\bin\\postgres.exe",
+    "MemoryOverrides": null
+  },
+  {
+    "Name": "postgres.exe",
+    "ProcessId": 8412,
+    "ParentProcessId": 6976,
+    "ExecutablePath": "C:\\Program Files\\PostgreSQL\\17\\bin\\postgres.exe",
+    "MemoryOverrides": null
+  },
+  {
+    "Name": "postgres.exe",
+    "ProcessId": 8420,
+    "ParentProcessId": 6976,
+    "ExecutablePath": "C:\\Program Files\\PostgreSQL\\17\\bin\\postgres.exe",
+    "MemoryOverrides": null
+  },
+  {
+    "Name": "postgres.exe",
+    "ProcessId": 8528,
+    "ParentProcessId": 6964,
+    "ExecutablePath": "C:\\Program Files\\PostgreSQL\\16\\bin\\postgres.exe",
+    "MemoryOverrides": null
+  },
+  {
+    "Name": "postgres.exe",
+    "ProcessId": 8536,
+    "ParentProcessId": 6964,
+    "ExecutablePath": "C:\\Program Files\\PostgreSQL\\16\\bin\\postgres.exe",
+    "MemoryOverrides": null
+  },
+  {
+    "Name": "postgres.exe",
+    "ProcessId": 8548,
+    "ParentProcessId": 6964,
+    "ExecutablePath": "C:\\Program Files\\PostgreSQL\\16\\bin\\postgres.exe",
+    "MemoryOverrides": null
+  },
+  {
+    "Name": "postgres.exe",
+    "ProcessId": 8560,
+    "ParentProcessId": 6440,
+    "ExecutablePath": "C:\\Program Files\\ASCON\\KOMPAS-3D v25 Study\\Libs\\PolynomLib\\Templates\\LocalBase\\bin\\postgres.exe",
+    "MemoryOverrides": null
+  },
+  {
+    "Name": "postgres.exe",
+    "ProcessId": 8572,
+    "ParentProcessId": 6440,
+    "ExecutablePath": "C:\\Program Files\\ASCON\\KOMPAS-3D v25 Study\\Libs\\PolynomLib\\Templates\\LocalBase\\bin\\postgres.exe",
+    "MemoryOverrides": null
+  },
+  {
+    "Name": "postgres.exe",
+    "ProcessId": 8744,
+    "ParentProcessId": 6440,
+    "ExecutablePath": "C:\\Program Files\\ASCON\\KOMPAS-3D v25 Study\\Libs\\PolynomLib\\Templates\\LocalBase\\bin\\postgres.exe",
+    "MemoryOverrides": null
+  },
+  {
+    "Name": "postgres.exe",
+    "ProcessId": 8752,
+    "ParentProcessId": 6440,
+    "ExecutablePath": "C:\\Program Files\\ASCON\\KOMPAS-3D v25 Study\\Libs\\PolynomLib\\Templates\\LocalBase\\bin\\postgres.exe",
+    "MemoryOverrides": null
+  },
+  {
+    "Name": "postgres.exe",
+    "ProcessId": 8760,
+    "ParentProcessId": 6440,
+    "ExecutablePath": "C:\\Program Files\\ASCON\\KOMPAS-3D v25 Study\\Libs\\PolynomLib\\Templates\\LocalBase\\bin\\postgres.exe",
+    "MemoryOverrides": null
+  },
+  {
+    "Name": "nvcontainer.exe",
+    "ProcessId": 10396,
+    "ParentProcessId": 4724,
+    "ExecutablePath": "C:\\Program Files\\NVIDIA Corporation\\NvContainer\\nvcontainer.exe",
+    "MemoryOverrides": null
+  },
+  {
+    "Name": "nvcontainer.exe",
+    "ProcessId": 11112,
+    "ParentProcessId": 4724,
+    "ExecutablePath": "C:\\Program Files\\NVIDIA Corporation\\NvContainer\\nvcontainer.exe",
+    "MemoryOverrides": null
+  },
+  {
+    "Name": "nvcontainer.exe",
+    "ProcessId": 11168,
+    "ParentProcessId": 4724,
+    "ExecutablePath": "C:\\Program Files\\NVIDIA Corporation\\NvContainer\\nvcontainer.exe",
+    "MemoryOverrides": null
+  },
+  {
+    "Name": "nvcontainer.exe",
+    "ProcessId": 11216,
+    "ParentProcessId": 4724,
+    "ExecutablePath": "C:\\Program Files\\NVIDIA Corporation\\NvContainer\\nvcontainer.exe",
+    "MemoryOverrides": null
+  }
+]

@@ -1,0 +1,137 @@
+[
+  {
+    "Location": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\StartupApproved\\Run",
+    "Name": "utweb",
+    "StateByte": 2
+  },
+  {
+    "Location": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\StartupApproved\\Run",
+    "Name": "Gaijin.Net Updater",
+    "StateByte": 2
+  },
+  {
+    "Location": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\StartupApproved\\Run",
+    "Name": "MicrosoftEdgeAutoLaunch_22B40A953FF06EABEE1C048C00717779",
+    "StateByte": 3
+  },
+  {
+    "Location": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\StartupApproved\\Run",
+    "Name": "OneDrive",
+    "StateByte": 3
+  },
+  {
+    "Location": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\StartupApproved\\Run",
+    "Name": "Overwolf",
+    "StateByte": 2
+  },
+  {
+    "Location": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\StartupApproved\\Run",
+    "Name": "Steam",
+    "StateByte": 3
+  },
+  {
+    "Location": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\StartupApproved\\Run",
+    "Name": "uFiler",
+    "StateByte": 2
+  },
+  {
+    "Location": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\StartupApproved\\Run",
+    "Name": "Discord",
+    "StateByte": 2
+  },
+  {
+    "Location": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\StartupApproved\\Run",
+    "Name": "YandexBrowserAutoLaunch_7CC419F778E5B3114A541EDE3EF07EAB",
+    "StateByte": 3
+  },
+  {
+    "Location": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\StartupApproved\\Run",
+    "Name": "AlcoholAutomount",
+    "StateByte": 2
+  },
+  {
+    "Location": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\StartupApproved\\Run",
+    "Name": "Figma Agent",
+    "StateByte": 3
+  },
+  {
+    "Location": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\StartupApproved\\Run",
+    "Name": "GoogleChromeAutoLaunch_D8BEAFC9E1EA81F552131E373DA23E82",
+    "StateByte": 2
+  },
+  {
+    "Location": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\StartupApproved\\Run",
+    "Name": "Docker Desktop",
+    "StateByte": 3
+  },
+  {
+    "Location": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\StartupApproved\\Run",
+    "Name": "Teams",
+    "StateByte": 2
+  },
+  {
+    "Location": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\StartupApproved\\Run",
+    "Name": "Rave",
+    "StateByte": 3
+  },
+  {
+    "Location": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\StartupApproved\\Run",
+    "Name": "ut",
+    "StateByte": 3
+  },
+  {
+    "Location": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\StartupApproved\\Run",
+    "Name": "Claude",
+    "StateByte": 3
+  },
+  {
+    "Location": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\StartupApproved\\Run",
+    "Name": "com.squirrel.Postman-Agent.PostmanAgent",
+    "StateByte": 3
+  },
+  {
+    "Location": "HKLM:\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\StartupApproved\\Run",
+    "Name": "SecurityHealth",
+    "StateByte": 6
+  },
+  {
+    "Location": "HKLM:\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\StartupApproved\\Run",
+    "Name": "Ascon.CSC.AgentNotification",
+    "StateByte": 2
+  },
+  {
+    "Location": "HKLM:\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\StartupApproved\\Run",
+    "Name": "RtkAudUService",
+    "StateByte": 3
+  },
+  {
+    "Location": "HKLM:\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\StartupApproved\\Run",
+    "Name": "AdobeGCInvoker-1.0",
+    "StateByte": 2
+  },
+  {
+    "Location": "HKLM:\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\StartupApproved\\Run32",
+    "Name": "SunJavaUpdateSched",
+    "StateByte": 2
+  },
+  {
+    "Location": "HKLM:\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\StartupApproved\\Run32",
+    "Name": "Acrobat Assistant 8.0",
+    "StateByte": 3
+  },
+  {
+    "Location": "HKLM:\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\StartupApproved\\Run32",
+    "Name": "Adobe CCXProcess",
+    "StateByte": 3
+  },
+  {
+    "Location": "HKLM:\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\StartupApproved\\Run32",
+    "Name": "Adobe Creative Cloud",
+    "StateByte": 3
+  },
+  {
+    "Location": "HKLM:\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\StartupApproved\\Run32",
+    "Name": "RadminVPN",
+    "StateByte": 1
+  }
+]

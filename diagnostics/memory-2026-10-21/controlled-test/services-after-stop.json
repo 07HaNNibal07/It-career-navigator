@@ -1,0 +1,32 @@
+[
+  {
+    "Name": "MySQL80",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 4856
+  },
+  {
+    "Name": "PolynomMdmApiSvc",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 4768
+  },
+  {
+    "Name": "PostgreSQL",
+    "State": "Stopped",
+    "StartMode": "Auto",
+    "ProcessId": 0
+  },
+  {
+    "Name": "postgresql-x64-16",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 4580
+  },
+  {
+    "Name": "postgresql-x64-17",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 4744
+  }
+]

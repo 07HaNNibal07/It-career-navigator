@@ -1,0 +1,12 @@
+{
+  "Timestamp": "2026-10-21T01:34:22.0102006+03:00",
+  "TargetService": {
+    "Name": "PostgreSQL",
+    "State": "Stopped",
+    "StartMode": "Auto",
+    "ProcessId": 0
+  },
+  "OldTargetPIDsRemaining": [],
+  "VisibleKompasDatabaseExecutables": [],
+  "TargetPortOwnedByOldServer": []
+}

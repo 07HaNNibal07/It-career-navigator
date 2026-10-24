@@ -1,0 +1,368 @@
+[
+  {
+    "DisplayName": "BlueStacks",
+    "DisplayVersion": "5.22.262.1001",
+    "Publisher": "now.gg, Inc.",
+    "InstallDate": "20260907"
+  },
+  {
+    "DisplayName": "Docker Desktop",
+    "DisplayVersion": "4.55.0",
+    "Publisher": "Docker Inc.",
+    "InstallDate": null
+  },
+  {
+    "DisplayName": "Microsoft System CLR Types для SQL Server 2019",
+    "DisplayVersion": "15.0.2000.5",
+    "Publisher": "Microsoft Corporation",
+    "InstallDate": "20241005"
+  },
+  {
+    "DisplayName": "MySQL Server 8.0",
+    "DisplayVersion": "8.0.44",
+    "Publisher": "Oracle Corporation",
+    "InstallDate": "20260105"
+  },
+  {
+    "DisplayName": "Microsoft Command Line Utilities 15 for SQL Server",
+    "DisplayVersion": "15.0.1300.359",
+    "Publisher": "Microsoft Corporation",
+    "InstallDate": "20241005"
+  },
+  {
+    "DisplayName": "Microsoft ODBC Driver 17 for SQL Server",
+    "DisplayVersion": "17.10.6.1",
+    "Publisher": "Microsoft Corporation",
+    "InstallDate": "20241005"
+  },
+  {
+    "DisplayName": "Java 8 Update 491 (64-bit)",
+    "DisplayVersion": "8.0.4910.10",
+    "Publisher": "Oracle Corporation",
+    "InstallDate": "20260613"
+  },
+  {
+    "DisplayName": "MySQL Router 8.0",
+    "DisplayVersion": "8.0.44",
+    "Publisher": "Oracle Corporation",
+    "InstallDate": "20260105"
+  },
+  {
+    "DisplayName": "КОМПАС-3D: Средства разработки приложений v25 x64",
+    "DisplayVersion": "25.0.0.2735",
+    "Publisher": "АСКОН",
+    "InstallDate": "20260927"
+  },
+  {
+    "DisplayName": "ascon-tutorial-viewer",
+    "DisplayVersion": "1.0.1.0",
+    "Publisher": "ASCON",
+    "InstallDate": "20260927"
+  },
+  {
+    "DisplayName": "КОМПАС-3D: Учебные пособия v25 x64",
+    "DisplayVersion": "25.0.0.14015",
+    "Publisher": "АСКОН",
+    "InstallDate": "20260927"
+  },
+  {
+    "DisplayName": "NVIDIA Nsight Systems 2024.5.1",
+    "DisplayVersion": "24.5.1.113",
+    "Publisher": "NVIDIA Corporation",
+    "InstallDate": "20241106"
+  },
+  {
+    "DisplayName": "КОМПАС-3D: KompasFlow, гидрогазодинамика для КОМПАС-3D v25 x64",
+    "DisplayVersion": "25.0.1.14016",
+    "Publisher": "АСКОН",
+    "InstallDate": "20260927"
+  },
+  {
+    "DisplayName": "MySQL Workbench 8.0 CE",
+    "DisplayVersion": "8.0.44",
+    "Publisher": "Oracle Corporation",
+    "InstallDate": "20260105"
+  },
+  {
+    "DisplayName": "КОМПАС-3D: APM FЕМ, система прочностного анализа для КОМПАС-3D v25 x64",
+    "DisplayVersion": "25.0.0.13976",
+    "Publisher": "АСКОН",
+    "InstallDate": "20260927"
+  },
+  {
+    "DisplayName": "Oracle VirtualBox 7.2.6",
+    "DisplayVersion": "7.2.6",
+    "Publisher": "Oracle and/or its affiliates",
+    "InstallDate": "20260406"
+  },
+  {
+    "DisplayName": "КОМПАС-3D v25 Учебная версия x64",
+    "DisplayVersion": "25.0.0.2735",
+    "Publisher": "АСКОН",
+    "InstallDate": "20260927"
+  },
+  {
+    "DisplayName": "КОМПАС-3D v25 Учебная версия x64",
+    "DisplayVersion": "25.0.0.2735",
+    "Publisher": "АСКОН",
+    "InstallDate": "27.09.2026"
+  },
+  {
+    "DisplayName": "NVIDIA Nsight Compute 2024.3.2",
+    "DisplayVersion": "24.3.2.0",
+    "Publisher": "NVIDIA Corporation",
+    "InstallDate": "20241106"
+  },
+  {
+    "DisplayName": "NVIDIA CUDA Development 12.6",
+    "DisplayVersion": "12.6",
+    "Publisher": "NVIDIA Corporation",
+    "InstallDate": "20241106"
+  },
+  {
+    "DisplayName": "NVIDIA CUDA Documentation 12.6",
+    "DisplayVersion": "12.6",
+    "Publisher": "NVIDIA Corporation",
+    "InstallDate": "20241106"
+  },
+  {
+    "DisplayName": "NVIDIA CUDA Runtime 12.6",
+    "DisplayVersion": "12.6",
+    "Publisher": "NVIDIA Corporation",
+    "InstallDate": "20241106"
+  },
+  {
+    "DisplayName": "NVIDIA CUDA Toolkit 12.6",
+    "DisplayVersion": "12.6",
+    "Publisher": "NVIDIA Corporation",
+    "InstallDate": "20241106"
+  },
+  {
+    "DisplayName": "NVIDIA Графический драйвер 617.42",
+    "DisplayVersion": "617.42",
+    "Publisher": "NVIDIA Corporation",
+    "InstallDate": "20261021"
+  },
+  {
+    "DisplayName": "NVIDIA App 11.0.9.565",
+    "DisplayVersion": "11.0.9.565",
+    "Publisher": "NVIDIA Corporation",
+    "InstallDate": "20261021"
+  },
+  {
+    "DisplayName": "NVIDIA MessageBus 3 for NvApp",
+    "DisplayVersion": "3.21",
+    "Publisher": "NVIDIA Corporation",
+    "InstallDate": "20261021"
+  },
+  {
+    "DisplayName": "NVIDIA Backend",
+    "DisplayVersion": "11.0.9.565",
+    "Publisher": "NVIDIA Corporation",
+    "InstallDate": "20261021"
+  },
+  {
+    "DisplayName": "NVIDIA App driver settings",
+    "DisplayVersion": "1.0",
+    "Publisher": "NVIDIA Corporation",
+    "InstallDate": "20261021"
+  },
+  {
+    "DisplayName": "NVIDIA Системное программное обеспечение PhysX 9.26.0703",
+    "DisplayVersion": "9.26.0703",
+    "Publisher": "NVIDIA Corporation",
+    "InstallDate": "20260827"
+  },
+  {
+    "DisplayName": "NVIDIA FrameView SDK 1.9.12728.38614306",
+    "DisplayVersion": "1.9.12728.38614306",
+    "Publisher": "NVIDIA Corporation",
+    "InstallDate": "20261021"
+  },
+  {
+    "DisplayName": "NVIDIA Install Application",
+    "DisplayVersion": "2.1002.463.0",
+    "Publisher": "NVIDIA Corporation",
+    "InstallDate": "20261021"
+  },
+  {
+    "DisplayName": "NVIDIA Container",
+    "DisplayVersion": "1.51",
+    "Publisher": "NVIDIA Corporation",
+    "InstallDate": "20261021"
+  },
+  {
+    "DisplayName": "NVIDIA AIUser Container",
+    "DisplayVersion": "1.51",
+    "Publisher": "NVIDIA Corporation",
+    "InstallDate": "20261021"
+  },
+  {
+    "DisplayName": "NVIDIA LocalSystem Container",
+    "DisplayVersion": "1.51",
+    "Publisher": "NVIDIA Corporation",
+    "InstallDate": "20261021"
+  },
+  {
+    "DisplayName": "NVIDIA Session Container",
+    "DisplayVersion": "1.51",
+    "Publisher": "NVIDIA Corporation",
+    "InstallDate": "20261021"
+  },
+  {
+    "DisplayName": "NVIDIA User Container",
+    "DisplayVersion": "1.51",
+    "Publisher": "NVIDIA Corporation",
+    "InstallDate": "20261021"
+  },
+  {
+    "DisplayName": "NVIDIA NvDLISR",
+    "DisplayVersion": "1.0",
+    "Publisher": "NVIDIA Corporation",
+    "InstallDate": "20261021"
+  },
+  {
+    "DisplayName": "NVIDIA Watchdog Plugin for NvContainer",
+    "DisplayVersion": "1.51",
+    "Publisher": "NVIDIA Corporation",
+    "InstallDate": "20261021"
+  },
+  {
+    "DisplayName": "NVIDIA Telemetry Client",
+    "DisplayVersion": "19.8.6.0",
+    "Publisher": "NVIDIA Corporation",
+    "InstallDate": "20261021"
+  },
+  {
+    "DisplayName": "NVIDIA ShadowPlay 11.0.9.0",
+    "DisplayVersion": "11.0.9.0",
+    "Publisher": "NVIDIA Corporation",
+    "InstallDate": "20261021"
+  },
+  {
+    "DisplayName": "NVIDIA Virtual Audio 4.92.0.0",
+    "DisplayVersion": "4.92.0.0",
+    "Publisher": "NVIDIA Corporation",
+    "InstallDate": "20261021"
+  },
+  {
+    "DisplayName": "NVIDIA CUDA Visual Studio Integration 12.6",
+    "DisplayVersion": "12.6",
+    "Publisher": "NVIDIA Corporation",
+    "InstallDate": "20241106"
+  },
+  {
+    "DisplayName": "Windows Subsystem for Linux",
+    "DisplayVersion": "2.6.3.0",
+    "Publisher": "Microsoft Corporation",
+    "InstallDate": "20260502"
+  },
+  {
+    "DisplayName": "Microsoft SQL Server 2014 Express LocalDB ",
+    "DisplayVersion": "12.3.6024.0",
+    "Publisher": "Microsoft Corporation",
+    "InstallDate": "20231107"
+  },
+  {
+    "DisplayName": "КОМПАС-3D: Фотореалистика v25 x64",
+    "DisplayVersion": "25.0.0.1016",
+    "Publisher": "АСКОН",
+    "InstallDate": "20260927"
+  },
+  {
+    "DisplayName": "MySQL Shell",
+    "DisplayVersion": "8.0.44",
+    "Publisher": "Oracle Corporation",
+    "InstallDate": "20260105"
+  },
+  {
+    "DisplayName": "Microsoft SQL Server 2019 LocalDB ",
+    "DisplayVersion": "15.0.4382.1",
+    "Publisher": "Microsoft Corporation",
+    "InstallDate": "20241005"
+  },
+  {
+    "DisplayName": "NVIDIA Nsight Visual Studio Edition 2024.3.0.24164",
+    "DisplayVersion": "24.3.0.24164",
+    "Publisher": "NVIDIA Corporation",
+    "InstallDate": "20241106"
+  },
+  {
+    "DisplayName": "КОМПАС-3D: Материалы и Сортаменты, Стандартные Изделия для КОМПАС v25 x64",
+    "DisplayVersion": "25.0.1.3103",
+    "Publisher": "АСКОН",
+    "InstallDate": "20260927"
+  },
+  {
+    "DisplayName": "КОМПАС-3D: Конвертер единиц измерения v25 x64",
+    "DisplayVersion": "25.0.0.4313",
+    "Publisher": "АСКОН",
+    "InstallDate": "20260927"
+  },
+  {
+    "DisplayName": "AmneziaVPN",
+    "DisplayVersion": "5.0.1.5",
+    "Publisher": "AmneziaVPN",
+    "InstallDate": "Wed Aug 26 18:13:23 2026"
+  },
+  {
+    "DisplayName": "КОМПАС-3D: Валы и механические передачи. Примеры документов v25 x64",
+    "DisplayVersion": "25.0.0.14015",
+    "Publisher": "АСКОН",
+    "InstallDate": "20260927"
+  },
+  {
+    "DisplayName": "КОМПАС-3D: Валы и механические передачи v25 x64",
+    "DisplayVersion": "25.0.1.669",
+    "Publisher": "АСКОН",
+    "InstallDate": "20260927"
+  },
+  {
+    "DisplayName": "MySQL Examples and Samples",
+    "DisplayVersion": "8.0.44",
+    "Publisher": "Oracle Corporation",
+    "InstallDate": "20260105"
+  },
+  {
+    "DisplayName": "Java Auto Updater",
+    "DisplayVersion": "2.8.491.10",
+    "Publisher": "Oracle Corporation",
+    "InstallDate": "20260613"
+  },
+  {
+    "DisplayName": "Сервисы АСКОН",
+    "DisplayVersion": "2.0.13825.1",
+    "Publisher": "ООО «АСКОН-Системы проектирования»",
+    "InstallDate": "20260927"
+  },
+  {
+    "DisplayName": "MySQL Documents",
+    "DisplayVersion": "8.0.44",
+    "Publisher": "Oracle Corporation",
+    "InstallDate": "20260105"
+  },
+  {
+    "DisplayName": "Minecraft Launcher",
+    "DisplayVersion": "2.0.0.0",
+    "Publisher": "Mojang",
+    "InstallDate": "20230721"
+  },
+  {
+    "DisplayName": "MySQL Installer",
+    "DisplayVersion": "1.6.16.0",
+    "Publisher": "Oracle Corporation",
+    "InstallDate": "20260105"
+  },
+  {
+    "DisplayName": "BlueStacks Services",
+    "DisplayVersion": "3.0.9",
+    "Publisher": "now.gg, Inc.",
+    "InstallDate": null
+  },
+  {
+    "DisplayName": "Ollama version 0.40.6",
+    "DisplayVersion": "0.40.6",
+    "Publisher": "Ollama",
+    "InstallDate": "20261017"
+  }
+]

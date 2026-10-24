@@ -1,0 +1,93 @@
+{
+  "Timestamp": "2026-10-21T01:21:59.1521172+03:00",
+  "Total": {
+    "Free": 64352,
+    "Transition": 12,
+    "Modified": 118220,
+    "Zeroed": 272856,
+    "Active": 14410148,
+    "Total": 16471724,
+    "Standby": 1606136
+  },
+  "Unit": "KiB",
+  "Source": "RAMMap Use Counts, observed via computer-use; snapshot not refreshed after opening",
+  "Rows": [
+    {
+      "Type": "Process Private",
+      "Transition": 12,
+      "Modified": 17108,
+      "Active": 5937824,
+      "Total": 5966752,
+      "Standby": 11808
+    },
+    {
+      "Standby": 1523808,
+      "Total": 3465664,
+      "Active": 1941372,
+      "Type": "Mapped File",
+      "Modified": 484
+    },
+    {
+      "Standby": 32820,
+      "Total": 4767924,
+      "Active": 4635944,
+      "Type": "Shareable",
+      "Modified": 99160
+    },
+    {
+      "Standby": 4,
+      "Total": 219020,
+      "Active": 219016,
+      "Type": "Page Table"
+    },
+    {
+      "Standby": 972,
+      "Total": 368500,
+      "Active": 366656,
+      "Type": "Paged Pool",
+      "Modified": 872
+    },
+    {
+      "Total": 461180,
+      "Active": 461180,
+      "Type": "Nonpaged Pool"
+    },
+    {
+      "Total": 295656,
+      "Active": 295656,
+      "Type": "System PTE"
+    },
+    {
+      "Standby": 36260,
+      "Total": 201396,
+      "Active": 164972,
+      "Type": "Metafile",
+      "Modified": 164
+    },
+    {
+      "Total": 128,
+      "Active": 128,
+      "Type": "AWE"
+    },
+    {
+      "Total": 245864,
+      "Active": 245864,
+      "Type": "Driver Locked"
+    },
+    {
+      "Standby": 456,
+      "Total": 110984,
+      "Active": 110096,
+      "Type": "Kernel Stack",
+      "Modified": 432
+    },
+    {
+      "Free": 64352,
+      "Type": "Unused",
+      "Zeroed": 272856,
+      "Active": 31440,
+      "Total": 368656,
+      "Standby": 8
+    }
+  ]
+}

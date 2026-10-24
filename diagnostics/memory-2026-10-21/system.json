@@ -1,0 +1,72 @@
+{
+  "Timestamp": "2026-10-21T01:14:40.0571486+03:00",
+  "Elevated": false,
+  "OS": {
+    "Caption": "Майкрософт Windows 11 Домашняя",
+    "Version": "10.0.26300",
+    "BuildNumber": "26300",
+    "LastBootUpTime": "2026-10-21T01:08:47.5+03:00",
+    "TotalVisibleMemorySize": 16471724,
+    "FreePhysicalMemory": 2379872,
+    "TotalVirtualMemorySize": 24860332,
+    "FreeVirtualMemory": 9289424
+  },
+  "Computer": {
+    "TotalPhysicalMemory": 16867045376,
+    "AutomaticManagedPagefile": false,
+    "HypervisorPresent": true
+  },
+  "RAM": [
+    {
+      "Capacity": 8589934592,
+      "Speed": 3200,
+      "ConfiguredClockSpeed": 3200,
+      "Manufacturer": "Samsung"
+    },
+    {
+      "Capacity": 8589934592,
+      "Speed": 3200,
+      "ConfiguredClockSpeed": 3200,
+      "Manufacturer": "Samsung"
+    }
+  ],
+  "CPU": {
+    "Name": "11th Gen Intel(R) Core(TM) i5-11400H @ 2.70GHz",
+    "NumberOfCores": 6,
+    "NumberOfLogicalProcessors": 12
+  },
+  "GPU": [
+    {
+      "Name": "Intel(R) UHD Graphics",
+      "DriverVersion": "30.0.101.2079",
+      "AdapterRAM": 1073741824
+    },
+    {
+      "Name": "NVIDIA GeForce RTX 3050 Ti Laptop GPU",
+      "DriverVersion": "32.0.16.1742",
+      "AdapterRAM": 4293918720
+    }
+  ],
+  "PageFiles": [
+    {
+      "Name": "C:\\pagefile.sys",
+      "AllocatedBaseSize": 8192,
+      "CurrentUsage": 15,
+      "PeakUsage": 26
+    }
+  ],
+  "PageFileSettings": [
+    {
+      "Name": "c:\\pagefile.sys",
+      "InitialSize": 8192,
+      "MaximumSize": 16384
+    }
+  ],
+  "Disks": [
+    {
+      "DeviceID": "C:",
+      "Size": 511352762368,
+      "FreeSpace": 98771619840
+    }
+  ]
+}

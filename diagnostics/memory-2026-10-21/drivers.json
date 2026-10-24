@@ -1,0 +1,3546 @@
+[
+  {
+    "Name": "1394ohci",
+    "DisplayName": "1394 OHCI-совместимый хост-контроллер",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\1394ohci.sys"
+  },
+  {
+    "Name": "3ware",
+    "DisplayName": "3ware",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\3ware.sys"
+  },
+  {
+    "Name": "ACPI",
+    "DisplayName": "Драйвер Microsoft ACPI",
+    "State": "Running",
+    "StartMode": "Boot",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\ACPI.sys"
+  },
+  {
+    "Name": "AcpiAudioCompositorInbox",
+    "DisplayName": "Драйвер компоновщика звука ACPI",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\DriverStore\\FileRepository\\acpiaudiocompositor.inf_amd64_3a22a3df84b6fbc6\\AcpiAudioCompositor.sys"
+  },
+  {
+    "Name": "AcpiDev",
+    "DisplayName": "Драйвер устройств с ACPI",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\AcpiDev.sys"
+  },
+  {
+    "Name": "acpiex",
+    "DisplayName": "Microsoft ACPIEx Driver",
+    "State": "Running",
+    "StartMode": "Boot",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\Drivers\\acpiex.sys"
+  },
+  {
+    "Name": "acpipagr",
+    "DisplayName": "Драйвер агрегатора процессора ACPI",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\DriverStore\\FileRepository\\acpipagr.inf_amd64_d1093347a27ff89c\\acpipagr.sys"
+  },
+  {
+    "Name": "AcpiPmi",
+    "DisplayName": "Драйвер устройства измерения мощности ACPI",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\DriverStore\\FileRepository\\acpipmi.inf_amd64_3ced06eb61dcc792\\acpipmi.sys"
+  },
+  {
+    "Name": "acpitime",
+    "DisplayName": "Драйвер ACPI Wake Alarm",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\acpitime.sys"
+  },
+  {
+    "Name": "Acx01000",
+    "DisplayName": "Acx01000",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\Acx01000.sys"
+  },
+  {
+    "Name": "ADP80XX",
+    "DisplayName": "ADP80XX",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\ADP80XX.SYS"
+  },
+  {
+    "Name": "AFD",
+    "DisplayName": "Драйвер дополнительных функций для Winsock",
+    "State": "Running",
+    "StartMode": "System",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\afd.sys"
+  },
+  {
+    "Name": "afunix",
+    "DisplayName": "afunix",
+    "State": "Running",
+    "StartMode": "System",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\afunix.sys"
+  },
+  {
+    "Name": "ahcache",
+    "DisplayName": "Application Compatibility Cache",
+    "State": "Running",
+    "StartMode": "System",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\DRIVERS\\ahcache.sys"
+  },
+  {
+    "Name": "amdgpio2",
+    "DisplayName": "Драйвер GPIO-клиента AMD",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\amdgpio2.sys"
+  },
+  {
+    "Name": "amdi2c",
+    "DisplayName": "Служба контроллера I2C AMD",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\amdi2c.sys"
+  },
+  {
+    "Name": "AmdK8",
+    "DisplayName": "AMD K8 драйвер процессора",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\amdk8.sys"
+  },
+  {
+    "Name": "AmdPPM",
+    "DisplayName": "Драйвер процессора AMD",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\amdppm.sys"
+  },
+  {
+    "Name": "amdsata",
+    "DisplayName": "amdsata",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\amdsata.sys"
+  },
+  {
+    "Name": "amdsbs",
+    "DisplayName": "amdsbs",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\amdsbs.sys"
+  },
+  {
+    "Name": "amdwps",
+    "DisplayName": "Драйвер для планирования профилирования рабочей нагрузки AMD",
+    "State": "Running",
+    "StartMode": "Boot",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\amdwps.sys"
+  },
+  {
+    "Name": "amdxata",
+    "DisplayName": "amdxata",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\amdxata.sys"
+  },
+  {
+    "Name": "AmneziaVPNSplitTunnel",
+    "DisplayName": "Amnezia Split Tunnel Service",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ServiceType": "Kernel Driver",
+    "PathName": "\\??\\C:\\Program Files\\AmneziaVPN\\mullvad-split-tunnel.sys"
+  },
+  {
+    "Name": "AppID",
+    "DisplayName": "Драйвер AppID",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\appid.sys"
+  },
+  {
+    "Name": "AppleSSD",
+    "DisplayName": "Твердотельный накопитель Apple",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\AppleSSD.sys"
+  },
+  {
+    "Name": "applockerfltr",
+    "DisplayName": "Драйвер фильтра Smartlocker",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\applockerfltr.sys"
+  },
+  {
+    "Name": "arcsas",
+    "DisplayName": "Adaptec SAS/SATA-II RAID - драйвер минипорта Storport",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\arcsas.sys"
+  },
+  {
+    "Name": "AsyncMac",
+    "DisplayName": "Драйвер асинхронного носителя RAS",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\asyncmac.sys"
+  },
+  {
+    "Name": "atapi",
+    "DisplayName": "Канал IDE",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\atapi.sys"
+  },
+  {
+    "Name": "b06bdrv",
+    "DisplayName": "Сетевой адаптер VBD QLogic",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\bxvbda.sys"
+  },
+  {
+    "Name": "bam",
+    "DisplayName": "Background Activity Moderator Driver",
+    "State": "Running",
+    "StartMode": "System",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\bam.sys"
+  },
+  {
+    "Name": "BasicDisplay",
+    "DisplayName": "BasicDisplay",
+    "State": "Running",
+    "StartMode": "System",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\DriverStore\\FileRepository\\basicdisplay.inf_amd64_9f34636ebdd89def\\BasicDisplay.sys"
+  },
+  {
+    "Name": "BasicRender",
+    "DisplayName": "BasicRender",
+    "State": "Running",
+    "StartMode": "System",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\DriverStore\\FileRepository\\basicrender.inf_amd64_a779d7425d822522\\BasicRender.sys"
+  },
+  {
+    "Name": "bcmfn2",
+    "DisplayName": "bcmfn2 Service",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\bcmfn2.sys"
+  },
+  {
+    "Name": "Beep",
+    "DisplayName": "Beep",
+    "State": "Running",
+    "StartMode": "System",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\Beep.sys"
+  },
+  {
+    "Name": "bfs",
+    "DisplayName": "Файловая система посредника",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ServiceType": "File System Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\bfs.sys"
+  },
+  {
+    "Name": "bindflt",
+    "DisplayName": "Windows Bind Filter Driver",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ServiceType": "File System Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\bindflt.sys"
+  },
+  {
+    "Name": "BlueStacksDrv_nxt",
+    "DisplayName": "BlueStacks Hypervisor_nxt",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ServiceType": "Kernel Driver",
+    "PathName": "\\??\\C:\\Program Files\\BlueStacks_nxt\\BstkDrv_nxt.sys"
+  },
+  {
+    "Name": "bowser",
+    "DisplayName": "Браузер",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "File System Driver",
+    "PathName": "C:\\WINDOWS\\system32\\DRIVERS\\bowser.sys"
+  },
+  {
+    "Name": "BthA2dp",
+    "DisplayName": "Microsoft Bluetooth A2dp driver",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\BthA2dp.sys"
+  },
+  {
+    "Name": "BthEnum",
+    "DisplayName": "Служба перечислителя Bluetooth",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\BthEnum.sys"
+  },
+  {
+    "Name": "BthHFEnum",
+    "DisplayName": "Драйвер профиля гарнитуры Microsoft Bluetooth",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\bthhfenum.sys"
+  },
+  {
+    "Name": "BthLEEnum",
+    "DisplayName": "Драйвер Bluetooth с низким энергопотреблением",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\Microsoft.Bluetooth.Legacy.LEEnumerator.sys"
+  },
+  {
+    "Name": "BthMini",
+    "DisplayName": "Драйвер радио Bluetooth",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\BTHMINI.sys"
+  },
+  {
+    "Name": "BTHMODEM",
+    "DisplayName": "Драйвер связи Bluetooth-модема",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\bthmodem.sys"
+  },
+  {
+    "Name": "BthPan",
+    "DisplayName": "Устройства Bluetooth (личной сети)",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\bthpan.sys"
+  },
+  {
+    "Name": "BTHPORT",
+    "DisplayName": "Драйвер порта Bluetooth",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\BTHport.sys"
+  },
+  {
+    "Name": "BTHUSB",
+    "DisplayName": "Драйвер порта USB радиомодуля Bluetooth",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\BTHUSB.sys"
+  },
+  {
+    "Name": "bttflt",
+    "DisplayName": "Фильтр Microsoft Hyper-V VHDPMEM BTT",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\bttflt.sys"
+  },
+  {
+    "Name": "buttonconverter",
+    "DisplayName": "Служба для устройств контроля переносных устройств",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\buttonconverter.sys"
+  },
+  {
+    "Name": "CAD",
+    "DisplayName": "Драйвер вынесения решения по оплате",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\CAD.sys"
+  },
+  {
+    "Name": "Ccx01000",
+    "DisplayName": "Ccx01000",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\Ccx01000.sys"
+  },
+  {
+    "Name": "CDD",
+    "DisplayName": "Канонический драйвер дисплея",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\cdd.dll"
+  },
+  {
+    "Name": "cdfs",
+    "DisplayName": "CD/DVD File System Reader",
+    "State": "Stopped",
+    "StartMode": "Disabled",
+    "ServiceType": "File System Driver",
+    "PathName": "C:\\WINDOWS\\system32\\DRIVERS\\cdfs.sys"
+  },
+  {
+    "Name": "cdrom",
+    "DisplayName": "Драйвер CD-ROM дисковода",
+    "State": "Running",
+    "StartMode": "System",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\cdrom.sys"
+  },
+  {
+    "Name": "CH341SER_A64",
+    "DisplayName": "CH341SER_A64",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\Drivers\\CH341S64.SYS"
+  },
+  {
+    "Name": "cht4iscsi",
+    "DisplayName": "cht4iscsi",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\cht4sx64.sys"
+  },
+  {
+    "Name": "cht4vbd",
+    "DisplayName": "Драйвер виртуальной шины Chelsio",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\cht4vx64.sys"
+  },
+  {
+    "Name": "CimFS",
+    "DisplayName": "CimFS",
+    "State": "Running",
+    "StartMode": "System",
+    "ServiceType": "File System Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\CimFS.sys"
+  },
+  {
+    "Name": "circlass",
+    "DisplayName": "Потребительские ИК-устройства",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\circlass.sys"
+  },
+  {
+    "Name": "CldFlt",
+    "DisplayName": "Windows Cloud Files Filter Driver",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ServiceType": "File System Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\cldflt.sys"
+  },
+  {
+    "Name": "CLFS",
+    "DisplayName": "Common Log (CLFS)",
+    "State": "Running",
+    "StartMode": "Boot",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\CLFS.sys"
+  },
+  {
+    "Name": "CmBatt",
+    "DisplayName": "Драйвер батареи с ACPI-управлением (Майкрософт)",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\CmBatt.sys"
+  },
+  {
+    "Name": "CNG",
+    "DisplayName": "CNG",
+    "State": "Running",
+    "StartMode": "Boot",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\Drivers\\cng.sys"
+  },
+  {
+    "Name": "cnghwassist",
+    "DisplayName": "CNG Hardware Assist algorithm provider",
+    "State": "Stopped",
+    "StartMode": "Disabled",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\DRIVERS\\cnghwassist.sys"
+  },
+  {
+    "Name": "CompositeBus",
+    "DisplayName": "Драйвер перечислителя композитной шины",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\DriverStore\\FileRepository\\compositebus.inf_amd64_8cf6fa9d3afdfa25\\CompositeBus.sys"
+  },
+  {
+    "Name": "condrv",
+    "DisplayName": "Console Driver",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\condrv.sys"
+  },
+  {
+    "Name": "dam",
+    "DisplayName": "Desktop Activity Moderator Driver",
+    "State": "Stopped",
+    "StartMode": "System",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\dam.sys"
+  },
+  {
+    "Name": "devmap",
+    "DisplayName": "Служба сопоставителя устройств в пользовательском режиме",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\DriverStore\\FileRepository\\devmap.inf_amd64_be39703ead246fc4\\devmap.sys"
+  },
+  {
+    "Name": "Dfsc",
+    "DisplayName": "Драйвер клиента пространства имен DFS",
+    "State": "Running",
+    "StartMode": "System",
+    "ServiceType": "File System Driver",
+    "PathName": "C:\\WINDOWS\\system32\\Drivers\\dfsc.sys"
+  },
+  {
+    "Name": "disk",
+    "DisplayName": "Драйвер диска",
+    "State": "Running",
+    "StartMode": "Boot",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\disk.sys"
+  },
+  {
+    "Name": "DisplayMux",
+    "DisplayName": "Microsoft DisplayMux",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\DriverStore\\FileRepository\\displaymux.inf_amd64_da65a70f0c3ce0f3\\DisplayMux.sys"
+  },
+  {
+    "Name": "dmvsc",
+    "DisplayName": "dmvsc",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\dmvsc.sys"
+  },
+  {
+    "Name": "dptf_acpi",
+    "DisplayName": "dptf_acpi",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\DriverStore\\FileRepository\\dptf_acpi.inf_amd64_58a6d4f6ac5608c6\\dptf_acpi.sys"
+  },
+  {
+    "Name": "dptf_cpu",
+    "DisplayName": "dptf_cpu",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\DriverStore\\FileRepository\\dptf_cpu.inf_amd64_4ce8bafd96682424\\dptf_cpu.sys"
+  },
+  {
+    "Name": "drmkaud",
+    "DisplayName": "Доверенные аудиодрайверы Майкрософт",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\drmkaud.sys"
+  },
+  {
+    "Name": "DXGKrnl",
+    "DisplayName": "LDDM Graphics Subsystem",
+    "State": "Running",
+    "StartMode": "Boot",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\dxgkrnl.sys"
+  },
+  {
+    "Name": "ebdrv",
+    "DisplayName": "Адаптер QLogic 10 Gigabit Ethernet VBD",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\evbda.sys"
+  },
+  {
+    "Name": "ebdrv0",
+    "DisplayName": "Устаревший Ethernet-адаптер QLogic VBD",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\evbd0a.sys"
+  },
+  {
+    "Name": "EhStorClass",
+    "DisplayName": "Enhanced Storage Filter Driver",
+    "State": "Running",
+    "StartMode": "Boot",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\EhStorClass.sys"
+  },
+  {
+    "Name": "EhStorTcgDrv",
+    "DisplayName": "Драйвер Майкрософт для запоминающих устройств, поддерживающих протоколы IEEE 1667 и TCG",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\EhStorTcgDrv.sys"
+  },
+  {
+    "Name": "ErrDev",
+    "DisplayName": "Microsoft Hardware Error Device Driver",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\errdev.sys"
+  },
+  {
+    "Name": "esif_lf",
+    "DisplayName": "esif_lf",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\DriverStore\\FileRepository\\dptf_cpu.inf_amd64_4ce8bafd96682424\\esif_lf.sys"
+  },
+  {
+    "Name": "ExecutionContext",
+    "DisplayName": "CPU Scheduler for High Performance I/O",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\Drivers\\ExecutionContext.sys"
+  },
+  {
+    "Name": "exfat",
+    "DisplayName": "exFAT File System Driver",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "File System Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\exfat.sys"
+  },
+  {
+    "Name": "fastfat",
+    "DisplayName": "FAT12/16/32 File System Driver",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "File System Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\fastfat.sys"
+  },
+  {
+    "Name": "fdc",
+    "DisplayName": "Драйвер контроллера гибких дисков",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\fdc.sys"
+  },
+  {
+    "Name": "FileCrypt",
+    "DisplayName": "FileCrypt",
+    "State": "Running",
+    "StartMode": "System",
+    "ServiceType": "File System Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\filecrypt.sys"
+  },
+  {
+    "Name": "FileInfo",
+    "DisplayName": "File Information FS MiniFilter",
+    "State": "Running",
+    "StartMode": "Boot",
+    "ServiceType": "File System Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\fileinfo.sys"
+  },
+  {
+    "Name": "Filetrace",
+    "DisplayName": "Filetrace",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "File System Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\filetrace.sys"
+  },
+  {
+    "Name": "flpydisk",
+    "DisplayName": "Драйвер дисковода гибких дисков",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\flpydisk.sys"
+  },
+  {
+    "Name": "FltMgr",
+    "DisplayName": "Диспетчер фильтров",
+    "State": "Running",
+    "StartMode": "Boot",
+    "ServiceType": "File System Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\fltmgr.sys"
+  },
+  {
+    "Name": "FsDepends",
+    "DisplayName": "File System Dependency Minifilter",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "File System Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\FsDepends.sys"
+  },
+  {
+    "Name": "fse",
+    "DisplayName": "Flow steering engine",
+    "State": "Running",
+    "StartMode": "Boot",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\fse.sys"
+  },
+  {
+    "Name": "fvevol",
+    "DisplayName": "Драйвер фильтра шифрования диска BitLocker",
+    "State": "Running",
+    "StartMode": "Boot",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\DRIVERS\\fvevol.sys"
+  },
+  {
+    "Name": "gameflt",
+    "DisplayName": "gameflt",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "File System Driver",
+    "PathName": "C:\\WINDOWS\\system32\\DriverStore\\FileRepository\\gameflt.inf_amd64_c03f7ce96acee3d6\\gameflt.sys"
+  },
+  {
+    "Name": "gencounter",
+    "DisplayName": "Счетчик создания Microsoft Hyper-V",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\vmgencounter.sys"
+  },
+  {
+    "Name": "genericusbfn",
+    "DisplayName": "Общий класс функции USB",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\DriverStore\\FileRepository\\genericusbfn.inf_amd64_71c810ddc0116541\\genericusbfn.sys"
+  },
+  {
+    "Name": "GenPass",
+    "DisplayName": "Драйвер Microsoft GenPass",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\DriverStore\\FileRepository\\genpass.inf_amd64_0c82d80c9252c9bd\\genpass.sys"
+  },
+  {
+    "Name": "GPIOClx0101",
+    "DisplayName": "Microsoft GPIO Class Extension Driver",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\Drivers\\msgpioclx.sys"
+  },
+  {
+    "Name": "HdAudAddService",
+    "DisplayName": "Драйвер функции UAA для службы High Definition Audio (Microsoft), версия 1.1",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\HdAudio.sys"
+  },
+  {
+    "Name": "HDAudBus",
+    "DisplayName": "Драйвер для шины UAA для High Definition Audio (Microsoft)",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\HDAudBus.sys"
+  },
+  {
+    "Name": "HidBatt",
+    "DisplayName": "Драйвер батареи ИБП HID",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\HidBatt.sys"
+  },
+  {
+    "Name": "HidBth",
+    "DisplayName": "Microsoft Bluetooth HID минипорт",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\hidbth.sys"
+  },
+  {
+    "Name": "hidi2c",
+    "DisplayName": "Драйвер минипорта для HID-устройств на шине I2C (Майкрософт)",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\hidi2c.sys"
+  },
+  {
+    "Name": "hidinterrupt",
+    "DisplayName": "Общий драйвер для кнопок HID, внедренных с прерываниями",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\hidinterrupt.sys"
+  },
+  {
+    "Name": "HidIr",
+    "DisplayName": "Microsoft Infrared HID драйвер",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\hidir.sys"
+  },
+  {
+    "Name": "hidspi",
+    "DisplayName": "Драйвер минипорта для HID-устройств SPI Microsoft",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\hidspi.sys"
+  },
+  {
+    "Name": "HidSpiCx",
+    "DisplayName": "HidSpi KMDF Class Extension",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\HidSpiCx.sys"
+  },
+  {
+    "Name": "HidUsb",
+    "DisplayName": "Драйвер класса HID Microsoft",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\hidusb.sys"
+  },
+  {
+    "Name": "hnswfpdriver",
+    "DisplayName": "Драйвер HNS WFP",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\hnswfpdriver.sys"
+  },
+  {
+    "Name": "HpSAMD",
+    "DisplayName": "HpSAMD",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\HpSAMD.sys"
+  },
+  {
+    "Name": "Hsp",
+    "DisplayName": "Служба Microsoft Pluton",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\Hsp.sys"
+  },
+  {
+    "Name": "HTTP",
+    "DisplayName": "HTTP-служба",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\HTTP.sys"
+  },
+  {
+    "Name": "hvcrash",
+    "DisplayName": "hvcrash",
+    "State": "Stopped",
+    "StartMode": "Disabled",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\hvcrash.sys"
+  },
+  {
+    "Name": "hvservice",
+    "DisplayName": "Драйвер службы низкоуровневой оболочки Microsoft",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\hvservice.sys"
+  },
+  {
+    "Name": "hvsocketcontrol",
+    "DisplayName": "hvsocketcontrol",
+    "State": "Running",
+    "StartMode": "System",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\hvsocketcontrol.sys"
+  },
+  {
+    "Name": "HwNClx0101",
+    "DisplayName": "Microsoft Hardware Notifications Class Extension Driver",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\Drivers\\mshwnclx.sys"
+  },
+  {
+    "Name": "hwpolicy",
+    "DisplayName": "Hardware Policy Driver",
+    "State": "Stopped",
+    "StartMode": "Boot",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\hwpolicy.sys"
+  },
+  {
+    "Name": "hyperkbd",
+    "DisplayName": "hyperkbd",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\hyperkbd.sys"
+  },
+  {
+    "Name": "HyperVideo",
+    "DisplayName": "HyperVideo",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\HyperVideo.sys"
+  },
+  {
+    "Name": "I3CHost",
+    "DisplayName": "Служба хост-контроллера I3C",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\DriverStore\\FileRepository\\i3chost.inf_amd64_cef5fb7322145a26\\i3chost.sys"
+  },
+  {
+    "Name": "i8042prt",
+    "DisplayName": "Драйвер i8042-клавиатуры и мыши для порта PS/2",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\i8042prt.sys"
+  },
+  {
+    "Name": "iagpio",
+    "DisplayName": "Драйвер контроллера GPIO с последовательным вводом-выводом Intel",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\iagpio.sys"
+  },
+  {
+    "Name": "iai2c",
+    "DisplayName": "Intel(R) Serial IO I2C Host Controller",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\iai2c.sys"
+  },
+  {
+    "Name": "iaLPSS2i_GPIO2",
+    "DisplayName": "Драйвер версии 2 Intel(R) Serial IO GPIO",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\iaLPSS2i_GPIO2.sys"
+  },
+  {
+    "Name": "iaLPSS2i_GPIO2_BXT_P",
+    "DisplayName": "Драйвер версии 2 интерфейса ввода-вывода общего назначения для операций последовательного ввода-вывода Intel(R)",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\iaLPSS2i_GPIO2_BXT_P.sys"
+  },
+  {
+    "Name": "iaLPSS2i_GPIO2_CNL",
+    "DisplayName": "Драйвер версии 2 интерфейса ввода-вывода общего назначения для операций последовательного ввода-вывода Intel(R)",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\iaLPSS2i_GPIO2_CNL.sys"
+  },
+  {
+    "Name": "iaLPSS2i_GPIO2_GLK",
+    "DisplayName": "Драйвер версии 2 интерфейса ввода-вывода общего назначения для операций последовательного ввода-вывода Intel(R)",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\iaLPSS2i_GPIO2_GLK.sys"
+  },
+  {
+    "Name": "iaLPSS2i_I2C",
+    "DisplayName": "Драйвер версии 2 Intel(R) Serial IO I2C",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\iaLPSS2i_I2C.sys"
+  },
+  {
+    "Name": "iaLPSS2i_I2C_BXT_P",
+    "DisplayName": "Драйвер версии 2 I2C для операций последовательного ввода-вывода Intel(R)",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\iaLPSS2i_I2C_BXT_P.sys"
+  },
+  {
+    "Name": "iaLPSS2i_I2C_CNL",
+    "DisplayName": "Драйвер версии 2 интерфейса ввода-вывода общего назначения для операций последовательного ввода-вывода Intel(R)",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\iaLPSS2i_I2C_CNL.sys"
+  },
+  {
+    "Name": "iaLPSS2i_I2C_GLK",
+    "DisplayName": "Драйвер версии 2 интерфейса ввода-вывода общего назначения для операций последовательного ввода-вывода Intel(R)",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\iaLPSS2i_I2C_GLK.sys"
+  },
+  {
+    "Name": "iaLPSS2_GPIO2_TGL",
+    "DisplayName": "Intel(R) Serial IO GPIO Driver v2",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\DriverStore\\FileRepository\\ialpss2_gpio2_tgl.inf_amd64_c330c09d72f3e083\\iaLPSS2_GPIO2_TGL.sys"
+  },
+  {
+    "Name": "iaLPSS2_I2C_TGL",
+    "DisplayName": "Intel(R) Serial IO I2C Driver v2",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\DriverStore\\FileRepository\\ialpss2_i2c_tgl.inf_amd64_312c3014729186bd\\iaLPSS2_I2C_TGL.sys"
+  },
+  {
+    "Name": "iaLPSSi_GPIO",
+    "DisplayName": "Драйвер контроллера Intel(R) Serial IO GPIO",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\iaLPSSi_GPIO.sys"
+  },
+  {
+    "Name": "iaLPSSi_I2C",
+    "DisplayName": "Драйвер Intel(R) Serial IO I2C Controller",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\iaLPSSi_I2C.sys"
+  },
+  {
+    "Name": "iaStorAVC",
+    "DisplayName": "RAID-контроллер SATA для набора микросхем Intel",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\iaStorAVC.sys"
+  },
+  {
+    "Name": "iaStorV",
+    "DisplayName": "RAID-контроллер Intel для Windows 7",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\iaStorV.sys"
+  },
+  {
+    "Name": "ibbus",
+    "DisplayName": "Mellanox InfiniBand Bus/AL (драйвер фильтра)",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\ibbus.sys"
+  },
+  {
+    "Name": "ibtusb",
+    "DisplayName": "Intel(R) Wireless Bluetooth(R)",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\DriverStore\\FileRepository\\ibtusb.inf_amd64_6c8d28bf97b39b35\\ibtusb.sys"
+  },
+  {
+    "Name": "ICCWDT",
+    "DisplayName": "Intel(R) Watchdog Timer Driver (Intel(R) WDT)",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\ICCWDT.sys"
+  },
+  {
+    "Name": "igfxn",
+    "DisplayName": "igfxn",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_357acc06f2c40efb\\igdkmdn64.sys"
+  },
+  {
+    "Name": "IndirectKmd",
+    "DisplayName": "Драйвер режима ядра непрямых дисплеев",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\IndirectKmd.sys"
+  },
+  {
+    "Name": "IntcAudioBus",
+    "DisplayName": "Intel® Smart Sound Technology BUS",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\DriverStore\\FileRepository\\intcaudiobus.inf_amd64_f391fa5ae776e58c\\IntcAudioBus.sys"
+  },
+  {
+    "Name": "IntcAzAudAddService",
+    "DisplayName": "Service for Realtek HD Audio (WDM)",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\RTKVHD64.sys"
+  },
+  {
+    "Name": "IntcBTAu",
+    "DisplayName": "Технология Intel® Smart Sound для аудио Bluetooth®",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\DriverStore\\FileRepository\\intcbtau.inf_amd64_50d2fa7560d030fc\\IntcBTAu.sys"
+  },
+  {
+    "Name": "IntcDMic",
+    "DisplayName": "Технология Intel® Smart Sound для цифровых микрофонов",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\DriverStore\\FileRepository\\intcdmic.inf_amd64_c6097727a94da534\\IntcDMic.sys"
+  },
+  {
+    "Name": "IntcOED",
+    "DisplayName": "Intel® Smart Sound Technology — OED",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\DriverStore\\FileRepository\\intcoed.inf_amd64_06dd582276d3f601\\IntcOED.sys"
+  },
+  {
+    "Name": "IntcUSB",
+    "DisplayName": "Технология Intel® Smart Sound для аудио USB",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\DriverStore\\FileRepository\\intcusb.inf_amd64_d97909364d9908a5\\IntcUSB.sys"
+  },
+  {
+    "Name": "IntelGNA",
+    "DisplayName": "Intel(R) GNA Scoring Accelerator service",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\DriverStore\\FileRepository\\gna.inf_amd64_689d3d5fefeef458\\gna.sys"
+  },
+  {
+    "Name": "intelide",
+    "DisplayName": "intelide",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\intelide.sys"
+  },
+  {
+    "Name": "intelpep",
+    "DisplayName": "Драйвер подключаемого модуля управления питанием Intel(R)",
+    "State": "Running",
+    "StartMode": "Boot",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\intelpep.sys"
+  },
+  {
+    "Name": "intelpmax",
+    "DisplayName": "Драйвер диспетчера Intel(R) Dynamic Device Peak Power Manager",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\intelpmax.sys"
+  },
+  {
+    "Name": "IntelPMT",
+    "DisplayName": "Служба технологии мониторинга платформы Intel(R)",
+    "State": "Running",
+    "StartMode": "Boot",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\IntelPMT.sys"
+  },
+  {
+    "Name": "intelppm",
+    "DisplayName": "Драйвер Intel процессора",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\intelppm.sys"
+  },
+  {
+    "Name": "iorate",
+    "DisplayName": "Драйвер фильтра скорости ввода-вывода диска",
+    "State": "Running",
+    "StartMode": "Boot",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\iorate.sys"
+  },
+  {
+    "Name": "IpFilterDriver",
+    "DisplayName": "Драйвер фильтра IP-трафика",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\DRIVERS\\ipfltdrv.sys"
+  },
+  {
+    "Name": "IPMIDRV",
+    "DisplayName": "IPMIDRV",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\IPMIDrv.sys"
+  },
+  {
+    "Name": "IPNAT",
+    "DisplayName": "IP Network Address Translator",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\ipnat.sys"
+  },
+  {
+    "Name": "IPT",
+    "DisplayName": "IPT",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\ipt.sys"
+  },
+  {
+    "Name": "isapnp",
+    "DisplayName": "isapnp",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\isapnp.sys"
+  },
+  {
+    "Name": "iScsiPrt",
+    "DisplayName": "Драйвер iScsiPort",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\msiscsi.sys"
+  },
+  {
+    "Name": "ItSas35i",
+    "DisplayName": "ItSas35i",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\ItSas35i.sys"
+  },
+  {
+    "Name": "kbdclass",
+    "DisplayName": "Драйвер класса клавиатуры",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\kbdclass.sys"
+  },
+  {
+    "Name": "kbdhid",
+    "DisplayName": "Драйвер клавиатуры HID",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\kbdhid.sys"
+  },
+  {
+    "Name": "kdnic",
+    "DisplayName": "Мини-порт сетевого адаптера с отладкой ядра (Майкрософт)",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\kdnic.sys"
+  },
+  {
+    "Name": "kdnic_legacy",
+    "DisplayName": "Мини-порт сетевого адаптера с отладкой ядра (Майкрософт) (NDIS 6.20)",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\kdnic_legacy.sys"
+  },
+  {
+    "Name": "kltun",
+    "DisplayName": "Kaspersky VPN",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\DRIVERS\\kltun.sys"
+  },
+  {
+    "Name": "KSecDD",
+    "DisplayName": "KSecDD",
+    "State": "Running",
+    "StartMode": "Boot",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\Drivers\\ksecdd.sys"
+  },
+  {
+    "Name": "KSecPkg",
+    "DisplayName": "KSecPkg",
+    "State": "Running",
+    "StartMode": "Boot",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\Drivers\\ksecpkg.sys"
+  },
+  {
+    "Name": "KslD",
+    "DisplayName": "KslD",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\wd\\KslD.sys"
+  },
+  {
+    "Name": "ksthunk",
+    "DisplayName": "Kernel Streaming Thunks",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\ksthunk.sys"
+  },
+  {
+    "Name": "l1vhlwf",
+    "DisplayName": "Вложенная виртуализация сети",
+    "State": "Stopped",
+    "StartMode": "Auto",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\l1vhlwf.sys"
+  },
+  {
+    "Name": "l2bridge",
+    "DisplayName": "Драйвер моста",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\l2bridge.sys"
+  },
+  {
+    "Name": "lltdio",
+    "DisplayName": "Ответчик обнаружения топологии канального уровня",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\lltdio.sys"
+  },
+  {
+    "Name": "LSI_SAS",
+    "DisplayName": "LSI_SAS",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\lsi_sas.sys"
+  },
+  {
+    "Name": "LSI_SAS2i",
+    "DisplayName": "LSI_SAS2i",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\lsi_sas2i.sys"
+  },
+  {
+    "Name": "LSI_SAS3i",
+    "DisplayName": "LSI_SAS3i",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\lsi_sas3i.sys"
+  },
+  {
+    "Name": "luafv",
+    "DisplayName": "Виртуализация файла контроля учетных записей",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ServiceType": "File System Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\luafv.sys"
+  },
+  {
+    "Name": "mausbhost",
+    "DisplayName": "Драйвер хост-контроллера MA-USB",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\mausbhost.sys"
+  },
+  {
+    "Name": "mausbip",
+    "DisplayName": "Драйвер IP-фильтр MA-USB",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\mausbip.sys"
+  },
+  {
+    "Name": "MbbCx",
+    "DisplayName": "MBB Network Adapter Class Extension",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\MbbCx.sys"
+  },
+  {
+    "Name": "megasas2i",
+    "DisplayName": "megasas2i",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\MegaSas2i.sys"
+  },
+  {
+    "Name": "megasas35i",
+    "DisplayName": "megasas35i",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\megasas35i.sys"
+  },
+  {
+    "Name": "megasr",
+    "DisplayName": "megasr",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\megasr.sys"
+  },
+  {
+    "Name": "MEIx64",
+    "DisplayName": "Intel(R) Management Engine Interface ",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\DriverStore\\FileRepository\\heci.inf_amd64_6b6e8cc42a3d1f09\\x64\\TeeDriverW10x64.sys"
+  },
+  {
+    "Name": "Microsoft_Bluetooth_AvrcpTransport",
+    "DisplayName": "Драйвер транспорта AVRCP Microsoft Bluetooth",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\Microsoft.Bluetooth.AvrcpTransport.sys"
+  },
+  {
+    "Name": "mlx4_bus",
+    "DisplayName": "Перечислитель шины Mellanox ConnectX",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\mlx4_bus.sys"
+  },
+  {
+    "Name": "MMCSS",
+    "DisplayName": "Multimedia Class Scheduler",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\mmcss.sys"
+  },
+  {
+    "Name": "Modem",
+    "DisplayName": "Modem",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\modem.sys"
+  },
+  {
+    "Name": "monitor",
+    "DisplayName": "Microsoft Monitor Class Function Driver Service",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\monitor.sys"
+  },
+  {
+    "Name": "mouclass",
+    "DisplayName": "Драйвер класса мыши",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\mouclass.sys"
+  },
+  {
+    "Name": "mouhid",
+    "DisplayName": "Драйвер мыши HID",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\mouhid.sys"
+  },
+  {
+    "Name": "mountmgr",
+    "DisplayName": "Диспетчер точек подключения",
+    "State": "Running",
+    "StartMode": "Boot",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\mountmgr.sys"
+  },
+  {
+    "Name": "mpi3drvi",
+    "DisplayName": "mpi3drvi",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\mpi3drvi.sys"
+  },
+  {
+    "Name": "mpsdrv",
+    "DisplayName": "Windows Defender Firewall Authorization Driver",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\mpsdrv.sys"
+  },
+  {
+    "Name": "MRxDAV",
+    "DisplayName": "Драйвер перенаправителя клиентов WebDav",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "File System Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\mrxdav.sys"
+  },
+  {
+    "Name": "mrxsmb",
+    "DisplayName": "Оболочка и модуль мини-перенаправителя SMB",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "File System Driver",
+    "PathName": "C:\\WINDOWS\\system32\\DRIVERS\\mrxsmb.sys"
+  },
+  {
+    "Name": "mrxsmb20",
+    "DisplayName": "Мини-перенаправитель SMB 2.0",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "File System Driver",
+    "PathName": "C:\\WINDOWS\\system32\\DRIVERS\\mrxsmb20.sys"
+  },
+  {
+    "Name": "MsBridge",
+    "DisplayName": "MAC-мост (Майкрософт)",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\bridge.sys"
+  },
+  {
+    "Name": "Msfs",
+    "DisplayName": "Msfs",
+    "State": "Running",
+    "StartMode": "System",
+    "ServiceType": "File System Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\Msfs.sys"
+  },
+  {
+    "Name": "msgpiowin32",
+    "DisplayName": "Общий драйвер для кнопок, режима подставки и индикатора ноутбука/планшета",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\msgpiowin32.sys"
+  },
+  {
+    "Name": "mshidkmdf",
+    "DisplayName": "Pass-through HID to KMDF Filter Driver",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\mshidkmdf.sys"
+  },
+  {
+    "Name": "mshidumdf",
+    "DisplayName": "Сквозной драйвер HID-UMDF",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\mshidumdf.sys"
+  },
+  {
+    "Name": "msisadrv",
+    "DisplayName": "msisadrv",
+    "State": "Running",
+    "StartMode": "Boot",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\msisadrv.sys"
+  },
+  {
+    "Name": "MSKSSRV",
+    "DisplayName": "Представитель служб потоков Microsoft",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\MSKSSRV.sys"
+  },
+  {
+    "Name": "MsLldp",
+    "DisplayName": "Протокол Microsoft LLDP",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\mslldp.sys"
+  },
+  {
+    "Name": "MSPCLOCK",
+    "DisplayName": "Посредник синхронизации потоков Microsoft",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\MSPCLOCK.sys"
+  },
+  {
+    "Name": "MSPQM",
+    "DisplayName": "Представитель диспетчера качества потоков Microsoft",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\MSPQM.sys"
+  },
+  {
+    "Name": "MsQuic",
+    "DisplayName": "MsQuic",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\msquic.sys"
+  },
+  {
+    "Name": "MsQuicPrev",
+    "DisplayName": "MSQUIC",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\msquicprev.sys"
+  },
+  {
+    "Name": "MsRPC",
+    "DisplayName": "MsRPC",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\MsRPC.sys"
+  },
+  {
+    "Name": "mssmbios",
+    "DisplayName": "Драйвер Microsoft System Management BIOS",
+    "State": "Running",
+    "StartMode": "System",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\mssmbios.sys"
+  },
+  {
+    "Name": "MSTEE",
+    "DisplayName": "Преобразователь потоков Tee/Sink-to-Sink Microsoft",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\MSTEE.sys"
+  },
+  {
+    "Name": "MTConfig",
+    "DisplayName": "Microsoft Input Configuration Driver",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\MTConfig.sys"
+  },
+  {
+    "Name": "Mup",
+    "DisplayName": "Mup",
+    "State": "Running",
+    "StartMode": "Boot",
+    "ServiceType": "File System Driver",
+    "PathName": "C:\\WINDOWS\\system32\\Drivers\\mup.sys"
+  },
+  {
+    "Name": "mvumis",
+    "DisplayName": "mvumis",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\mvumis.sys"
+  },
+  {
+    "Name": "NahimicBTLink",
+    "DisplayName": "Nahimic Easy Surround device - Driver",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\NahimicBTLink.sys"
+  },
+  {
+    "Name": "Nahimic_Mirroring",
+    "DisplayName": "Nahimic mirroring device - Driver",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\Nahimic_Mirroring.sys"
+  },
+  {
+    "Name": "NativeWifiP",
+    "DisplayName": "Фильтр NativeWiFi",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\DRIVERS\\nwifi.sys"
+  },
+  {
+    "Name": "ndfltr",
+    "DisplayName": "Служба NetworkDirect",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\ndfltr.sys"
+  },
+  {
+    "Name": "NDIS",
+    "DisplayName": "Системный драйвер NDIS",
+    "State": "Running",
+    "StartMode": "Boot",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\ndis.sys"
+  },
+  {
+    "Name": "NdisCap",
+    "DisplayName": "Захват Microsoft NDIS",
+    "State": "Running",
+    "StartMode": "System",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\ndiscap.sys"
+  },
+  {
+    "Name": "NdisImPlatform",
+    "DisplayName": "Протокол мультиплексора сетевого адаптера (Майкрософт)",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\NdisImPlatform.sys"
+  },
+  {
+    "Name": "NdisTapi",
+    "DisplayName": "NDIS-драйвер TAPI удаленного доступа",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\DRIVERS\\ndistapi.sys"
+  },
+  {
+    "Name": "Ndisuio",
+    "DisplayName": "NDIS Usermode I/O Protocol",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\ndisuio.sys"
+  },
+  {
+    "Name": "NdisVirtualBus",
+    "DisplayName": "Перечислитель виртуальных сетевых адаптеров (Майкрософт)",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\NdisVirtualBus.sys"
+  },
+  {
+    "Name": "NdisWan",
+    "DisplayName": "NDIS-драйвер глобальной сети для удаленного доступа",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\ndiswan.sys"
+  },
+  {
+    "Name": "ndiswanlegacy",
+    "DisplayName": "Устаревшая версия NDIS-драйвера глобальной сети для удаленного доступа",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\DRIVERS\\ndiswan.sys"
+  },
+  {
+    "Name": "NDKPerf",
+    "DisplayName": "NDKPerf Driver",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\NDKPerf.sys"
+  },
+  {
+    "Name": "NDKPing",
+    "DisplayName": "NDKPing Driver",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\NDKPing.sys"
+  },
+  {
+    "Name": "ndproxy",
+    "DisplayName": "NDIS Proxy Driver",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\DRIVERS\\NDProxy.sys"
+  },
+  {
+    "Name": "Ndu",
+    "DisplayName": "Windows Network Data Usage Monitoring Driver",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\Ndu.sys"
+  },
+  {
+    "Name": "NetAdapterCx",
+    "DisplayName": "Network Adapter WDF Class Extension Library",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\netadaptercx.sys"
+  },
+  {
+    "Name": "NetBIOS",
+    "DisplayName": "NetBIOS Interface",
+    "State": "Running",
+    "StartMode": "System",
+    "ServiceType": "File System Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\netbios.sys"
+  },
+  {
+    "Name": "NetBT",
+    "DisplayName": "NetBT",
+    "State": "Running",
+    "StartMode": "System",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\DRIVERS\\netbt.sys"
+  },
+  {
+    "Name": "netvsc",
+    "DisplayName": "netvsc",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\netvsc.sys"
+  },
+  {
+    "Name": "NetworkPrivacyPolicy",
+    "DisplayName": "Microsoft Network Privacy Policy Service",
+    "State": "Stopped",
+    "StartMode": "Auto",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\DriverStore\\FileRepository\\networkprivacypolicy.inf_amd64_95f202ccc263e8c7\\NetworkPrivacyPolicy.sys"
+  },
+  {
+    "Name": "Netwtw10",
+    "DisplayName": "___ Intel(R) Wireless Adapter Driver for Windows 10 - 64 Bit",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\Netwtw10.sys"
+  },
+  {
+    "Name": "Npfs",
+    "DisplayName": "Npfs",
+    "State": "Running",
+    "StartMode": "System",
+    "ServiceType": "File System Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\Npfs.sys"
+  },
+  {
+    "Name": "npsvctrig",
+    "DisplayName": "Named pipe service trigger provider",
+    "State": "Running",
+    "StartMode": "System",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\npsvctrig.sys"
+  },
+  {
+    "Name": "nsiproxy",
+    "DisplayName": "NSI Proxy Service Driver",
+    "State": "Running",
+    "StartMode": "System",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\nsiproxy.sys"
+  },
+  {
+    "Name": "Ntfs",
+    "DisplayName": "Ntfs",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "File System Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\Ntfs.sys"
+  },
+  {
+    "Name": "Null",
+    "DisplayName": "Null",
+    "State": "Running",
+    "StartMode": "System",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\Null.sys"
+  },
+  {
+    "Name": "nvdimm",
+    "DisplayName": "Драйвер устройства (Майкрософт) NVDIMM",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\nvdimm.sys"
+  },
+  {
+    "Name": "nvlddmkm",
+    "DisplayName": "nvlddmkm",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\DriverStore\\FileRepository\\nvmii.inf_amd64_52a4c0ca7914a7b3\\nvlddmkm.sys"
+  },
+  {
+    "Name": "nvmedisk",
+    "DisplayName": "Драйвер диска Microsoft NVMe",
+    "State": "Running",
+    "StartMode": "Boot",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\nvmedisk.sys"
+  },
+  {
+    "Name": "nvraid",
+    "DisplayName": "nvraid",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\nvraid.sys"
+  },
+  {
+    "Name": "nvstor",
+    "DisplayName": "nvstor",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\nvstor.sys"
+  },
+  {
+    "Name": "nvvad_WaveExtensible",
+    "DisplayName": "NVIDIA Virtual Audio Device (Wave Extensible) (WDM)",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\nvvad64v.sys"
+  },
+  {
+    "Name": "P9Rdr",
+    "DisplayName": "Plan 9 Redirector Driver",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\p9rdr.sys"
+  },
+  {
+    "Name": "Parport",
+    "DisplayName": "Драйвер параллельного порта",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\parport.sys"
+  },
+  {
+    "Name": "partmgr",
+    "DisplayName": "Драйвер разделов",
+    "State": "Running",
+    "StartMode": "Boot",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\partmgr.sys"
+  },
+  {
+    "Name": "passthruparser",
+    "DisplayName": "PassthroughParser",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\passthruparser.sys"
+  },
+  {
+    "Name": "pci",
+    "DisplayName": "Драйвер шины PCI",
+    "State": "Running",
+    "StartMode": "Boot",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\pci.sys"
+  },
+  {
+    "Name": "pciide",
+    "DisplayName": "pciide",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\pciide.sys"
+  },
+  {
+    "Name": "pcmcia",
+    "DisplayName": "pcmcia",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\pcmcia.sys"
+  },
+  {
+    "Name": "pcw",
+    "DisplayName": "Performance Counters for Windows Driver",
+    "State": "Running",
+    "StartMode": "Boot",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\pcw.sys"
+  },
+  {
+    "Name": "pdc",
+    "DisplayName": "pdc",
+    "State": "Running",
+    "StartMode": "Boot",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\pdc.sys"
+  },
+  {
+    "Name": "PEAUTH",
+    "DisplayName": "PEAUTH",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\peauth.sys"
+  },
+  {
+    "Name": "percsas2i",
+    "DisplayName": "percsas2i",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\percsas2i.sys"
+  },
+  {
+    "Name": "percsas3i",
+    "DisplayName": "percsas3i",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\percsas3i.sys"
+  },
+  {
+    "Name": "PktMon",
+    "DisplayName": "Packet Monitor Driver",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\PktMon.sys"
+  },
+  {
+    "Name": "PktMonApi",
+    "DisplayName": "Packet Monitor Export Driver",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\PktMonApi.sys"
+  },
+  {
+    "Name": "PlutonHeci",
+    "DisplayName": "Служба безопасности Microsoft Pluton",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\DriverStore\\FileRepository\\pluton-heci.inf_amd64_58a2366d0ebc6e76\\pluton-heci.sys"
+  },
+  {
+    "Name": "PlutonHsp2",
+    "DisplayName": "Microsoft Pluton Service",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\DriverStore\\FileRepository\\plutonhsp2.inf_amd64_a7a14e422cdbd8bd\\PlutonHsp2.sys"
+  },
+  {
+    "Name": "pmem",
+    "DisplayName": "Драйвер диска энергонезависимой памяти (Майкрософт)",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\pmem.sys"
+  },
+  {
+    "Name": "PNPMEM",
+    "DisplayName": "Драйвер модуля памяти (Microsoft)",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\pnpmem.sys"
+  },
+  {
+    "Name": "portcfg",
+    "DisplayName": "portcfg",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\portcfg.sys"
+  },
+  {
+    "Name": "PptpMiniport",
+    "DisplayName": "Мини-порт глобальной сети (PPTP)",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\raspptp.sys"
+  },
+  {
+    "Name": "PRM",
+    "DisplayName": "Драйвер Microsoft PRM",
+    "State": "Running",
+    "StartMode": "Boot",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\DriverStore\\FileRepository\\prm.inf_amd64_7c38475757a1f016\\PRM.sys"
+  },
+  {
+    "Name": "Processor",
+    "DisplayName": "Драйвер процессора",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\processr.sys"
+  },
+  {
+    "Name": "Psched",
+    "DisplayName": "Планировщик пакетов QoS",
+    "State": "Running",
+    "StartMode": "System",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\pacer.sys"
+  },
+  {
+    "Name": "pvhdparser",
+    "DisplayName": "pvhdparser",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\pvhdparser.sys"
+  },
+  {
+    "Name": "pvscsi",
+    "DisplayName": "pvscsi Storage Controller Driver",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\pvscsii.sys"
+  },
+  {
+    "Name": "QWAVEdrv",
+    "DisplayName": "Драйвер QWAVE",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\qwavedrv.sys"
+  },
+  {
+    "Name": "Ramdisk",
+    "DisplayName": "Драйвер Windows RAM-диска",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\ramdisk.sys"
+  },
+  {
+    "Name": "RasAcd",
+    "DisplayName": "Remote Access Auto Connection Driver",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\DRIVERS\\rasacd.sys"
+  },
+  {
+    "Name": "RasAgileVpn",
+    "DisplayName": "Мини-порт глобальной сети (IKEv2)",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\AgileVpn.sys"
+  },
+  {
+    "Name": "Rasl2tp",
+    "DisplayName": "Мини-порт глобальной сети (L2TP)",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\rasl2tp.sys"
+  },
+  {
+    "Name": "RasPppoe",
+    "DisplayName": "Драйвер PPPOE для удаленного доступа",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\DRIVERS\\raspppoe.sys"
+  },
+  {
+    "Name": "RasSstp",
+    "DisplayName": "Мини-порт глобальной сети (SSTP)",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\rassstp.sys"
+  },
+  {
+    "Name": "rdbss",
+    "DisplayName": "Перенаправленная подсистема буферизации",
+    "State": "Running",
+    "StartMode": "System",
+    "ServiceType": "File System Driver",
+    "PathName": "C:\\WINDOWS\\system32\\DRIVERS\\rdbss.sys"
+  },
+  {
+    "Name": "rdpbus",
+    "DisplayName": "Драйвер шины перенаправителя устройств удаленных рабочих столов",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\rdpbus.sys"
+  },
+  {
+    "Name": "RDPDR",
+    "DisplayName": "Драйвер перенаправителя устройств удаленных рабочих столов",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\rdpdr.sys"
+  },
+  {
+    "Name": "rdyboost",
+    "DisplayName": "ReadyBoost",
+    "State": "Running",
+    "StartMode": "Boot",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\rdyboost.sys"
+  },
+  {
+    "Name": "ReFS",
+    "DisplayName": "ReFS",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "File System Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\ReFS.sys"
+  },
+  {
+    "Name": "ReFSv1",
+    "DisplayName": "ReFSv1",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "File System Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\ReFSv1.sys"
+  },
+  {
+    "Name": "RFCOMM",
+    "DisplayName": "Bluetooth Device (RFCOMM Protocol TDI)",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\rfcomm.sys"
+  },
+  {
+    "Name": "rhproxy",
+    "DisplayName": "Драйвер прокси-сервера центра ресурсов",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\rhproxy.sys"
+  },
+  {
+    "Name": "rspndr",
+    "DisplayName": "Отвечающее устройство обнаружения топологии канального уровня",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\rspndr.sys"
+  },
+  {
+    "Name": "rt68cx21",
+    "DisplayName": "Realtek NetAdapter Driver",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\DriverStore\\FileRepository\\rt68cx21x64.inf_amd64_8522f006d7e88897\\rt68cx21x64.sys"
+  },
+  {
+    "Name": "RvNetMP60",
+    "DisplayName": "Famatech Radmin VPN Miniport",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\RvNetMP60.sys"
+  },
+  {
+    "Name": "s3cap",
+    "DisplayName": "s3cap",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\vms3cap.sys"
+  },
+  {
+    "Name": "sbp2port",
+    "DisplayName": "SBP-2 драйвер шины транспорт/протокол",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\sbp2port.sys"
+  },
+  {
+    "Name": "scfilter",
+    "DisplayName": "Драйвер фильтра смарт-карты класса PnP",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\DRIVERS\\scfilter.sys"
+  },
+  {
+    "Name": "scmbus",
+    "DisplayName": "Драйвер Microsoft шины памяти класса хранилища",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\scmbus.sys"
+  },
+  {
+    "Name": "sdbus",
+    "DisplayName": "sdbus",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\sdbus.sys"
+  },
+  {
+    "Name": "SdcaHidInbox",
+    "DisplayName": "Драйвер HID SoundWire",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\DriverStore\\FileRepository\\sdcahid.inf_amd64_61ebd70adbe28135\\SdcaHid.sys"
+  },
+  {
+    "Name": "SdcaMfdInbox",
+    "DisplayName": "Многофункциональный драйвер звука SoundWire",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\DriverStore\\FileRepository\\sdcamfd.inf_amd64_9c5d407de2184808\\SdcaMfd.sys"
+  },
+  {
+    "Name": "sdstor",
+    "DisplayName": "Драйвер порта SD Storage",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\sdstor.sys"
+  },
+  {
+    "Name": "SerCx",
+    "DisplayName": "Serial UART Support Library",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\SerCx.sys"
+  },
+  {
+    "Name": "SerCx2",
+    "DisplayName": "Serial UART Support Library",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\SerCx2.sys"
+  },
+  {
+    "Name": "Serenum",
+    "DisplayName": "Драйвер фильтра Serenum",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\serenum.sys"
+  },
+  {
+    "Name": "Serial",
+    "DisplayName": "Драйвер последовательного порта",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\serial.sys"
+  },
+  {
+    "Name": "sermouse",
+    "DisplayName": "Драйвер мыши для посл. порта",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\sermouse.sys"
+  },
+  {
+    "Name": "sfloppy",
+    "DisplayName": "Дисковод большой емкости",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\sfloppy.sys"
+  },
+  {
+    "Name": "SiSRaid2",
+    "DisplayName": "SiSRaid2",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\SiSRaid2.sys"
+  },
+  {
+    "Name": "SiSRaid4",
+    "DisplayName": "SiSRaid4",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\sisraid4.sys"
+  },
+  {
+    "Name": "SmartSAMD",
+    "DisplayName": "SmartSAMD",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\SmartSAMD.sys"
+  },
+  {
+    "Name": "spaceparser",
+    "DisplayName": "spaceparser",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\spaceparser.sys"
+  },
+  {
+    "Name": "spaceport",
+    "DisplayName": "Драйвер дискового пространства",
+    "State": "Running",
+    "StartMode": "Boot",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\spaceport.sys"
+  },
+  {
+    "Name": "SpbCx",
+    "DisplayName": "Simple Peripheral Bus Support Library",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\SpbCx.sys"
+  },
+  {
+    "Name": "sptd2",
+    "DisplayName": "sptd2",
+    "State": "Running",
+    "StartMode": "Boot",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\Drivers\\sptd2.sys"
+  },
+  {
+    "Name": "srv2",
+    "DisplayName": "Драйвер сервера Server SMB 2.xxx",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "File System Driver",
+    "PathName": "C:\\WINDOWS\\system32\\DRIVERS\\srv2.sys"
+  },
+  {
+    "Name": "srvnet",
+    "DisplayName": "srvnet",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "File System Driver",
+    "PathName": "C:\\WINDOWS\\system32\\DRIVERS\\srvnet.sys"
+  },
+  {
+    "Name": "stexstor",
+    "DisplayName": "stexstor",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\stexstor.sys"
+  },
+  {
+    "Name": "storahci",
+    "DisplayName": "Стандартный драйвер SATA AHCI (Майкрософт)",
+    "State": "Running",
+    "StartMode": "Boot",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\storahci.sys"
+  },
+  {
+    "Name": "storflt",
+    "DisplayName": "Ускоритель хранилища Microsoft Hyper-V",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\vmstorfl.sys"
+  },
+  {
+    "Name": "stornvme",
+    "DisplayName": "Стандартный драйвер NVM Express (Майкрософт)",
+    "State": "Running",
+    "StartMode": "Boot",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\stornvme.sys"
+  },
+  {
+    "Name": "storqosflt",
+    "DisplayName": "Драйвер-фильтр качества обслуживания хранилища",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ServiceType": "File System Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\storqosflt.sys"
+  },
+  {
+    "Name": "storufs",
+    "DisplayName": "Драйвер для универсального флеш-накопителя (UFS) Microsoft",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\storufs.sys"
+  },
+  {
+    "Name": "storvsc",
+    "DisplayName": "storvsc",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\storvsc.sys"
+  },
+  {
+    "Name": "storvsp",
+    "DisplayName": "storvsp",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\storvsp.sys"
+  },
+  {
+    "Name": "swenum",
+    "DisplayName": "Драйвер программной шины",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\DriverStore\\FileRepository\\swenum.inf_amd64_8b9dd76f362e3ec6\\swenum.sys"
+  },
+  {
+    "Name": "tap0901",
+    "DisplayName": "TAP-Windows Adapter V9",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\tap0901.sys"
+  },
+  {
+    "Name": "Tcpip",
+    "DisplayName": "Драйвер протокола TCP/IP",
+    "State": "Running",
+    "StartMode": "Boot",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\tcpip.sys"
+  },
+  {
+    "Name": "Tcpip6",
+    "DisplayName": "@todo.dll,-100;Microsoft IPv6 Protocol Driver",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\tcpip.sys"
+  },
+  {
+    "Name": "tcpipreg",
+    "DisplayName": "@%SystemRoot%\\System32\\drivers\\tcpipreg.sys,-10110,",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\tcpipreg.sys"
+  },
+  {
+    "Name": "tdx",
+    "DisplayName": "Драйвер поддержки NetIO Legacy TDI",
+    "State": "Running",
+    "StartMode": "System",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\DRIVERS\\tdx.sys"
+  },
+  {
+    "Name": "terminpt",
+    "DisplayName": "Microsoft Remote Desktop Input Driver",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\terminpt.sys"
+  },
+  {
+    "Name": "ThermalFilter",
+    "DisplayName": "Драйвер-фильтр Лава (Майкрософт)",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\DriverStore\\FileRepository\\c_thermal.inf_amd64_b0db444d499ca6d4\\ThermalFilter.sys"
+  },
+  {
+    "Name": "TPM",
+    "DisplayName": "TPM",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\tpm.sys"
+  },
+  {
+    "Name": "TsUsbFlt",
+    "DisplayName": "Драйвер-фильтр класса USB-концентратора удаленного рабочего стола",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\tsusbflt.sys"
+  },
+  {
+    "Name": "TsUsbGD",
+    "DisplayName": "Универсальное USB-устройство удаленного рабочего стола",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\TsUsbGD.sys"
+  },
+  {
+    "Name": "tunnel",
+    "DisplayName": "Драйвер адаптера минипорта для Microsoft Tunnel",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\tunnel.sys"
+  },
+  {
+    "Name": "UASPStor",
+    "DisplayName": "Драйвер USB-устройства SCSI (UAS)",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\uaspstor.sys"
+  },
+  {
+    "Name": "UcmCx0101",
+    "DisplayName": "USB Connector Manager KMDF Class Extension",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\Drivers\\UcmCx.sys"
+  },
+  {
+    "Name": "UcmTcpciCx0101",
+    "DisplayName": "UCM-TCPCI KMDF Class Extension",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\Drivers\\UcmTcpciCx.sys"
+  },
+  {
+    "Name": "UcmUcsiAcpiClient",
+    "DisplayName": "Клиент ACPI UCM-UCSI",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\UcmUcsiAcpiClient.sys"
+  },
+  {
+    "Name": "UcmUcsiCx0101",
+    "DisplayName": "UCM-UCSI KMDF Class Extension",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\Drivers\\UcmUcsiCx.sys"
+  },
+  {
+    "Name": "UCPD",
+    "DisplayName": "UCPD",
+    "State": "Running",
+    "StartMode": "System",
+    "ServiceType": "File System Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\UCPD.sys"
+  },
+  {
+    "Name": "Ucx01000",
+    "DisplayName": "USB Host Support Library",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\ucx01000.sys"
+  },
+  {
+    "Name": "UdeCx",
+    "DisplayName": "USB Device Emulation Support Library",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\udecx.sys"
+  },
+  {
+    "Name": "udfs",
+    "DisplayName": "udfs",
+    "State": "Stopped",
+    "StartMode": "Disabled",
+    "ServiceType": "File System Driver",
+    "PathName": "C:\\WINDOWS\\system32\\DRIVERS\\udfs.sys"
+  },
+  {
+    "Name": "UEFI",
+    "DisplayName": "Драйвер UEFI (Майкрософт)",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\DriverStore\\FileRepository\\uefi.inf_amd64_0dab6d8c22d34611\\UEFI.sys"
+  },
+  {
+    "Name": "Ufx01000",
+    "DisplayName": "USB Function Class Extension",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\ufx01000.sys"
+  },
+  {
+    "Name": "UfxChipidea",
+    "DisplayName": "USB-контроллер Chipidea",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\DriverStore\\FileRepository\\ufxchipidea.inf_amd64_6e8bb2ed82835828\\UfxChipidea.sys"
+  },
+  {
+    "Name": "ufxsynopsys",
+    "DisplayName": "USB-котроллер Synopsys",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\ufxsynopsys.sys"
+  },
+  {
+    "Name": "uiomap",
+    "DisplayName": "Служба драйверов Microsoft UIO Mapper",
+    "State": "Running",
+    "StartMode": "System",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\DriverStore\\FileRepository\\uiomap.inf_amd64_e6e3e44178152d2b\\uiomap.sys"
+  },
+  {
+    "Name": "umbus",
+    "DisplayName": "UMBus драйвер перечислителя",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\DriverStore\\FileRepository\\umbus.inf_amd64_914dd46b4b013b1b\\umbus.sys"
+  },
+  {
+    "Name": "UmPass",
+    "DisplayName": "Драйвер UMPass Microsoft",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\DriverStore\\FileRepository\\umpass.inf_amd64_06e016c9ffecbf73\\umpass.sys"
+  },
+  {
+    "Name": "UnionFS",
+    "DisplayName": "UnionFS",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ServiceType": "File System Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\UnionFS.sys"
+  },
+  {
+    "Name": "UrsChipidea",
+    "DisplayName": "Драйвер с переключением ролей Chipidea USB",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\DriverStore\\FileRepository\\urschipidea.inf_amd64_37fb14618bce547b\\urschipidea.sys"
+  },
+  {
+    "Name": "UrsCx01000",
+    "DisplayName": "USB Role-Switch Support Library",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\urscx01000.sys"
+  },
+  {
+    "Name": "UrsSynopsys",
+    "DisplayName": "Драйвер с переключением ролей Synopsys USB",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\DriverStore\\FileRepository\\urssynopsys.inf_amd64_ef0be23d0f063014\\urssynopsys.sys"
+  },
+  {
+    "Name": "usb-platformdetection",
+    "DisplayName": "Драйвер обнаружения USB-платформы",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\DriverStore\\FileRepository\\usb-platformdetection.inf_amd64_ba8192e24d655f0c\\usb-platformdetection.sys"
+  },
+  {
+    "Name": "Usb4DeviceRouter",
+    "DisplayName": "Служба маршрутизатора USB4 Device",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\DriverStore\\FileRepository\\usb4devicerouter.inf_amd64_25369b7450fbd86d\\Usb4DeviceRouter.sys"
+  },
+  {
+    "Name": "Usb4HostRouter",
+    "DisplayName": "Служба маршрутизатора узла USB4",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\DriverStore\\FileRepository\\usb4hostrouter.inf_amd64_699a7b1bb9410071\\Usb4HostRouter.sys"
+  },
+  {
+    "Name": "usbaudio",
+    "DisplayName": "Аудио драйвер USB (WDM)",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\usbaudio.sys"
+  },
+  {
+    "Name": "usbaudio2",
+    "DisplayName": "Служба USB Audio 2.0",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\usbaudio2.sys"
+  },
+  {
+    "Name": "usbccgp",
+    "DisplayName": "Драйвер универсального родительского устройства USB (Microsoft)",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\usbccgp.sys"
+  },
+  {
+    "Name": "usbcir",
+    "DisplayName": "eHome инфракрасный ресивер (USBCIR)",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\usbcir.sys"
+  },
+  {
+    "Name": "usbehci",
+    "DisplayName": "Драйвер минипорта Microsoft USB 2.0 расширенного хост-контроллера",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\usbehci.sys"
+  },
+  {
+    "Name": "usbhub",
+    "DisplayName": "Стандартный драйвер USB-концентратора (Майкрософт)",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\usbhub.sys"
+  },
+  {
+    "Name": "USBHUB3",
+    "DisplayName": "Концентратор SuperSpeed",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\UsbHub3.sys"
+  },
+  {
+    "Name": "usbohci",
+    "DisplayName": "Драйвер минипорта Microsoft USB открытого хост-контроллера",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\usbohci.sys"
+  },
+  {
+    "Name": "usbprint",
+    "DisplayName": "Класс принтеров Microsoft USB",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\usbprint.sys"
+  },
+  {
+    "Name": "usbser",
+    "DisplayName": "Драйвер последовательного порта USB (Майкрософт)",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\usbser.sys"
+  },
+  {
+    "Name": "USBSTOR",
+    "DisplayName": "Драйвер запоминающих устройств для USB",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\USBSTOR.SYS"
+  },
+  {
+    "Name": "usbuhci",
+    "DisplayName": "Драйвер минипорта Microsoft USB универсального хост-контроллера",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\usbuhci.sys"
+  },
+  {
+    "Name": "usbvideo",
+    "DisplayName": "USB-видеоустройство (WDM)",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\Drivers\\usbvideo.sys"
+  },
+  {
+    "Name": "USBXHCI",
+    "DisplayName": "xHCI-совместимый хост-контроллер USB",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\USBXHCI.SYS"
+  },
+  {
+    "Name": "VBoxNetAdp",
+    "DisplayName": "VirtualBox NDIS 6.0 Miniport Service",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\DRIVERS\\VBoxNetAdp6.sys"
+  },
+  {
+    "Name": "VBoxNetLwf",
+    "DisplayName": "VirtualBox NDIS6 Bridged Networking Service",
+    "State": "Running",
+    "StartMode": "System",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\DRIVERS\\VBoxNetLwf.sys"
+  },
+  {
+    "Name": "VBoxSup",
+    "DisplayName": "VirtualBox Service",
+    "State": "Running",
+    "StartMode": "System",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\DRIVERS\\VBoxSup.sys"
+  },
+  {
+    "Name": "VBoxUSBMon",
+    "DisplayName": "VirtualBox USB Monitor Service",
+    "State": "Running",
+    "StartMode": "System",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\DRIVERS\\VBoxUSBMon.sys"
+  },
+  {
+    "Name": "vdrvroot",
+    "DisplayName": "Перечислитель виртуальных дисков (Майкрософт)",
+    "State": "Running",
+    "StartMode": "Boot",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\vdrvroot.sys"
+  },
+  {
+    "Name": "VerifierExt",
+    "DisplayName": "Расширение средства проверки драйверов",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\VerifierExt.sys"
+  },
+  {
+    "Name": "VfpExt",
+    "DisplayName": "Microsoft Azure VFP Switch Filter Extension",
+    "State": "Running",
+    "StartMode": "System",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\vfpext.sys"
+  },
+  {
+    "Name": "vhdmp",
+    "DisplayName": "vhdmp",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\vhdmp.sys"
+  },
+  {
+    "Name": "vhdparser",
+    "DisplayName": "vhdparser",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\vhdparser.sys"
+  },
+  {
+    "Name": "vhf",
+    "DisplayName": "Драйвер платформы Virtual HID Framework (VHF)",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\vhf.sys"
+  },
+  {
+    "Name": "Vid",
+    "DisplayName": "Vid",
+    "State": "Running",
+    "StartMode": "System",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\Vid.sys"
+  },
+  {
+    "Name": "VirtualRender",
+    "DisplayName": "VirtualRender",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\DriverStore\\FileRepository\\vrd.inf_amd64_4dd0e6d66a75bb7e\\vrd.sys"
+  },
+  {
+    "Name": "vmbus",
+    "DisplayName": "Шина VMBus",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\vmbus.sys"
+  },
+  {
+    "Name": "VMBusHID",
+    "DisplayName": "VMBusHID",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\VMBusHID.sys"
+  },
+  {
+    "Name": "vmbusproxy",
+    "DisplayName": "vmbusproxy",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\vmbusproxy.sys"
+  },
+  {
+    "Name": "vmbusr",
+    "DisplayName": "Поставщик шины виртуальной машины",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\vmbusr.sys"
+  },
+  {
+    "Name": "vmgid",
+    "DisplayName": "Драйвер инфраструктуры гостей Microsoft Hyper-V",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\vmgid.sys"
+  },
+  {
+    "Name": "vmsmp",
+    "DisplayName": "vmsmp",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\vmswitch.sys"
+  },
+  {
+    "Name": "VMSNPXY",
+    "DisplayName": "VmSwitch NIC Proxy Driver",
+    "State": "Running",
+    "StartMode": "Boot",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\VmsProxyHNic.sys"
+  },
+  {
+    "Name": "VMSP",
+    "DisplayName": "VmSwitch Protocol Driver",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\vmswitch.sys"
+  },
+  {
+    "Name": "VmsProxy",
+    "DisplayName": "VmSwitch Proxy Driver",
+    "State": "Running",
+    "StartMode": "Boot",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\VmsProxy.sys"
+  },
+  {
+    "Name": "VMSVSF",
+    "DisplayName": "VmSwitch Extensibility Filter",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\vmswitch.sys"
+  },
+  {
+    "Name": "VMSVSP",
+    "DisplayName": "VmSwitch Extensibility Protocol",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\vmswitch.sys"
+  },
+  {
+    "Name": "volmgr",
+    "DisplayName": "Драйвер диспетчера томов",
+    "State": "Running",
+    "StartMode": "Boot",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\volmgr.sys"
+  },
+  {
+    "Name": "volmgrx",
+    "DisplayName": "Диспетчер динамических томов",
+    "State": "Running",
+    "StartMode": "Boot",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\volmgrx.sys"
+  },
+  {
+    "Name": "volsnap",
+    "DisplayName": "Драйвер теневого копирования тома",
+    "State": "Running",
+    "StartMode": "Boot",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\volsnap.sys"
+  },
+  {
+    "Name": "volume",
+    "DisplayName": "Драйвер тома",
+    "State": "Running",
+    "StartMode": "Boot",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\volume.sys"
+  },
+  {
+    "Name": "vpci",
+    "DisplayName": "Виртуальная шина PCI Microsoft Hyper-V",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\vpci.sys"
+  },
+  {
+    "Name": "vpcivsp",
+    "DisplayName": "Сервер PCI Microsoft Hyper-V",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\vpcivsp.sys"
+  },
+  {
+    "Name": "vsmraid",
+    "DisplayName": "vsmraid",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\vsmraid.sys"
+  },
+  {
+    "Name": "VSTXRAID",
+    "DisplayName": "Драйвер RAID-контроллера запоминающего устройства VIA StorX для Windows",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\vstxraid.sys"
+  },
+  {
+    "Name": "vwifibus",
+    "DisplayName": "Драйвер шины виртуального Wi-Fi",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\DriverStore\\FileRepository\\netvwifibus.inf_amd64_ab4e111fe8221178\\vwifibus.sys"
+  },
+  {
+    "Name": "vwififlt",
+    "DisplayName": "Virtual WiFi Filter Driver",
+    "State": "Running",
+    "StartMode": "System",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\vwififlt.sys"
+  },
+  {
+    "Name": "vwifimp",
+    "DisplayName": "Служба мини-порта виртуального Wi-Fi",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\DriverStore\\FileRepository\\netvwifimp.inf_amd64_2b7a99c97634cfaa\\vwifimp.sys"
+  },
+  {
+    "Name": "WacomPen",
+    "DisplayName": "Wacom - драйвер пера последовательного порта",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\wacompen.sys"
+  },
+  {
+    "Name": "wanarp",
+    "DisplayName": "Драйвер IP ARP для удаленного доступа",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\DRIVERS\\wanarp.sys"
+  },
+  {
+    "Name": "wanarpv6",
+    "DisplayName": "Драйвер IPv6 ARP для удаленного доступа",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\DRIVERS\\wanarp.sys"
+  },
+  {
+    "Name": "wcifs",
+    "DisplayName": "Windows Container Isolation",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ServiceType": "File System Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\wcifs.sys"
+  },
+  {
+    "Name": "WdAiNisDrv",
+    "DisplayName": "Microsoft WdAiNisDrv Driver",
+    "State": "Stopped",
+    "StartMode": "Disabled",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\wd\\WdAiNisDrv.sys"
+  },
+  {
+    "Name": "WdBoot",
+    "DisplayName": "Драйвер загрузки антивирусной программы Microsoft Defender",
+    "State": "Stopped",
+    "StartMode": "Boot",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\wd\\WdBoot.sys"
+  },
+  {
+    "Name": "Wdf01000",
+    "DisplayName": "Служба платформ драйвера режима ядра",
+    "State": "Running",
+    "StartMode": "Boot",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\Wdf01000.sys"
+  },
+  {
+    "Name": "WdFilter",
+    "DisplayName": "Драйвер с функцией мини-фильтра в составе антивирусной программы Microsoft Defender",
+    "State": "Running",
+    "StartMode": "Boot",
+    "ServiceType": "File System Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\wd\\WdFilter.sys"
+  },
+  {
+    "Name": "wdiwifi",
+    "DisplayName": "WDI Driver Framework",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\DRIVERS\\wdiwifi.sys"
+  },
+  {
+    "Name": "WdmCompanionFilter",
+    "DisplayName": "WdmCompanionFilter",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\WdmCompanionFilter.sys"
+  },
+  {
+    "Name": "WdNisDrv",
+    "DisplayName": "Системный драйвер проверки сети в составе антивирусной программы Microsoft Defender",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\wd\\WdNisDrv.sys"
+  },
+  {
+    "Name": "WFPLWFS",
+    "DisplayName": "Платформа фильтрации Microsoft Windows",
+    "State": "Running",
+    "StartMode": "Boot",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\wfplwfs.sys"
+  },
+  {
+    "Name": "Wificx",
+    "DisplayName": "Wifi Network Adapter Class Extension",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\WifiCx.sys"
+  },
+  {
+    "Name": "WIMMount",
+    "DisplayName": "WIMMount",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "File System Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\wimmount.sys"
+  },
+  {
+    "Name": "WinAccelCx0101",
+    "DisplayName": "Microsoft Accelerator Class Extension Driver",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\WinAccelCx.sys"
+  },
+  {
+    "Name": "WindowsTrustedRT",
+    "DisplayName": "Windows Trusted Execution Environment Class Extension",
+    "State": "Running",
+    "StartMode": "Boot",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\WindowsTrustedRT.sys"
+  },
+  {
+    "Name": "WindowsTrustedRTProxy",
+    "DisplayName": "Служба безопасности доверенной среды выполнения Microsoft Windows",
+    "State": "Running",
+    "StartMode": "Boot",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\WindowsTrustedRTProxy.sys"
+  },
+  {
+    "Name": "wini3ctarget",
+    "DisplayName": "Универсальный драйвер для целевых устройств I3C",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\DriverStore\\FileRepository\\wini3ctarget.inf_amd64_549b568fc038709c\\wini3ctarget.sys"
+  },
+  {
+    "Name": "WinMad",
+    "DisplayName": "Служба WinMad",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\winmad.sys"
+  },
+  {
+    "Name": "WinNat",
+    "DisplayName": "Драйвер NAT Windows",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\winnat.sys"
+  },
+  {
+    "Name": "wintun",
+    "DisplayName": "wintun",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\wintun.sys"
+  },
+  {
+    "Name": "WINUSB",
+    "DisplayName": "Драйвер WinUsb",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\WinUsb.sys"
+  },
+  {
+    "Name": "WinVerbs",
+    "DisplayName": "Служба WinVerbs",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\winverbs.sys"
+  },
+  {
+    "Name": "WmiAcpi",
+    "DisplayName": "Microsoft Windows Management Interface for ACPI",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\wmiacpi.sys"
+  },
+  {
+    "Name": "Wof",
+    "DisplayName": "Windows Overlay File System Filter Driver",
+    "State": "Running",
+    "StartMode": "Boot",
+    "ServiceType": "File System Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\Wof.sys"
+  },
+  {
+    "Name": "WpdUpFltr",
+    "DisplayName": "WPD Upper Class Filter Driver",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\WpdUpFltr.sys"
+  },
+  {
+    "Name": "ws2ifsl",
+    "DisplayName": "Драйвер WinSock IFS",
+    "State": "Stopped",
+    "StartMode": "Disabled",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\ws2ifsl.sys"
+  },
+  {
+    "Name": "wtd",
+    "DisplayName": "wtd",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\wtd.sys"
+  },
+  {
+    "Name": "WudfPf",
+    "DisplayName": "User Mode Driver Frameworks Platform Driver",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\WudfPf.sys"
+  },
+  {
+    "Name": "WUDFRd",
+    "DisplayName": "Windows Driver Foundation - User-mode Driver Framework Reflector",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\WUDFRd.sys"
+  },
+  {
+    "Name": "WUDFWpdFs",
+    "DisplayName": "Драйвер файловой системы WPD",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\WUDFRd.sys"
+  },
+  {
+    "Name": "WUDFWpdMtp",
+    "DisplayName": "WUDFWpdMtp",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\WUDFRd.sys"
+  },
+  {
+    "Name": "xboxgip",
+    "DisplayName": "Драйвер протокола игрового ввода Xbox",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\xboxgip.sys"
+  },
+  {
+    "Name": "xinputhid",
+    "DisplayName": "Драйвер-фильтр HID XINPUT",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\drivers\\xinputhid.sys"
+  },
+  {
+    "Name": "Xvdd",
+    "DisplayName": "XVDD Port Driver",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ServiceType": "Kernel Driver",
+    "PathName": "C:\\WINDOWS\\system32\\DriverStore\\FileRepository\\xvdd.inf_amd64_1e22073ba7136f03\\xvdd.sys"
+  }
+]

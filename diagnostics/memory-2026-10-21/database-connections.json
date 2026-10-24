@@ -1,0 +1,114 @@
+[
+  {
+    "Service": "MySQL80",
+    "PID": 6844,
+    "State": "Listen",
+    "LocalPort": 33060,
+    "PeerScope": "None",
+    "PeerProcess": null
+  },
+  {
+    "Service": "MySQL80",
+    "PID": 6844,
+    "State": "Listen",
+    "LocalPort": 3306,
+    "PeerScope": "None",
+    "PeerProcess": null
+  },
+  {
+    "Service": "MySQL80",
+    "PID": 6844,
+    "State": "Bound",
+    "LocalPort": 49674,
+    "PeerScope": "None",
+    "PeerProcess": null
+  },
+  {
+    "Service": "MySQL80",
+    "PID": 6844,
+    "State": "Bound",
+    "LocalPort": 49672,
+    "PeerScope": "None",
+    "PeerProcess": null
+  },
+  {
+    "Service": "MySQL80",
+    "PID": 6844,
+    "State": "Established",
+    "LocalPort": 49674,
+    "PeerScope": "Loopback",
+    "PeerProcess": "mysqld"
+  },
+  {
+    "Service": "MySQL80",
+    "PID": 6844,
+    "State": "Established",
+    "LocalPort": 49673,
+    "PeerScope": "Loopback",
+    "PeerProcess": "mysqld"
+  },
+  {
+    "Service": "MySQL80",
+    "PID": 6844,
+    "State": "Established",
+    "LocalPort": 49672,
+    "PeerScope": "Loopback",
+    "PeerProcess": "mysqld"
+  },
+  {
+    "Service": "MySQL80",
+    "PID": 6844,
+    "State": "Established",
+    "LocalPort": 49671,
+    "PeerScope": "Loopback",
+    "PeerProcess": "mysqld"
+  },
+  {
+    "Service": "PostgreSQL",
+    "PID": 6440,
+    "State": "Listen",
+    "LocalPort": 5433,
+    "PeerScope": "None",
+    "PeerProcess": null
+  },
+  {
+    "Service": "PostgreSQL",
+    "PID": 6440,
+    "State": "Listen",
+    "LocalPort": 5433,
+    "PeerScope": "None",
+    "PeerProcess": null
+  },
+  {
+    "Service": "postgresql-x64-16",
+    "PID": 6964,
+    "State": "Listen",
+    "LocalPort": 5432,
+    "PeerScope": "None",
+    "PeerProcess": null
+  },
+  {
+    "Service": "postgresql-x64-16",
+    "PID": 6964,
+    "State": "Listen",
+    "LocalPort": 5432,
+    "PeerScope": "None",
+    "PeerProcess": null
+  },
+  {
+    "Service": "postgresql-x64-17",
+    "PID": 6976,
+    "State": "Listen",
+    "LocalPort": 5433,
+    "PeerScope": "None",
+    "PeerProcess": null
+  },
+  {
+    "Service": "postgresql-x64-17",
+    "PID": 6976,
+    "State": "Listen",
+    "LocalPort": 5433,
+    "PeerScope": "None",
+    "PeerProcess": null
+  }
+]

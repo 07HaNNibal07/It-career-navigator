@@ -1,0 +1,96 @@
+{
+  "Timestamp": "2026-10-21T01:39:15.2570739+03:00",
+  "Succeeded": true,
+  "ExactService": "PostgreSQL",
+  "Executable": "C:\\Program Files\\ASCON\\KOMPAS-3D v25 Study\\Libs\\PolynomLib\\Templates\\LocalBase\\bin\\pg_ctl.exe",
+  "Before": [
+    {
+      "Name": "MySQL80",
+      "State": "Running",
+      "StartMode": "Auto",
+      "ProcessId": 4856
+    },
+    {
+      "Name": "PolynomMdmApiSvc",
+      "State": "Running",
+      "StartMode": "Auto",
+      "ProcessId": 4768
+    },
+    {
+      "Name": "PostgreSQL",
+      "State": "Stopped",
+      "StartMode": "Auto",
+      "ProcessId": 0
+    },
+    {
+      "Name": "postgresql-x64-16",
+      "State": "Running",
+      "StartMode": "Auto",
+      "ProcessId": 4580
+    },
+    {
+      "Name": "postgresql-x64-17",
+      "State": "Running",
+      "StartMode": "Auto",
+      "ProcessId": 4744
+    }
+  ],
+  "After": [
+    {
+      "Name": "MySQL80",
+      "State": "Running",
+      "StartMode": "Auto",
+      "ProcessId": 4856
+    },
+    {
+      "Name": "PolynomMdmApiSvc",
+      "State": "Running",
+      "StartMode": "Auto",
+      "ProcessId": 4768
+    },
+    {
+      "Name": "PostgreSQL",
+      "State": "Stopped",
+      "StartMode": "Manual",
+      "ProcessId": 0
+    },
+    {
+      "Name": "postgresql-x64-16",
+      "State": "Running",
+      "StartMode": "Auto",
+      "ProcessId": 4580
+    },
+    {
+      "Name": "postgresql-x64-17",
+      "State": "Running",
+      "StartMode": "Auto",
+      "ProcessId": 4744
+    }
+  ],
+  "OtherServices": [
+    {
+      "Name": "MySQL80",
+      "SamePID": true,
+      "SameState": true,
+      "SameStartMode": true
+    },
+    {
+      "Name": "PolynomMdmApiSvc",
+      "SamePID": true,
+      "SameState": true,
+      "SameStartMode": true
+    },
+    {
+      "Name": "postgresql-x64-16",
+      "SamePID": true,
+      "SameState": true,
+      "SameStartMode": true
+    },
+    {
+      "Name": "postgresql-x64-17",
+      "SamePID": true,
+      "SameState": true,
+      "SameStartMode": true
+    }
+  ]
+}

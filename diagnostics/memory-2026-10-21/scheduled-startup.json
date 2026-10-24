@@ -1,0 +1,419 @@
+[
+  {
+    "Name": "BlueStacksHelper_nxt",
+    "Path": "\\",
+    "State": "Ready",
+    "Triggers": [
+      "MSFT_TaskTimeTrigger"
+    ],
+    "Executables": [
+      "C:\\Program Files\\BlueStacks_nxt\\BlueStacksHelper.exe"
+    ]
+  },
+  {
+    "Name": "OneDrive Startup Task-S-1-5-21-1431667616-1053624162-1991109852-1001",
+    "Path": "\\",
+    "State": "Ready",
+    "Triggers": [
+      "MSFT_TaskLogonTrigger"
+    ],
+    "Executables": [
+      "C:\\Program Files\\Microsoft OneDrive\\26.183.0920.0005\\OneDriveLauncher.exe"
+    ]
+  },
+  {
+    "Name": "Office Actions Server",
+    "Path": "\\Microsoft\\Office\\",
+    "State": "Ready",
+    "Triggers": [
+      "MSFT_TaskLogonTrigger",
+      "MSFT_TaskTimeTrigger"
+    ],
+    "Executables": [
+      "C:\\Program Files\\Microsoft Office\\root\\VFS\\ProgramFilesCommonX64\\Microsoft Shared\\Office16\\ActionsServer\\ActionsServer.exe"
+    ]
+  },
+  {
+    "Name": "Office Automatic Updates 2.0",
+    "Path": "\\Microsoft\\Office\\",
+    "State": "Ready",
+    "Triggers": [
+      "MSFT_TaskWeeklyTrigger",
+      "MSFT_TaskLogonTrigger",
+      "MSFT_TaskIdleTrigger"
+    ],
+    "Executables": [
+      "C:\\Program Files\\Common Files\\Microsoft Shared\\ClickToRun\\OfficeC2RClient.exe"
+    ]
+  },
+  {
+    "Name": "Office Background Push Maintenance",
+    "Path": "\\Microsoft\\Office\\",
+    "State": "Ready",
+    "Triggers": [
+      "MSFT_TaskDailyTrigger",
+      "MSFT_TaskLogonTrigger"
+    ],
+    "Executables": [
+      "C:\\Program Files\\Microsoft Office\\root\\vfs\\ProgramFilesCommonx64\\Microsoft Shared\\Office16\\opushutil.exe"
+    ]
+  },
+  {
+    "Name": "Office Feature Updates Logon",
+    "Path": "\\Microsoft\\Office\\",
+    "State": "Ready",
+    "Triggers": [
+      "MSFT_TaskLogonTrigger",
+      "MSFT_TaskSessionStateChangeTrigger"
+    ],
+    "Executables": [
+      "C:\\Program Files\\Microsoft Office\\root\\Office16\\sdxhelper.exe"
+    ]
+  },
+  {
+    "Name": "Office Startup Maintenance",
+    "Path": "\\Microsoft\\Office\\",
+    "State": "Ready",
+    "Triggers": [
+      "MSFT_TaskLogonTrigger",
+      "MSFT_TaskDailyTrigger"
+    ],
+    "Executables": [
+      "C:\\Program Files\\Microsoft Office\\root\\VFS\\ProgramFilesCommonX64\\Microsoft Shared\\Office16\\ActionsServer\\ActionsServer.exe"
+    ]
+  },
+  {
+    "Name": "AD RMS Rights Policy Template Management (Manual)",
+    "Path": "\\Microsoft\\Windows\\Active Directory Rights Management Services Client\\",
+    "State": "Ready",
+    "Triggers": [
+      "MSFT_TaskLogonTrigger"
+    ],
+    "Executables": [
+      ""
+    ]
+  },
+  {
+    "Name": "Proxy",
+    "Path": "\\Microsoft\\Windows\\Autochk\\",
+    "State": "Ready",
+    "Triggers": [
+      "MSFT_TaskBootTrigger"
+    ],
+    "Executables": [
+      "%windir%\\system32\\rundll32.exe"
+    ]
+  },
+  {
+    "Name": "UserTask",
+    "Path": "\\Microsoft\\Windows\\CertificateServicesClient\\",
+    "State": "Ready",
+    "Triggers": [
+      "MSFT_TaskTrigger",
+      "MSFT_TaskRegistrationTrigger",
+      "MSFT_TaskLogonTrigger",
+      "MSFT_TaskEventTrigger"
+    ],
+    "Executables": [
+      ""
+    ]
+  },
+  {
+    "Name": "Data Integrity Check And Scan",
+    "Path": "\\Microsoft\\Windows\\Data Integrity Scan\\",
+    "State": "Ready",
+    "Triggers": [
+      "MSFT_TaskDailyTrigger",
+      "MSFT_TaskBootTrigger"
+    ],
+    "Executables": [
+      ""
+    ]
+  },
+  {
+    "Name": "Device User",
+    "Path": "\\Microsoft\\Windows\\Device Information\\",
+    "State": "Ready",
+    "Triggers": [
+      "MSFT_TaskLogonTrigger"
+    ],
+    "Executables": [
+      "%windir%\\system32\\devicecensus.exe"
+    ]
+  },
+  {
+    "Name": "RecommendedTroubleshootingScanner",
+    "Path": "\\Microsoft\\Windows\\Diagnosis\\",
+    "State": "Ready",
+    "Triggers": [
+      "MSFT_TaskTrigger",
+      "MSFT_TaskTrigger",
+      "MSFT_TaskTrigger",
+      "MSFT_TaskBootTrigger"
+    ],
+    "Executables": [
+      ""
+    ]
+  },
+  {
+    "Name": "DirectXDatabaseUpdater",
+    "Path": "\\Microsoft\\Windows\\DirectX\\",
+    "State": "Ready",
+    "Triggers": [
+      "MSFT_TaskLogonTrigger",
+      "MSFT_TaskTrigger"
+    ],
+    "Executables": [
+      "%windir%\\system32\\directxdatabaseupdater.exe"
+    ]
+  },
+  {
+    "Name": "DXGIAdapterCache",
+    "Path": "\\Microsoft\\Windows\\DirectX\\",
+    "State": "Ready",
+    "Triggers": [
+      "MSFT_TaskBootTrigger",
+      "MSFT_TaskTrigger",
+      "MSFT_TaskTrigger"
+    ],
+    "Executables": [
+      "%windir%\\system32\\dxgiadaptercache.exe"
+    ]
+  },
+  {
+    "Name": "ExploitGuard MDM policy Refresh",
+    "Path": "\\Microsoft\\Windows\\ExploitGuard\\",
+    "State": "Ready",
+    "Triggers": [
+      "MSFT_TaskTrigger",
+      "MSFT_TaskTrigger",
+      "MSFT_TaskBootTrigger"
+    ],
+    "Executables": [
+      ""
+    ]
+  },
+  {
+    "Name": "Monitoring",
+    "Path": "\\Microsoft\\Windows\\Hotpatch\\",
+    "State": "Ready",
+    "Triggers": [
+      "MSFT_TaskBootTrigger",
+      "MSFT_TaskLogonTrigger",
+      "MSFT_TaskTimeTrigger"
+    ],
+    "Executables": [
+      "%systemroot%\\system32\\cmd.exe"
+    ]
+  },
+  {
+    "Name": "Synchronize Language Settings",
+    "Path": "\\Microsoft\\Windows\\International\\",
+    "State": "Ready",
+    "Triggers": [
+      "MSFT_TaskTrigger",
+      "MSFT_TaskLogonTrigger"
+    ],
+    "Executables": [
+      ""
+    ]
+  },
+  {
+    "Name": "Installation",
+    "Path": "\\Microsoft\\Windows\\LanguageComponentsInstaller\\",
+    "State": "Ready",
+    "Triggers": [
+      "MSFT_TaskLogonTrigger"
+    ],
+    "Executables": [
+      ""
+    ]
+  },
+  {
+    "Name": "ReconcileLanguageResources",
+    "Path": "\\Microsoft\\Windows\\LanguageComponentsInstaller\\",
+    "State": "Ready",
+    "Triggers": [
+      "MSFT_TaskLogonTrigger"
+    ],
+    "Executables": [
+      ""
+    ]
+  },
+  {
+    "Name": "Logon",
+    "Path": "\\Microsoft\\Windows\\Management\\Provisioning\\",
+    "State": "Ready",
+    "Triggers": [
+      "MSFT_TaskLogonTrigger"
+    ],
+    "Executables": [
+      "%windir%\\system32\\ProvTool.exe"
+    ]
+  },
+  {
+    "Name": "AutomaticOfflineMemoryDiagnostic",
+    "Path": "\\Microsoft\\Windows\\MemoryDiagnostic\\",
+    "State": "Ready",
+    "Triggers": [
+      "MSFT_TaskLogonTrigger"
+    ],
+    "Executables": [
+      ""
+    ]
+  },
+  {
+    "Name": "SystemSoundsService",
+    "Path": "\\Microsoft\\Windows\\Multimedia\\",
+    "State": "Running",
+    "Triggers": [
+      "MSFT_TaskLogonTrigger"
+    ],
+    "Executables": [
+      ""
+    ]
+  },
+  {
+    "Name": "NcsiIdentifyUserProxies",
+    "Path": "\\Microsoft\\Windows\\Network Connectivity Status Indicator\\",
+    "State": "Ready",
+    "Triggers": [
+      "MSFT_TaskLogonTrigger",
+      "MSFT_TaskSessionStateChangeTrigger",
+      "MSFT_TaskSessionStateChangeTrigger"
+    ],
+    "Executables": [
+      ""
+    ]
+  },
+  {
+    "Name": "Device Install Reboot Required",
+    "Path": "\\Microsoft\\Windows\\Plug and Play\\",
+    "State": "Ready",
+    "Triggers": [
+      "MSFT_TaskTrigger",
+      "MSFT_TaskLogonTrigger"
+    ],
+    "Executables": [
+      ""
+    ]
+  },
+  {
+    "Name": "PITRTask",
+    "Path": "\\Microsoft\\Windows\\Setup\\",
+    "State": "Ready",
+    "Triggers": [
+      "MSFT_TaskBootTrigger",
+      "MSFT_TaskTimeTrigger"
+    ],
+    "Executables": [
+      ""
+    ]
+  },
+  {
+    "Name": "SvcRestartTaskLogon",
+    "Path": "\\Microsoft\\Windows\\SoftwareProtectionPlatform\\",
+    "State": "Ready",
+    "Triggers": [
+      "MSFT_TaskLogonTrigger"
+    ],
+    "Executables": [
+      ""
+    ]
+  },
+  {
+    "Name": "SpaceAgentTask",
+    "Path": "\\Microsoft\\Windows\\SpacePort\\",
+    "State": "Ready",
+    "Triggers": [
+      "MSFT_TaskBootTrigger",
+      "MSFT_TaskTrigger"
+    ],
+    "Executables": [
+      "%windir%\\system32\\SpaceAgent.exe"
+    ]
+  },
+  {
+    "Name": "SpaceManagerTask",
+    "Path": "\\Microsoft\\Windows\\SpacePort\\",
+    "State": "Ready",
+    "Triggers": [
+      "MSFT_TaskBootTrigger",
+      "MSFT_TaskTrigger"
+    ],
+    "Executables": [
+      "%windir%\\system32\\spaceman.exe"
+    ]
+  },
+  {
+    "Name": "MsCtfMonitor",
+    "Path": "\\Microsoft\\Windows\\TextServicesFramework\\",
+    "State": "Ready",
+    "Triggers": [
+      "MSFT_TaskLogonTrigger"
+    ],
+    "Executables": [
+      ""
+    ]
+  },
+  {
+    "Name": "QueueReporting",
+    "Path": "\\Microsoft\\Windows\\Windows Error Reporting\\",
+    "State": "Ready",
+    "Triggers": [
+      "MSFT_TaskBootTrigger",
+      "MSFT_TaskTrigger",
+      "MSFT_TaskTrigger",
+      "MSFT_TaskTrigger",
+      "MSFT_TaskTimeTrigger"
+    ],
+    "Executables": [
+      "%windir%\\system32\\wermgr.exe"
+    ]
+  },
+  {
+    "Name": "Calibration Loader",
+    "Path": "\\Microsoft\\Windows\\WindowsColorSystem\\",
+    "State": "Ready",
+    "Triggers": [
+      "MSFT_TaskLogonTrigger",
+      "MSFT_TaskSessionStateChangeTrigger"
+    ],
+    "Executables": [
+      ""
+    ]
+  },
+  {
+    "Name": "CacheTask",
+    "Path": "\\Microsoft\\Windows\\Wininet\\",
+    "State": "Running",
+    "Triggers": [
+      "MSFT_TaskLogonTrigger"
+    ],
+    "Executables": [
+      ""
+    ]
+  },
+  {
+    "Name": "Work Folders Logon Synchronization",
+    "Path": "\\Microsoft\\Windows\\Work Folders\\",
+    "State": "Ready",
+    "Triggers": [
+      "MSFT_TaskLogonTrigger"
+    ],
+    "Executables": [
+      ""
+    ]
+  },
+  {
+    "Name": "Work Folders Maintenance Work",
+    "Path": "\\Microsoft\\Windows\\Work Folders\\",
+    "State": "Ready",
+    "Triggers": [
+      "MSFT_TaskLogonTrigger"
+    ],
+    "Executables": [
+      ""
+    ]
+  }
+]

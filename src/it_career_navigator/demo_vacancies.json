@@ -1,0 +1,17 @@
+[
+  {
+    "source": "demo_json",
+    "external_id": "backend-001",
+    "title": "Junior Python Backend Developer",
+    "company": "Demo Company",
+    "url": "https://example.com/jobs/1",
+    "description": "Python, FastAPI, PostgreSQL, Docker",
+    "level": "junior",
+    "requirements": [
+      {"name": "Python", "is_required": true},
+      {"name": "FastAPI", "is_required": true},
+      {"name": "Postgres", "is_required": true},
+      {"name": "Docker", "is_required": false}
+    ]
+  }
+]

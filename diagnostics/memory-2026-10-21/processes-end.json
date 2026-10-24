@@ -1,0 +1,2792 @@
+[
+  {
+    "Name": "AdobeIPCBroker",
+    "IDProcess": 13704,
+    "WorkingSet": 10522624,
+    "WorkingSetPrivate": 1069056,
+    "PrivateBytes": 1851392,
+    "HandleCount": 162,
+    "ThreadCount": 2
+  },
+  {
+    "Name": "AdobeNotificationClient",
+    "IDProcess": 17844,
+    "WorkingSet": 12677120,
+    "WorkingSetPrivate": 61440,
+    "PrivateBytes": 18677760,
+    "HandleCount": 408,
+    "ThreadCount": 11
+  },
+  {
+    "Name": "AggregatorHost",
+    "IDProcess": 7396,
+    "WorkingSet": 14299136,
+    "WorkingSetPrivate": 3178496,
+    "PrivateBytes": 3903488,
+    "HandleCount": 225,
+    "ThreadCount": 2
+  },
+  {
+    "Name": "AmneziaVPN",
+    "IDProcess": 7132,
+    "WorkingSet": 201371648,
+    "WorkingSetPrivate": 122998784,
+    "PrivateBytes": 187277312,
+    "HandleCount": 669,
+    "ThreadCount": 14
+  },
+  {
+    "Name": "AmneziaVPN-service",
+    "IDProcess": 4560,
+    "WorkingSet": 29315072,
+    "WorkingSetPrivate": 6979584,
+    "PrivateBytes": 58003456,
+    "HandleCount": 464,
+    "ThreadCount": 19
+  },
+  {
+    "Name": "AmneziaVPN-service#1",
+    "IDProcess": 16856,
+    "WorkingSet": 69595136,
+    "WorkingSetPrivate": 40046592,
+    "PrivateBytes": 138788864,
+    "HandleCount": 516,
+    "ThreadCount": 36
+  },
+  {
+    "Name": "Ascon.AU.ControlCenter",
+    "IDProcess": 21116,
+    "WorkingSet": 79286272,
+    "WorkingSetPrivate": 23023616,
+    "PrivateBytes": 59772928,
+    "HandleCount": 643,
+    "ThreadCount": 18
+  },
+  {
+    "Name": "BlueStacksServices",
+    "IDProcess": 18152,
+    "WorkingSet": 104431616,
+    "WorkingSetPrivate": 33058816,
+    "PrivateBytes": 50417664,
+    "HandleCount": 745,
+    "ThreadCount": 31
+  },
+  {
+    "Name": "BlueStacksServices#1",
+    "IDProcess": 18364,
+    "WorkingSet": 75239424,
+    "WorkingSetPrivate": 19656704,
+    "PrivateBytes": 42934272,
+    "HandleCount": 460,
+    "ThreadCount": 26
+  },
+  {
+    "Name": "BlueStacksServices#2",
+    "IDProcess": 8492,
+    "WorkingSet": 51912704,
+    "WorkingSetPrivate": 5242880,
+    "PrivateBytes": 15822848,
+    "HandleCount": 287,
+    "ThreadCount": 11
+  },
+  {
+    "Name": "BlueStacksServices#3",
+    "IDProcess": 8684,
+    "WorkingSet": 63758336,
+    "WorkingSetPrivate": 11124736,
+    "PrivateBytes": 21831680,
+    "HandleCount": 276,
+    "ThreadCount": 17
+  },
+  {
+    "Name": "CNAB4RPD",
+    "IDProcess": 7032,
+    "WorkingSet": 6692864,
+    "WorkingSetPrivate": 618496,
+    "PrivateBytes": 1056768,
+    "HandleCount": 98,
+    "ThreadCount": 2
+  },
+  {
+    "Name": "ChatGPT",
+    "IDProcess": 19028,
+    "WorkingSet": 469491712,
+    "WorkingSetPrivate": 294006784,
+    "PrivateBytes": 374665216,
+    "HandleCount": 2121,
+    "ThreadCount": 58
+  },
+  {
+    "Name": "ChatGPT#1",
+    "IDProcess": 18740,
+    "WorkingSet": 9564160,
+    "WorkingSetPrivate": 1064960,
+    "PrivateBytes": 2392064,
+    "HandleCount": 201,
+    "ThreadCount": 7
+  },
+  {
+    "Name": "ChatGPT#2",
+    "IDProcess": 17068,
+    "WorkingSet": 318226432,
+    "WorkingSetPrivate": 237514752,
+    "PrivateBytes": 291467264,
+    "HandleCount": 1021,
+    "ThreadCount": 23
+  },
+  {
+    "Name": "ChatGPT#3",
+    "IDProcess": 16664,
+    "WorkingSet": 73580544,
+    "WorkingSetPrivate": 32419840,
+    "PrivateBytes": 44011520,
+    "HandleCount": 582,
+    "ThreadCount": 21
+  },
+  {
+    "Name": "ChatGPT#4",
+    "IDProcess": 21172,
+    "WorkingSet": 23019520,
+    "WorkingSetPrivate": 3981312,
+    "PrivateBytes": 9773056,
+    "HandleCount": 189,
+    "ThreadCount": 10
+  },
+  {
+    "Name": "ChatGPT#5",
+    "IDProcess": 5436,
+    "WorkingSet": 707108864,
+    "WorkingSetPrivate": 595353600,
+    "PrivateBytes": 645771264,
+    "HandleCount": 374,
+    "ThreadCount": 23
+  },
+  {
+    "Name": "ChatGPT#6",
+    "IDProcess": 6240,
+    "WorkingSet": 125857792,
+    "WorkingSetPrivate": 69636096,
+    "PrivateBytes": 83468288,
+    "HandleCount": 284,
+    "ThreadCount": 21
+  },
+  {
+    "Name": "ChatGPT#7",
+    "IDProcess": 7044,
+    "WorkingSet": 23121920,
+    "WorkingSetPrivate": 3203072,
+    "PrivateBytes": 9007104,
+    "HandleCount": 243,
+    "ThreadCount": 11
+  },
+  {
+    "Name": "ChatGPT#8",
+    "IDProcess": 7276,
+    "WorkingSet": 67211264,
+    "WorkingSetPrivate": 15659008,
+    "PrivateBytes": 33746944,
+    "HandleCount": 339,
+    "ThreadCount": 23
+  },
+  {
+    "Name": "ChatGPT#9",
+    "IDProcess": 4892,
+    "WorkingSet": 355389440,
+    "WorkingSetPrivate": 255664128,
+    "PrivateBytes": 302645248,
+    "HandleCount": 347,
+    "ThreadCount": 23
+  },
+  {
+    "Name": "ChatGPT#10",
+    "IDProcess": 12072,
+    "WorkingSet": 65327104,
+    "WorkingSetPrivate": 13889536,
+    "PrivateBytes": 25939968,
+    "HandleCount": 281,
+    "ThreadCount": 21
+  },
+  {
+    "Name": "ChatGPT#11",
+    "IDProcess": 20220,
+    "WorkingSet": 306552832,
+    "WorkingSetPrivate": 218443776,
+    "PrivateBytes": 240766976,
+    "HandleCount": 374,
+    "ThreadCount": 25
+  },
+  {
+    "Name": "ChatGPT#12",
+    "IDProcess": 1844,
+    "WorkingSet": 63885312,
+    "WorkingSetPrivate": 13824000,
+    "PrivateBytes": 27226112,
+    "HandleCount": 304,
+    "ThreadCount": 24
+  },
+  {
+    "Name": "ChatGPT#13",
+    "IDProcess": 20460,
+    "WorkingSet": 33222656,
+    "WorkingSetPrivate": 6950912,
+    "PrivateBytes": 16232448,
+    "HandleCount": 217,
+    "ThreadCount": 13
+  },
+  {
+    "Name": "CrossDeviceResume",
+    "IDProcess": 12164,
+    "WorkingSet": 59334656,
+    "WorkingSetPrivate": 14118912,
+    "PrivateBytes": 23351296,
+    "HandleCount": 491,
+    "ThreadCount": 11
+  },
+  {
+    "Name": "CrossDeviceService",
+    "IDProcess": 12680,
+    "WorkingSet": 99647488,
+    "WorkingSetPrivate": 18661376,
+    "PrivateBytes": 27119616,
+    "HandleCount": 723,
+    "ThreadCount": 14
+  },
+  {
+    "Name": "DefenderSessionHelper",
+    "IDProcess": 10992,
+    "WorkingSet": 6098944,
+    "WorkingSetPrivate": 565248,
+    "PrivateBytes": 1167360,
+    "HandleCount": 63,
+    "ThreadCount": 1
+  },
+  {
+    "Name": "GameInputRedistService",
+    "IDProcess": 4676,
+    "WorkingSet": 16285696,
+    "WorkingSetPrivate": 2510848,
+    "PrivateBytes": 5668864,
+    "HandleCount": 233,
+    "ThreadCount": 10
+  },
+  {
+    "Name": "GameInputRedistService#1",
+    "IDProcess": 10924,
+    "WorkingSet": 18305024,
+    "WorkingSetPrivate": 1613824,
+    "PrivateBytes": 3579904,
+    "HandleCount": 278,
+    "ThreadCount": 4
+  },
+  {
+    "Name": "GameInputSvc",
+    "IDProcess": 11268,
+    "WorkingSet": 8019968,
+    "WorkingSetPrivate": 688128,
+    "PrivateBytes": 1433600,
+    "HandleCount": 120,
+    "ThreadCount": 5
+  },
+  {
+    "Name": "GameInputSvc#1",
+    "IDProcess": 12308,
+    "WorkingSet": 24272896,
+    "WorkingSetPrivate": 3108864,
+    "PrivateBytes": 5152768,
+    "HandleCount": 375,
+    "ThreadCount": 9
+  },
+  {
+    "Name": "IntelAudioService",
+    "IDProcess": 4684,
+    "WorkingSet": 50376704,
+    "WorkingSetPrivate": 22609920,
+    "PrivateBytes": 45318144,
+    "HandleCount": 413,
+    "ThreadCount": 10
+  },
+  {
+    "Name": "IntelCpHDCPSvc",
+    "IDProcess": 1356,
+    "WorkingSet": 7487488,
+    "WorkingSetPrivate": 675840,
+    "PrivateBytes": 1380352,
+    "HandleCount": 136,
+    "ThreadCount": 3
+  },
+  {
+    "Name": "JetBrains.Etw.Collector.Host",
+    "IDProcess": 4648,
+    "WorkingSet": 6438912,
+    "WorkingSetPrivate": 544768,
+    "PrivateBytes": 991232,
+    "HandleCount": 84,
+    "ThreadCount": 2
+  },
+  {
+    "Name": "LsaIso",
+    "IDProcess": 1336,
+    "WorkingSet": 4333568,
+    "WorkingSetPrivate": 667648,
+    "PrivateBytes": 1163264,
+    "HandleCount": 63,
+    "ThreadCount": 1
+  },
+  {
+    "Name": "Memory Compression",
+    "IDProcess": 3204,
+    "WorkingSet": 62840832,
+    "WorkingSetPrivate": 62840832,
+    "PrivateBytes": 286720,
+    "HandleCount": 0,
+    "ThreadCount": 50
+  },
+  {
+    "Name": "MicrosoftStartFeedProvider",
+    "IDProcess": 14400,
+    "WorkingSet": 50384896,
+    "WorkingSetPrivate": 6053888,
+    "PrivateBytes": 9846784,
+    "HandleCount": 590,
+    "ThreadCount": 11
+  },
+  {
+    "Name": "MpDefenderCoreService",
+    "IDProcess": 4824,
+    "WorkingSet": 29732864,
+    "WorkingSetPrivate": 9981952,
+    "PrivateBytes": 16150528,
+    "HandleCount": 484,
+    "ThreadCount": 10
+  },
+  {
+    "Name": "MsMpEng",
+    "IDProcess": 4784,
+    "WorkingSet": 519966720,
+    "WorkingSetPrivate": 368476160,
+    "PrivateBytes": 509505536,
+    "HandleCount": 1396,
+    "ThreadCount": 68
+  },
+  {
+    "Name": "NVDisplay.Container",
+    "IDProcess": 2744,
+    "WorkingSet": 42713088,
+    "WorkingSetPrivate": 12324864,
+    "PrivateBytes": 25530368,
+    "HandleCount": 599,
+    "ThreadCount": 38
+  },
+  {
+    "Name": "NVDisplay.Container#1",
+    "IDProcess": 5400,
+    "WorkingSet": 157982720,
+    "WorkingSetPrivate": 126930944,
+    "PrivateBytes": 156512256,
+    "HandleCount": 745,
+    "ThreadCount": 30
+  },
+  {
+    "Name": "NgcIso",
+    "IDProcess": 14756,
+    "WorkingSet": 4546560,
+    "WorkingSetPrivate": 741376,
+    "PrivateBytes": 1159168,
+    "HandleCount": 58,
+    "ThreadCount": 3
+  },
+  {
+    "Name": "NisSrv",
+    "IDProcess": 15808,
+    "WorkingSet": 17014784,
+    "WorkingSetPrivate": 4018176,
+    "PrivateBytes": 6430720,
+    "HandleCount": 246,
+    "ThreadCount": 16
+  },
+  {
+    "Name": "OfficeClickToRun",
+    "IDProcess": 4792,
+    "WorkingSet": 49659904,
+    "WorkingSetPrivate": 14073856,
+    "PrivateBytes": 18907136,
+    "HandleCount": 653,
+    "ThreadCount": 19
+  },
+  {
+    "Name": "OneApp.IGCC.WinService",
+    "IDProcess": 4592,
+    "WorkingSet": 65773568,
+    "WorkingSetPrivate": 18542592,
+    "PrivateBytes": 42569728,
+    "HandleCount": 652,
+    "ThreadCount": 8
+  },
+  {
+    "Name": "PhoneExperienceHost",
+    "IDProcess": 16368,
+    "WorkingSet": 180899840,
+    "WorkingSetPrivate": 36286464,
+    "PrivateBytes": 61665280,
+    "HandleCount": 1094,
+    "ThreadCount": 19
+  },
+  {
+    "Name": "PolynomAppServer",
+    "IDProcess": 4768,
+    "WorkingSet": 39829504,
+    "WorkingSetPrivate": 9814016,
+    "PrivateBytes": 38342656,
+    "HandleCount": 405,
+    "ThreadCount": 24
+  },
+  {
+    "Name": "PresentationFontCache",
+    "IDProcess": 11336,
+    "WorkingSet": 23654400,
+    "WorkingSetPrivate": 9515008,
+    "PrivateBytes": 31088640,
+    "HandleCount": 254,
+    "ThreadCount": 4
+  },
+  {
+    "Name": "Registry",
+    "IDProcess": 232,
+    "WorkingSet": 47009792,
+    "WorkingSetPrivate": 15990784,
+    "PrivateBytes": 17100800,
+    "HandleCount": 0,
+    "ThreadCount": 4
+  },
+  {
+    "Name": "RtkAudUService64",
+    "IDProcess": 4760,
+    "WorkingSet": 20353024,
+    "WorkingSetPrivate": 3907584,
+    "PrivateBytes": 5681152,
+    "HandleCount": 472,
+    "ThreadCount": 25
+  },
+  {
+    "Name": "RuntimeBroker",
+    "IDProcess": 13552,
+    "WorkingSet": 68861952,
+    "WorkingSetPrivate": 8286208,
+    "PrivateBytes": 15175680,
+    "HandleCount": 860,
+    "ThreadCount": 18
+  },
+  {
+    "Name": "RuntimeBroker#1",
+    "IDProcess": 15240,
+    "WorkingSet": 15159296,
+    "WorkingSetPrivate": 1175552,
+    "PrivateBytes": 2756608,
+    "HandleCount": 177,
+    "ThreadCount": 5
+  },
+  {
+    "Name": "RuntimeBroker#2",
+    "IDProcess": 4364,
+    "WorkingSet": 28172288,
+    "WorkingSetPrivate": 2011136,
+    "PrivateBytes": 4091904,
+    "HandleCount": 298,
+    "ThreadCount": 9
+  },
+  {
+    "Name": "RuntimeBroker#3",
+    "IDProcess": 19024,
+    "WorkingSet": 19718144,
+    "WorkingSetPrivate": 1527808,
+    "PrivateBytes": 3166208,
+    "HandleCount": 274,
+    "ThreadCount": 4
+  },
+  {
+    "Name": "SearchFilterHost",
+    "IDProcess": 11244,
+    "WorkingSet": 12734464,
+    "WorkingSetPrivate": 1695744,
+    "PrivateBytes": 2293760,
+    "HandleCount": 182,
+    "ThreadCount": 4
+  },
+  {
+    "Name": "SearchFilterHost#1",
+    "IDProcess": 17984,
+    "WorkingSet": 13279232,
+    "WorkingSetPrivate": 1626112,
+    "PrivateBytes": 2363392,
+    "HandleCount": 186,
+    "ThreadCount": 4
+  },
+  {
+    "Name": "SearchHost",
+    "IDProcess": 12644,
+    "WorkingSet": 160161792,
+    "WorkingSetPrivate": 43118592,
+    "PrivateBytes": 53338112,
+    "HandleCount": 1107,
+    "ThreadCount": 14
+  },
+  {
+    "Name": "SearchIndexer",
+    "IDProcess": 18592,
+    "WorkingSet": 37683200,
+    "WorkingSetPrivate": 10919936,
+    "PrivateBytes": 17100800,
+    "HandleCount": 1116,
+    "ThreadCount": 10
+  },
+  {
+    "Name": "SearchProtocolHost",
+    "IDProcess": 5328,
+    "WorkingSet": 21450752,
+    "WorkingSetPrivate": 2105344,
+    "PrivateBytes": 3440640,
+    "HandleCount": 454,
+    "ThreadCount": 6
+  },
+  {
+    "Name": "Secure System",
+    "IDProcess": 188,
+    "WorkingSet": 64790528,
+    "WorkingSetPrivate": 64790528,
+    "PrivateBytes": 176128,
+    "HandleCount": 0,
+    "ThreadCount": 0
+  },
+  {
+    "Name": "SecurityHealthService",
+    "IDProcess": 6224,
+    "WorkingSet": 28651520,
+    "WorkingSetPrivate": 5107712,
+    "PrivateBytes": 15495168,
+    "HandleCount": 808,
+    "ThreadCount": 12
+  },
+  {
+    "Name": "SecurityHealthSystray",
+    "IDProcess": 16024,
+    "WorkingSet": 13967360,
+    "WorkingSetPrivate": 1171456,
+    "PrivateBytes": 2170880,
+    "HandleCount": 191,
+    "ThreadCount": 4
+  },
+  {
+    "Name": "ShellExperienceHost",
+    "IDProcess": 8120,
+    "WorkingSet": 80179200,
+    "WorkingSetPrivate": 69632,
+    "PrivateBytes": 27488256,
+    "HandleCount": 759,
+    "ThreadCount": 19
+  },
+  {
+    "Name": "ShellHost",
+    "IDProcess": 12240,
+    "WorkingSet": 140726272,
+    "WorkingSetPrivate": 41140224,
+    "PrivateBytes": 54935552,
+    "HandleCount": 1239,
+    "ThreadCount": 34
+  },
+  {
+    "Name": "SnippingTool",
+    "IDProcess": 10640,
+    "WorkingSet": 175529984,
+    "WorkingSetPrivate": 79859712,
+    "PrivateBytes": 103243776,
+    "HandleCount": 991,
+    "ThreadCount": 22
+  },
+  {
+    "Name": "StartMenuExperienceHost",
+    "IDProcess": 13304,
+    "WorkingSet": 190316544,
+    "WorkingSetPrivate": 66875392,
+    "PrivateBytes": 95313920,
+    "HandleCount": 1241,
+    "ThreadCount": 20
+  },
+  {
+    "Name": "System",
+    "IDProcess": 4,
+    "WorkingSet": 180224,
+    "WorkingSetPrivate": 20480,
+    "PrivateBytes": 53248,
+    "HandleCount": 5671,
+    "ThreadCount": 360
+  },
+  {
+    "Name": "Taskmgr",
+    "IDProcess": 20524,
+    "WorkingSet": 233193472,
+    "WorkingSetPrivate": 105291776,
+    "PrivateBytes": 132800512,
+    "HandleCount": 1166,
+    "ThreadCount": 24
+  },
+  {
+    "Name": "TextInputHost",
+    "IDProcess": 15612,
+    "WorkingSet": 92921856,
+    "WorkingSetPrivate": 20918272,
+    "PrivateBytes": 33214464,
+    "HandleCount": 977,
+    "ThreadCount": 24
+  },
+  {
+    "Name": "TiWorker",
+    "IDProcess": 1832,
+    "WorkingSet": 20324352,
+    "WorkingSetPrivate": 3977216,
+    "PrivateBytes": 5263360,
+    "HandleCount": 256,
+    "ThreadCount": 5
+  },
+  {
+    "Name": "TrustedInstaller",
+    "IDProcess": 3152,
+    "WorkingSet": 10354688,
+    "WorkingSetPrivate": 1318912,
+    "PrivateBytes": 1867776,
+    "HandleCount": 146,
+    "ThreadCount": 5
+  },
+  {
+    "Name": "WMIADAP",
+    "IDProcess": 11464,
+    "WorkingSet": 11878400,
+    "WorkingSetPrivate": 1105920,
+    "PrivateBytes": 2129920,
+    "HandleCount": 158,
+    "ThreadCount": 3
+  },
+  {
+    "Name": "WMIRegistrationService",
+    "IDProcess": 4776,
+    "WorkingSet": 16183296,
+    "WorkingSetPrivate": 1486848,
+    "PrivateBytes": 3108864,
+    "HandleCount": 268,
+    "ThreadCount": 2
+  },
+  {
+    "Name": "WUDFHost",
+    "IDProcess": 1512,
+    "WorkingSet": 10661888,
+    "WorkingSetPrivate": 1560576,
+    "PrivateBytes": 5701632,
+    "HandleCount": 257,
+    "ThreadCount": 5
+  },
+  {
+    "Name": "WUDFHost#1",
+    "IDProcess": 4036,
+    "WorkingSet": 18726912,
+    "WorkingSetPrivate": 4116480,
+    "PrivateBytes": 7278592,
+    "HandleCount": 359,
+    "ThreadCount": 11
+  },
+  {
+    "Name": "WidgetBoard",
+    "IDProcess": 13144,
+    "WorkingSet": 34983936,
+    "WorkingSetPrivate": 2674688,
+    "PrivateBytes": 5591040,
+    "HandleCount": 380,
+    "ThreadCount": 7
+  },
+  {
+    "Name": "WidgetService",
+    "IDProcess": 14044,
+    "WorkingSet": 27590656,
+    "WorkingSetPrivate": 3026944,
+    "PrivateBytes": 5627904,
+    "HandleCount": 351,
+    "ThreadCount": 10
+  },
+  {
+    "Name": "WmiApSrv",
+    "IDProcess": 16044,
+    "WorkingSet": 11157504,
+    "WorkingSetPrivate": 954368,
+    "PrivateBytes": 1830912,
+    "HandleCount": 161,
+    "ThreadCount": 4
+  },
+  {
+    "Name": "WmiPrvSE",
+    "IDProcess": 7596,
+    "WorkingSet": 38125568,
+    "WorkingSetPrivate": 15929344,
+    "PrivateBytes": 18284544,
+    "HandleCount": 368,
+    "ThreadCount": 7
+  },
+  {
+    "Name": "WmiPrvSE#1",
+    "IDProcess": 10404,
+    "WorkingSet": 46215168,
+    "WorkingSetPrivate": 24866816,
+    "PrivateBytes": 39907328,
+    "HandleCount": 367,
+    "ThreadCount": 13
+  },
+  {
+    "Name": "WmiPrvSE#2",
+    "IDProcess": 16128,
+    "WorkingSet": 22712320,
+    "WorkingSetPrivate": 10866688,
+    "PrivateBytes": 13172736,
+    "HandleCount": 279,
+    "ThreadCount": 8
+  },
+  {
+    "Name": "assistant",
+    "IDProcess": 19652,
+    "WorkingSet": 35508224,
+    "WorkingSetPrivate": 4534272,
+    "PrivateBytes": 14938112,
+    "HandleCount": 453,
+    "ThreadCount": 6
+  },
+  {
+    "Name": "ast_service",
+    "IDProcess": 4568,
+    "WorkingSet": 36368384,
+    "WorkingSetPrivate": 8794112,
+    "PrivateBytes": 17424384,
+    "HandleCount": 550,
+    "ThreadCount": 14
+  },
+  {
+    "Name": "audiodg",
+    "IDProcess": 3892,
+    "WorkingSet": 24944640,
+    "WorkingSetPrivate": 5640192,
+    "PrivateBytes": 21053440,
+    "HandleCount": 568,
+    "ThreadCount": 6
+  },
+  {
+    "Name": "chrome",
+    "IDProcess": 19208,
+    "WorkingSet": 325902336,
+    "WorkingSetPrivate": 154443776,
+    "PrivateBytes": 179228672,
+    "HandleCount": 1812,
+    "ThreadCount": 46
+  },
+  {
+    "Name": "chrome#1",
+    "IDProcess": 21360,
+    "WorkingSet": 10215424,
+    "WorkingSetPrivate": 1179648,
+    "PrivateBytes": 2568192,
+    "HandleCount": 195,
+    "ThreadCount": 8
+  },
+  {
+    "Name": "chrome#2",
+    "IDProcess": 8976,
+    "WorkingSet": 372387840,
+    "WorkingSetPrivate": 285040640,
+    "PrivateBytes": 335990784,
+    "HandleCount": 1020,
+    "ThreadCount": 26
+  },
+  {
+    "Name": "chrome#3",
+    "IDProcess": 19764,
+    "WorkingSet": 63291392,
+    "WorkingSetPrivate": 19566592,
+    "PrivateBytes": 27783168,
+    "HandleCount": 464,
+    "ThreadCount": 24
+  },
+  {
+    "Name": "chrome#4",
+    "IDProcess": 20832,
+    "WorkingSet": 21045248,
+    "WorkingSetPrivate": 4460544,
+    "PrivateBytes": 10170368,
+    "HandleCount": 169,
+    "ThreadCount": 11
+  },
+  {
+    "Name": "chrome#5",
+    "IDProcess": 19820,
+    "WorkingSet": 79376384,
+    "WorkingSetPrivate": 25116672,
+    "PrivateBytes": 38092800,
+    "HandleCount": 316,
+    "ThreadCount": 22
+  },
+  {
+    "Name": "chrome#6",
+    "IDProcess": 20296,
+    "WorkingSet": 472010752,
+    "WorkingSetPrivate": 363548672,
+    "PrivateBytes": 388427776,
+    "HandleCount": 410,
+    "ThreadCount": 27
+  },
+  {
+    "Name": "chrome#7",
+    "IDProcess": 5932,
+    "WorkingSet": 86028288,
+    "WorkingSetPrivate": 31154176,
+    "PrivateBytes": 48869376,
+    "HandleCount": 299,
+    "ThreadCount": 23
+  },
+  {
+    "Name": "chrome#8",
+    "IDProcess": 13444,
+    "WorkingSet": 191000576,
+    "WorkingSetPrivate": 142245888,
+    "PrivateBytes": 158969856,
+    "HandleCount": 276,
+    "ThreadCount": 23
+  },
+  {
+    "Name": "chrome#9",
+    "IDProcess": 11596,
+    "WorkingSet": 60903424,
+    "WorkingSetPrivate": 16629760,
+    "PrivateBytes": 28626944,
+    "HandleCount": 261,
+    "ThreadCount": 14
+  },
+  {
+    "Name": "chrome#10",
+    "IDProcess": 4124,
+    "WorkingSet": 74739712,
+    "WorkingSetPrivate": 26341376,
+    "PrivateBytes": 37781504,
+    "HandleCount": 265,
+    "ThreadCount": 16
+  },
+  {
+    "Name": "chrome#11",
+    "IDProcess": 20144,
+    "WorkingSet": 33443840,
+    "WorkingSetPrivate": 8757248,
+    "PrivateBytes": 16232448,
+    "HandleCount": 209,
+    "ThreadCount": 12
+  },
+  {
+    "Name": "cmd",
+    "IDProcess": 2148,
+    "WorkingSet": 8228864,
+    "WorkingSetPrivate": 2170880,
+    "PrivateBytes": 4677632,
+    "HandleCount": 121,
+    "ThreadCount": 1
+  },
+  {
+    "Name": "cmd#1",
+    "IDProcess": 19720,
+    "WorkingSet": 8171520,
+    "WorkingSetPrivate": 2027520,
+    "PrivateBytes": 4841472,
+    "HandleCount": 121,
+    "ThreadCount": 1
+  },
+  {
+    "Name": "cmd#2",
+    "IDProcess": 13388,
+    "WorkingSet": 8200192,
+    "WorkingSetPrivate": 1830912,
+    "PrivateBytes": 6627328,
+    "HandleCount": 132,
+    "ThreadCount": 3
+  },
+  {
+    "Name": "cmd#3",
+    "IDProcess": 15980,
+    "WorkingSet": 8253440,
+    "WorkingSetPrivate": 1863680,
+    "PrivateBytes": 8019968,
+    "HandleCount": 132,
+    "ThreadCount": 4
+  },
+  {
+    "Name": "codex",
+    "IDProcess": 21024,
+    "WorkingSet": 260636672,
+    "WorkingSetPrivate": 155316224,
+    "PrivateBytes": 193286144,
+    "HandleCount": 665,
+    "ThreadCount": 66
+  },
+  {
+    "Name": "codex#1",
+    "IDProcess": 19252,
+    "WorkingSet": 64561152,
+    "WorkingSetPrivate": 4149248,
+    "PrivateBytes": 7495680,
+    "HandleCount": 354,
+    "ThreadCount": 19
+  },
+  {
+    "Name": "codex#2",
+    "IDProcess": 15756,
+    "WorkingSet": 96514048,
+    "WorkingSetPrivate": 3760128,
+    "PrivateBytes": 5574656,
+    "HandleCount": 248,
+    "ThreadCount": 17
+  },
+  {
+    "Name": "codex#3",
+    "IDProcess": 5276,
+    "WorkingSet": 96329728,
+    "WorkingSetPrivate": 3579904,
+    "PrivateBytes": 5394432,
+    "HandleCount": 248,
+    "ThreadCount": 17
+  },
+  {
+    "Name": "codex#4",
+    "IDProcess": 20112,
+    "WorkingSet": 95518720,
+    "WorkingSetPrivate": 1855488,
+    "PrivateBytes": 3284992,
+    "HandleCount": 233,
+    "ThreadCount": 3
+  },
+  {
+    "Name": "codex#5",
+    "IDProcess": 5084,
+    "WorkingSet": 95506432,
+    "WorkingSetPrivate": 1839104,
+    "PrivateBytes": 3256320,
+    "HandleCount": 231,
+    "ThreadCount": 3
+  },
+  {
+    "Name": "codex-code-mode-host",
+    "IDProcess": 9392,
+    "WorkingSet": 40927232,
+    "WorkingSetPrivate": 10260480,
+    "PrivateBytes": 17063936,
+    "HandleCount": 185,
+    "ThreadCount": 17
+  },
+  {
+    "Name": "codex-computer-use",
+    "IDProcess": 2920,
+    "WorkingSet": 51638272,
+    "WorkingSetPrivate": 19083264,
+    "PrivateBytes": 33075200,
+    "HandleCount": 387,
+    "ThreadCount": 10
+  },
+  {
+    "Name": "codex-computer-use-swift",
+    "IDProcess": 816,
+    "WorkingSet": 47460352,
+    "WorkingSetPrivate": 13275136,
+    "PrivateBytes": 40185856,
+    "HandleCount": 385,
+    "ThreadCount": 33
+  },
+  {
+    "Name": "conhost",
+    "IDProcess": 6864,
+    "WorkingSet": 9940992,
+    "WorkingSetPrivate": 860160,
+    "PrivateBytes": 1716224,
+    "HandleCount": 135,
+    "ThreadCount": 4
+  },
+  {
+    "Name": "conhost#1",
+    "IDProcess": 7000,
+    "WorkingSet": 9945088,
+    "WorkingSetPrivate": 843776,
+    "PrivateBytes": 1716224,
+    "HandleCount": 141,
+    "ThreadCount": 4
+  },
+  {
+    "Name": "conhost#2",
+    "IDProcess": 7008,
+    "WorkingSet": 9957376,
+    "WorkingSetPrivate": 847872,
+    "PrivateBytes": 1712128,
+    "HandleCount": 141,
+    "ThreadCount": 4
+  },
+  {
+    "Name": "conhost#3",
+    "IDProcess": 6428,
+    "WorkingSet": 10919936,
+    "WorkingSetPrivate": 1187840,
+    "PrivateBytes": 1794048,
+    "HandleCount": 150,
+    "ThreadCount": 4
+  },
+  {
+    "Name": "conhost#4",
+    "IDProcess": 2524,
+    "WorkingSet": 10067968,
+    "WorkingSetPrivate": 860160,
+    "PrivateBytes": 1875968,
+    "HandleCount": 123,
+    "ThreadCount": 5
+  },
+  {
+    "Name": "conhost#5",
+    "IDProcess": 21352,
+    "WorkingSet": 7172096,
+    "WorkingSetPrivate": 573440,
+    "PrivateBytes": 1241088,
+    "HandleCount": 99,
+    "ThreadCount": 2
+  },
+  {
+    "Name": "conhost#6",
+    "IDProcess": 19240,
+    "WorkingSet": 7192576,
+    "WorkingSetPrivate": 577536,
+    "PrivateBytes": 1249280,
+    "HandleCount": 99,
+    "ThreadCount": 2
+  },
+  {
+    "Name": "conhost#7",
+    "IDProcess": 9928,
+    "WorkingSet": 7327744,
+    "WorkingSetPrivate": 540672,
+    "PrivateBytes": 1228800,
+    "HandleCount": 96,
+    "ThreadCount": 2
+  },
+  {
+    "Name": "conhost#8",
+    "IDProcess": 19964,
+    "WorkingSet": 7204864,
+    "WorkingSetPrivate": 593920,
+    "PrivateBytes": 1269760,
+    "HandleCount": 99,
+    "ThreadCount": 2
+  },
+  {
+    "Name": "conhost#9",
+    "IDProcess": 2000,
+    "WorkingSet": 7315456,
+    "WorkingSetPrivate": 593920,
+    "PrivateBytes": 1265664,
+    "HandleCount": 103,
+    "ThreadCount": 2
+  },
+  {
+    "Name": "conhost#10",
+    "IDProcess": 1924,
+    "WorkingSet": 7356416,
+    "WorkingSetPrivate": 557056,
+    "PrivateBytes": 1236992,
+    "HandleCount": 97,
+    "ThreadCount": 2
+  },
+  {
+    "Name": "conhost#11",
+    "IDProcess": 5200,
+    "WorkingSet": 7196672,
+    "WorkingSetPrivate": 561152,
+    "PrivateBytes": 1257472,
+    "HandleCount": 99,
+    "ThreadCount": 2
+  },
+  {
+    "Name": "conhost#12",
+    "IDProcess": 16788,
+    "WorkingSet": 7348224,
+    "WorkingSetPrivate": 552960,
+    "PrivateBytes": 1232896,
+    "HandleCount": 97,
+    "ThreadCount": 2
+  },
+  {
+    "Name": "conhost#13",
+    "IDProcess": 11012,
+    "WorkingSet": 7344128,
+    "WorkingSetPrivate": 552960,
+    "PrivateBytes": 1241088,
+    "HandleCount": 97,
+    "ThreadCount": 2
+  },
+  {
+    "Name": "conhost#14",
+    "IDProcess": 5032,
+    "WorkingSet": 7249920,
+    "WorkingSetPrivate": 622592,
+    "PrivateBytes": 1355776,
+    "HandleCount": 99,
+    "ThreadCount": 5
+  },
+  {
+    "Name": "conhost#15",
+    "IDProcess": 15424,
+    "WorkingSet": 7421952,
+    "WorkingSetPrivate": 618496,
+    "PrivateBytes": 1363968,
+    "HandleCount": 97,
+    "ThreadCount": 5
+  },
+  {
+    "Name": "conhost#16",
+    "IDProcess": 4240,
+    "WorkingSet": 7229440,
+    "WorkingSetPrivate": 593920,
+    "PrivateBytes": 1323008,
+    "HandleCount": 99,
+    "ThreadCount": 4
+  },
+  {
+    "Name": "conhost#17",
+    "IDProcess": 4280,
+    "WorkingSet": 7393280,
+    "WorkingSetPrivate": 581632,
+    "PrivateBytes": 1310720,
+    "HandleCount": 97,
+    "ThreadCount": 4
+  },
+  {
+    "Name": "conhost#18",
+    "IDProcess": 8196,
+    "WorkingSet": 7401472,
+    "WorkingSetPrivate": 577536,
+    "PrivateBytes": 1310720,
+    "HandleCount": 97,
+    "ThreadCount": 4
+  },
+  {
+    "Name": "conhost#19",
+    "IDProcess": 14604,
+    "WorkingSet": 7254016,
+    "WorkingSetPrivate": 626688,
+    "PrivateBytes": 1363968,
+    "HandleCount": 99,
+    "ThreadCount": 5
+  },
+  {
+    "Name": "conhost#20",
+    "IDProcess": 4140,
+    "WorkingSet": 7446528,
+    "WorkingSetPrivate": 876544,
+    "PrivateBytes": 1257472,
+    "HandleCount": 96,
+    "ThreadCount": 2
+  },
+  {
+    "Name": "conhost#21",
+    "IDProcess": 1556,
+    "WorkingSet": 7544832,
+    "WorkingSetPrivate": 831488,
+    "PrivateBytes": 1220608,
+    "HandleCount": 99,
+    "ThreadCount": 2
+  },
+  {
+    "Name": "conhost#22",
+    "IDProcess": 1504,
+    "WorkingSet": 7581696,
+    "WorkingSetPrivate": 856064,
+    "PrivateBytes": 1228800,
+    "HandleCount": 99,
+    "ThreadCount": 2
+  },
+  {
+    "Name": "conhost#23",
+    "IDProcess": 3260,
+    "WorkingSet": 7221248,
+    "WorkingSetPrivate": 847872,
+    "PrivateBytes": 1224704,
+    "HandleCount": 99,
+    "ThreadCount": 2
+  },
+  {
+    "Name": "csrss",
+    "IDProcess": 1068,
+    "WorkingSet": 7069696,
+    "WorkingSetPrivate": 1331200,
+    "PrivateBytes": 2637824,
+    "HandleCount": 988,
+    "ThreadCount": 15
+  },
+  {
+    "Name": "csrss#1",
+    "IDProcess": 1180,
+    "WorkingSet": 7921664,
+    "WorkingSetPrivate": 1851392,
+    "PrivateBytes": 3252224,
+    "HandleCount": 941,
+    "ThreadCount": 15
+  },
+  {
+    "Name": "ctfmon",
+    "IDProcess": 7888,
+    "WorkingSet": 34250752,
+    "WorkingSetPrivate": 4747264,
+    "PrivateBytes": 6275072,
+    "HandleCount": 550,
+    "ThreadCount": 20
+  },
+  {
+    "Name": "dwm",
+    "IDProcess": 1780,
+    "WorkingSet": 179437568,
+    "WorkingSetPrivate": 118210560,
+    "PrivateBytes": 151031808,
+    "HandleCount": 1591,
+    "ThreadCount": 21
+  },
+  {
+    "Name": "esif_uf",
+    "IDProcess": 5544,
+    "WorkingSet": 7634944,
+    "WorkingSetPrivate": 712704,
+    "PrivateBytes": 1708032,
+    "HandleCount": 119,
+    "ThreadCount": 3
+  },
+  {
+    "Name": "explorer",
+    "IDProcess": 12048,
+    "WorkingSet": 348299264,
+    "WorkingSetPrivate": 146227200,
+    "PrivateBytes": 204976128,
+    "HandleCount": 4434,
+    "ThreadCount": 100
+  },
+  {
+    "Name": "fontdrvhost",
+    "IDProcess": 1536,
+    "WorkingSet": 8208384,
+    "WorkingSetPrivate": 2297856,
+    "PrivateBytes": 2781184,
+    "HandleCount": 44,
+    "ThreadCount": 5
+  },
+  {
+    "Name": "fontdrvhost#1",
+    "IDProcess": 1544,
+    "WorkingSet": 5414912,
+    "WorkingSetPrivate": 1601536,
+    "PrivateBytes": 2007040,
+    "HandleCount": 44,
+    "ThreadCount": 5
+  },
+  {
+    "Name": "gamingservices",
+    "IDProcess": 6060,
+    "WorkingSet": 46067712,
+    "WorkingSetPrivate": 5808128,
+    "PrivateBytes": 9306112,
+    "HandleCount": 738,
+    "ThreadCount": 22
+  },
+  {
+    "Name": "gamingservicesnet",
+    "IDProcess": 6128,
+    "WorkingSet": 15134720,
+    "WorkingSetPrivate": 2846720,
+    "PrivateBytes": 13090816,
+    "HandleCount": 338,
+    "ThreadCount": 39
+  },
+  {
+    "Name": "igfxCUIServiceN",
+    "IDProcess": 2512,
+    "WorkingSet": 14692352,
+    "WorkingSetPrivate": 1413120,
+    "PrivateBytes": 2543616,
+    "HandleCount": 221,
+    "ThreadCount": 2
+  },
+  {
+    "Name": "igfxEMN",
+    "IDProcess": 12084,
+    "WorkingSet": 19136512,
+    "WorkingSetPrivate": 2527232,
+    "PrivateBytes": 4190208,
+    "HandleCount": 324,
+    "ThreadCount": 6
+  },
+  {
+    "Name": "jhi_service",
+    "IDProcess": 4656,
+    "WorkingSet": 8986624,
+    "WorkingSetPrivate": 737280,
+    "PrivateBytes": 1486848,
+    "HandleCount": 146,
+    "ThreadCount": 2
+  },
+  {
+    "Name": "jucheck",
+    "IDProcess": 17384,
+    "WorkingSet": 22364160,
+    "WorkingSetPrivate": 3407872,
+    "PrivateBytes": 4542464,
+    "HandleCount": 434,
+    "ThreadCount": 10
+  },
+  {
+    "Name": "jusched",
+    "IDProcess": 3504,
+    "WorkingSet": 17682432,
+    "WorkingSetPrivate": 1859584,
+    "PrivateBytes": 2859008,
+    "HandleCount": 290,
+    "ThreadCount": 7
+  },
+  {
+    "Name": "ksde",
+    "IDProcess": 13412,
+    "WorkingSet": 10432512,
+    "WorkingSetPrivate": 4075520,
+    "PrivateBytes": 25899008,
+    "HandleCount": 886,
+    "ThreadCount": 30
+  },
+  {
+    "Name": "ksdeui",
+    "IDProcess": 11740,
+    "WorkingSet": 4734976,
+    "WorkingSetPrivate": 1437696,
+    "PrivateBytes": 8945664,
+    "HandleCount": 297,
+    "ThreadCount": 7
+  },
+  {
+    "Name": "lsass",
+    "IDProcess": 1344,
+    "WorkingSet": 30572544,
+    "WorkingSetPrivate": 9588736,
+    "PrivateBytes": 12382208,
+    "HandleCount": 1549,
+    "ThreadCount": 15
+  },
+  {
+    "Name": "msedgewebview2",
+    "IDProcess": 11784,
+    "WorkingSet": 132722688,
+    "WorkingSetPrivate": 30363648,
+    "PrivateBytes": 40951808,
+    "HandleCount": 1309,
+    "ThreadCount": 52
+  },
+  {
+    "Name": "msedgewebview2#1",
+    "IDProcess": 13536,
+    "WorkingSet": 13524992,
+    "WorkingSetPrivate": 1404928,
+    "PrivateBytes": 3153920,
+    "HandleCount": 178,
+    "ThreadCount": 10
+  },
+  {
+    "Name": "msedgewebview2#2",
+    "IDProcess": 14740,
+    "WorkingSet": 47136768,
+    "WorkingSetPrivate": 9580544,
+    "PrivateBytes": 16027648,
+    "HandleCount": 371,
+    "ThreadCount": 21
+  },
+  {
+    "Name": "msedgewebview2#3",
+    "IDProcess": 14748,
+    "WorkingSet": 78143488,
+    "WorkingSetPrivate": 26972160,
+    "PrivateBytes": 66080768,
+    "HandleCount": 477,
+    "ThreadCount": 21
+  },
+  {
+    "Name": "msedgewebview2#4",
+    "IDProcess": 14856,
+    "WorkingSet": 21196800,
+    "WorkingSetPrivate": 3248128,
+    "PrivateBytes": 8359936,
+    "HandleCount": 178,
+    "ThreadCount": 10
+  },
+  {
+    "Name": "msedgewebview2#5",
+    "IDProcess": 14996,
+    "WorkingSet": 111378432,
+    "WorkingSetPrivate": 40607744,
+    "PrivateBytes": 65617920,
+    "HandleCount": 333,
+    "ThreadCount": 26
+  },
+  {
+    "Name": "mysqld",
+    "IDProcess": 4856,
+    "WorkingSet": 25493504,
+    "WorkingSetPrivate": 16699392,
+    "PrivateBytes": 34910208,
+    "HandleCount": 144,
+    "ThreadCount": 3
+  },
+  {
+    "Name": "mysqld#1",
+    "IDProcess": 6844,
+    "WorkingSet": 190595072,
+    "WorkingSetPrivate": 138223616,
+    "PrivateBytes": 608833536,
+    "HandleCount": 507,
+    "ThreadCount": 39
+  },
+  {
+    "Name": "node",
+    "IDProcess": 16564,
+    "WorkingSet": 136269824,
+    "WorkingSetPrivate": 89559040,
+    "PrivateBytes": 137220096,
+    "HandleCount": 233,
+    "ThreadCount": 13
+  },
+  {
+    "Name": "node#1",
+    "IDProcess": 19488,
+    "WorkingSet": 40046592,
+    "WorkingSetPrivate": 10162176,
+    "PrivateBytes": 22028288,
+    "HandleCount": 211,
+    "ThreadCount": 9
+  },
+  {
+    "Name": "node#2",
+    "IDProcess": 4376,
+    "WorkingSet": 104239104,
+    "WorkingSetPrivate": 46338048,
+    "PrivateBytes": 119226368,
+    "HandleCount": 206,
+    "ThreadCount": 13
+  },
+  {
+    "Name": "node#3",
+    "IDProcess": 7112,
+    "WorkingSet": 47943680,
+    "WorkingSetPrivate": 15654912,
+    "PrivateBytes": 29904896,
+    "HandleCount": 204,
+    "ThreadCount": 9
+  },
+  {
+    "Name": "node#4",
+    "IDProcess": 8116,
+    "WorkingSet": 44699648,
+    "WorkingSetPrivate": 10240000,
+    "PrivateBytes": 22495232,
+    "HandleCount": 222,
+    "ThreadCount": 11
+  },
+  {
+    "Name": "node#5",
+    "IDProcess": 18912,
+    "WorkingSet": 104337408,
+    "WorkingSetPrivate": 45604864,
+    "PrivateBytes": 118939648,
+    "HandleCount": 217,
+    "ThreadCount": 15
+  },
+  {
+    "Name": "node#6",
+    "IDProcess": 13604,
+    "WorkingSet": 51908608,
+    "WorkingSetPrivate": 15642624,
+    "PrivateBytes": 30314496,
+    "HandleCount": 215,
+    "ThreadCount": 12
+  },
+  {
+    "Name": "node#7",
+    "IDProcess": 21484,
+    "WorkingSet": 56389632,
+    "WorkingSetPrivate": 23502848,
+    "PrivateBytes": 30134272,
+    "HandleCount": 174,
+    "ThreadCount": 10
+  },
+  {
+    "Name": "node#8",
+    "IDProcess": 20304,
+    "WorkingSet": 49934336,
+    "WorkingSetPrivate": 19193856,
+    "PrivateBytes": 25677824,
+    "HandleCount": 173,
+    "ThreadCount": 10
+  },
+  {
+    "Name": "node_repl",
+    "IDProcess": 1604,
+    "WorkingSet": 10653696,
+    "WorkingSetPrivate": 1658880,
+    "PrivateBytes": 2908160,
+    "HandleCount": 139,
+    "ThreadCount": 16
+  },
+  {
+    "Name": "node_repl#1",
+    "IDProcess": 15356,
+    "WorkingSet": 13783040,
+    "WorkingSetPrivate": 2535424,
+    "PrivateBytes": 4116480,
+    "HandleCount": 156,
+    "ThreadCount": 20
+  },
+  {
+    "Name": "node_repl#2",
+    "IDProcess": 7732,
+    "WorkingSet": 11567104,
+    "WorkingSetPrivate": 2019328,
+    "PrivateBytes": 3772416,
+    "HandleCount": 141,
+    "ThreadCount": 18
+  },
+  {
+    "Name": "node_repl#3",
+    "IDProcess": 3908,
+    "WorkingSet": 11190272,
+    "WorkingSetPrivate": 1658880,
+    "PrivateBytes": 2949120,
+    "HandleCount": 149,
+    "ThreadCount": 19
+  },
+  {
+    "Name": "node_repl#4",
+    "IDProcess": 17732,
+    "WorkingSet": 11157504,
+    "WorkingSetPrivate": 1630208,
+    "PrivateBytes": 2904064,
+    "HandleCount": 150,
+    "ThreadCount": 19
+  },
+  {
+    "Name": "node_repl#5",
+    "IDProcess": 16108,
+    "WorkingSet": 11440128,
+    "WorkingSetPrivate": 1888256,
+    "PrivateBytes": 3678208,
+    "HandleCount": 152,
+    "ThreadCount": 21
+  },
+  {
+    "Name": "nvcontainer",
+    "IDProcess": 4724,
+    "WorkingSet": 36274176,
+    "WorkingSetPrivate": 8732672,
+    "PrivateBytes": 13852672,
+    "HandleCount": 613,
+    "ThreadCount": 28
+  },
+  {
+    "Name": "nvcontainer#1",
+    "IDProcess": 10396,
+    "WorkingSet": 39772160,
+    "WorkingSetPrivate": 8245248,
+    "PrivateBytes": 20774912,
+    "HandleCount": 725,
+    "ThreadCount": 21
+  },
+  {
+    "Name": "nvcontainer#2",
+    "IDProcess": 11112,
+    "WorkingSet": 20103168,
+    "WorkingSetPrivate": 3219456,
+    "PrivateBytes": 5062656,
+    "HandleCount": 343,
+    "ThreadCount": 10
+  },
+  {
+    "Name": "nvcontainer#3",
+    "IDProcess": 11168,
+    "WorkingSet": 19529728,
+    "WorkingSetPrivate": 3371008,
+    "PrivateBytes": 5488640,
+    "HandleCount": 350,
+    "ThreadCount": 9
+  },
+  {
+    "Name": "nvcontainer#4",
+    "IDProcess": 11216,
+    "WorkingSet": 74219520,
+    "WorkingSetPrivate": 32784384,
+    "PrivateBytes": 39170048,
+    "HandleCount": 782,
+    "ThreadCount": 68
+  },
+  {
+    "Name": "ollama",
+    "IDProcess": 2456,
+    "WorkingSet": 69652480,
+    "WorkingSetPrivate": 16441344,
+    "PrivateBytes": 78278656,
+    "HandleCount": 542,
+    "ThreadCount": 21
+  },
+  {
+    "Name": "ollama app",
+    "IDProcess": 21148,
+    "WorkingSet": 48443392,
+    "WorkingSetPrivate": 8130560,
+    "PrivateBytes": 55296000,
+    "HandleCount": 427,
+    "ThreadCount": 17
+  },
+  {
+    "Name": "pg_ctl",
+    "IDProcess": 4580,
+    "WorkingSet": 8892416,
+    "WorkingSetPrivate": 1085440,
+    "PrivateBytes": 1552384,
+    "HandleCount": 126,
+    "ThreadCount": 2
+  },
+  {
+    "Name": "pg_ctl#1",
+    "IDProcess": 4700,
+    "WorkingSet": 9129984,
+    "WorkingSetPrivate": 786432,
+    "PrivateBytes": 1531904,
+    "HandleCount": 123,
+    "ThreadCount": 2
+  },
+  {
+    "Name": "pg_ctl#2",
+    "IDProcess": 4744,
+    "WorkingSet": 8871936,
+    "WorkingSetPrivate": 1089536,
+    "PrivateBytes": 1568768,
+    "HandleCount": 126,
+    "ThreadCount": 2
+  },
+  {
+    "Name": "postgres",
+    "IDProcess": 6964,
+    "WorkingSet": 17723392,
+    "WorkingSetPrivate": 1540096,
+    "PrivateBytes": 4349952,
+    "HandleCount": 408,
+    "ThreadCount": 3
+  },
+  {
+    "Name": "postgres#1",
+    "IDProcess": 6976,
+    "WorkingSet": 18579456,
+    "WorkingSetPrivate": 1593344,
+    "PrivateBytes": 4259840,
+    "HandleCount": 412,
+    "ThreadCount": 3
+  },
+  {
+    "Name": "postgres#2",
+    "IDProcess": 6440,
+    "WorkingSet": 11915264,
+    "WorkingSetPrivate": 1593344,
+    "PrivateBytes": 3108864,
+    "HandleCount": 2214,
+    "ThreadCount": 3
+  },
+  {
+    "Name": "postgres#3",
+    "IDProcess": 7956,
+    "WorkingSet": 11472896,
+    "WorkingSetPrivate": 1351680,
+    "PrivateBytes": 2842624,
+    "HandleCount": 359,
+    "ThreadCount": 3
+  },
+  {
+    "Name": "postgres#4",
+    "IDProcess": 8016,
+    "WorkingSet": 11493376,
+    "WorkingSetPrivate": 1404928,
+    "PrivateBytes": 2670592,
+    "HandleCount": 363,
+    "ThreadCount": 3
+  },
+  {
+    "Name": "postgres#5",
+    "IDProcess": 8156,
+    "WorkingSet": 14639104,
+    "WorkingSetPrivate": 1478656,
+    "PrivateBytes": 4235264,
+    "HandleCount": 371,
+    "ThreadCount": 2
+  },
+  {
+    "Name": "postgres#6",
+    "IDProcess": 8164,
+    "WorkingSet": 12873728,
+    "WorkingSetPrivate": 1335296,
+    "PrivateBytes": 3002368,
+    "HandleCount": 364,
+    "ThreadCount": 2
+  },
+  {
+    "Name": "postgres#7",
+    "IDProcess": 7648,
+    "WorkingSet": 14737408,
+    "WorkingSetPrivate": 1507328,
+    "PrivateBytes": 4427776,
+    "HandleCount": 368,
+    "ThreadCount": 2
+  },
+  {
+    "Name": "postgres#8",
+    "IDProcess": 7584,
+    "WorkingSet": 12861440,
+    "WorkingSetPrivate": 1425408,
+    "PrivateBytes": 3309568,
+    "HandleCount": 361,
+    "ThreadCount": 2
+  },
+  {
+    "Name": "postgres#9",
+    "IDProcess": 8396,
+    "WorkingSet": 12394496,
+    "WorkingSetPrivate": 1404928,
+    "PrivateBytes": 3018752,
+    "HandleCount": 365,
+    "ThreadCount": 2
+  },
+  {
+    "Name": "postgres#10",
+    "IDProcess": 8412,
+    "WorkingSet": 12226560,
+    "WorkingSetPrivate": 1691648,
+    "PrivateBytes": 3584000,
+    "HandleCount": 367,
+    "ThreadCount": 2
+  },
+  {
+    "Name": "postgres#11",
+    "IDProcess": 8420,
+    "WorkingSet": 12165120,
+    "WorkingSetPrivate": 1658880,
+    "PrivateBytes": 3555328,
+    "HandleCount": 367,
+    "ThreadCount": 2
+  },
+  {
+    "Name": "postgres#12",
+    "IDProcess": 8528,
+    "WorkingSet": 12681216,
+    "WorkingSetPrivate": 1388544,
+    "PrivateBytes": 3252224,
+    "HandleCount": 362,
+    "ThreadCount": 2
+  },
+  {
+    "Name": "postgres#13",
+    "IDProcess": 8536,
+    "WorkingSet": 12627968,
+    "WorkingSetPrivate": 1724416,
+    "PrivateBytes": 3809280,
+    "HandleCount": 364,
+    "ThreadCount": 2
+  },
+  {
+    "Name": "postgres#14",
+    "IDProcess": 8548,
+    "WorkingSet": 12451840,
+    "WorkingSetPrivate": 1691648,
+    "PrivateBytes": 3821568,
+    "HandleCount": 364,
+    "ThreadCount": 2
+  },
+  {
+    "Name": "postgres#15",
+    "IDProcess": 8560,
+    "WorkingSet": 46444544,
+    "WorkingSetPrivate": 1396736,
+    "PrivateBytes": 11968512,
+    "HandleCount": 2172,
+    "ThreadCount": 2
+  },
+  {
+    "Name": "postgres#16",
+    "IDProcess": 8572,
+    "WorkingSet": 37380096,
+    "WorkingSetPrivate": 1327104,
+    "PrivateBytes": 11907072,
+    "HandleCount": 2161,
+    "ThreadCount": 2
+  },
+  {
+    "Name": "postgres#17",
+    "IDProcess": 8744,
+    "WorkingSet": 19927040,
+    "WorkingSetPrivate": 1335296,
+    "PrivateBytes": 11644928,
+    "HandleCount": 2162,
+    "ThreadCount": 2
+  },
+  {
+    "Name": "postgres#18",
+    "IDProcess": 8752,
+    "WorkingSet": 12279808,
+    "WorkingSetPrivate": 1708032,
+    "PrivateBytes": 12869632,
+    "HandleCount": 2164,
+    "ThreadCount": 2
+  },
+  {
+    "Name": "postgres#19",
+    "IDProcess": 8760,
+    "WorkingSet": 12185600,
+    "WorkingSetPrivate": 1716224,
+    "PrivateBytes": 12918784,
+    "HandleCount": 2164,
+    "ThreadCount": 2
+  },
+  {
+    "Name": "pwsh",
+    "IDProcess": 9284,
+    "WorkingSet": 162631680,
+    "WorkingSetPrivate": 65622016,
+    "PrivateBytes": 72904704,
+    "HandleCount": 780,
+    "ThreadCount": 19
+  },
+  {
+    "Name": "services",
+    "IDProcess": 1288,
+    "WorkingSet": 21635072,
+    "WorkingSetPrivate": 5861376,
+    "PrivateBytes": 7348224,
+    "HandleCount": 1025,
+    "ThreadCount": 8
+  },
+  {
+    "Name": "sihost",
+    "IDProcess": 11208,
+    "WorkingSet": 52469760,
+    "WorkingSetPrivate": 5558272,
+    "PrivateBytes": 8585216,
+    "HandleCount": 836,
+    "ThreadCount": 15
+  },
+  {
+    "Name": "smartscreen",
+    "IDProcess": 16064,
+    "WorkingSet": 13815808,
+    "WorkingSetPrivate": 1404928,
+    "PrivateBytes": 2473984,
+    "HandleCount": 183,
+    "ThreadCount": 5
+  },
+  {
+    "Name": "smss",
+    "IDProcess": 736,
+    "WorkingSet": 1835008,
+    "WorkingSetPrivate": 282624,
+    "PrivateBytes": 1204224,
+    "HandleCount": 59,
+    "ThreadCount": 2
+  },
+  {
+    "Name": "spoolsv",
+    "IDProcess": 4128,
+    "WorkingSet": 23642112,
+    "WorkingSetPrivate": 4489216,
+    "PrivateBytes": 6828032,
+    "HandleCount": 483,
+    "ThreadCount": 10
+  },
+  {
+    "Name": "sqlwriter",
+    "IDProcess": 4804,
+    "WorkingSet": 11198464,
+    "WorkingSetPrivate": 1077248,
+    "PrivateBytes": 2084864,
+    "HandleCount": 151,
+    "ThreadCount": 2
+  },
+  {
+    "Name": "svchost",
+    "IDProcess": 1484,
+    "WorkingSet": 42962944,
+    "WorkingSetPrivate": 9748480,
+    "PrivateBytes": 12746752,
+    "HandleCount": 1337,
+    "ThreadCount": 24
+  },
+  {
+    "Name": "svchost#1",
+    "IDProcess": 1664,
+    "WorkingSet": 19398656,
+    "WorkingSetPrivate": 7667712,
+    "PrivateBytes": 8466432,
+    "HandleCount": 1537,
+    "ThreadCount": 9
+  },
+  {
+    "Name": "svchost#2",
+    "IDProcess": 1720,
+    "WorkingSet": 12574720,
+    "WorkingSetPrivate": 2158592,
+    "PrivateBytes": 3276800,
+    "HandleCount": 347,
+    "ThreadCount": 5
+  },
+  {
+    "Name": "svchost#3",
+    "IDProcess": 1884,
+    "WorkingSet": 7344128,
+    "WorkingSetPrivate": 716800,
+    "PrivateBytes": 1413120,
+    "HandleCount": 109,
+    "ThreadCount": 3
+  },
+  {
+    "Name": "svchost#4",
+    "IDProcess": 1900,
+    "WorkingSet": 10661888,
+    "WorkingSetPrivate": 1228800,
+    "PrivateBytes": 2289664,
+    "HandleCount": 191,
+    "ThreadCount": 5
+  },
+  {
+    "Name": "svchost#5",
+    "IDProcess": 1952,
+    "WorkingSet": 7438336,
+    "WorkingSetPrivate": 942080,
+    "PrivateBytes": 1462272,
+    "HandleCount": 120,
+    "ThreadCount": 4
+  },
+  {
+    "Name": "svchost#6",
+    "IDProcess": 2028,
+    "WorkingSet": 14991360,
+    "WorkingSetPrivate": 2228224,
+    "PrivateBytes": 3461120,
+    "HandleCount": 260,
+    "ThreadCount": 6
+  },
+  {
+    "Name": "svchost#7",
+    "IDProcess": 2036,
+    "WorkingSet": 16289792,
+    "WorkingSetPrivate": 1916928,
+    "PrivateBytes": 2613248,
+    "HandleCount": 327,
+    "ThreadCount": 4
+  },
+  {
+    "Name": "svchost#8",
+    "IDProcess": 1500,
+    "WorkingSet": 18661376,
+    "WorkingSetPrivate": 5705728,
+    "PrivateBytes": 7254016,
+    "HandleCount": 360,
+    "ThreadCount": 14
+  },
+  {
+    "Name": "svchost#9",
+    "IDProcess": 1680,
+    "WorkingSet": 12402688,
+    "WorkingSetPrivate": 1449984,
+    "PrivateBytes": 2969600,
+    "HandleCount": 359,
+    "ThreadCount": 9
+  },
+  {
+    "Name": "svchost#10",
+    "IDProcess": 1408,
+    "WorkingSet": 7892992,
+    "WorkingSetPrivate": 786432,
+    "PrivateBytes": 1683456,
+    "HandleCount": 124,
+    "ThreadCount": 6
+  },
+  {
+    "Name": "svchost#11",
+    "IDProcess": 2084,
+    "WorkingSet": 11284480,
+    "WorkingSetPrivate": 1687552,
+    "PrivateBytes": 2392064,
+    "HandleCount": 199,
+    "ThreadCount": 7
+  },
+  {
+    "Name": "svchost#12",
+    "IDProcess": 2108,
+    "WorkingSet": 14712832,
+    "WorkingSetPrivate": 1503232,
+    "PrivateBytes": 2617344,
+    "HandleCount": 196,
+    "ThreadCount": 3
+  },
+  {
+    "Name": "svchost#13",
+    "IDProcess": 2188,
+    "WorkingSet": 11325440,
+    "WorkingSetPrivate": 4800512,
+    "PrivateBytes": 5406720,
+    "HandleCount": 158,
+    "ThreadCount": 5
+  },
+  {
+    "Name": "svchost#14",
+    "IDProcess": 2308,
+    "WorkingSet": 23064576,
+    "WorkingSetPrivate": 5570560,
+    "PrivateBytes": 6897664,
+    "HandleCount": 1066,
+    "ThreadCount": 11
+  },
+  {
+    "Name": "svchost#15",
+    "IDProcess": 2356,
+    "WorkingSet": 12500992,
+    "WorkingSetPrivate": 1261568,
+    "PrivateBytes": 2301952,
+    "HandleCount": 194,
+    "ThreadCount": 4
+  },
+  {
+    "Name": "svchost#16",
+    "IDProcess": 2428,
+    "WorkingSet": 15261696,
+    "WorkingSetPrivate": 1777664,
+    "PrivateBytes": 3203072,
+    "HandleCount": 268,
+    "ThreadCount": 6
+  },
+  {
+    "Name": "svchost#17",
+    "IDProcess": 2444,
+    "WorkingSet": 8380416,
+    "WorkingSetPrivate": 1355776,
+    "PrivateBytes": 1830912,
+    "HandleCount": 186,
+    "ThreadCount": 3
+  },
+  {
+    "Name": "svchost#18",
+    "IDProcess": 2828,
+    "WorkingSet": 17313792,
+    "WorkingSetPrivate": 7122944,
+    "PrivateBytes": 9109504,
+    "HandleCount": 336,
+    "ThreadCount": 13
+  },
+  {
+    "Name": "svchost#19",
+    "IDProcess": 2960,
+    "WorkingSet": 26664960,
+    "WorkingSetPrivate": 17068032,
+    "PrivateBytes": 20758528,
+    "HandleCount": 468,
+    "ThreadCount": 8
+  },
+  {
+    "Name": "svchost#20",
+    "IDProcess": 3032,
+    "WorkingSet": 11329536,
+    "WorkingSetPrivate": 2060288,
+    "PrivateBytes": 3067904,
+    "HandleCount": 259,
+    "ThreadCount": 8
+  },
+  {
+    "Name": "svchost#21",
+    "IDProcess": 2320,
+    "WorkingSet": 7974912,
+    "WorkingSetPrivate": 765952,
+    "PrivateBytes": 1593344,
+    "HandleCount": 291,
+    "ThreadCount": 5
+  },
+  {
+    "Name": "svchost#22",
+    "IDProcess": 2276,
+    "WorkingSet": 19525632,
+    "WorkingSetPrivate": 1503232,
+    "PrivateBytes": 2818048,
+    "HandleCount": 233,
+    "ThreadCount": 5
+  },
+  {
+    "Name": "svchost#23",
+    "IDProcess": 2420,
+    "WorkingSet": 16949248,
+    "WorkingSetPrivate": 2772992,
+    "PrivateBytes": 4321280,
+    "HandleCount": 337,
+    "ThreadCount": 7
+  },
+  {
+    "Name": "svchost#24",
+    "IDProcess": 3132,
+    "WorkingSet": 12247040,
+    "WorkingSetPrivate": 1437696,
+    "PrivateBytes": 2555904,
+    "HandleCount": 224,
+    "ThreadCount": 5
+  },
+  {
+    "Name": "svchost#25",
+    "IDProcess": 3140,
+    "WorkingSet": 10346496,
+    "WorkingSetPrivate": 1425408,
+    "PrivateBytes": 2252800,
+    "HandleCount": 187,
+    "ThreadCount": 8
+  },
+  {
+    "Name": "svchost#26",
+    "IDProcess": 3272,
+    "WorkingSet": 10977280,
+    "WorkingSetPrivate": 1957888,
+    "PrivateBytes": 2498560,
+    "HandleCount": 193,
+    "ThreadCount": 4
+  },
+  {
+    "Name": "svchost#27",
+    "IDProcess": 3388,
+    "WorkingSet": 20598784,
+    "WorkingSetPrivate": 3629056,
+    "PrivateBytes": 5197824,
+    "HandleCount": 396,
+    "ThreadCount": 14
+  },
+  {
+    "Name": "svchost#28",
+    "IDProcess": 3420,
+    "WorkingSet": 9703424,
+    "WorkingSetPrivate": 897024,
+    "PrivateBytes": 1740800,
+    "HandleCount": 135,
+    "ThreadCount": 2
+  },
+  {
+    "Name": "svchost#29",
+    "IDProcess": 3436,
+    "WorkingSet": 19988480,
+    "WorkingSetPrivate": 2715648,
+    "PrivateBytes": 4202496,
+    "HandleCount": 446,
+    "ThreadCount": 11
+  },
+  {
+    "Name": "svchost#30",
+    "IDProcess": 3508,
+    "WorkingSet": 11845632,
+    "WorkingSetPrivate": 1032192,
+    "PrivateBytes": 2068480,
+    "HandleCount": 208,
+    "ThreadCount": 5
+  },
+  {
+    "Name": "svchost#31",
+    "IDProcess": 3604,
+    "WorkingSet": 35454976,
+    "WorkingSetPrivate": 19775488,
+    "PrivateBytes": 21467136,
+    "HandleCount": 548,
+    "ThreadCount": 22
+  },
+  {
+    "Name": "svchost#32",
+    "IDProcess": 3664,
+    "WorkingSet": 9138176,
+    "WorkingSetPrivate": 1331200,
+    "PrivateBytes": 1937408,
+    "HandleCount": 166,
+    "ThreadCount": 4
+  },
+  {
+    "Name": "svchost#33",
+    "IDProcess": 3672,
+    "WorkingSet": 14565376,
+    "WorkingSetPrivate": 2539520,
+    "PrivateBytes": 3657728,
+    "HandleCount": 506,
+    "ThreadCount": 12
+  },
+  {
+    "Name": "svchost#34",
+    "IDProcess": 3744,
+    "WorkingSet": 37064704,
+    "WorkingSetPrivate": 23576576,
+    "PrivateBytes": 25268224,
+    "HandleCount": 350,
+    "ThreadCount": 6
+  },
+  {
+    "Name": "svchost#35",
+    "IDProcess": 3928,
+    "WorkingSet": 25219072,
+    "WorkingSetPrivate": 5013504,
+    "PrivateBytes": 7020544,
+    "HandleCount": 573,
+    "ThreadCount": 13
+  },
+  {
+    "Name": "svchost#36",
+    "IDProcess": 3988,
+    "WorkingSet": 18067456,
+    "WorkingSetPrivate": 1605632,
+    "PrivateBytes": 2805760,
+    "HandleCount": 219,
+    "ThreadCount": 5
+  },
+  {
+    "Name": "svchost#37",
+    "IDProcess": 4084,
+    "WorkingSet": 9572352,
+    "WorkingSetPrivate": 1130496,
+    "PrivateBytes": 1589248,
+    "HandleCount": 127,
+    "ThreadCount": 2
+  },
+  {
+    "Name": "svchost#38",
+    "IDProcess": 3252,
+    "WorkingSet": 9392128,
+    "WorkingSetPrivate": 811008,
+    "PrivateBytes": 1638400,
+    "HandleCount": 140,
+    "ThreadCount": 2
+  },
+  {
+    "Name": "svchost#39",
+    "IDProcess": 4332,
+    "WorkingSet": 11177984,
+    "WorkingSetPrivate": 1519616,
+    "PrivateBytes": 2338816,
+    "HandleCount": 192,
+    "ThreadCount": 8
+  },
+  {
+    "Name": "svchost#40",
+    "IDProcess": 4576,
+    "WorkingSet": 67063808,
+    "WorkingSetPrivate": 28274688,
+    "PrivateBytes": 35164160,
+    "HandleCount": 823,
+    "ThreadCount": 16
+  },
+  {
+    "Name": "svchost#41",
+    "IDProcess": 4604,
+    "WorkingSet": 24145920,
+    "WorkingSetPrivate": 8933376,
+    "PrivateBytes": 10887168,
+    "HandleCount": 483,
+    "ThreadCount": 20
+  },
+  {
+    "Name": "svchost#42",
+    "IDProcess": 4620,
+    "WorkingSet": 21651456,
+    "WorkingSetPrivate": 7827456,
+    "PrivateBytes": 10498048,
+    "HandleCount": 384,
+    "ThreadCount": 17
+  },
+  {
+    "Name": "svchost#43",
+    "IDProcess": 4668,
+    "WorkingSet": 16351232,
+    "WorkingSetPrivate": 1904640,
+    "PrivateBytes": 3350528,
+    "HandleCount": 422,
+    "ThreadCount": 6
+  },
+  {
+    "Name": "svchost#44",
+    "IDProcess": 4708,
+    "WorkingSet": 32911360,
+    "WorkingSetPrivate": 3530752,
+    "PrivateBytes": 5844992,
+    "HandleCount": 495,
+    "ThreadCount": 8
+  },
+  {
+    "Name": "svchost#45",
+    "IDProcess": 4716,
+    "WorkingSet": 7753728,
+    "WorkingSetPrivate": 696320,
+    "PrivateBytes": 1462272,
+    "HandleCount": 133,
+    "ThreadCount": 4
+  },
+  {
+    "Name": "svchost#46",
+    "IDProcess": 4732,
+    "WorkingSet": 12177408,
+    "WorkingSetPrivate": 1601536,
+    "PrivateBytes": 2228224,
+    "HandleCount": 186,
+    "ThreadCount": 5
+  },
+  {
+    "Name": "svchost#47",
+    "IDProcess": 5664,
+    "WorkingSet": 12976128,
+    "WorkingSetPrivate": 1310720,
+    "PrivateBytes": 2658304,
+    "HandleCount": 216,
+    "ThreadCount": 5
+  },
+  {
+    "Name": "svchost#48",
+    "IDProcess": 5800,
+    "WorkingSet": 10977280,
+    "WorkingSetPrivate": 1503232,
+    "PrivateBytes": 2330624,
+    "HandleCount": 178,
+    "ThreadCount": 9
+  },
+  {
+    "Name": "svchost#49",
+    "IDProcess": 5892,
+    "WorkingSet": 10395648,
+    "WorkingSetPrivate": 1081344,
+    "PrivateBytes": 2023424,
+    "HandleCount": 195,
+    "ThreadCount": 3
+  },
+  {
+    "Name": "svchost#50",
+    "IDProcess": 7504,
+    "WorkingSet": 11804672,
+    "WorkingSetPrivate": 1609728,
+    "PrivateBytes": 2654208,
+    "HandleCount": 245,
+    "ThreadCount": 8
+  },
+  {
+    "Name": "svchost#51",
+    "IDProcess": 8940,
+    "WorkingSet": 27488256,
+    "WorkingSetPrivate": 5599232,
+    "PrivateBytes": 7925760,
+    "HandleCount": 537,
+    "ThreadCount": 7
+  },
+  {
+    "Name": "svchost#52",
+    "IDProcess": 8944,
+    "WorkingSet": 29241344,
+    "WorkingSetPrivate": 9007104,
+    "PrivateBytes": 11862016,
+    "HandleCount": 296,
+    "ThreadCount": 26
+  },
+  {
+    "Name": "svchost#53",
+    "IDProcess": 3868,
+    "WorkingSet": 11010048,
+    "WorkingSetPrivate": 1359872,
+    "PrivateBytes": 1896448,
+    "HandleCount": 133,
+    "ThreadCount": 2
+  },
+  {
+    "Name": "svchost#54",
+    "IDProcess": 9984,
+    "WorkingSet": 11243520,
+    "WorkingSetPrivate": 1798144,
+    "PrivateBytes": 2433024,
+    "HandleCount": 168,
+    "ThreadCount": 5
+  },
+  {
+    "Name": "svchost#55",
+    "IDProcess": 10120,
+    "WorkingSet": 6144000,
+    "WorkingSetPrivate": 552960,
+    "PrivateBytes": 1073152,
+    "HandleCount": 90,
+    "ThreadCount": 2
+  },
+  {
+    "Name": "svchost#56",
+    "IDProcess": 2060,
+    "WorkingSet": 13942784,
+    "WorkingSetPrivate": 1261568,
+    "PrivateBytes": 2506752,
+    "HandleCount": 181,
+    "ThreadCount": 2
+  },
+  {
+    "Name": "svchost#57",
+    "IDProcess": 5952,
+    "WorkingSet": 27467776,
+    "WorkingSetPrivate": 3964928,
+    "PrivateBytes": 5828608,
+    "HandleCount": 255,
+    "ThreadCount": 10
+  },
+  {
+    "Name": "svchost#58",
+    "IDProcess": 4484,
+    "WorkingSet": 13033472,
+    "WorkingSetPrivate": 3072000,
+    "PrivateBytes": 3977216,
+    "HandleCount": 163,
+    "ThreadCount": 2
+  },
+  {
+    "Name": "svchost#59",
+    "IDProcess": 10660,
+    "WorkingSet": 20463616,
+    "WorkingSetPrivate": 7553024,
+    "PrivateBytes": 9957376,
+    "HandleCount": 276,
+    "ThreadCount": 9
+  },
+  {
+    "Name": "svchost#60",
+    "IDProcess": 10692,
+    "WorkingSet": 20119552,
+    "WorkingSetPrivate": 1818624,
+    "PrivateBytes": 3485696,
+    "HandleCount": 343,
+    "ThreadCount": 5
+  },
+  {
+    "Name": "svchost#61",
+    "IDProcess": 10756,
+    "WorkingSet": 17977344,
+    "WorkingSetPrivate": 3305472,
+    "PrivateBytes": 5222400,
+    "HandleCount": 273,
+    "ThreadCount": 11
+  },
+  {
+    "Name": "svchost#62",
+    "IDProcess": 11300,
+    "WorkingSet": 38359040,
+    "WorkingSetPrivate": 6569984,
+    "PrivateBytes": 9338880,
+    "HandleCount": 526,
+    "ThreadCount": 8
+  },
+  {
+    "Name": "svchost#63",
+    "IDProcess": 11372,
+    "WorkingSet": 12095488,
+    "WorkingSetPrivate": 1077248,
+    "PrivateBytes": 2248704,
+    "HandleCount": 145,
+    "ThreadCount": 3
+  },
+  {
+    "Name": "svchost#64",
+    "IDProcess": 11408,
+    "WorkingSet": 53948416,
+    "WorkingSetPrivate": 7446528,
+    "PrivateBytes": 10428416,
+    "HandleCount": 652,
+    "ThreadCount": 9
+  },
+  {
+    "Name": "svchost#65",
+    "IDProcess": 11608,
+    "WorkingSet": 9433088,
+    "WorkingSetPrivate": 847872,
+    "PrivateBytes": 1798144,
+    "HandleCount": 132,
+    "ThreadCount": 3
+  },
+  {
+    "Name": "svchost#66",
+    "IDProcess": 11672,
+    "WorkingSet": 28393472,
+    "WorkingSetPrivate": 2834432,
+    "PrivateBytes": 4677632,
+    "HandleCount": 294,
+    "ThreadCount": 6
+  },
+  {
+    "Name": "svchost#67",
+    "IDProcess": 12104,
+    "WorkingSet": 22720512,
+    "WorkingSetPrivate": 3350528,
+    "PrivateBytes": 5423104,
+    "HandleCount": 379,
+    "ThreadCount": 12
+  },
+  {
+    "Name": "svchost#68",
+    "IDProcess": 12428,
+    "WorkingSet": 31215616,
+    "WorkingSetPrivate": 2367488,
+    "PrivateBytes": 4886528,
+    "HandleCount": 343,
+    "ThreadCount": 10
+  },
+  {
+    "Name": "svchost#69",
+    "IDProcess": 13560,
+    "WorkingSet": 35254272,
+    "WorkingSetPrivate": 3301376,
+    "PrivateBytes": 5500928,
+    "HandleCount": 358,
+    "ThreadCount": 7
+  },
+  {
+    "Name": "svchost#70",
+    "IDProcess": 13620,
+    "WorkingSet": 25210880,
+    "WorkingSetPrivate": 3403776,
+    "PrivateBytes": 5271552,
+    "HandleCount": 451,
+    "ThreadCount": 9
+  },
+  {
+    "Name": "svchost#71",
+    "IDProcess": 14864,
+    "WorkingSet": 32313344,
+    "WorkingSetPrivate": 3448832,
+    "PrivateBytes": 5726208,
+    "HandleCount": 463,
+    "ThreadCount": 13
+  },
+  {
+    "Name": "svchost#72",
+    "IDProcess": 7060,
+    "WorkingSet": 16814080,
+    "WorkingSetPrivate": 1290240,
+    "PrivateBytes": 2412544,
+    "HandleCount": 173,
+    "ThreadCount": 7
+  },
+  {
+    "Name": "svchost#73",
+    "IDProcess": 6432,
+    "WorkingSet": 10510336,
+    "WorkingSetPrivate": 1454080,
+    "PrivateBytes": 2125824,
+    "HandleCount": 161,
+    "ThreadCount": 4
+  },
+  {
+    "Name": "svchost#74",
+    "IDProcess": 13076,
+    "WorkingSet": 15396864,
+    "WorkingSetPrivate": 1089536,
+    "PrivateBytes": 2215936,
+    "HandleCount": 160,
+    "ThreadCount": 7
+  },
+  {
+    "Name": "svchost#75",
+    "IDProcess": 13120,
+    "WorkingSet": 8949760,
+    "WorkingSetPrivate": 1167360,
+    "PrivateBytes": 1765376,
+    "HandleCount": 129,
+    "ThreadCount": 3
+  },
+  {
+    "Name": "svchost#76",
+    "IDProcess": 14364,
+    "WorkingSet": 13201408,
+    "WorkingSetPrivate": 1925120,
+    "PrivateBytes": 2846720,
+    "HandleCount": 197,
+    "ThreadCount": 7
+  },
+  {
+    "Name": "svchost#77",
+    "IDProcess": 13180,
+    "WorkingSet": 16826368,
+    "WorkingSetPrivate": 2293760,
+    "PrivateBytes": 4136960,
+    "HandleCount": 421,
+    "ThreadCount": 15
+  },
+  {
+    "Name": "svchost#78",
+    "IDProcess": 20260,
+    "WorkingSet": 18821120,
+    "WorkingSetPrivate": 1798144,
+    "PrivateBytes": 2674688,
+    "HandleCount": 229,
+    "ThreadCount": 7
+  },
+  {
+    "Name": "svchost#79",
+    "IDProcess": 20568,
+    "WorkingSet": 59584512,
+    "WorkingSetPrivate": 10829824,
+    "PrivateBytes": 23916544,
+    "HandleCount": 772,
+    "ThreadCount": 17
+  },
+  {
+    "Name": "svchost#80",
+    "IDProcess": 12252,
+    "WorkingSet": 11280384,
+    "WorkingSetPrivate": 1662976,
+    "PrivateBytes": 2473984,
+    "HandleCount": 253,
+    "ThreadCount": 9
+  },
+  {
+    "Name": "svchost#81",
+    "IDProcess": 12816,
+    "WorkingSet": 22573056,
+    "WorkingSetPrivate": 3321856,
+    "PrivateBytes": 4886528,
+    "HandleCount": 295,
+    "ThreadCount": 10
+  },
+  {
+    "Name": "svchost#82",
+    "IDProcess": 6032,
+    "WorkingSet": 9347072,
+    "WorkingSetPrivate": 958464,
+    "PrivateBytes": 2179072,
+    "HandleCount": 168,
+    "ThreadCount": 10
+  },
+  {
+    "Name": "svchost#83",
+    "IDProcess": 5012,
+    "WorkingSet": 16089088,
+    "WorkingSetPrivate": 1630208,
+    "PrivateBytes": 2949120,
+    "HandleCount": 209,
+    "ThreadCount": 5
+  },
+  {
+    "Name": "svchost#84",
+    "IDProcess": 10700,
+    "WorkingSet": 10223616,
+    "WorkingSetPrivate": 1351680,
+    "PrivateBytes": 1925120,
+    "HandleCount": 201,
+    "ThreadCount": 5
+  },
+  {
+    "Name": "svchost#85",
+    "IDProcess": 19400,
+    "WorkingSet": 10371072,
+    "WorkingSetPrivate": 1855488,
+    "PrivateBytes": 2580480,
+    "HandleCount": 183,
+    "ThreadCount": 6
+  },
+  {
+    "Name": "svchost#86",
+    "IDProcess": 18044,
+    "WorkingSet": 23343104,
+    "WorkingSetPrivate": 7127040,
+    "PrivateBytes": 9793536,
+    "HandleCount": 229,
+    "ThreadCount": 13
+  },
+  {
+    "Name": "svchost#87",
+    "IDProcess": 16688,
+    "WorkingSet": 14991360,
+    "WorkingSetPrivate": 2678784,
+    "PrivateBytes": 3694592,
+    "HandleCount": 221,
+    "ThreadCount": 9
+  },
+  {
+    "Name": "svchost#88",
+    "IDProcess": 7464,
+    "WorkingSet": 7831552,
+    "WorkingSetPrivate": 651264,
+    "PrivateBytes": 1368064,
+    "HandleCount": 109,
+    "ThreadCount": 3
+  },
+  {
+    "Name": "svchost#89",
+    "IDProcess": 14684,
+    "WorkingSet": 23220224,
+    "WorkingSetPrivate": 4096000,
+    "PrivateBytes": 5783552,
+    "HandleCount": 340,
+    "ThreadCount": 6
+  },
+  {
+    "Name": "svchost#90",
+    "IDProcess": 5984,
+    "WorkingSet": 27734016,
+    "WorkingSetPrivate": 3833856,
+    "PrivateBytes": 10375168,
+    "HandleCount": 415,
+    "ThreadCount": 16
+  },
+  {
+    "Name": "taskhostw",
+    "IDProcess": 11588,
+    "WorkingSet": 20779008,
+    "WorkingSetPrivate": 2281472,
+    "PrivateBytes": 6696960,
+    "HandleCount": 271,
+    "ThreadCount": 7
+  },
+  {
+    "Name": "taskhostw#1",
+    "IDProcess": 18728,
+    "WorkingSet": 37482496,
+    "WorkingSetPrivate": 3526656,
+    "PrivateBytes": 5914624,
+    "HandleCount": 493,
+    "ThreadCount": 10
+  },
+  {
+    "Name": "wininit",
+    "IDProcess": 1172,
+    "WorkingSet": 9674752,
+    "WorkingSetPrivate": 905216,
+    "PrivateBytes": 1753088,
+    "HandleCount": 167,
+    "ThreadCount": 2
+  },
+  {
+    "Name": "winlogon",
+    "IDProcess": 1268,
+    "WorkingSet": 16314368,
+    "WorkingSetPrivate": 1163264,
+    "PrivateBytes": 2752512,
+    "HandleCount": 282,
+    "ThreadCount": 4
+  },
+  {
+    "Name": "wlanext",
+    "IDProcess": 9416,
+    "WorkingSet": 8601600,
+    "WorkingSetPrivate": 774144,
+    "PrivateBytes": 1441792,
+    "HandleCount": 121,
+    "ThreadCount": 1
+  },
+  {
+    "Name": "wslservice",
+    "IDProcess": 4612,
+    "WorkingSet": 30633984,
+    "WorkingSetPrivate": 3428352,
+    "PrivateBytes": 6111232,
+    "HandleCount": 484,
+    "ThreadCount": 8
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "Source": "C:\\Users\\Ильгар\\AppData\\Roaming\\.minecraft\\launcher_profiles.json",
+    "Version": "latest-snapshot",
+    "Type": "latest-snapshot",
+    "MemoryFlags": []
+  },
+  {
+    "Source": "C:\\Users\\Ильгар\\AppData\\Roaming\\.minecraft\\launcher_profiles.json",
+    "Version": "1.20.1",
+    "Type": "custom",
+    "MemoryFlags": [
+      "-Xmx6G",
+      "-XX:+UseG1GC"
+    ]
+  },
+  {
+    "Source": "C:\\Users\\Ильгар\\AppData\\Roaming\\.minecraft\\launcher_profiles.json",
+    "Version": "latest-release",
+    "Type": "latest-release",
+    "MemoryFlags": []
+  },
+  {
+    "Source": "C:\\Users\\Ильгар\\AppData\\Roaming\\.minecraft\\launcher_profiles.json",
+    "Version": "1.20.1-forge-47.4.20",
+    "Type": "custom",
+    "MemoryFlags": [
+      "-Xmx5G",
+      "-XX:+UseG1GC"
+    ]
+  }
+]

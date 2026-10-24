@@ -1,0 +1,2530 @@
+[
+  {
+    "Name": "AdobeUpdateService",
+    "DisplayName": "AdobeUpdateService",
+    "State": "Stopped",
+    "StartMode": "Disabled",
+    "ProcessId": 0,
+    "Executable": "C:\\Program Files (x86)\\Common Files\\Adobe\\Adobe Desktop Common\\ElevationManager\\AdobeUpdateService.exe"
+  },
+  {
+    "Name": "ADPSvc",
+    "DisplayName": "Служба платформы агрегированных данных",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "AdskNLM",
+    "DisplayName": "AdskNLM",
+    "State": "Stopped",
+    "StartMode": "Auto",
+    "ProcessId": 0,
+    "Executable": "C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\Network License Manager\\lmgrd.exe"
+  },
+  {
+    "Name": "ALG",
+    "DisplayName": "Служба шлюза уровня приложения",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\System32\\alg.exe"
+  },
+  {
+    "Name": "AmneziaVPN-service",
+    "DisplayName": "AmneziaVPN-service",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 4560,
+    "Executable": "C:\\Program Files\\AmneziaVPN\\AmneziaVPN-service.exe"
+  },
+  {
+    "Name": "AppIDSvc",
+    "DisplayName": "Удостоверение приложения",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "Appinfo",
+    "DisplayName": "Сведения о приложении",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ProcessId": 10692,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "AppReadiness",
+    "DisplayName": "Готовность приложений",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\System32\\svchost.exe"
+  },
+  {
+    "Name": "AppXSvc",
+    "DisplayName": "Служба развертывания AppX (AppXSVC)",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 8944,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "ApxSvc",
+    "DisplayName": "Прокси-служба виртуального звукового устройства Windows",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "AstService",
+    "DisplayName": "Ассистент 6",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 4568,
+    "Executable": "C:\\Program Files (x86)\\Ассистент\\ast_service.exe"
+  },
+  {
+    "Name": "AudioEndpointBuilder",
+    "DisplayName": "Средство построения конечных точек Windows Audio",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 3132,
+    "Executable": "C:\\WINDOWS\\System32\\svchost.exe"
+  },
+  {
+    "Name": "Audiosrv",
+    "DisplayName": "Windows Audio",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 3436,
+    "Executable": "C:\\WINDOWS\\System32\\svchost.exe"
+  },
+  {
+    "Name": "autotimesvc",
+    "DisplayName": "Время в сети мобильной связи",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "AxInstSV",
+    "DisplayName": "Установщик ActiveX (AxInstSV)",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "battlenet_helpersvc",
+    "DisplayName": "Battle.net Update Helper Svc",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\ProgramData\\Battle.net_components\\battlenet_helpersvc\\AgentHelper.exe"
+  },
+  {
+    "Name": "BDESVC",
+    "DisplayName": "Служба шифрования дисков BitLocker",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ProcessId": 1984,
+    "Executable": "C:\\WINDOWS\\System32\\svchost.exe"
+  },
+  {
+    "Name": "BEService",
+    "DisplayName": "BattlEye Service",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\Program Files (x86)\\Common Files\\BattlEye\\BEService.exe"
+  },
+  {
+    "Name": "BFE",
+    "DisplayName": "Служба базовой фильтрации",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 3604,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "BITS",
+    "DisplayName": "Фоновая интеллектуальная служба передачи (BITS)",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 5984,
+    "Executable": "C:\\WINDOWS\\System32\\svchost.exe"
+  },
+  {
+    "Name": "BrokerInfrastructure",
+    "DisplayName": "Служба инфраструктуры фоновых задач",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 1484,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "Browser",
+    "DisplayName": "Браузер компьютеров",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\System32\\svchost.exe"
+  },
+  {
+    "Name": "BTAGService",
+    "DisplayName": "Служба звукового шлюза Bluetooth",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "BthAvctpSvc",
+    "DisplayName": "Служба AVCTP",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "bthserv",
+    "DisplayName": "Служба поддержки Bluetooth",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "camsvc",
+    "DisplayName": "Служба диспетчера доступа к возможностям",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 8940,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "CDPSvc",
+    "DisplayName": "Служба платформы подключенных устройств",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 12104,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "CertPropSvc",
+    "DisplayName": "Распространение сертификата",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "ClickToRunSvc",
+    "DisplayName": "Microsoft Office Click-to-Run Service",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 4792,
+    "Executable": "C:\\Program Files\\Common Files\\Microsoft Shared\\ClickToRun\\OfficeClickToRun.exe"
+  },
+  {
+    "Name": "ClipSVC",
+    "DisplayName": "Служба лицензий клиента (ClipSVC)",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ProcessId": 4484,
+    "Executable": "C:\\WINDOWS\\System32\\svchost.exe"
+  },
+  {
+    "Name": "CodexSandboxService.OpenAI.Codex",
+    "DisplayName": "ChatGPT",
+    "State": "Stopped",
+    "StartMode": "Auto",
+    "ProcessId": 0,
+    "Executable": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.1013.4894.0_x64__2p2nqsd0c76g0\\app\\resources\\codex-windows-sandbox-service.exe"
+  },
+  {
+    "Name": "com.docker.service",
+    "DisplayName": "Docker Desktop Service",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\Program Files\\Docker\\Docker\\com.docker.service"
+  },
+  {
+    "Name": "COMSysApp",
+    "DisplayName": "Системное приложение COM+",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\dllhost.exe"
+  },
+  {
+    "Name": "CoreMessagingRegistrar",
+    "DisplayName": "CoreMessaging",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 2444,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "cplspcon",
+    "DisplayName": "Intel(R) Content Protection HDCP Service",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 1356,
+    "Executable": "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_357acc06f2c40efb\\IntelCpHDCPSvc.exe"
+  },
+  {
+    "Name": "CryptSvc",
+    "DisplayName": "Службы криптографии",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 3388,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "DcomLaunch",
+    "DisplayName": "Модуль запуска процессов DCOM-сервера",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 1484,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "dcsvc",
+    "DisplayName": "Служба объявленной конфигурации (DC)",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "defragsvc",
+    "DisplayName": "Оптимизация дисков",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "DeviceAssociationService",
+    "DisplayName": "Служба сопоставления устройств",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ProcessId": 5892,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "DeviceInstall",
+    "DisplayName": "Служба установки устройств",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ProcessId": 10120,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "DevQueryBroker",
+    "DisplayName": "Брокер фонового обнаружения DevQuery",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "Dhcp",
+    "DisplayName": "DHCP-клиент",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 3032,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "diagsvc",
+    "DisplayName": "Diagnostic Execution Service",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\System32\\svchost.exe"
+  },
+  {
+    "Name": "DiagTrack",
+    "DisplayName": "Функциональные возможности для подключенных пользователей и телеметрия",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 4576,
+    "Executable": "C:\\WINDOWS\\System32\\svchost.exe"
+  },
+  {
+    "Name": "DispBrokerDesktopSvc",
+    "DisplayName": "Служба политики отображения",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 4084,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "DisplayEnhancementService",
+    "DisplayName": "Служба улучшения отображения",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ProcessId": 1680,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "DmEnrollmentSvc",
+    "DisplayName": "Служба регистрации управления устройством",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "dmwappushservice",
+    "DisplayName": "Служба маршрутизации push-сообщений на основе протокола WAP (Wireless Application Protocol) для управления устройствами",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "Dnscache",
+    "DisplayName": "DNS-клиент",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 2828,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "DoSvc",
+    "DisplayName": "Оптимизация доставки",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 12816,
+    "Executable": "C:\\WINDOWS\\System32\\svchost.exe"
+  },
+  {
+    "Name": "dot3svc",
+    "DisplayName": "Проводная автонастройка",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "DPS",
+    "DisplayName": "Служба политики диагностики",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 4620,
+    "Executable": "C:\\WINDOWS\\System32\\svchost.exe"
+  },
+  {
+    "Name": "DsmSvc",
+    "DisplayName": "Диспетчер настройки устройств",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "DsSvc",
+    "DisplayName": "Служба совместного доступа к данным",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\System32\\svchost.exe"
+  },
+  {
+    "Name": "DusmSvc",
+    "DisplayName": "Использование данных",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 3664,
+    "Executable": "C:\\WINDOWS\\System32\\svchost.exe"
+  },
+  {
+    "Name": "EapHost",
+    "DisplayName": "Расширяемый протокол проверки подлинности (EAP)",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\System32\\svchost.exe"
+  },
+  {
+    "Name": "EasyAntiCheat",
+    "DisplayName": "EasyAntiCheat",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\Program Files (x86)\\EasyAntiCheat\\EasyAntiCheat.exe"
+  },
+  {
+    "Name": "edgeupdate",
+    "DisplayName": "Microsoft Edge Update Service (edgeupdate)",
+    "State": "Stopped",
+    "StartMode": "Auto",
+    "ProcessId": 0,
+    "Executable": "C:\\Program Files (x86)\\Microsoft\\EdgeUpdate\\MicrosoftEdgeUpdate.exe"
+  },
+  {
+    "Name": "edgeupdatem",
+    "DisplayName": "Microsoft Edge Update Service (edgeupdatem)",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\Program Files (x86)\\Microsoft\\EdgeUpdate\\MicrosoftEdgeUpdate.exe"
+  },
+  {
+    "Name": "EFS",
+    "DisplayName": "Шифрованная файловая система (EFS)",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\System32\\lsass.exe"
+  },
+  {
+    "Name": "embeddedmode",
+    "DisplayName": "Встроенный режим",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\System32\\svchost.exe"
+  },
+  {
+    "Name": "EntAppSvc",
+    "DisplayName": "Служба управления корпоративными приложениями",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "esifsvc",
+    "DisplayName": "Intel(R) Dynamic Tuning service",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 5544,
+    "Executable": "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\dptf_cpu.inf_amd64_4ce8bafd96682424\\esif_uf.exe"
+  },
+  {
+    "Name": "EventLog",
+    "DisplayName": "Журнал событий Windows",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 2960,
+    "Executable": "C:\\WINDOWS\\System32\\svchost.exe"
+  },
+  {
+    "Name": "EventSystem",
+    "DisplayName": "Система событий COM+",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 2084,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "Fax",
+    "DisplayName": "Факс",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\fxssvc.exe"
+  },
+  {
+    "Name": "fdPHost",
+    "DisplayName": "Хост поставщика функции обнаружения",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "FDResPub",
+    "DisplayName": "Публикация ресурсов обнаружения функции",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "fhsvc",
+    "DisplayName": "Служба истории файлов",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "FileSyncHelper",
+    "DisplayName": "FileSyncHelper",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\Program Files\\Microsoft OneDrive\\26.183.0920.0005\\FileSyncHelper.exe"
+  },
+  {
+    "Name": "FontCache",
+    "DisplayName": "Служба кэша шрифтов Windows",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 3140,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "FontCache3.0.0.0",
+    "DisplayName": "Кэш шрифтов Windows Presentation Foundation 3.0.0.0",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ProcessId": 11336,
+    "Executable": "C:\\WINDOWS\\Microsoft.Net\\Framework64\\v3.0\\WPF\\PresentationFontCache.exe"
+  },
+  {
+    "Name": "FrameServer",
+    "DisplayName": "Сервер кадров камеры Windows",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\System32\\svchost.exe"
+  },
+  {
+    "Name": "FrameServerMonitor",
+    "DisplayName": "Монитор сервера кадров камеры Windows",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\System32\\svchost.exe"
+  },
+  {
+    "Name": "FvSvc",
+    "DisplayName": "NVIDIA FrameView SDK service",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\Program Files\\NVIDIA Corporation\\FrameViewSDK\\nvfvsdksvc_x64.exe"
+  },
+  {
+    "Name": "GameInputRedistService",
+    "DisplayName": "GameInput Redist Service",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 4676,
+    "Executable": "C:\\Program Files\\Microsoft GameInput\\x64\\GameInputRedistService.exe"
+  },
+  {
+    "Name": "GameInputSvc",
+    "DisplayName": "GameInput Service",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ProcessId": 11268,
+    "Executable": "C:\\WINDOWS\\System32\\GameInputSvc.exe"
+  },
+  {
+    "Name": "GamingServices",
+    "DisplayName": "Gaming Services",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 6060,
+    "Executable": "C:\\Program Files\\WindowsApps\\Microsoft.GamingServices_38.118.9001.0_x64__8wekyb3d8bbwe\\GamingServices.exe"
+  },
+  {
+    "Name": "GamingServicesNet",
+    "DisplayName": "Gaming Services",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 6128,
+    "Executable": "C:\\Program Files\\WindowsApps\\Microsoft.GamingServices_38.118.9001.0_x64__8wekyb3d8bbwe\\GamingServicesNet.exe"
+  },
+  {
+    "Name": "GoogleChromeElevationService",
+    "DisplayName": "Google Chrome Elevation Service (GoogleChromeElevationService)",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\Program Files\\Google\\Chrome\\Application\\155.0.8059.85\\elevation_service.exe"
+  },
+  {
+    "Name": "GoogleUpdaterInternalService157.0.8089.0",
+    "DisplayName": "Внутренний сервис Google Updater (GoogleUpdaterInternalService157.0.8089.0)",
+    "State": "Stopped",
+    "StartMode": "Auto",
+    "ProcessId": 0,
+    "Executable": "C:\\Program Files (x86)\\Google\\GoogleUpdater\\157.0.8089.0\\updater.exe"
+  },
+  {
+    "Name": "GoogleUpdaterService157.0.8089.0",
+    "DisplayName": "Сервис Google Updater (GoogleUpdaterService157.0.8089.0)",
+    "State": "Stopped",
+    "StartMode": "Auto",
+    "ProcessId": 0,
+    "Executable": "C:\\Program Files (x86)\\Google\\GoogleUpdater\\157.0.8089.0\\updater.exe"
+  },
+  {
+    "Name": "gpsvc",
+    "DisplayName": "Клиент групповой политики",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 1900,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "GraphicsPerfSvc",
+    "DisplayName": "GraphicsPerfSvc",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\System32\\svchost.exe"
+  },
+  {
+    "Name": "gupdate",
+    "DisplayName": "Служба Google Update (gupdate)",
+    "State": "Stopped",
+    "StartMode": "Auto",
+    "ProcessId": 0,
+    "Executable": "C:\\Program Files (x86)\\Google\\Update\\GoogleUpdate.exe"
+  },
+  {
+    "Name": "gupdatem",
+    "DisplayName": "Служба Google Update (gupdatem)",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\Program Files (x86)\\Google\\Update\\GoogleUpdate.exe"
+  },
+  {
+    "Name": "HappService",
+    "DisplayName": "Happ Proxy Client Service",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\Users\\Ильгар\\AppData\\Roaming\\Happ\\happd.exe"
+  },
+  {
+    "Name": "hidserv",
+    "DisplayName": "Доступ к HID-устройствам",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ProcessId": 1408,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "hns",
+    "DisplayName": "Сетевая служба узла",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ProcessId": 2420,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "hpatchmon",
+    "DisplayName": "Hotpatch Monitoring Service",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "HvHost",
+    "DisplayName": "Служба узла HV",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ProcessId": 1884,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "icssvc",
+    "DisplayName": "Служба Windows Mobile Hotspot",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "igccservice",
+    "DisplayName": "Intel(R) Graphics Command Center Service",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 4592,
+    "Executable": "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\igcc_dch.inf_amd64_f94b71985382657d\\OneApp.IGCC.WinService.exe"
+  },
+  {
+    "Name": "igfxCUIService2.0.0.0",
+    "DisplayName": "Intel(R) HD Graphics Control Panel Service",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 2512,
+    "Executable": "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\cui_dch.inf_amd64_cb841b7c497d4503\\igfxCUIServiceN.exe"
+  },
+  {
+    "Name": "IKEEXT",
+    "DisplayName": "Модули ключей IPsec для обмена ключами в Интернете и протокола IP с проверкой подлинности",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "InstallService",
+    "DisplayName": "Служба установки Microsoft Store",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ProcessId": 5952,
+    "Executable": "C:\\WINDOWS\\System32\\svchost.exe"
+  },
+  {
+    "Name": "Intel(R) TPM Provisioning Service",
+    "DisplayName": "Intel(R) TPM Provisioning Service",
+    "State": "Stopped",
+    "StartMode": "Auto",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\iclsclient.inf_amd64_fc84dfa25a6a7727\\lib\\TPMProvisioningService.exe"
+  },
+  {
+    "Name": "IntelAudioService",
+    "DisplayName": "Intel(R) Audio Service",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 4684,
+    "Executable": "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\intcoed.inf_amd64_06dd582276d3f601\\\\AS\\\\IAS\\\\IntelAudioService.exe"
+  },
+  {
+    "Name": "InventorySvc",
+    "DisplayName": "Служба инвентаризации и оценки совместимости",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 6032,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "iphlpsvc",
+    "DisplayName": "Вспомогательная служба IP",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 4668,
+    "Executable": "C:\\WINDOWS\\System32\\svchost.exe"
+  },
+  {
+    "Name": "IpxlatCfgSvc",
+    "DisplayName": "Служба настройки преобразования IP-адресов",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\System32\\svchost.exe"
+  },
+  {
+    "Name": "IsolationSession",
+    "DisplayName": "IsolationSession",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "IsoSessionCore",
+    "DisplayName": "IsoSessionCore",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "JetBrainsEtwHost.16",
+    "DisplayName": "JetBrains ETW Host Service v16.42.0 (x64)",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 4648,
+    "Executable": "C:\\Program Files\\JetBrains\\ETW Host\\16\\JetBrains.Etw.Collector.Host.exe"
+  },
+  {
+    "Name": "jhi_service",
+    "DisplayName": "Intel(R) Dynamic Application Loader Host Interface Service",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 4656,
+    "Executable": "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\dal.inf_amd64_af50fdb80983f7bc\\jhi_service.exe"
+  },
+  {
+    "Name": "KeyIso",
+    "DisplayName": "Изоляция ключей CNG",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ProcessId": 1344,
+    "Executable": "C:\\WINDOWS\\system32\\lsass.exe"
+  },
+  {
+    "Name": "KSDE5.14",
+    "DisplayName": "Kaspersky Secure Connection Service 5.14",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 13412,
+    "Executable": "C:\\Program Files (x86)\\Kaspersky Lab\\Kaspersky Secure Connection 5.14\\ksde.exe"
+  },
+  {
+    "Name": "KtmRm",
+    "DisplayName": "KtmRm для координатора распределенных транзакций",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\System32\\svchost.exe"
+  },
+  {
+    "Name": "LanmanServer",
+    "DisplayName": "Сервер",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 5664,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "LanmanWorkstation",
+    "DisplayName": "Рабочая станция",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 4332,
+    "Executable": "C:\\WINDOWS\\System32\\svchost.exe"
+  },
+  {
+    "Name": "lfsvc",
+    "DisplayName": "Служба географического положения",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ProcessId": 14864,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "LicenseManager",
+    "DisplayName": "Служба Windows License Manager",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ProcessId": 20260,
+    "Executable": "C:\\WINDOWS\\System32\\svchost.exe"
+  },
+  {
+    "Name": "lltdsvc",
+    "DisplayName": "Тополог канального уровня",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\System32\\svchost.exe"
+  },
+  {
+    "Name": "lmhosts",
+    "DisplayName": "Модуль поддержки NetBIOS через TCP/IP",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ProcessId": 1952,
+    "Executable": "C:\\WINDOWS\\System32\\svchost.exe"
+  },
+  {
+    "Name": "LocalKdc",
+    "DisplayName": "Локальный центр распространения ключей Kerberos",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\System32\\lsass.exe"
+  },
+  {
+    "Name": "LSM",
+    "DisplayName": "LSM",
+    "State": "Running",
+    "StartMode": "Unknown",
+    "ProcessId": 1720,
+    "Executable": ""
+  },
+  {
+    "Name": "LxpSvc",
+    "DisplayName": "Служба Language Experience Service",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "MapsBroker",
+    "DisplayName": "Диспетчер скачанных карт",
+    "State": "Stopped",
+    "StartMode": "Auto",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\System32\\svchost.exe"
+  },
+  {
+    "Name": "McmSvc",
+    "DisplayName": "McmSvc",
+    "State": "Stopped",
+    "StartMode": "Unknown",
+    "ProcessId": 0,
+    "Executable": ""
+  },
+  {
+    "Name": "McpManagementService",
+    "DisplayName": "McpManagementService",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "MDCoreSvc",
+    "DisplayName": "Основная служба Microsoft Defender",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 4824,
+    "Executable": "C:\\ProgramData\\Microsoft\\Windows Defender\\Platform\\4.18.26090.9-0\\MpDefenderCoreService.exe"
+  },
+  {
+    "Name": "MicrosoftCopilotElevationService",
+    "DisplayName": "Microsoft Copilot Elevation Service (MicrosoftCopilotElevationService)",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\Program Files (x86)\\Microsoft\\Copilot\\Application\\155.0.4283.62\\elevation_service.exe"
+  },
+  {
+    "Name": "MicrosoftEdgeElevationService",
+    "DisplayName": "Microsoft Edge Elevation Service (MicrosoftEdgeElevationService)",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\155.0.4283.62\\elevation_service.exe"
+  },
+  {
+    "Name": "midisrv",
+    "DisplayName": "Служба Windows MIDI",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\midisrv.exe"
+  },
+  {
+    "Name": "mpssvc",
+    "DisplayName": "Брандмауэр Защитника Windows",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 3604,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "MSDTC",
+    "DisplayName": "Координатор распределенных транзакций",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\System32\\msdtc.exe"
+  },
+  {
+    "Name": "MSiSCSI",
+    "DisplayName": "Служба инициатора Майкрософт iSCSI",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "msiserver",
+    "DisplayName": "Установщик Windows",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\msiexec.exe"
+  },
+  {
+    "Name": "MySQL80",
+    "DisplayName": "MySQL80",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 4856,
+    "Executable": "C:\\Program Files\\MySQL\\MySQL Server 8.0\\bin\\mysqld.exe"
+  },
+  {
+    "Name": "NahimicService",
+    "DisplayName": "Nahimic service",
+    "State": "Stopped",
+    "StartMode": "Disabled",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\System32\\NahimicService.exe"
+  },
+  {
+    "Name": "NaturalAuthentication",
+    "DisplayName": "Проверка подлинности на основе физических параметров",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "NcaSvc",
+    "DisplayName": "Помощник по подключению к сети",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\System32\\svchost.exe"
+  },
+  {
+    "Name": "NcbService",
+    "DisplayName": "Посредник подключений к сети",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ProcessId": 2028,
+    "Executable": "C:\\WINDOWS\\System32\\svchost.exe"
+  },
+  {
+    "Name": "NcdAutoSetup",
+    "DisplayName": "Автоматическая настройка сетевых устройств",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\System32\\svchost.exe"
+  },
+  {
+    "Name": "Netlogon",
+    "DisplayName": "Сетевой вход в систему",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\lsass.exe"
+  },
+  {
+    "Name": "Netman",
+    "DisplayName": "Сетевые подключения",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\System32\\svchost.exe"
+  },
+  {
+    "Name": "netprofm",
+    "DisplayName": "Служба списка сетей",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ProcessId": 2308,
+    "Executable": "C:\\WINDOWS\\System32\\svchost.exe"
+  },
+  {
+    "Name": "NetSetupSvc",
+    "DisplayName": "NetSetupSvc",
+    "State": "Stopped",
+    "StartMode": "Unknown",
+    "ProcessId": 0,
+    "Executable": ""
+  },
+  {
+    "Name": "NetTcpPortSharing",
+    "DisplayName": "Net.Tcp Port Sharing Service",
+    "State": "Stopped",
+    "StartMode": "Disabled",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\Microsoft.NET\\Framework64\\v4.0.30319\\SMSvcHost.exe"
+  },
+  {
+    "Name": "NgcCtnrSvc",
+    "DisplayName": "Контейнер службы Microsoft Passport",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ProcessId": 14364,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "NgcSvc",
+    "DisplayName": "Служба Microsoft Passport",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "NlaSvc",
+    "DisplayName": "Сведения о расположении в сети",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\System32\\svchost.exe"
+  },
+  {
+    "Name": "nsi",
+    "DisplayName": "Служба интерфейса сохранения сети",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 2188,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "nvagent",
+    "DisplayName": "Служба виртуализации сети",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ProcessId": 3420,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "NvContainerLocalSystem",
+    "DisplayName": "NVIDIA LocalSystem Container",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 4724,
+    "Executable": "C:\\Program Files\\NVIDIA Corporation\\NvContainer\\nvcontainer.exe"
+  },
+  {
+    "Name": "NVDisplay.ContainerLocalSystem",
+    "DisplayName": "NVIDIA Display Container LS",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 2744,
+    "Executable": "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\nvmii.inf_amd64_52a4c0ca7914a7b3\\Display.NvContainer\\NVDisplay.Container.exe"
+  },
+  {
+    "Name": "OneDrive Updater Service",
+    "DisplayName": "OneDrive Updater Service",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\Program Files\\Microsoft OneDrive\\26.183.0920.0005\\OneDriveUpdaterService.exe"
+  },
+  {
+    "Name": "ose64",
+    "DisplayName": "Office 64 Source Engine",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\Program Files\\Common Files\\Microsoft Shared\\Source Engine\\OSE.EXE"
+  },
+  {
+    "Name": "PcaSvc",
+    "DisplayName": "Служба помощника по совместимости программ",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 10756,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "PerfHost",
+    "DisplayName": "Хост библиотеки счетчика производительности",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\SysWow64\\perfhost.exe"
+  },
+  {
+    "Name": "PhoneSvc",
+    "DisplayName": "Телефонная связь",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "pla",
+    "DisplayName": "Журналы и оповещения производительности",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\System32\\svchost.exe"
+  },
+  {
+    "Name": "PlugPlay",
+    "DisplayName": "Plug and Play",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ProcessId": 1484,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "PolicyAgent",
+    "DisplayName": "Агент политики IPsec",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ProcessId": 9984,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "PolynomMdmApiSvc",
+    "DisplayName": "POLYNOM MDM Service",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 4768,
+    "Executable": "C:\\Program Files\\ASCON\\KOMPAS-3D v25 Study\\Libs\\PolynomLib\\Bin\\Server\\PolynomAppServer.exe"
+  },
+  {
+    "Name": "PostgreSQL",
+    "DisplayName": "PostgreSQL",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 4700,
+    "Executable": "C:\\Program Files\\ASCON\\KOMPAS-3D v25 Study\\Libs\\PolynomLib\\Templates\\LocalBase\\bin\\pg_ctl.exe"
+  },
+  {
+    "Name": "postgresql-x64-16",
+    "DisplayName": "postgresql-x64-16 - PostgreSQL Server 16",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 4580,
+    "Executable": "C:\\Program Files\\PostgreSQL\\16\\bin\\pg_ctl.exe"
+  },
+  {
+    "Name": "postgresql-x64-17",
+    "DisplayName": "postgresql-x64-17 - PostgreSQL Server 17",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 4744,
+    "Executable": "C:\\Program Files\\PostgreSQL\\17\\bin\\pg_ctl.exe"
+  },
+  {
+    "Name": "Power",
+    "DisplayName": "Питание",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 1484,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "PrintDeviceConfigurationService",
+    "DisplayName": "Служба настройки принтеров",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\System32\\svchost.exe"
+  },
+  {
+    "Name": "PrintNotify",
+    "DisplayName": "Расширения и уведомления для принтеров",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "PrintScanBrokerService",
+    "DisplayName": "PrintScanBrokerService",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "ProfSvc",
+    "DisplayName": "Служба профилей пользователей",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 2108,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "ProtonVPN Service",
+    "DisplayName": "ProtonVPN Service",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\Program Files\\Proton\\VPN\\v3.3.0\\ProtonVPNService.exe"
+  },
+  {
+    "Name": "ProtonVPN WireGuard",
+    "DisplayName": "ProtonVPN WireGuard",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\Program Files\\Proton\\VPN\\v3.3.0\\ProtonVPN.WireGuardService.exe"
+  },
+  {
+    "Name": "PushToInstall",
+    "DisplayName": "Служба PushToInstall Windows",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\System32\\svchost.exe"
+  },
+  {
+    "Name": "QWAVE",
+    "DisplayName": "Quality Windows Audio Video Experience",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ProcessId": 19400,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "RabbitMQ",
+    "DisplayName": "RabbitMQ",
+    "State": "Stopped",
+    "StartMode": "Auto",
+    "ProcessId": 0,
+    "Executable": "C:\\Program Files\\Erlang OTP\\erts-17.0.2\\bin\\erlsrv.exe"
+  },
+  {
+    "Name": "RasAuto",
+    "DisplayName": "Диспетчер автоматических подключений удаленного доступа",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\System32\\svchost.exe"
+  },
+  {
+    "Name": "RasMan",
+    "DisplayName": "Диспетчер подключений удаленного доступа",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ProcessId": 13180,
+    "Executable": "C:\\WINDOWS\\System32\\svchost.exe"
+  },
+  {
+    "Name": "refsdedupsvc",
+    "DisplayName": "Служба Dedup ReFS",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\System32\\ReFsDedupSvc.exe"
+  },
+  {
+    "Name": "RemoteAccess",
+    "DisplayName": "Маршрутизация и удаленный доступ",
+    "State": "Stopped",
+    "StartMode": "Disabled",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\System32\\svchost.exe"
+  },
+  {
+    "Name": "RemoteRegistry",
+    "DisplayName": "Удаленный реестр",
+    "State": "Stopped",
+    "StartMode": "Disabled",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "RetailDemo",
+    "DisplayName": "Служба демонстрации магазина",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\System32\\svchost.exe"
+  },
+  {
+    "Name": "RmSvc",
+    "DisplayName": "Служба управления радио",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ProcessId": 7504,
+    "Executable": "C:\\WINDOWS\\System32\\svchost.exe"
+  },
+  {
+    "Name": "RpcEptMapper",
+    "DisplayName": "Сопоставитель конечных точек RPC",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 1664,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "RpcLocator",
+    "DisplayName": "Локатор удаленного вызова процедур (RPC)",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\locator.exe"
+  },
+  {
+    "Name": "RpcSs",
+    "DisplayName": "Удаленный вызов процедур (RPC)",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 1664,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "RtkAudioUniversalService",
+    "DisplayName": "Realtek Audio Universal Service",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 4760,
+    "Executable": "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\realtekservice.inf_amd64_a112e46fc636d880\\RtkAudUService64.exe"
+  },
+  {
+    "Name": "SamSs",
+    "DisplayName": "Диспетчер учетных записей безопасности",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 1344,
+    "Executable": "C:\\WINDOWS\\system32\\lsass.exe"
+  },
+  {
+    "Name": "SCardSvr",
+    "DisplayName": "Смарт-карта",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "ScDeviceEnum",
+    "DisplayName": "Служба перечисления устройств чтения смарт-карт",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "Schedule",
+    "DisplayName": "Планировщик задач",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 1500,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "SCPolicySvc",
+    "DisplayName": "Политика удаления смарт-карт",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "SDRSVC",
+    "DisplayName": "Программа архивации данных",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "seclogon",
+    "DisplayName": "Вторичный вход в систему",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ProcessId": 7464,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "SecurityHealthService",
+    "DisplayName": "Служба \"Безопасность Windows\"",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ProcessId": 6224,
+    "Executable": "C:\\WINDOWS\\system32\\SecurityHealthService.exe"
+  },
+  {
+    "Name": "SEMgrSvc",
+    "DisplayName": "Диспетчер платежей и NFC/защищенных элементов",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "SENS",
+    "DisplayName": "Служба уведомления о системных событиях",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 2356,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "SensorDataService",
+    "DisplayName": "Служба данных датчиков",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\System32\\SensorDataService.exe"
+  },
+  {
+    "Name": "SensorService",
+    "DisplayName": "Служба датчиков",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "SensrSvc",
+    "DisplayName": "Служба наблюдения за датчиками",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "SessionEnv",
+    "DisplayName": "Настройка сервера удаленных рабочих столов",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\System32\\svchost.exe"
+  },
+  {
+    "Name": "SharedAccess",
+    "DisplayName": "Общий доступ к подключению к Интернету (ICS)",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ProcessId": 3252,
+    "Executable": "C:\\WINDOWS\\System32\\svchost.exe"
+  },
+  {
+    "Name": "ShellHWDetection",
+    "DisplayName": "Определение оборудования оболочки",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 3988,
+    "Executable": "C:\\WINDOWS\\System32\\svchost.exe"
+  },
+  {
+    "Name": "shpamsvc",
+    "DisplayName": "Shared PC Account Manager",
+    "State": "Stopped",
+    "StartMode": "Disabled",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\System32\\svchost.exe"
+  },
+  {
+    "Name": "smphost",
+    "DisplayName": "SMP дисковых пространств (Майкрософт)",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\System32\\svchost.exe"
+  },
+  {
+    "Name": "SmsRouter",
+    "DisplayName": "Служба маршрутизатора SMS Microsoft Windows.",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "SNMPTrap",
+    "DisplayName": "Ловушка SNMP",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\System32\\snmptrap.exe"
+  },
+  {
+    "Name": "Spooler",
+    "DisplayName": "Диспетчер печати",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 4128,
+    "Executable": "C:\\WINDOWS\\System32\\spoolsv.exe"
+  },
+  {
+    "Name": "sppsvc",
+    "DisplayName": "Защита программного обеспечения",
+    "State": "Stopped",
+    "StartMode": "Auto",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\sppsvc.exe"
+  },
+  {
+    "Name": "SQLWriter",
+    "DisplayName": "SQL Server VSS Writer",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 4804,
+    "Executable": "C:\\Program Files\\Microsoft SQL Server\\90\\Shared\\sqlwriter.exe"
+  },
+  {
+    "Name": "SSDPSRV",
+    "DisplayName": "Обнаружение SSDP",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ProcessId": 12252,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "ssh-agent",
+    "DisplayName": "OpenSSH Authentication Agent",
+    "State": "Stopped",
+    "StartMode": "Disabled",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\System32\\OpenSSH\\ssh-agent.exe"
+  },
+  {
+    "Name": "SstpSvc",
+    "DisplayName": "Служба SSTP",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ProcessId": 6432,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "StateRepository",
+    "DisplayName": "Служба репозитория состояний",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 3744,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "Steam Client Service",
+    "DisplayName": "Steam Client Service",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\Program Files (x86)\\Common Files\\Steam\\steamservice.exe"
+  },
+  {
+    "Name": "StiSvc",
+    "DisplayName": "Служба загрузки изображений Windows (WIA)",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 4732,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "StorSvc",
+    "DisplayName": "Служба хранилища",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 2060,
+    "Executable": "C:\\WINDOWS\\System32\\svchost.exe"
+  },
+  {
+    "Name": "svsvc",
+    "DisplayName": "Быстрая проверка",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "swprv",
+    "DisplayName": "Программный поставщик теневого копирования (Microsoft)",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\System32\\svchost.exe"
+  },
+  {
+    "Name": "SysMain",
+    "DisplayName": "SysMain",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 2276,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "SystemEventsBroker",
+    "DisplayName": "Брокер системных событий",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 1484,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "TapiSrv",
+    "DisplayName": "Телефония",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\System32\\svchost.exe"
+  },
+  {
+    "Name": "TermService",
+    "DisplayName": "Службы удаленных рабочих столов",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\System32\\svchost.exe"
+  },
+  {
+    "Name": "TextInputManagementService",
+    "DisplayName": "Служба управления текстовым вводом",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 3508,
+    "Executable": "C:\\WINDOWS\\System32\\svchost.exe"
+  },
+  {
+    "Name": "Themes",
+    "DisplayName": "Темы",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 2320,
+    "Executable": "C:\\WINDOWS\\System32\\svchost.exe"
+  },
+  {
+    "Name": "TieringEngineService",
+    "DisplayName": "Управление уровнями хранилища",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\TieringEngineService.exe"
+  },
+  {
+    "Name": "TimeBrokerSvc",
+    "DisplayName": "Брокер времени",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ProcessId": 2036,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "TokenBroker",
+    "DisplayName": "Диспетчер учетных веб-записей",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ProcessId": 11672,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "TrkWks",
+    "DisplayName": "Клиент отслеживания изменившихся связей",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 4716,
+    "Executable": "C:\\WINDOWS\\System32\\svchost.exe"
+  },
+  {
+    "Name": "TroubleshootingSvc",
+    "DisplayName": "Рекомендованная служба устранения неполадок",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "TrustedInstaller",
+    "DisplayName": "Установщик модулей Windows",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\servicing\\TrustedInstaller.exe"
+  },
+  {
+    "Name": "tzautoupdate",
+    "DisplayName": "Автоматическое обновление часового пояса",
+    "State": "Stopped",
+    "StartMode": "Disabled",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "UmRdpService",
+    "DisplayName": "Перенаправитель портов пользовательского режима служб удаленных рабочих столов",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\System32\\svchost.exe"
+  },
+  {
+    "Name": "upnphost",
+    "DisplayName": "Узел универсальных PNP-устройств",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "UserManager",
+    "DisplayName": "Диспетчер пользователей",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 2428,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "UsoSvc",
+    "DisplayName": "Служба оркестратора обновлений",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 5012,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "VaultSvc",
+    "DisplayName": "Диспетчер учетных данных",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\lsass.exe"
+  },
+  {
+    "Name": "VBoxSDS",
+    "DisplayName": "VirtualBox system service",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\Program Files\\Oracle\\VirtualBox\\VBoxSDS.exe"
+  },
+  {
+    "Name": "vds",
+    "DisplayName": "Виртуальный диск",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\System32\\vds.exe"
+  },
+  {
+    "Name": "vmcompute",
+    "DisplayName": "Служба вычисления узлов Hyper-V",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\vmcompute.exe"
+  },
+  {
+    "Name": "vmicguestinterface",
+    "DisplayName": "Интерфейс гостевой службы Hyper-V",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "vmicheartbeat",
+    "DisplayName": "Служба пульса (Hyper-V)",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "vmickvpexchange",
+    "DisplayName": "Служба обмена данными (Hyper-V)",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "vmicrdv",
+    "DisplayName": "Служба виртуализации удаленных рабочих столов Hyper-V",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "vmicshutdown",
+    "DisplayName": "Служба завершения работы в качестве гостя (Hyper-V)",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "vmictimesync",
+    "DisplayName": "Служба синхронизации времени Hyper-V",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "vmicvmsession",
+    "DisplayName": "Служба Hyper-V PowerShell Direct",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "vmicvss",
+    "DisplayName": "Служба запросов на теневое копирование томов Hyper-V",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "VSInstallerElevationService",
+    "DisplayName": "Visual Studio Installer Elevation Service",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\Program Files (x86)\\Microsoft Visual Studio\\Installer\\VSInstallerElevationService.exe"
+  },
+  {
+    "Name": "VSS",
+    "DisplayName": "Теневое копирование тома",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\vssvc.exe"
+  },
+  {
+    "Name": "VSStandardCollectorService150",
+    "DisplayName": "Visual Studio Standard Collector Service 150",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\Common\\DiagnosticsHub.Collection.Service\\StandardCollector.Service.exe"
+  },
+  {
+    "Name": "W32Time",
+    "DisplayName": "Служба времени Windows",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 10700,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "WaaSMedicSvc",
+    "DisplayName": "WaaSMedicSvc",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "WalletService",
+    "DisplayName": "Служба кошелька",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\System32\\svchost.exe"
+  },
+  {
+    "Name": "WarpJITSvc",
+    "DisplayName": "Warp JIT Service",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\System32\\svchost.exe"
+  },
+  {
+    "Name": "wbengine",
+    "DisplayName": "Служба модуля архивации на уровне блоков",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\wbengine.exe"
+  },
+  {
+    "Name": "WbioSrvc",
+    "DisplayName": "Биометрическая служба Windows",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "Wcmsvc",
+    "DisplayName": "Диспетчер подключений Windows",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 3672,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "wcncsvc",
+    "DisplayName": "Немедленные подключения Windows - регистратор настройки",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\System32\\svchost.exe"
+  },
+  {
+    "Name": "WdiServiceHost",
+    "DisplayName": "Узел службы диагностики",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\System32\\svchost.exe"
+  },
+  {
+    "Name": "WdiSystemHost",
+    "DisplayName": "Узел системы диагностики",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ProcessId": 11608,
+    "Executable": "C:\\WINDOWS\\System32\\svchost.exe"
+  },
+  {
+    "Name": "WdNisSvc",
+    "DisplayName": "Служба проверки сети антивирусной программы Microsoft Defender",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ProcessId": 15808,
+    "Executable": "C:\\ProgramData\\Microsoft\\Windows Defender\\Platform\\4.18.26090.9-0\\NisSrv.exe"
+  },
+  {
+    "Name": "WebClient",
+    "DisplayName": "Веб-клиент",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ProcessId": 5800,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "webthreatdefsvc",
+    "DisplayName": "Служба защиты от веб-угроз",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ProcessId": 10660,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "Wecsvc",
+    "DisplayName": "Сборщик событий Windows",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "WEPHOSTSVC",
+    "DisplayName": "Служба узла поставщика шифрования Windows",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "wercplsupport",
+    "DisplayName": "Поддержка панели управления \"Отчеты о проблемах\"",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\System32\\svchost.exe"
+  },
+  {
+    "Name": "WerSvc",
+    "DisplayName": "Служба регистрации ошибок Windows",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\System32\\svchost.exe"
+  },
+  {
+    "Name": "WFDSConMgrSvc",
+    "DisplayName": "Служба диспетчера подключений служб Wi-Fi Direct",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ProcessId": 13120,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "whesvc",
+    "DisplayName": "Работоспособность и оптимизированные взаимодействия Windows",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 18044,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "WiaRpc",
+    "DisplayName": "События получения неподвижных изображений",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "WinDefend",
+    "DisplayName": "Служба антивирусной программы Microsoft Defender",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 4784,
+    "Executable": "C:\\ProgramData\\Microsoft\\Windows Defender\\Platform\\4.18.26090.9-0\\MsMpEng.exe"
+  },
+  {
+    "Name": "WinHttpAutoProxySvc",
+    "DisplayName": "Служба автоматического обнаружения веб-прокси WinHTTP",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ProcessId": 3272,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "Winmgmt",
+    "DisplayName": "Инструментарий управления Windows",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 4604,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "WinRM",
+    "DisplayName": "Служба удаленного управления Windows (WS-Management)",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\System32\\svchost.exe"
+  },
+  {
+    "Name": "wisvc",
+    "DisplayName": "Служба предварительной оценки Windows",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ProcessId": 8584,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "WlanSvc",
+    "DisplayName": "Служба автонастройки WLAN",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 3928,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "wlidsvc",
+    "DisplayName": "Помощник по входу в учетную запись Майкрософт",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ProcessId": 13620,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "wlpasvc",
+    "DisplayName": "Служба помощника по локальному профилю",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "WManSvc",
+    "DisplayName": "Служба управления Windows",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "wmiApSrv",
+    "DisplayName": "Адаптер производительности WMI",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ProcessId": 16044,
+    "Executable": "C:\\WINDOWS\\system32\\wbem\\WmiApSrv.exe"
+  },
+  {
+    "Name": "WMIRegistrationService",
+    "DisplayName": "Intel(R) Management Engine WMI Provider Registration",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 4776,
+    "Executable": "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\mewmiprov.inf_amd64_d51901c26227fb29\\WMIRegistrationService.exe"
+  },
+  {
+    "Name": "WMPNetworkSvc",
+    "DisplayName": "Служба общих сетевых ресурсов проигрывателя Windows Media",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\Program Files\\Windows Media Player\\wmpnetwk.exe"
+  },
+  {
+    "Name": "workfolderssvc",
+    "DisplayName": "Рабочие папки",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\System32\\svchost.exe"
+  },
+  {
+    "Name": "WpcMonSvc",
+    "DisplayName": "Родительский контроль",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "WPDBusEnum",
+    "DisplayName": "Служба перечислителя переносных устройств",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "WpnService",
+    "DisplayName": "Служба системы push-уведомлений Windows",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 4708,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "WSAIFabricSvc",
+    "DisplayName": "Узел компонентов ИИ Windows",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 3868,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "wscsvc",
+    "DisplayName": "Центр обеспечения безопасности",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 16688,
+    "Executable": "C:\\WINDOWS\\System32\\svchost.exe"
+  },
+  {
+    "Name": "WSearch",
+    "DisplayName": "Windows Search",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 18592,
+    "Executable": "C:\\WINDOWS\\system32\\SearchIndexer.exe"
+  },
+  {
+    "Name": "WSLService",
+    "DisplayName": "WSL Service",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 4612,
+    "Executable": "C:\\Program Files\\WSL\\wslservice.exe"
+  },
+  {
+    "Name": "wuauserv",
+    "DisplayName": "Центр обновления Windows",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ProcessId": 20568,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "wuqisvc",
+    "DisplayName": "Аналитика качества и использования Майкрософт",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ProcessId": 17700,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "WwanSvc",
+    "DisplayName": "Автонастройка WWAN",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "XblAuthManager",
+    "DisplayName": "Диспетчер проверки подлинности Xbox Live",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "XblGameSave",
+    "DisplayName": "Сохранение игр на Xbox Live",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "XboxGipSvc",
+    "DisplayName": "Xbox Accessory Management Service",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "XboxNetApiSvc",
+    "DisplayName": "Сетевая служба Xbox Live",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "AarSvc_143349",
+    "DisplayName": "Agent Activation Runtime_143349",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "BcastDVRUserService_143349",
+    "DisplayName": "Пользовательская служба DVR для игр и трансляции_143349",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "BluetoothUserService_143349",
+    "DisplayName": "Служба поддержки пользователей Bluetooth_143349",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "CaptureService_143349",
+    "DisplayName": "CaptureService_143349",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "cbdhsvc_143349",
+    "DisplayName": "Пользовательская служба буфера обмена_143349",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 12428,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "CDPUserSvc_143349",
+    "DisplayName": "Служба пользователя платформы подключенных устройств_143349",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 11300,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "CloudBackupRestoreSvc_143349",
+    "DisplayName": "Облачная служба резервного копирования и восстановления_143349",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "ConsentUxUserSvc_143349",
+    "DisplayName": "Служба пользователя ConsentUX_143349",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "CredentialEnrollmentManagerUserSvc_143349",
+    "DisplayName": "CredentialEnrollmentManagerUserSvc_143349",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\CredentialEnrollmentManager.exe"
+  },
+  {
+    "Name": "DeviceAssociationBrokerSvc_143349",
+    "DisplayName": "DeviceAssociationBroker_143349",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "DevicePickerUserSvc_143349",
+    "DisplayName": "DevicePicker_143349",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "DevicesFlowUserSvc_143349",
+    "DisplayName": "DevicesFlow_143349",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ProcessId": 13076,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "MessagingService_143349",
+    "DisplayName": "MessagingService_143349",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "NPSMSvc_143349",
+    "DisplayName": "Служба диспетчера текущего сеанса_143349",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ProcessId": 7060,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "OneSyncSvc_143349",
+    "DisplayName": "Синхронизация узла_143349",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "P9RdrService_143349",
+    "DisplayName": "P9RdrService_143349",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "PenService_143349",
+    "DisplayName": "PenService_143349",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "PimIndexMaintenanceSvc_143349",
+    "DisplayName": "Служба контактных данных_143349",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ProcessId": 14684,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "PrintWorkflowUserSvc_143349",
+    "DisplayName": "PrintWorkflow_143349",
+    "State": "Stopped",
+    "StartMode": "Manual",
+    "ProcessId": 0,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "UdkUserSvc_143349",
+    "DisplayName": "Пользовательская служба UDK_143349",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ProcessId": 13560,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "UnistoreSvc_143349",
+    "DisplayName": "Служба хранения данных пользователя_143349",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ProcessId": 14684,
+    "Executable": "C:\\WINDOWS\\System32\\svchost.exe"
+  },
+  {
+    "Name": "UserDataSvc_143349",
+    "DisplayName": "Служба доступа к данным пользователя_143349",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ProcessId": 14684,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "webthreatdefusersvc_143349",
+    "DisplayName": "Служба защиты пользователей от веб-угроз_143349",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 11372,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "WpnUserService_143349",
+    "DisplayName": "Пользовательская служба push-уведомлений Windows_143349",
+    "State": "Running",
+    "StartMode": "Auto",
+    "ProcessId": 11408,
+    "Executable": "C:\\WINDOWS\\system32\\svchost.exe"
+  },
+  {
+    "Name": "AmneziaWGTunnel$AmneziaVPN",
+    "DisplayName": "Amnezia VPN (tunnel)",
+    "State": "Running",
+    "StartMode": "Manual",
+    "ProcessId": 16856,
+    "Executable": "C:/Program Files/AmneziaVPN/AmneziaVPN-service.exe"
+  }
+]

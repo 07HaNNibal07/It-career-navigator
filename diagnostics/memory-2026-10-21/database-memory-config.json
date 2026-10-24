@@ -1,0 +1,78 @@
+[
+  {
+    "Service": "MySQL80",
+    "PID": 4856,
+    "DataDirectory": null,
+    "Files": [
+      {
+        "Path": "C:\\ProgramData\\MySQL\\MySQL Server 8.0\\my.ini",
+        "Settings": [
+          "max_connections=151",
+          "table_open_cache=4000",
+          "key_buffer_size=8M",
+          "innodb_log_buffer_size=16M",
+          "innodb_buffer_pool_size=128M"
+        ]
+      }
+    ]
+  },
+  {
+    "Service": "PostgreSQL",
+    "PID": 4700,
+    "DataDirectory": "C:\\Program Files\\ASCON\\KOMPAS-3D v25 Study\\Libs\\PolynomLib\\Templates\\LocalBase\\data",
+    "Files": [
+      {
+        "Path": "C:\\Program Files\\ASCON\\KOMPAS-3D v25 Study\\Libs\\PolynomLib\\Templates\\LocalBase\\data\\postgresql.conf",
+        "Settings": [
+          "max_connections = 1000\t\t\t# (change requires restart)",
+          "shared_buffers = 4096MB\t\t\t# min 128kB",
+          "work_mem = 256MB\t\t\t\t# min 64kB",
+          "maintenance_work_mem = 1024MB\t\t# min 1MB",
+          "dynamic_shared_memory_type = windows\t# the default is usually the first option"
+        ]
+      },
+      {
+        "Path": "C:\\Program Files\\ASCON\\KOMPAS-3D v25 Study\\Libs\\PolynomLib\\Templates\\LocalBase\\data\\postgresql.auto.conf",
+        "Settings": []
+      }
+    ]
+  },
+  {
+    "Service": "postgresql-x64-16",
+    "PID": 4580,
+    "DataDirectory": "C:\\Program Files\\PostgreSQL\\16\\data",
+    "Files": [
+      {
+        "Path": "C:\\Program Files\\PostgreSQL\\16\\data\\postgresql.conf",
+        "Settings": [
+          "max_connections = 100\t\t\t# (change requires restart)",
+          "shared_buffers = 128MB\t\t\t# min 128kB",
+          "dynamic_shared_memory_type = windows\t# the default is usually the first option"
+        ]
+      },
+      {
+        "Path": "C:\\Program Files\\PostgreSQL\\16\\data\\postgresql.auto.conf",
+        "Settings": []
+      }
+    ]
+  },
+  {
+    "Service": "postgresql-x64-17",
+    "PID": 4744,
+    "DataDirectory": "C:\\Program Files\\PostgreSQL\\17\\data",
+    "Files": [
+      {
+        "Path": "C:\\Program Files\\PostgreSQL\\17\\data\\postgresql.conf",
+        "Settings": [
+          "max_connections = 100\t\t\t# (change requires restart)",
+          "shared_buffers = 128MB\t\t\t# min 128kB",
+          "dynamic_shared_memory_type = windows\t# the default is usually the first option"
+        ]
+      },
+      {
+        "Path": "C:\\Program Files\\PostgreSQL\\17\\data\\postgresql.auto.conf",
+        "Settings": []
+      }
+    ]
+  }
+]

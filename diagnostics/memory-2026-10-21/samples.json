@@ -1,0 +1,405 @@
+[
+  {
+    "Timestamp": "2026-10-21T01:14:59.8557571+03:00",
+    "Memory": {
+      "AvailableBytes": 2367979520,
+      "CommittedBytes": 15944876032,
+      "CommitLimit": 25456979968,
+      "PoolNonpagedBytes": 434446336,
+      "PoolPagedBytes": 436871168,
+      "PoolPagedResidentBytes": 379604992,
+      "SystemCacheResidentBytes": 349278208,
+      "StandbyCacheCoreBytes": 59801600,
+      "StandbyCacheNormalPriorityBytes": 1397587968,
+      "StandbyCacheReserveBytes": 632311808,
+      "FreeAndZeroPageListBytes": 278278144,
+      "ModifiedPageListBytes": 35180544,
+      "PagesPersec": 35,
+      "PagesInputPersec": 35,
+      "PagesOutputPersec": 0,
+      "PageReadsPersec": 35,
+      "PageWritesPersec": 0,
+      "PageFaultsPersec": 91515,
+      "TransitionFaultsPersec": 49875
+    },
+    "Disk": {
+      "DiskReadBytesPersec": 14448553,
+      "DiskWriteBytesPersec": 1345541,
+      "AvgDisksecPerRead": 0,
+      "AvgDisksecPerWrite": 0,
+      "CurrentDiskQueueLength": 0
+    }
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:05.4412275+03:00",
+    "Memory": {
+      "AvailableBytes": 2182856704,
+      "CommittedBytes": 16118902784,
+      "CommitLimit": 25456979968,
+      "PoolNonpagedBytes": 435683328,
+      "PoolPagedBytes": 442032128,
+      "PoolPagedResidentBytes": 385081344,
+      "SystemCacheResidentBytes": 349511680,
+      "StandbyCacheCoreBytes": 59269120,
+      "StandbyCacheNormalPriorityBytes": 1411731456,
+      "StandbyCacheReserveBytes": 669642752,
+      "FreeAndZeroPageListBytes": 42213376,
+      "ModifiedPageListBytes": 35401728,
+      "PagesPersec": 66,
+      "PagesInputPersec": 66,
+      "PagesOutputPersec": 0,
+      "PageReadsPersec": 7,
+      "PageWritesPersec": 0,
+      "PageFaultsPersec": 17908,
+      "TransitionFaultsPersec": 6847
+    },
+    "Disk": {
+      "DiskReadBytesPersec": 370493,
+      "DiskWriteBytesPersec": 96650,
+      "AvgDisksecPerRead": 0,
+      "AvgDisksecPerWrite": 0,
+      "CurrentDiskQueueLength": 0
+    }
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:11.0159146+03:00",
+    "Memory": {
+      "AvailableBytes": 1945571328,
+      "CommittedBytes": 16349233152,
+      "CommitLimit": 25456979968,
+      "PoolNonpagedBytes": 439410688,
+      "PoolPagedBytes": 442417152,
+      "PoolPagedResidentBytes": 385646592,
+      "SystemCacheResidentBytes": 353353728,
+      "StandbyCacheCoreBytes": 55898112,
+      "StandbyCacheNormalPriorityBytes": 1428086784,
+      "StandbyCacheReserveBytes": 459472896,
+      "FreeAndZeroPageListBytes": 2113536,
+      "ModifiedPageListBytes": 35573760,
+      "PagesPersec": 0,
+      "PagesInputPersec": 0,
+      "PagesOutputPersec": 0,
+      "PageReadsPersec": 0,
+      "PageWritesPersec": 0,
+      "PageFaultsPersec": 66997,
+      "TransitionFaultsPersec": 214
+    },
+    "Disk": {
+      "DiskReadBytesPersec": 8751422,
+      "DiskWriteBytesPersec": 78806,
+      "AvgDisksecPerRead": 0,
+      "AvgDisksecPerWrite": 0,
+      "CurrentDiskQueueLength": 0
+    }
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:16.5758272+03:00",
+    "Memory": {
+      "AvailableBytes": 1888837632,
+      "CommittedBytes": 16375934976,
+      "CommitLimit": 25456979968,
+      "PoolNonpagedBytes": 435302400,
+      "PoolPagedBytes": 443228160,
+      "PoolPagedResidentBytes": 387178496,
+      "SystemCacheResidentBytes": 354353152,
+      "StandbyCacheCoreBytes": 53338112,
+      "StandbyCacheNormalPriorityBytes": 1427980288,
+      "StandbyCacheReserveBytes": 197623808,
+      "FreeAndZeroPageListBytes": 209928192,
+      "ModifiedPageListBytes": 60321792,
+      "PagesPersec": 0,
+      "PagesInputPersec": 0,
+      "PagesOutputPersec": 0,
+      "PageReadsPersec": 0,
+      "PageWritesPersec": 0,
+      "PageFaultsPersec": 4637,
+      "TransitionFaultsPersec": 1490
+    },
+    "Disk": {
+      "DiskReadBytesPersec": 0,
+      "DiskWriteBytesPersec": 0,
+      "AvgDisksecPerRead": 0,
+      "AvgDisksecPerWrite": 0,
+      "CurrentDiskQueueLength": 0
+    }
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:22.1333021+03:00",
+    "Memory": {
+      "AvailableBytes": 1768509440,
+      "CommittedBytes": 16942415872,
+      "CommitLimit": 25456979968,
+      "PoolNonpagedBytes": 438583296,
+      "PoolPagedBytes": 444493824,
+      "PoolPagedResidentBytes": 388341760,
+      "SystemCacheResidentBytes": 358453248,
+      "StandbyCacheCoreBytes": 52813824,
+      "StandbyCacheNormalPriorityBytes": 1444667392,
+      "StandbyCacheReserveBytes": 268791808,
+      "FreeAndZeroPageListBytes": 2236416,
+      "ModifiedPageListBytes": 54779904,
+      "PagesPersec": 7436,
+      "PagesInputPersec": 7436,
+      "PagesOutputPersec": 0,
+      "PageReadsPersec": 2697,
+      "PageWritesPersec": 0,
+      "PageFaultsPersec": 34725,
+      "TransitionFaultsPersec": 8290
+    },
+    "Disk": {
+      "DiskReadBytesPersec": 23632636,
+      "DiskWriteBytesPersec": 156858,
+      "AvgDisksecPerRead": 0,
+      "AvgDisksecPerWrite": 0,
+      "CurrentDiskQueueLength": 0
+    }
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:27.7188528+03:00",
+    "Memory": {
+      "AvailableBytes": 1709793280,
+      "CommittedBytes": 16544669696,
+      "CommitLimit": 25456979968,
+      "PoolNonpagedBytes": 437264384,
+      "PoolPagedBytes": 444370944,
+      "PoolPagedResidentBytes": 387878912,
+      "SystemCacheResidentBytes": 359309312,
+      "StandbyCacheCoreBytes": 52867072,
+      "StandbyCacheNormalPriorityBytes": 1466593280,
+      "StandbyCacheReserveBytes": 72507392,
+      "FreeAndZeroPageListBytes": 117825536,
+      "ModifiedPageListBytes": 46465024,
+      "PagesPersec": 0,
+      "PagesInputPersec": 0,
+      "PagesOutputPersec": 0,
+      "PageReadsPersec": 0,
+      "PageWritesPersec": 0,
+      "PageFaultsPersec": 8125,
+      "TransitionFaultsPersec": 925
+    },
+    "Disk": {
+      "DiskReadBytesPersec": 0,
+      "DiskWriteBytesPersec": 46084,
+      "AvgDisksecPerRead": 0,
+      "AvgDisksecPerWrite": 0,
+      "CurrentDiskQueueLength": 0
+    }
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:33.2686455+03:00",
+    "Memory": {
+      "AvailableBytes": 1630650368,
+      "CommittedBytes": 16628649984,
+      "CommitLimit": 25456979968,
+      "PoolNonpagedBytes": 439595008,
+      "PoolPagedBytes": 445767680,
+      "PoolPagedResidentBytes": 388853760,
+      "SystemCacheResidentBytes": 357625856,
+      "StandbyCacheCoreBytes": 52867072,
+      "StandbyCacheNormalPriorityBytes": 1472077824,
+      "StandbyCacheReserveBytes": 74063872,
+      "FreeAndZeroPageListBytes": 31641600,
+      "ModifiedPageListBytes": 44052480,
+      "PagesPersec": 0,
+      "PagesInputPersec": 0,
+      "PagesOutputPersec": 0,
+      "PageReadsPersec": 0,
+      "PageWritesPersec": 0,
+      "PageFaultsPersec": 72393,
+      "TransitionFaultsPersec": 40171
+    },
+    "Disk": {
+      "DiskReadBytesPersec": 0,
+      "DiskWriteBytesPersec": 716878,
+      "AvgDisksecPerRead": 0,
+      "AvgDisksecPerWrite": 0,
+      "CurrentDiskQueueLength": 0
+    }
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:38.8352680+03:00",
+    "Memory": {
+      "AvailableBytes": 1498247168,
+      "CommittedBytes": 16787128320,
+      "CommitLimit": 25456979968,
+      "PoolNonpagedBytes": 437862400,
+      "PoolPagedBytes": 447152128,
+      "PoolPagedResidentBytes": 388857856,
+      "SystemCacheResidentBytes": 358338560,
+      "StandbyCacheCoreBytes": 52797440,
+      "StandbyCacheNormalPriorityBytes": 1441935360,
+      "StandbyCacheReserveBytes": 1007616,
+      "FreeAndZeroPageListBytes": 2506752,
+      "ModifiedPageListBytes": 32391168,
+      "PagesPersec": 290,
+      "PagesInputPersec": 290,
+      "PagesOutputPersec": 0,
+      "PageReadsPersec": 45,
+      "PageWritesPersec": 0,
+      "PageFaultsPersec": 19102,
+      "TransitionFaultsPersec": 1445
+    },
+    "Disk": {
+      "DiskReadBytesPersec": 719137,
+      "DiskWriteBytesPersec": 0,
+      "AvgDisksecPerRead": 0,
+      "AvgDisksecPerWrite": 0,
+      "CurrentDiskQueueLength": 0
+    }
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:44.4266910+03:00",
+    "Memory": {
+      "AvailableBytes": 1680506880,
+      "CommittedBytes": 16583032832,
+      "CommitLimit": 25456979968,
+      "PoolNonpagedBytes": 436469760,
+      "PoolPagedBytes": 445800448,
+      "PoolPagedResidentBytes": 388358144,
+      "SystemCacheResidentBytes": 357859328,
+      "StandbyCacheCoreBytes": 52867072,
+      "StandbyCacheNormalPriorityBytes": 1455497216,
+      "StandbyCacheReserveBytes": 14548992,
+      "FreeAndZeroPageListBytes": 157593600,
+      "ModifiedPageListBytes": 30973952,
+      "PagesPersec": 0,
+      "PagesInputPersec": 0,
+      "PagesOutputPersec": 0,
+      "PageReadsPersec": 0,
+      "PageWritesPersec": 0,
+      "PageFaultsPersec": 65,
+      "TransitionFaultsPersec": 18
+    },
+    "Disk": {
+      "DiskReadBytesPersec": 0,
+      "DiskWriteBytesPersec": 0,
+      "AvgDisksecPerRead": 0,
+      "AvgDisksecPerWrite": 0,
+      "CurrentDiskQueueLength": 0
+    }
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:50.0156475+03:00",
+    "Memory": {
+      "AvailableBytes": 1807560704,
+      "CommittedBytes": 16455077888,
+      "CommitLimit": 25456979968,
+      "PoolNonpagedBytes": 435519488,
+      "PoolPagedBytes": 445652992,
+      "PoolPagedResidentBytes": 388210688,
+      "SystemCacheResidentBytes": 355790848,
+      "StandbyCacheCoreBytes": 52875264,
+      "StandbyCacheNormalPriorityBytes": 1460596736,
+      "StandbyCacheReserveBytes": 14774272,
+      "FreeAndZeroPageListBytes": 279314432,
+      "ModifiedPageListBytes": 28254208,
+      "PagesPersec": 3,
+      "PagesInputPersec": 3,
+      "PagesOutputPersec": 0,
+      "PageReadsPersec": 3,
+      "PageWritesPersec": 0,
+      "PageFaultsPersec": 75,
+      "TransitionFaultsPersec": 11
+    },
+    "Disk": {
+      "DiskReadBytesPersec": 123810,
+      "DiskWriteBytesPersec": 0,
+      "AvgDisksecPerRead": 0,
+      "AvgDisksecPerWrite": 0,
+      "CurrentDiskQueueLength": 0
+    }
+  },
+  {
+    "Timestamp": "2026-10-21T01:15:55.5798268+03:00",
+    "Memory": {
+      "AvailableBytes": 1762963456,
+      "CommittedBytes": 16521793536,
+      "CommitLimit": 25456979968,
+      "PoolNonpagedBytes": 435773440,
+      "PoolPagedBytes": 446459904,
+      "PoolPagedResidentBytes": 388980736,
+      "SystemCacheResidentBytes": 357175296,
+      "StandbyCacheCoreBytes": 52875264,
+      "StandbyCacheNormalPriorityBytes": 1460482048,
+      "StandbyCacheReserveBytes": 14696448,
+      "FreeAndZeroPageListBytes": 234909696,
+      "ModifiedPageListBytes": 28483584,
+      "PagesPersec": 1684,
+      "PagesInputPersec": 1684,
+      "PagesOutputPersec": 0,
+      "PageReadsPersec": 195,
+      "PageWritesPersec": 0,
+      "PageFaultsPersec": 103166,
+      "TransitionFaultsPersec": 62326
+    },
+    "Disk": {
+      "DiskReadBytesPersec": 0,
+      "DiskWriteBytesPersec": 641167,
+      "AvgDisksecPerRead": 0,
+      "AvgDisksecPerWrite": 0,
+      "CurrentDiskQueueLength": 0
+    }
+  },
+  {
+    "Timestamp": "2026-10-21T01:16:01.1387714+03:00",
+    "Memory": {
+      "AvailableBytes": 1711366144,
+      "CommittedBytes": 16577294336,
+      "CommitLimit": 25456979968,
+      "PoolNonpagedBytes": 436191232,
+      "PoolPagedBytes": 446779392,
+      "PoolPagedResidentBytes": 388628480,
+      "SystemCacheResidentBytes": 356233216,
+      "StandbyCacheCoreBytes": 52875264,
+      "StandbyCacheNormalPriorityBytes": 1468825600,
+      "StandbyCacheReserveBytes": 16220160,
+      "FreeAndZeroPageListBytes": 173445120,
+      "ModifiedPageListBytes": 28798976,
+      "PagesPersec": 0,
+      "PagesInputPersec": 0,
+      "PagesOutputPersec": 0,
+      "PageReadsPersec": 0,
+      "PageWritesPersec": 0,
+      "PageFaultsPersec": 68052,
+      "TransitionFaultsPersec": 34189
+    },
+    "Disk": {
+      "DiskReadBytesPersec": 0,
+      "DiskWriteBytesPersec": 681690,
+      "AvgDisksecPerRead": 0,
+      "AvgDisksecPerWrite": 0,
+      "CurrentDiskQueueLength": 0
+    }
+  },
+  {
+    "Timestamp": "2026-10-21T01:16:06.7174851+03:00",
+    "Memory": {
+      "AvailableBytes": 1834684416,
+      "CommittedBytes": 16426110976,
+      "CommitLimit": 25456979968,
+      "PoolNonpagedBytes": 434716672,
+      "PoolPagedBytes": 446181376,
+      "PoolPagedResidentBytes": 388079616,
+      "SystemCacheResidentBytes": 356126720,
+      "StandbyCacheCoreBytes": 52875264,
+      "StandbyCacheNormalPriorityBytes": 1469562880,
+      "StandbyCacheReserveBytes": 16846848,
+      "FreeAndZeroPageListBytes": 295374848,
+      "ModifiedPageListBytes": 28803072,
+      "PagesPersec": 0,
+      "PagesInputPersec": 0,
+      "PagesOutputPersec": 0,
+      "PageReadsPersec": 0,
+      "PageWritesPersec": 0,
+      "PageFaultsPersec": 1624,
+      "TransitionFaultsPersec": 122
+    },
+    "Disk": {
+      "DiskReadBytesPersec": 0,
+      "DiskWriteBytesPersec": 316998,
+      "AvgDisksecPerRead": 0,
+      "AvgDisksecPerWrite": 0,
+      "CurrentDiskQueueLength": 0
+    }
+  }
+]

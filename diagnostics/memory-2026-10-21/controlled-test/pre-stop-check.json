@@ -1,0 +1,11 @@
+{
+  "Timestamp": "2026-10-21T01:33:25.8182428+03:00",
+  "Name": "PostgreSQL",
+  "ServicePID": 4700,
+  "Executable": "C:\\Program Files\\ASCON\\KOMPAS-3D v25 Study\\Libs\\PolynomLib\\Templates\\LocalBase\\bin\\pg_ctl.exe",
+  "DataDirectory": "C:\\Program Files\\ASCON\\KOMPAS-3D v25 Study\\Libs\\PolynomLib\\Templates\\LocalBase\\data",
+  "OtherClientSessions": 0,
+  "ActiveOtherClientSessions": 0,
+  "KompasClientProcesses": 0,
+  "PolynomServiceState": "Running"
+}

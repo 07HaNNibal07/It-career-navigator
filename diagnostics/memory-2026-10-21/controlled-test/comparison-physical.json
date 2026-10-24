@@ -1,0 +1,15 @@
+{
+  "BeforeLastUsedGiB": 13.537349700927734,
+  "BeforeLastAvailableGiB": 2.1713104248046875,
+  "AfterFirstUsedGiB": 9.36623764038086,
+  "AfterFirstAvailableGiB": 6.3424224853515625,
+  "ImmediateFreedGiB": 4.171112060546875,
+  "ImmediateFreedMiB": 4271.21875,
+  "MeanFreedGiB": 4.198789885549834,
+  "LastFreedGiB": 4.2435302734375,
+  "BeforeMeanUsedGiB": 13.546629587809244,
+  "AfterMeanUsedGiB": 9.34783970225941,
+  "BeforeCommitGiB": 15.837417602539062,
+  "AfterFirstCommitGiB": 11.614852905273438,
+  "CommitReductionGiB": 4.222564697265625
+}
