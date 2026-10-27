@@ -1,7 +1,6 @@
 import secrets
 
 from typing_extensions import Annotated
-
 from pwdlib import PasswordHash
 from fastapi import Depends, HTTPException, status
 from it_career_navigator.config import settings
@@ -33,7 +32,7 @@ def encode_jwt(payload: dict, secret_key: str, algorithm: str) -> str:
 
 def create_access_token(data: dict) -> str:
     to_encode = data.copy()
-    from it_career_navigator.config import settings
+    
     expire = datetime.now(UTC) + timedelta(minutes=settings.access_token_expire_minutes)
     to_encode.update({"exp": expire})
     return encode_jwt(to_encode, settings.secret_key, settings.algorithm)
@@ -64,6 +63,7 @@ internal_api_key_header = APIKeyHeader(
     name="X-Internal-API-Key",
     auto_error=False,
 )
+
 async def verify_internal_api_key(
     provided_key: Annotated[str | None, Depends(internal_api_key_header)],
 ) -> None:

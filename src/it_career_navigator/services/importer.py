@@ -32,6 +32,9 @@ async def import_vacancies(
         )
         direction = direction_result.scalar_one_or_none()
 
+        if direction is None:
+            result.errors.append(f"Direction not found: {item.direction_name}")
+            continue
 
         new_vacancy = Vacancy(
             source=item.source,

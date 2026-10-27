@@ -199,3 +199,29 @@ async def test_update_target_with_token(client):
     assert response.status_code == 200
     assert response.json()["target_level"] == "Senior"
     assert response.json()["direction_id"] == direction_response.json()["id"]
+
+
+@pytest.mark.anyio
+async def test_create_analysis_with_token(client):
+    direction_response = await client.post(
+        "/internal/create_directions",
+        json={"name": "Python Backend"},
+        headers={"X-Internal-API-Key": "test-internal-key"},
+    )
+    assert direction_response.status_code == 200
+
+    headers = await create_authenticated_headers(client)
+
+    response = await client.post(
+        "/users/create_analysis",
+        json={
+            "direction_id": direction_response.json()["id"],
+            "target_level": "Senior",
+        },
+        headers=headers,
+    )
+
+    assert response.status_code == 200
+    assert response.json()["direction_id"] == direction_response.json()["id"]
+    assert response.json()["target_level"] == "Senior"
+    assert response.json()["status"] == "queued"

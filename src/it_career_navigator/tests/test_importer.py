@@ -3,6 +3,8 @@ from it_career_navigator.schemas import VacancyImportItem, ImportResult
 from it_career_navigator.models import Vacancy, Direction
 from sqlalchemy.ext.asyncio import AsyncSession
 
+from it_career_navigator.schemas import (VacancyImportItem, ImportResult,RequirementImportItem)
+
 import pytest
 
 from it_career_navigator.tests.conftest import db_session
@@ -26,6 +28,16 @@ async def test_import_vacancies(db_session: AsyncSession):
             level="level",
             direction_name="Python Backend",
             published_at="2024-06-01T00:00:00",
+            requirements=[
+                RequirementImportItem(
+                    name="Python",
+                    is_required=True
+                ),
+                RequirementImportItem(
+                    name="Docker",
+                    is_required=False
+                )
+            ]
         )
     ]
     
@@ -34,7 +46,8 @@ async def test_import_vacancies(db_session: AsyncSession):
     assert isinstance(result, ImportResult)
     assert result.created_vacancies == 1
     assert result.skipped_duplicates == 0
-
+    assert result.created_requirements == 2
+    
     from sqlalchemy import select
     vacancy_result = await db_session.execute(select(Vacancy).where(Vacancy.external_id == "external_id"))
     vacancy = vacancy_result.scalar_one_or_none()

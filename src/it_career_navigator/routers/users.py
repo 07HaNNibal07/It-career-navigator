@@ -1,9 +1,11 @@
+from datetime import UTC, datetime
+
 from fastapi import APIRouter,Depends, HTTPException, status
 from fastapi import APIRouter, Depends, HTTPException, status
-from it_career_navigator.schemas import UserResponse, UserCreate, UserUpdate, UserTargetUpdate, SkillResponse, SkillCreate
+from it_career_navigator.schemas import UserResponse, UserCreate, UserUpdate, UserTargetUpdate, SkillResponse, SkillCreate, AnalysisCreate, AnalysisResponse
 from it_career_navigator.auth import oauth2_scheme
 from fastapi.security import OAuth2PasswordRequestForm
-from it_career_navigator.models import User, Skill, UserSkill
+from it_career_navigator.models import User, Skill, UserSkill, Analysis
 from it_career_navigator.database import Get_DB
 from sqlalchemy.ext.asyncio import AsyncSession
 from typing import Annotated
@@ -324,4 +326,31 @@ async def update_target(
         ],
         target_level=user.target_level,
         direction_id=user.direction_id,
+    )
+
+
+@router.post("/create_analysis", response_model=AnalysisResponse)
+async def create_analysis(
+    analysis_create: AnalysisCreate,
+    current_user: CurrentUser,
+    db: Get_DB,
+):
+    new_analysis = Analysis(
+        user_id=current_user["id"],
+        direction_id=analysis_create.direction_id,
+        target_level=analysis_create.target_level,
+        status='queued',
+        created_at=datetime.now(UTC)
+    )
+    db.add(new_analysis)
+    await db.commit()
+    await db.refresh(new_analysis)
+
+    return AnalysisResponse(
+        id=new_analysis.id,
+        user_id=new_analysis.user_id,
+        direction_id=new_analysis.direction_id,
+        target_level=new_analysis.target_level,
+        status=new_analysis.status,
+        created_at=new_analysis.created_at
     )

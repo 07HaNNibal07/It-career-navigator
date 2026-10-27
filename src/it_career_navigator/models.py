@@ -1,4 +1,4 @@
-from datetime import datetime
+from datetime import datetime,UTC
 
 from sqlalchemy.orm import relationship, Mapped, mapped_column
 from it_career_navigator.database import Base
@@ -93,6 +93,7 @@ class VacancyRequirement(Base):
     vacancy_id: Mapped[int] = mapped_column(ForeignKey("vacancies.id", ondelete="CASCADE"))
     skill_id: Mapped[int] = mapped_column(ForeignKey("skills.id", ondelete="CASCADE"))
     is_required: Mapped[bool] = mapped_column(default=True)
+    
     vacancy: Mapped["Vacancy"] = relationship(back_populates="requirements")
     skill: Mapped["Skill"] = relationship(back_populates="vacancy_requirements")
     
@@ -111,3 +112,19 @@ class SkillAlias(Base):
     alias: Mapped[str] = mapped_column(String(100), unique=True)
     skill_id: Mapped[int] = mapped_column(ForeignKey("skills.id", ondelete="CASCADE"))
     skill: Mapped["Skill"] = relationship(back_populates="aliases")
+
+
+class Analysis(Base):
+    __tablename__ = "analyses"
+
+    id: Mapped[int] = mapped_column(primary_key=True, autoincrement=True)
+    user_id: Mapped[int] = mapped_column(ForeignKey("users.id", ondelete="CASCADE"))
+    direction_id: Mapped[int] = mapped_column(ForeignKey("directions.id", ondelete="CASCADE"))
+    target_level: Mapped[str | None] = mapped_column(String(30), nullable=True)
+    status: Mapped[str | None] = mapped_column(String(30), default='queued')
+    
+    created_at: Mapped[datetime | None] = mapped_column(
+        DateTime(timezone=True),
+        nullable=True,
+    )
+

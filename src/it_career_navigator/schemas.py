@@ -151,3 +151,20 @@ class ImportResult(BaseModel):
     skipped_duplicates: int = 0
     created_requirements: int = 0
     errors: list[str] = Field(default_factory=list)
+
+class AnalysisCreate(BaseModel):
+
+    direction_id: int
+    target_level: str | None = None
+
+    model_config = ConfigDict(from_attributes=True)
+
+class AnalysisResponse(BaseModel):
+    id: int
+    user_id: int
+    direction_id: int
+    target_level: str | None = None
+    status: str | None = 'queued'
+    created_at: datetime | None = None
+
+    model_config = ConfigDict(from_attributes=True)
