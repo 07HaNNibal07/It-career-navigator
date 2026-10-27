@@ -128,3 +128,26 @@ class Analysis(Base):
         nullable=True,
     )
 
+
+class SkillStatistic(Base):
+    __tablename__ = "skill_statistics"
+
+    id: Mapped[int] = mapped_column(primary_key=True, autoincrement=True)
+
+    analysis_id: Mapped[int] = mapped_column(
+        ForeignKey("analyses.id", ondelete="CASCADE")
+    )
+    skill_id: Mapped[int] = mapped_column(
+        ForeignKey("skills.id", ondelete="CASCADE")
+    )
+
+    vacancy_count: Mapped[int] = mapped_column()
+    demand_percent: Mapped[float] = mapped_column()
+
+    __table_args__ = (
+        UniqueConstraint(
+            "analysis_id",
+            "skill_id",
+            name="uq_skill_statistics_analysis_id_skill_id",
+        ),
+    )

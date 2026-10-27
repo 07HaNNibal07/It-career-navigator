@@ -354,3 +354,35 @@ async def create_analysis(
         status=new_analysis.status,
         created_at=new_analysis.created_at
     )
+
+@router.post("/run_analysis", response_model=AnalysisResponse)
+async def run_analysis_endpoint(
+    analysis_id: int,
+    current_user: CurrentUser,
+    db: Get_DB,
+):
+    result = await db.execute(
+        select(Analysis)
+        .where(Analysis.id == analysis_id)
+        .where(Analysis.user_id == current_user["id"])
+    )
+    analysis = result.scalar_one_or_none()
+
+    if not analysis:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail="Analysis not found",
+        )
+
+    from it_career_navigator.services.analysis import run_analysis
+    statistics = await run_analysis(analysis.id, current_user["id"], db)
+
+    await db.refresh(analysis)
+    return AnalysisResponse(
+        id=analysis.id,
+        user_id=analysis.user_id,
+        direction_id=analysis.direction_id,
+        target_level=analysis.target_level,
+        status=analysis.status,
+        created_at=analysis.created_at
+    )
