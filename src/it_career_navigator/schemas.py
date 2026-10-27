@@ -168,3 +168,10 @@ class AnalysisResponse(BaseModel):
     created_at: datetime | None = None
 
     model_config = ConfigDict(from_attributes=True)
+    
+class SkillStatisticResponse(BaseModel):
+    skill_name: str = Field(..., max_length=100)
+    vacancy_count: int
+    demand_percent: float
+
+    model_config = ConfigDict(from_attributes=True)

@@ -86,3 +86,4 @@ async def run_analysis(
     await db.commit()
 
     return statistics
+

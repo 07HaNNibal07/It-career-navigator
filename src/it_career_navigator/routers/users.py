@@ -2,13 +2,13 @@ from datetime import UTC, datetime
 
 from fastapi import APIRouter,Depends, HTTPException, status
 from fastapi import APIRouter, Depends, HTTPException, status
-from it_career_navigator.schemas import UserResponse, UserCreate, UserUpdate, UserTargetUpdate, SkillResponse, SkillCreate, AnalysisCreate, AnalysisResponse
+from it_career_navigator.schemas import SkillStatisticResponse, UserResponse, UserCreate, UserUpdate, UserTargetUpdate, SkillResponse, SkillCreate, AnalysisCreate, AnalysisResponse
 from it_career_navigator.auth import oauth2_scheme
 from fastapi.security import OAuth2PasswordRequestForm
-from it_career_navigator.models import User, Skill, UserSkill, Analysis
+from it_career_navigator.models import SkillStatistic, User, Skill, UserSkill, Analysis
 from it_career_navigator.database import Get_DB
 from sqlalchemy.ext.asyncio import AsyncSession
-from typing import Annotated
+from typing import Annotated, List
 from sqlalchemy import select
 from it_career_navigator.auth import hash_password, verify_password, CurrentUser
 from it_career_navigator.auth import create_access_token
@@ -386,3 +386,40 @@ async def run_analysis_endpoint(
         status=analysis.status,
         created_at=analysis.created_at
     )
+
+@router.get("/analysis_statistics/{analysis_id}", response_model=List[SkillStatisticResponse])
+async def analysis_statistics(
+    analysis_id: int,
+    current_user: CurrentUser,
+    db: Get_DB,
+):
+    result = await db.execute(
+        select(Analysis)
+        .where(Analysis.id == analysis_id)
+        .where(Analysis.user_id == current_user["id"])
+    )
+    analysis = result.scalar_one_or_none()
+
+    if not analysis:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail="Analysis not found",
+        )
+
+    statistics_result = await db.execute(
+        select(SkillStatistic, Skill.name)
+        .join(Skill, Skill.id == SkillStatistic.skill_id)
+        .where(SkillStatistic.analysis_id == analysis.id)
+    )
+    
+    statistics = []
+    for stat, skill_name in statistics_result.all():
+        statistics.append(
+            SkillStatisticResponse(
+                skill_name=skill_name,
+                vacancy_count=stat.vacancy_count,
+                demand_percent=stat.demand_percent
+            )
+        )
+    return statistics
+    
