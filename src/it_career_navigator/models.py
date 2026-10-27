@@ -151,3 +151,22 @@ class SkillStatistic(Base):
             name="uq_skill_statistics_analysis_id_skill_id",
         ),
     )
+    
+class Roadmap(Base):
+    __tablename__ = "roadmaps"
+
+    id: Mapped[int] = mapped_column(primary_key=True, autoincrement=True)
+    analysis_id: Mapped[int] = mapped_column(ForeignKey("analyses.id", ondelete="CASCADE"))
+    created_at: Mapped[datetime | None] = mapped_column(
+        DateTime(timezone=True),
+        nullable=True,
+    )
+
+class RoadmapItem(Base):
+    __tablename__ = "roadmap_items"
+
+    id: Mapped[int] = mapped_column(primary_key=True, autoincrement=True)
+    roadmap_id: Mapped[int] = mapped_column(ForeignKey("roadmaps.id", ondelete="CASCADE"))
+    skill_id: Mapped[int] = mapped_column(ForeignKey("skills.id", ondelete="CASCADE"))
+    priority: Mapped[float] = mapped_column()
+    is_completed: Mapped[bool] = mapped_column(default=False)

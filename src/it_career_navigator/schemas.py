@@ -175,3 +175,10 @@ class SkillStatisticResponse(BaseModel):
     demand_percent: float
 
     model_config = ConfigDict(from_attributes=True)
+
+class RoadmapResponse(BaseModel):
+    id: int
+    analysis_id: int
+    created_at: datetime | None = None
+
+    model_config = ConfigDict(from_attributes=True)

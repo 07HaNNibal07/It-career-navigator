@@ -293,3 +293,43 @@ async def test_get_analysis_statistics_with_token(client):
         assert "skill_name" in stat
         assert "vacancy_count" in stat
         assert "demand_percent" in stat
+
+
+@pytest.mark.anyio
+async def test_build_roadmap_with_token(client):
+    direction_response = await client.post(
+        "/internal/create_directions",
+        json={"name": "Python Backend"},
+        headers={"X-Internal-API-Key": "test-internal-key"},
+    )
+    assert direction_response.status_code == 200
+
+    headers = await create_authenticated_headers(client)
+
+    create_response = await client.post(
+        "/users/create_analysis",
+        json={
+            "direction_id": direction_response.json()["id"],
+            "target_level": "Senior",
+        },
+        headers=headers,
+    )
+    assert create_response.status_code == 200
+
+    analysis_id = create_response.json()["id"]
+
+    run_response = await client.post(
+        "/users/run_analysis",
+        params={"analysis_id": analysis_id},
+        headers=headers,
+    )
+    assert run_response.status_code == 200
+    assert run_response.json()["status"] == "completed"
+    
+    roadmap_response = await client.post(
+        "/users/build_roadmap",
+        params={"analysis_id": analysis_id},
+        headers=headers,
+    )
+    assert roadmap_response.status_code == 200
+    assert roadmap_response.json()["analysis_id"] == analysis_id

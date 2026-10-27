@@ -2,7 +2,7 @@ from datetime import UTC, datetime
 
 from fastapi import APIRouter,Depends, HTTPException, status
 from fastapi import APIRouter, Depends, HTTPException, status
-from it_career_navigator.schemas import SkillStatisticResponse, UserResponse, UserCreate, UserUpdate, UserTargetUpdate, SkillResponse, SkillCreate, AnalysisCreate, AnalysisResponse
+from it_career_navigator.schemas import RoadmapResponse, SkillStatisticResponse, UserResponse, UserCreate, UserUpdate, UserTargetUpdate, SkillResponse, SkillCreate, AnalysisCreate, AnalysisResponse
 from it_career_navigator.auth import oauth2_scheme
 from fastapi.security import OAuth2PasswordRequestForm
 from it_career_navigator.models import SkillStatistic, User, Skill, UserSkill, Analysis
@@ -422,4 +422,22 @@ async def analysis_statistics(
             )
         )
     return statistics
-    
+
+
+@router.post("/build_roadmap", response_model=RoadmapResponse)
+async def build_roadmap_endpoint(
+    analysis_id: int,
+    current_user: CurrentUser,
+    db: Get_DB,
+):
+    from it_career_navigator.services.roadmap import build_roadmap
+    roadmap = await build_roadmap(
+        analysis_id=analysis_id,
+        current_user_id=current_user["id"],
+        db=db,
+    )
+    return RoadmapResponse(
+        id=roadmap.id,
+        analysis_id=roadmap.analysis_id,
+        created_at=roadmap.created_at
+    )
