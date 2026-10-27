@@ -4,7 +4,21 @@ from it_career_navigator.database import Get_DB
 from it_career_navigator.models import SkillAlias, User, Skill, UserSkill, Direction, Vacancy, VacancyRequirement
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy import select, and_
-from it_career_navigator.schemas import SkillAliasResponse, SkillAliasCreate, SkillCreate, SkillResponse, DirectionCreate, DirectionResponse, VacancyCreate, VacancyResponse, VacancyRequirementCreate, VacancyRequirementResponse
+from it_career_navigator.schemas import (
+    DirectionCreate,
+    DirectionResponse,
+    ImportResult,
+    SkillAliasCreate,
+    SkillAliasResponse,
+    SkillCreate,
+    SkillResponse,
+    VacancyCreate,
+    VacancyImportItem,
+    VacancyRequirementCreate,
+    VacancyRequirementResponse,
+    VacancyResponse,
+)
+from it_career_navigator.services.importer import import_vacancies
 
 router = APIRouter(tags=["internal"], prefix="/internal")
 
@@ -182,3 +196,11 @@ async def create_skill_alias(
     await db.commit()
     await db.refresh(new_skill_alias)
     return new_skill_alias
+
+@router.post("/import_vacancies", response_model=ImportResult)
+async def import_vacancies_endpoint(
+    items: list[VacancyImportItem],
+    db: Get_DB,
+    _: InternalAPIKey,
+):
+    return await import_vacancies(items, db)

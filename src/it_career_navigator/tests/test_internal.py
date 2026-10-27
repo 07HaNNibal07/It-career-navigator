@@ -189,3 +189,54 @@ async def test_create_skill_alias_with_valid_key(client):
     assert response.status_code == 200
     assert response.json()["alias"] == "Py"
     assert response.json()["skill_id"] == skill_response.json()["id"]
+    
+    
+@pytest.mark.anyio
+async def test_import_vacancies_without_key(client):
+    response = await client.post(
+        "/internal/import_vacancies",
+        json=[],
+    )
+
+    assert response.status_code == 401
+    assert response.json()["detail"] == "Invalid internal API key"
+
+
+@pytest.mark.anyio
+async def test_import_vacancies_with_valid_key(client):
+    direction_response = await client.post(
+        "/internal/create_directions",
+        json={"name": "Import Python Backend"},
+        headers=VALID_HEADERS,
+    )
+    assert direction_response.status_code == 200
+
+    vacancies = [
+        {
+            "source": "test_import",
+            "external_id": "import-001",
+            "title": "Junior Python Developer",
+            "company": "Test Company",
+            "url": "https://example.com/import-001",
+            "description": "Python and Docker",
+            "direction_name": "Import Python Backend",
+            "level": "junior",
+            "published_at": "2024-06-01T12:00:00Z",
+            "requirements": [
+                {"name": "Python", "is_required": True},
+                {"name": "Docker", "is_required": False},
+            ],
+        }
+    ]
+
+    response = await client.post(
+        "/internal/import_vacancies",
+        json=vacancies,
+        headers=VALID_HEADERS,
+    )
+
+    assert response.status_code == 200
+    assert response.json()["created_vacancies"] == 1
+    assert response.json()["created_requirements"] == 2
+    assert response.json()["skipped_duplicates"] == 0
+    assert response.json()["errors"] == []
