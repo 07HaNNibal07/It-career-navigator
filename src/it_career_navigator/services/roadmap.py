@@ -17,6 +17,7 @@ async def build_roadmap(
     current_user_id: int,
     db: AsyncSession,
 ) -> Roadmap:
+    
     analysis_result = await db.execute(
         select(Analysis).where(
             Analysis.id == analysis_id,
@@ -42,6 +43,7 @@ async def build_roadmap(
             UserSkill.user_id == analysis.user_id
         )
     )
+    
     user_skill_ids = set(
         user_skills_result.scalars().all()
     )

@@ -38,7 +38,15 @@ class UserSkill(Base):
     skill_id: Mapped[int] = mapped_column(ForeignKey("skills.id", ondelete="CASCADE"))
     user: Mapped["User"] = relationship(back_populates="skills")
     skill: Mapped["Skill"] = relationship(back_populates="users")
+    proficiency_level: Mapped[str | None] = mapped_column(String(30), nullable=True)
 
+    __table_args__ = (
+    UniqueConstraint(
+        "user_id",
+        "skill_id",
+        name="uq_user_skills_user_id_skill_id",
+    ),
+)
 
 class Direction(Base):
     __tablename__ = "directions"
