@@ -1,6 +1,8 @@
 import pytest
 import json
 
+from it_career_navigator.config import settings
+
 
 URL = "/internal/create_skills"
 VALID_HEADERS = {
@@ -342,7 +344,11 @@ async def test_import_csv_vacancies_file_with_valid_key(client):
 
 
 @pytest.mark.anyio
-async def test_extract_vacancy_requirements_with_fallback(client):
+async def test_extract_vacancy_requirements_with_fallback(client, monkeypatch):
+    monkeypatch.setattr(settings, "llm_base_url", None)
+    monkeypatch.setattr(settings, "llm_api_key", None)
+    monkeypatch.setattr(settings, "llm_model", None)
+
     vacancy_response = await client.post(
         VACANCY_URL,
         json={

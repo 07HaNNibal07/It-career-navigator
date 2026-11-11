@@ -2,6 +2,7 @@ import pytest
 from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
 
+from it_career_navigator.config import settings
 from it_career_navigator.models import Vacancy, VacancyRequirement
 from it_career_navigator.services.extractor import extract_vacancy_requirements
 
@@ -9,7 +10,12 @@ from it_career_navigator.services.extractor import extract_vacancy_requirements
 @pytest.mark.anyio
 async def test_fallback_extracts_and_saves_requirements(
     db_session: AsyncSession,
+    monkeypatch,
 ):
+    monkeypatch.setattr(settings, "llm_base_url", None)
+    monkeypatch.setattr(settings, "llm_api_key", None)
+    monkeypatch.setattr(settings, "llm_model", None)
+
     vacancy = Vacancy(
         source="extractor-test",
         external_id="fallback-001",

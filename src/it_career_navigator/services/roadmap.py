@@ -1,3 +1,5 @@
+from datetime import UTC, datetime
+
 from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
 from fastapi import HTTPException, status
@@ -37,6 +39,13 @@ async def build_roadmap(
             status_code=status.HTTP_400_BAD_REQUEST,
             detail="Analysis is not completed",
         )
+
+    existing_roadmap_result = await db.execute(
+        select(Roadmap).where(Roadmap.analysis_id == analysis.id)
+    )
+    existing_roadmap = existing_roadmap_result.scalar_one_or_none()
+    if existing_roadmap is not None:
+        return existing_roadmap
     
     user_skills_result = await db.execute(
         select(UserSkill.skill_id).where(
@@ -55,7 +64,10 @@ async def build_roadmap(
     )
     statistics = statistics_result.scalars().all()
     
-    roadmap = Roadmap(analysis_id=analysis.id)
+    roadmap = Roadmap(
+        analysis_id=analysis.id,
+        created_at=datetime.now(UTC),
+    )
     db.add(roadmap)
     await db.flush()  # Ensure roadmap.id is populated
 

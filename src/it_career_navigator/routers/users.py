@@ -2,10 +2,10 @@ from datetime import UTC, datetime
 
 from fastapi import APIRouter,Depends, HTTPException, status
 from fastapi import APIRouter, Depends, HTTPException, status
-from it_career_navigator.schemas import RoadmapResponse, SkillStatisticResponse, UserSkillCreate, UserSkillLevelUpdate, UserSkillResponse, UserResponse, UserCreate, UserUpdate, UserTargetUpdate, SkillResponse, SkillCreate, AnalysisCreate, AnalysisResponse
+from it_career_navigator.schemas import AnalysisCreate, AnalysisResponse, RoadmapDetailsResponse, RoadmapItemResponse, RoadmapItemUpdate, RoadmapResponse, SkillCreate, SkillResponse, SkillStatisticResponse, UserCreate, UserResponse, UserSkillCreate, UserSkillLevelUpdate, UserSkillResponse, UserTargetUpdate, UserUpdate
 from it_career_navigator.auth import oauth2_scheme
 from fastapi.security import OAuth2PasswordRequestForm
-from it_career_navigator.models import SkillStatistic, User, Skill, UserSkill, Analysis
+from it_career_navigator.models import Analysis, Roadmap, RoadmapItem, Skill, SkillStatistic, User, UserSkill
 from it_career_navigator.database import Get_DB
 from sqlalchemy.ext.asyncio import AsyncSession
 from typing import Annotated, List
@@ -464,4 +464,92 @@ async def build_roadmap_endpoint(
         id=roadmap.id,
         analysis_id=roadmap.analysis_id,
         created_at=roadmap.created_at
+    )
+
+
+@router.get("/roadmaps/{roadmap_id}", response_model=RoadmapDetailsResponse)
+async def get_roadmap(
+    roadmap_id: int,
+    current_user: CurrentUser,
+    db: Get_DB,
+):
+    roadmap_result = await db.execute(
+        select(Roadmap)
+        .join(Analysis, Analysis.id == Roadmap.analysis_id)
+        .where(
+            Roadmap.id == roadmap_id,
+            Analysis.user_id == current_user["id"],
+        )
+    )
+    roadmap = roadmap_result.scalar_one_or_none()
+
+    if roadmap is None:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail="Roadmap not found",
+        )
+
+    items_result = await db.execute(
+        select(RoadmapItem, Skill.name)
+        .join(Skill, Skill.id == RoadmapItem.skill_id)
+        .where(RoadmapItem.roadmap_id == roadmap.id)
+        .order_by(RoadmapItem.priority.desc())
+    )
+    items = [
+        RoadmapItemResponse(
+            id=item.id,
+            skill_id=item.skill_id,
+            skill_name=skill_name,
+            priority=item.priority,
+            is_completed=item.is_completed,
+        )
+        for item, skill_name in items_result.all()
+    ]
+
+    return RoadmapDetailsResponse(
+        id=roadmap.id,
+        analysis_id=roadmap.analysis_id,
+        created_at=roadmap.created_at,
+        items=items,
+    )
+
+
+@router.patch(
+    "/roadmap_items/{roadmap_item_id}",
+    response_model=RoadmapItemResponse,
+)
+async def update_roadmap_item(
+    roadmap_item_id: int,
+    item_update: RoadmapItemUpdate,
+    current_user: CurrentUser,
+    db: Get_DB,
+):
+    item_result = await db.execute(
+        select(RoadmapItem, Skill.name)
+        .join(Roadmap, Roadmap.id == RoadmapItem.roadmap_id)
+        .join(Analysis, Analysis.id == Roadmap.analysis_id)
+        .join(Skill, Skill.id == RoadmapItem.skill_id)
+        .where(
+            RoadmapItem.id == roadmap_item_id,
+            Analysis.user_id == current_user["id"],
+        )
+    )
+    row = item_result.one_or_none()
+
+    if row is None:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail="Roadmap item not found",
+        )
+
+    item, skill_name = row
+    item.is_completed = item_update.is_completed
+    await db.commit()
+
+    return RoadmapItemResponse(
+        id=item.id,
+        skill_id=item.skill_id,
+        skill_name=skill_name,
+        priority=item.priority,
+        is_completed=item.is_completed,
     )

@@ -66,3 +66,10 @@ async def test_build_roadmap(db_session: AsyncSession):
     assert python_skill.id not in {
         item.skill_id for item in items
     }
+
+    repeated_roadmap = await build_roadmap(
+        analysis_id=analysis.id,
+        current_user_id=user.id,
+        db=db_session,
+    )
+    assert repeated_roadmap.id == roadmap.id

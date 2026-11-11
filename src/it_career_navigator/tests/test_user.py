@@ -380,3 +380,96 @@ async def test_build_roadmap_with_token(client):
     )
     assert roadmap_response.status_code == 200
     assert roadmap_response.json()["analysis_id"] == analysis_id
+
+
+@pytest.mark.anyio
+async def test_view_and_complete_roadmap_item_with_token(client):
+    internal_headers = {"X-Internal-API-Key": "test-internal-key"}
+    direction_response = await client.post(
+        "/internal/create_directions",
+        json={"name": "Roadmap Python Backend"},
+        headers=internal_headers,
+    )
+    assert direction_response.status_code == 200
+    direction_id = direction_response.json()["id"]
+
+    docker_response = await client.post(
+        "/internal/create_skills",
+        json={"name": "Roadmap Docker"},
+        headers=internal_headers,
+    )
+    assert docker_response.status_code == 200
+
+    vacancy_response = await client.post(
+        "/internal/create_vacancy",
+        json={
+            "source": "roadmap-api-test",
+            "external_id": "roadmap-001",
+            "title": "Python Developer",
+            "description": "Docker is required",
+            "direction_id": direction_id,
+        },
+        headers=internal_headers,
+    )
+    assert vacancy_response.status_code == 200
+
+    requirement_response = await client.post(
+        "/internal/create_vacancy_requirement",
+        json={
+            "vacancy_id": vacancy_response.json()["id"],
+            "skill_id": docker_response.json()["id"],
+            "is_required": True,
+        },
+        headers=internal_headers,
+    )
+    assert requirement_response.status_code == 200
+
+    headers = await create_authenticated_headers(client)
+    analysis_response = await client.post(
+        "/users/create_analysis",
+        json={"direction_id": direction_id},
+        headers=headers,
+    )
+    assert analysis_response.status_code == 200
+    analysis_id = analysis_response.json()["id"]
+
+    run_response = await client.post(
+        "/users/run_analysis",
+        params={"analysis_id": analysis_id},
+        headers=headers,
+    )
+    assert run_response.status_code == 200
+
+    build_response = await client.post(
+        "/users/build_roadmap",
+        params={"analysis_id": analysis_id},
+        headers=headers,
+    )
+    assert build_response.status_code == 200
+    roadmap_id = build_response.json()["id"]
+
+    roadmap_response = await client.get(
+        f"/users/roadmaps/{roadmap_id}",
+        headers=headers,
+    )
+    assert roadmap_response.status_code == 200
+    assert len(roadmap_response.json()["items"]) == 1
+    roadmap_item = roadmap_response.json()["items"][0]
+    assert roadmap_item["skill_name"] == "Roadmap Docker"
+    assert roadmap_item["is_completed"] is False
+
+    update_response = await client.patch(
+        f"/users/roadmap_items/{roadmap_item['id']}",
+        json={"is_completed": True},
+        headers=headers,
+    )
+    assert update_response.status_code == 200
+    assert update_response.json()["is_completed"] is True
+
+    repeated_build_response = await client.post(
+        "/users/build_roadmap",
+        params={"analysis_id": analysis_id},
+        headers=headers,
+    )
+    assert repeated_build_response.status_code == 200
+    assert repeated_build_response.json()["id"] == roadmap_id

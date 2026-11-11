@@ -214,3 +214,19 @@ class RoadmapResponse(BaseModel):
     created_at: datetime | None = None
 
     model_config = ConfigDict(from_attributes=True)
+
+
+class RoadmapItemResponse(BaseModel):
+    id: int
+    skill_id: int
+    skill_name: str
+    priority: float
+    is_completed: bool
+
+
+class RoadmapDetailsResponse(RoadmapResponse):
+    items: list[RoadmapItemResponse]
+
+
+class RoadmapItemUpdate(BaseModel):
+    is_completed: bool

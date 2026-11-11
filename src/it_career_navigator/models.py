@@ -171,6 +171,13 @@ class Roadmap(Base):
         nullable=True,
     )
 
+    __table_args__ = (
+        UniqueConstraint(
+            "analysis_id",
+            name="uq_roadmaps_analysis_id",
+        ),
+    )
+
 class RoadmapItem(Base):
     __tablename__ = "roadmap_items"
 
@@ -179,3 +186,11 @@ class RoadmapItem(Base):
     skill_id: Mapped[int] = mapped_column(ForeignKey("skills.id", ondelete="CASCADE"))
     priority: Mapped[float] = mapped_column()
     is_completed: Mapped[bool] = mapped_column(default=False)
+
+    __table_args__ = (
+        UniqueConstraint(
+            "roadmap_id",
+            "skill_id",
+            name="uq_roadmap_items_roadmap_id_skill_id",
+        ),
+    )
