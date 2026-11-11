@@ -33,15 +33,24 @@ class SkillBase(BaseModel):
     name: str = Field(..., max_length=50)
 
 class SkillCreate(SkillBase):
-    pass
+    proficiency_level: str | None = Field(
+        None,
+        max_length=30,
+    )
 
 class SkillResponse(SkillBase):
     id: int
     model_config = ConfigDict(from_attributes=True)
 
+
+class UserSkillResponse(BaseModel):
+    id: int
+    name: str
+    proficiency_level: str | None = None
+
 class UserResponse(BaseUser):
     id: int
-    skills: list[SkillResponse] = []
+    skills: list[UserSkillResponse] = []
     target_level: str | None = None
     direction_id: int | None = None
     model_config = ConfigDict(from_attributes=True)

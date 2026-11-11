@@ -2,7 +2,7 @@ from datetime import UTC, datetime
 
 from fastapi import APIRouter,Depends, HTTPException, status
 from fastapi import APIRouter, Depends, HTTPException, status
-from it_career_navigator.schemas import RoadmapResponse, SkillStatisticResponse, UserResponse, UserCreate, UserUpdate, UserTargetUpdate, SkillResponse, SkillCreate, AnalysisCreate, AnalysisResponse
+from it_career_navigator.schemas import RoadmapResponse, SkillStatisticResponse, UserSkillResponse, UserResponse, UserCreate, UserUpdate, UserTargetUpdate, SkillResponse, SkillCreate, AnalysisCreate, AnalysisResponse
 from it_career_navigator.auth import oauth2_scheme
 from fastapi.security import OAuth2PasswordRequestForm
 from it_career_navigator.models import SkillStatistic, User, Skill, UserSkill, Analysis
@@ -156,9 +156,13 @@ async def update_user(
         age=user.age,
         phone=user.phone,
         skills=[
-            SkillResponse.model_validate(person_skill.skill)
-            for person_skill in user.skills
-        ],
+    UserSkillResponse(
+        id=person_skill.skill.id,
+        name=person_skill.skill.name,
+        proficiency_level=person_skill.proficiency_level,
+    )
+    for person_skill in user.skills
+]
     )
 
 @router.delete("/delete_user")
@@ -208,7 +212,7 @@ async def add_skills(
             await db.commit()
             await db.refresh(db_skill)
 
-        user_skill = UserSkill(user_id=user.id, skill_id=db_skill.id)
+        user_skill = UserSkill(user_id=user.id, skill_id=db_skill.id, proficiency_level=skill.proficiency_level)
         db.add(user_skill)
 
     await db.commit()
@@ -224,7 +228,11 @@ async def add_skills(
         age=user.age,
         phone=user.phone,
         skills=[
-            SkillResponse.model_validate(person_skill.skill)
+            UserSkillResponse(
+                id=person_skill.skill.id,
+                name=person_skill.skill.name,
+                proficiency_level=person_skill.proficiency_level,
+            )
             for person_skill in user.skills
         ],
 )
@@ -271,7 +279,11 @@ async def delete_skills(
         age=user.age,
         phone=user.phone,
         skills=[
-            SkillResponse.model_validate(person_skill.skill)
+            UserSkillResponse(
+                id=person_skill.skill.id,
+                name=person_skill.skill.name,
+                proficiency_level=person_skill.proficiency_level,
+            )
             for person_skill in user.skills
         ],
     )
@@ -321,7 +333,11 @@ async def update_target(
         age=user.age,
         phone=user.phone,
         skills=[
-            SkillResponse.model_validate(person_skill.skill)
+            UserSkillResponse(
+                id=person_skill.skill.id,
+                name=person_skill.skill.name,
+                proficiency_level=person_skill.proficiency_level,
+            )
             for person_skill in user.skills
         ],
         target_level=user.target_level,
@@ -375,7 +391,7 @@ async def run_analysis_endpoint(
         )
 
     from it_career_navigator.services.analysis import run_analysis
-    statistics = await run_analysis(analysis.id, current_user["id"], db)
+    await run_analysis(analysis.id, current_user["id"], db)
 
     await db.refresh(analysis)
     return AnalysisResponse(
