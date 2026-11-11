@@ -1,29 +1,105 @@
 {% extends "base.html" %}
-{% block title %}Профиль{% endblock %}
+{% block title %}Профиль · IT Career Navigator{% endblock %}
 {% block content %}
-<div class="page-heading"><div><p class="eyebrow">Профиль</p><h1>{{ user.name }} {{ user.surname }}</h1><p>{{ user.email }}</p></div><a class="button" href="/analyses">К анализам</a></div>
-<div class="grid two">
-  <section class="card">
-    <h2>Цель</h2>
-    <form action="/profile/target" method="post">
-      <label>Направление<select name="direction_id" required>{% for direction in directions %}<option value="{{ direction.id }}" {% if user.direction_id == direction.id %}selected{% endif %}>{{ direction.name }}</option>{% endfor %}</select></label>
-      <label>Целевой уровень<select name="target_level" required>{% for level in ['Junior', 'Middle', 'Senior'] %}<option {% if user.target_level == level %}selected{% endif %}>{{ level }}</option>{% endfor %}</select></label>
-      <button class="button" type="submit">Сохранить цель</button>
-    </form>
-  </section>
-  <section class="card">
-    <h2>Добавить навык</h2>
-    <form action="/profile/skills" method="post">
-      <label>Название<input name="name" placeholder="Например, Docker" required maxlength="50"></label>
-      <label>Уровень<select name="proficiency_level">{% for level in ['beginner', 'intermediate', 'advanced'] %}<option value="{{ level }}">{{ level }}</option>{% endfor %}</select></label>
-      <button class="button" type="submit">Добавить</button>
-    </form>
-  </section>
+<div class="profile-page">
+  <aside class="profile-sidebar glass-panel">
+    <div class="profile-avatar" aria-label="Аватар пользователя">{{ user.name[:1] }}{{ user.surname[:1] }}</div>
+    <nav class="profile-side-nav" aria-label="Навигация по профилю">
+      <a class="active" href="#profile-top"><span>♙</span>Профиль</a>
+      <a href="#my-skills"><span>▱</span>Мои навыки</a>
+      <a href="#goal"><span>◎</span>Цели</a>
+      <a href="#settings"><span>⚙</span>Настройки</a>
+    </nav>
+  </aside>
+
+  <div class="profile-main">
+    <section class="profile-heading" id="profile-top">
+      <div>
+        <p class="profile-eyebrow">Профиль</p>
+        <h1>{{ user.name }} {{ user.surname }}</h1>
+        <p class="profile-email"><span>✉</span>{{ user.email }}</p>
+      </div>
+      <a class="profile-button" href="/analyses"><span>▥</span>К анализам <span class="arrow">→</span></a>
+    </section>
+
+    <section class="profile-summary" aria-label="Краткая информация">
+      <article class="summary-card glass-panel"><span class="summary-icon">‹/›</span><div><p>Навыков</p><strong>{{ user.skills|length }}</strong></div></article>
+      <article class="summary-card glass-panel"><span class="summary-icon">▱</span><div><p>Анализов</p><strong>{{ analysis_count }}</strong></div></article>
+      <article class="summary-card summary-goal glass-panel"><span class="summary-icon">◎</span><div class="summary-goal-copy"><p>Текущая цель</p><strong>{% if user.direction %}{{ user.direction.name }}{% else %}Направление не выбрано{% endif %}{% if user.target_level %} · {{ user.target_level }}{% endif %}</strong></div><img class="summary-manul" src="{{ url_for('static', path='manul.png') }}" alt="Суровый пушистый манул"></article>
+    </section>
+
+    <section class="profile-forms">
+      <article class="profile-card glass-panel" id="goal">
+        <div class="card-title"><span class="summary-icon">◎</span><div><h2>Цель</h2><p>Определи направление и уровень, чтобы получать актуальные рекомендации</p></div></div>
+        <form action="/profile/target" method="post" class="profile-form">
+          <label>Направление<select name="direction_id" required>{% for direction in directions %}<option value="{{ direction.id }}" {% if user.direction_id == direction.id %}selected{% endif %}>{{ direction.name }}</option>{% endfor %}</select></label>
+          <label>Целевой уровень<select name="target_level" required>{% for level in ['Junior', 'Middle', 'Senior'] %}<option {% if user.target_level == level %}selected{% endif %}>{{ level }}</option>{% endfor %}</select></label>
+          <button class="profile-button full-button" type="submit">✓ &nbsp; Сохранить цель</button>
+        </form>
+      </article>
+
+      <article class="profile-card glass-panel" id="settings">
+        <div class="card-title"><span class="summary-icon">▱</span><div><h2>Добавить навык</h2><p>Расширь свой список навыков</p></div></div>
+        <form action="/profile/skills" method="post" class="profile-form">
+          <label>Название<div class="skill-autocomplete"><input id="skill-name" name="name" placeholder="Например, Docker" required maxlength="50" autocomplete="off"><div id="skill-suggestions" class="skill-suggestions" hidden></div></div></label>
+          <label>Уровень<select name="proficiency_level">{% for level in ['beginner', 'intermediate', 'advanced'] %}<option value="{{ level }}">{{ level }}</option>{% endfor %}</select></label>
+          <button class="profile-button full-button" type="submit">＋ &nbsp; Добавить</button>
+        </form>
+      </article>
+    </section>
+
+    <section class="skills-panel glass-panel" id="my-skills">
+      <div class="skills-heading"><div class="card-title"><span class="summary-icon">‹/›</span><h2>Мои навыки</h2></div><input id="skills-filter" class="skills-filter" type="search" placeholder="⌕  Найти навык..." aria-label="Найти навык"></div>
+      {% if user.skills %}
+        <div class="skills-list profile-skills-list">{% for user_skill in user.skills %}
+          {% set progress = {'beginner': 25, 'intermediate': 60, 'advanced': 85, 'expert': 100}.get(user_skill.proficiency_level, 25) %}
+          <div class="profile-skill-row" data-skill-name="{{ user_skill.skill.name|lower }}">
+            <span class="skill-mark" aria-hidden="true">{% if user_skill.skill.name|lower == 'python' %}🐍{% elif user_skill.skill.name|lower == 'docker' %}🐳{% elif user_skill.skill.name|lower == 'postgresql' %}🐘{% elif user_skill.skill.name|lower == 'fastapi' %}ϟ{% else %}✦{% endif %}</span>
+            <strong class="skill-name">{{ user_skill.skill.name }}</strong>
+            <form class="skill-level-form" action="/profile/skills/{{ user_skill.skill_id }}/level" method="post"><select name="proficiency_level" aria-label="Уровень навыка {{ user_skill.skill.name }}">{% for level in ['beginner', 'intermediate', 'advanced'] %}<option value="{{ level }}" {% if user_skill.proficiency_level == level %}selected{% endif %}>{{ level }}</option>{% endfor %}</select><button class="skill-edit" type="submit">✎ &nbsp; Изменить</button></form>
+            <div class="skill-progress" aria-label="Уровень: {{ progress }} процентов"><span style="width: {{ progress }}%"></span></div><span class="skill-percent">{{ progress }}%</span>
+            <form class="skill-delete-form" action="/profile/skills/{{ user_skill.skill_id }}/delete" method="post"><button class="skill-delete" type="submit">♜ &nbsp; Удалить</button></form>
+          </div>
+        {% endfor %}</div>
+        <p class="empty-filter" id="empty-filter" hidden>Навык не найден.</p>
+      {% else %}<p class="empty-skills">Навыков пока нет. Добавь первый выше.</p>{% endif %}
+    </section>
+  </div>
 </div>
-<section class="card">
-  <h2>Мои навыки</h2>
-  {% if user.skills %}
-    <div class="skills-list">{% for user_skill in user.skills %}<div class="skill-row"><strong>{{ user_skill.skill.name }}</strong><form class="inline" action="/profile/skills/{{ user_skill.skill_id }}/level" method="post"><select name="proficiency_level">{% for level in ['beginner', 'intermediate', 'advanced'] %}<option value="{{ level }}" {% if user_skill.proficiency_level == level %}selected{% endif %}>{{ level }}</option>{% endfor %}</select><button class="secondary" type="submit">Изменить</button></form><form class="inline" action="/profile/skills/{{ user_skill.skill_id }}/delete" method="post"><button class="danger" type="submit">Удалить</button></form></div>{% endfor %}</div>
-  {% else %}<p>Навыков пока нет. Добавь первый выше.</p>{% endif %}
-</section>
+{% endblock %}
+{% block scripts %}
+<script>
+  const skillInput = document.querySelector("#skill-name");
+  const suggestions = document.querySelector("#skill-suggestions");
+  const autocomplete = document.querySelector(".skill-autocomplete");
+  let latestRequest = 0;
+  function hideSuggestions() { suggestions.replaceChildren(); suggestions.hidden = true; }
+  function addSuggestion(name) {
+    const button = document.createElement("button");
+    button.type = "button"; button.className = "skill-suggestion"; button.textContent = name;
+    button.addEventListener("click", () => { skillInput.value = name; hideSuggestions(); skillInput.focus(); });
+    suggestions.append(button);
+  }
+  skillInput.addEventListener("input", async () => {
+    const query = skillInput.value.trim(); const requestId = ++latestRequest;
+    if (!query) { hideSuggestions(); return; }
+    const response = await fetch(`/profile/skills/search?query=${encodeURIComponent(query)}`);
+    if (requestId !== latestRequest || !response.ok) return;
+    const skills = await response.json(); if (requestId !== latestRequest) return;
+    suggestions.replaceChildren();
+    if (skills.length) skills.forEach((skill) => addSuggestion(skill.name));
+    else { const message = document.createElement("p"); message.className = "no-skill-suggestions"; message.textContent = "Совпадений нет — можно добавить новый навык."; suggestions.append(message); }
+    suggestions.hidden = false;
+  });
+  document.addEventListener("click", (event) => { if (!autocomplete.contains(event.target)) hideSuggestions(); });
+
+  const filter = document.querySelector("#skills-filter");
+  if (filter) filter.addEventListener("input", () => {
+    const query = filter.value.trim().toLocaleLowerCase(); let visible = 0;
+    document.querySelectorAll(".profile-skill-row").forEach((row) => {
+      const match = row.dataset.skillName.includes(query); row.hidden = !match; if (match) visible += 1;
+    });
+    const empty = document.querySelector("#empty-filter"); if (empty) empty.hidden = visible !== 0;
+  });
+</script>
 {% endblock %}

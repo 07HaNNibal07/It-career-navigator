@@ -151,7 +151,15 @@ class SkillStatistic(Base):
     )
 
     vacancy_count: Mapped[int] = mapped_column()
+    required_vacancy_count: Mapped[int] = mapped_column(
+        default=0,
+        server_default="0",
+    )
     demand_percent: Mapped[float] = mapped_column()
+    priority_score: Mapped[float] = mapped_column(
+        default=0,
+        server_default="0",
+    )
 
     __table_args__ = (
         UniqueConstraint(

@@ -1,5 +1,5 @@
 from fastapi import HTTPException, status
-from sqlalchemy import func, select
+from sqlalchemy import case, func, select
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from it_career_navigator.models import (
@@ -62,6 +62,16 @@ async def run_analysis(
             func.count(
                 func.distinct(VacancyRequirement.vacancy_id)
             ),
+            func.count(
+                func.distinct(
+                    case(
+                        (
+                            VacancyRequirement.is_required.is_(True),
+                            VacancyRequirement.vacancy_id,
+                        )
+                    )
+                )
+            ),
         )
         .where(VacancyRequirement.vacancy_id.in_(vacancy_ids))
         .group_by(VacancyRequirement.skill_id)
@@ -69,13 +79,20 @@ async def run_analysis(
 
     statistics = []
 
-    for skill_id, vacancy_count in statistics_result.all():
+    for skill_id, vacancy_count, required_vacancy_count in statistics_result.all():
         statistic = SkillStatistic(
             analysis_id=analysis.id,
             skill_id=skill_id,
             vacancy_count=vacancy_count,
+            required_vacancy_count=required_vacancy_count,
             demand_percent=round(
                 vacancy_count / total_vacancies * 100,
+                2,
+            ),
+            priority_score=round(
+                (vacancy_count + required_vacancy_count)
+                / total_vacancies
+                * 100,
                 2,
             ),
         )

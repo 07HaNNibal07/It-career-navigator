@@ -2,9 +2,9 @@ from datetime import UTC, datetime
 from pathlib import Path
 
 from fastapi import APIRouter, Form, HTTPException, Request
-from fastapi.responses import RedirectResponse
+from fastapi.responses import JSONResponse, RedirectResponse
 from fastapi.templating import Jinja2Templates
-from sqlalchemy import select
+from sqlalchemy import func, select
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy.orm import selectinload
 
@@ -150,10 +150,20 @@ async def profile(request: Request, db: Get_DB):
         return redirect("/login")
 
     directions = (await db.execute(select(Direction).order_by(Direction.name))).scalars().all()
+    analysis_count = (
+        await db.execute(
+            select(func.count(Analysis.id)).where(Analysis.user_id == user.id)
+        )
+    ).scalar_one()
     return templates.TemplateResponse(
         request,
         "profile.html",
-        page_context(request, user=user, directions=directions),
+        page_context(
+            request,
+            user=user,
+            directions=directions,
+            analysis_count=analysis_count,
+        ),
     )
 
 
@@ -216,6 +226,32 @@ async def add_skill(
 
     await db.commit()
     return redirect("/profile")
+
+
+@router.get("/profile/skills/search")
+async def search_skills(
+    request: Request,
+    db: Get_DB,
+    query: str = "",
+):
+    user = await require_user(request, db)
+    if user is None:
+        return JSONResponse(status_code=401, content=[])
+
+    search_text = query.strip()
+    if not search_text:
+        return []
+
+    skills = (
+        await db.execute(
+            select(Skill)
+            .where(Skill.name.ilike(f"{search_text}%"))
+            .order_by(Skill.name)
+            .limit(8)
+        )
+    ).scalars().all()
+
+    return [{"id": skill.id, "name": skill.name} for skill in skills]
 
 
 @router.post("/profile/skills/{skill_id}/level")
@@ -290,7 +326,7 @@ async def create_analysis_page(
     request: Request,
     db: Get_DB,
     direction_id: int = Form(),
-    target_level: str = Form(),
+    target_level: str | None = Form(None),
 ):
     user = await require_user(request, db)
     if user is None:
@@ -299,7 +335,7 @@ async def create_analysis_page(
     analysis = Analysis(
         user_id=user.id,
         direction_id=direction_id,
-        target_level=target_level or None,
+        target_level=target_level or user.target_level,
         status="queued",
         created_at=datetime.now(UTC),
     )

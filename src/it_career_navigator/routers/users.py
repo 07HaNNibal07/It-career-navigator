@@ -442,7 +442,9 @@ async def analysis_statistics(
             SkillStatisticResponse(
                 skill_name=skill_name,
                 vacancy_count=stat.vacancy_count,
-                demand_percent=stat.demand_percent
+                required_vacancy_count=stat.required_vacancy_count,
+                demand_percent=stat.demand_percent,
+                priority_score=stat.priority_score,
             )
         )
     return statistics

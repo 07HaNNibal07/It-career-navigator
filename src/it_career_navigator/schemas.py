@@ -204,7 +204,9 @@ class AnalysisResponse(BaseModel):
 class SkillStatisticResponse(BaseModel):
     skill_name: str = Field(..., max_length=100)
     vacancy_count: int
+    required_vacancy_count: int
     demand_percent: float
+    priority_score: float
 
     model_config = ConfigDict(from_attributes=True)
 

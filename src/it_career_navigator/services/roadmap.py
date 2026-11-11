@@ -78,7 +78,7 @@ async def build_roadmap(
         roadmap_item = RoadmapItem(
             roadmap_id=roadmap.id,
             skill_id=statistic.skill_id,
-            priority=statistic.demand_percent,
+            priority=statistic.priority_score,
         )
         db.add(roadmap_item)
         

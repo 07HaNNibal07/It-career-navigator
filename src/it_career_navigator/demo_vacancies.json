@@ -1,18 +1,105 @@
 [
   {
     "source": "demo_json",
-    "external_id": "backend-001",
+    "external_id": "backend-junior-001",
     "title": "Junior Python Backend Developer",
-    "company": "Demo Company",
-    "url": "https://example.com/jobs/1",
-    "description": "Python, FastAPI, PostgreSQL, Docker",
+    "company": "Northwind Labs",
+    "url": "https://example.com/jobs/backend-junior-001",
+    "description": "Разработка API на Python и FastAPI. Работа с PostgreSQL. Docker будет плюсом.",
     "direction_name": "Python Backend",
-    "level": "junior",
+    "level": "Junior",
+    "published_at": "2026-10-01T09:00:00Z",
     "requirements": [
       {"name": "Python", "is_required": true},
       {"name": "FastAPI", "is_required": true},
-      {"name": "Postgres", "is_required": true},
+      {"name": "PostgreSQL", "is_required": true},
       {"name": "Docker", "is_required": false}
+    ]
+  },
+  {
+    "source": "demo_json",
+    "external_id": "backend-junior-002",
+    "title": "Python Backend Intern / Junior",
+    "company": "CloudWorks",
+    "url": "https://example.com/jobs/backend-junior-002",
+    "description": "Поддержка REST API на Python. Нужны FastAPI и Git. Знание Docker и Redis будет преимуществом.",
+    "direction_name": "Python Backend",
+    "level": "Junior",
+    "published_at": "2026-10-03T09:00:00Z",
+    "requirements": [
+      {"name": "Python", "is_required": true},
+      {"name": "FastAPI", "is_required": true},
+      {"name": "Git", "is_required": true},
+      {"name": "Docker", "is_required": false},
+      {"name": "Redis", "is_required": false}
+    ]
+  },
+  {
+    "source": "demo_json",
+    "external_id": "backend-junior-003",
+    "title": "Junior Backend Engineer",
+    "company": "DataBridge",
+    "url": "https://example.com/jobs/backend-junior-003",
+    "description": "Сервисная разработка на Python, SQL и PostgreSQL. Docker обязателен.",
+    "direction_name": "Python Backend",
+    "level": "Junior",
+    "published_at": "2026-10-05T09:00:00Z",
+    "requirements": [
+      {"name": "Python", "is_required": true},
+      {"name": "SQL", "is_required": true},
+      {"name": "PostgreSQL", "is_required": true},
+      {"name": "Docker", "is_required": true}
+    ]
+  },
+  {
+    "source": "demo_json",
+    "external_id": "backend-junior-004",
+    "title": "Junior Python Developer",
+    "company": "BrightApps",
+    "url": "https://example.com/jobs/backend-junior-004",
+    "description": "Разработка внутренних сервисов на Python и FastAPI. Требуется Git. Знакомство с CI/CD приветствуется.",
+    "direction_name": "Python Backend",
+    "level": "Junior",
+    "published_at": "2026-10-07T09:00:00Z",
+    "requirements": [
+      {"name": "Python", "is_required": true},
+      {"name": "FastAPI", "is_required": true},
+      {"name": "Git", "is_required": true},
+      {"name": "CI/CD", "is_required": false}
+    ]
+  },
+  {
+    "source": "demo_json",
+    "external_id": "backend-junior-005",
+    "title": "Junior API Developer",
+    "company": "MarketHub",
+    "url": "https://example.com/jobs/backend-junior-005",
+    "description": "Поддержка API на Python и PostgreSQL. Docker и Redis используются в проекте.",
+    "direction_name": "Python Backend",
+    "level": "Junior",
+    "published_at": "2026-10-10T09:00:00Z",
+    "requirements": [
+      {"name": "Python", "is_required": true},
+      {"name": "PostgreSQL", "is_required": true},
+      {"name": "Docker", "is_required": true},
+      {"name": "Redis", "is_required": true}
+    ]
+  },
+  {
+    "source": "demo_json",
+    "external_id": "backend-junior-006",
+    "title": "Junior FastAPI Developer",
+    "company": "TechStart",
+    "url": "https://example.com/jobs/backend-junior-006",
+    "description": "Создание backend-части продукта на Python, FastAPI и PostgreSQL. SQL обязателен.",
+    "direction_name": "Python Backend",
+    "level": "Junior",
+    "published_at": "2026-10-12T09:00:00Z",
+    "requirements": [
+      {"name": "Python", "is_required": true},
+      {"name": "FastAPI", "is_required": true},
+      {"name": "PostgreSQL", "is_required": true},
+      {"name": "SQL", "is_required": true}
     ]
   }
 ]

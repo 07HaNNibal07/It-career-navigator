@@ -65,9 +65,13 @@ async def test_run_analysis(db_session: AsyncSession):
     
     python_statistic = next(stat for stat in statistics if stat.skill_id == python_skill.id)
     assert python_statistic.vacancy_count == 2
+    assert python_statistic.required_vacancy_count == 2
+    assert python_statistic.priority_score == 200.0
 
     docker_statistic = next(stat for stat in statistics if stat.skill_id == docker_skill.id)
     assert docker_statistic.vacancy_count == 1
+    assert docker_statistic.required_vacancy_count == 1
+    assert docker_statistic.priority_score == 100.0
     
     demand_percent = python_statistic.vacancy_count / len([first_vacancy, second_vacancy]) * 100
     assert demand_percent == 100.0

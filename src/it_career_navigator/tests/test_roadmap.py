@@ -31,13 +31,17 @@ async def test_build_roadmap(db_session: AsyncSession):
         analysis_id=analysis.id,
         skill_id=python_skill.id,
         vacancy_count=10,
+        required_vacancy_count=10,
         demand_percent=100.0,
+        priority_score=200.0,
     )
     docker_statistic = SkillStatistic(
         analysis_id=analysis.id,
         skill_id=docker_skill.id,
         vacancy_count=6,
+        required_vacancy_count=0,
         demand_percent=60.0,
+        priority_score=60.0,
     )
     db_session.add_all([
         python_statistic,
