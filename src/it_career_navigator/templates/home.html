@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title %}IT Career Navigator{% endblock %}
+{% block content %}
+<section class="hero">
+  <p class="eyebrow">IT Career Navigator</p>
+  <h1>Пойми, какие навыки нужны для следующего шага в IT.</h1>
+  <p>Добавь навыки, выбери направление, проанализируй вакансии и получи персональный roadmap.</p>
+  {% if user %}
+    <a class="button" href="/profile">Открыть профиль</a>
+  {% else %}
+    <a class="button" href="/register">Начать</a>
+  {% endif %}
+</section>
+{% endblock %}

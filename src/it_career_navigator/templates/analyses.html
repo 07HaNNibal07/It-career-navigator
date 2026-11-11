@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block title %}Анализы{% endblock %}
+{% block content %}
+<div class="page-heading"><div><p class="eyebrow">Рынок вакансий</p><h1>Анализы</h1></div></div>
+<div class="grid two">
+  <section class="card"><h2>Новый анализ</h2><form method="post"><label>Направление<select name="direction_id" required>{% for direction in directions %}<option value="{{ direction.id }}" {% if user.direction_id == direction.id %}selected{% endif %}>{{ direction.name }}</option>{% endfor %}</select></label><label>Уровень<select name="target_level"><option value="">Любой</option>{% for level in ['Junior', 'Middle', 'Senior'] %}<option value="{{ level }}" {% if user.target_level == level %}selected{% endif %}>{{ level }}</option>{% endfor %}</select></label><button class="button" type="submit">Создать анализ</button></form></section>
+  <section class="card"><h2>Как это работает</h2><ol><li>Создай анализ.</li><li>Запусти подсчёт по импортированным вакансиям.</li><li>Посмотри востребованные навыки и roadmap.</li></ol></section>
+</div>
+<section class="card"><h2>История</h2>{% if analyses %}<div class="list">{% for analysis in analyses %}<a class="list-row" href="/analyses/{{ analysis.id }}"><span>Анализ #{{ analysis.id }}</span><span>{{ analysis.target_level or 'Любой уровень' }}</span><span class="badge {{ analysis.status }}">{{ analysis.status }}</span></a>{% endfor %}</div>{% else %}<p>Анализов ещё нет.</p>{% endif %}</section>
+{% endblock %}

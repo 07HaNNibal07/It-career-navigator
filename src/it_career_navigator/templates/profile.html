@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block title %}Профиль{% endblock %}
+{% block content %}
+<div class="page-heading"><div><p class="eyebrow">Профиль</p><h1>{{ user.name }} {{ user.surname }}</h1><p>{{ user.email }}</p></div><a class="button" href="/analyses">К анализам</a></div>
+<div class="grid two">
+  <section class="card">
+    <h2>Цель</h2>
+    <form action="/profile/target" method="post">
+      <label>Направление<select name="direction_id" required>{% for direction in directions %}<option value="{{ direction.id }}" {% if user.direction_id == direction.id %}selected{% endif %}>{{ direction.name }}</option>{% endfor %}</select></label>
+      <label>Целевой уровень<select name="target_level" required>{% for level in ['Junior', 'Middle', 'Senior'] %}<option {% if user.target_level == level %}selected{% endif %}>{{ level }}</option>{% endfor %}</select></label>
+      <button class="button" type="submit">Сохранить цель</button>
+    </form>
+  </section>
+  <section class="card">
+    <h2>Добавить навык</h2>
+    <form action="/profile/skills" method="post">
+      <label>Название<input name="name" placeholder="Например, Docker" required maxlength="50"></label>
+      <label>Уровень<select name="proficiency_level">{% for level in ['beginner', 'intermediate', 'advanced'] %}<option value="{{ level }}">{{ level }}</option>{% endfor %}</select></label>
+      <button class="button" type="submit">Добавить</button>
+    </form>
+  </section>
+</div>
+<section class="card">
+  <h2>Мои навыки</h2>
+  {% if user.skills %}
+    <div class="skills-list">{% for user_skill in user.skills %}<div class="skill-row"><strong>{{ user_skill.skill.name }}</strong><form class="inline" action="/profile/skills/{{ user_skill.skill_id }}/level" method="post"><select name="proficiency_level">{% for level in ['beginner', 'intermediate', 'advanced'] %}<option value="{{ level }}" {% if user_skill.proficiency_level == level %}selected{% endif %}>{{ level }}</option>{% endfor %}</select><button class="secondary" type="submit">Изменить</button></form><form class="inline" action="/profile/skills/{{ user_skill.skill_id }}/delete" method="post"><button class="danger" type="submit">Удалить</button></form></div>{% endfor %}</div>
+  {% else %}<p>Навыков пока нет. Добавь первый выше.</p>{% endif %}
+</section>
+{% endblock %}

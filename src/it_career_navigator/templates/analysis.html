@@ -1,0 +1,6 @@
+{% extends "base.html" %}
+{% block title %}Анализ #{{ analysis.id }}{% endblock %}
+{% block content %}
+<div class="page-heading"><div><a href="/analyses">← Все анализы</a><h1>Анализ #{{ analysis.id }}</h1><p>Статус: <span class="badge {{ analysis.status }}">{{ analysis.status }}</span></p></div>{% if analysis.status == 'queued' %}<form action="/analyses/{{ analysis.id }}/run" method="post"><button class="button" type="submit">Запустить анализ</button></form>{% elif analysis.status == 'completed' and not roadmap %}<form action="/analyses/{{ analysis.id }}/roadmap" method="post"><button class="button" type="submit">Построить roadmap</button></form>{% elif roadmap %}<a class="button" href="/roadmaps/{{ roadmap.id }}">Открыть roadmap</a>{% endif %}</div>
+<section class="card"><h2>Статистика навыков</h2>{% if statistics %}<table><thead><tr><th>Навык</th><th>Вакансии</th><th>Спрос</th></tr></thead><tbody>{% for statistic, skill_name in statistics %}<tr><td>{{ skill_name }}</td><td>{{ statistic.vacancy_count }}</td><td>{{ statistic.demand_percent }}%</td></tr>{% endfor %}</tbody></table>{% elif analysis.status == 'completed' %}<p>Для выбранных условий вакансии не найдены.</p>{% else %}<p>Запусти анализ, чтобы увидеть статистику.</p>{% endif %}</section>
+{% endblock %}
