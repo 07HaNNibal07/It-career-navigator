@@ -18,10 +18,12 @@ from it_career_navigator.schemas import (
     VacancyImportItem,
     VacancyRequirementCreate,
     VacancyRequirementResponse,
+    VacancyRequirementsExtractionResponse,
     VacancyResponse,
 )
 from it_career_navigator.services.importer import import_vacancies
 from it_career_navigator.services.file_import import parse_vacancy_file
+from it_career_navigator.services.extractor import extract_vacancy_requirements
 
 router = APIRouter(tags=["internal"], prefix="/internal")
 
@@ -229,3 +231,21 @@ async def import_vacancies_file_endpoint(
     result = await import_vacancies(parsed_file.items, db)
     result.errors = [*parsed_file.errors, *result.errors]
     return result
+
+
+@router.post(
+    "/vacancies/{vacancy_id}/extract_requirements",
+    response_model=VacancyRequirementsExtractionResponse,
+)
+async def extract_vacancy_requirements_endpoint(
+    vacancy_id: int,
+    db: Get_DB,
+    _: InternalAPIKey,
+):
+    try:
+        return await extract_vacancy_requirements(vacancy_id, db)
+    except LookupError as error:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail=str(error),
+        ) from error

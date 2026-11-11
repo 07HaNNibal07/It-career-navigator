@@ -149,6 +149,18 @@ class RequirementImportItem(BaseModel):
 
     model_config = ConfigDict(from_attributes=True)
 
+
+class RequirementExtraction(BaseModel):
+    requirements: list[RequirementImportItem] = Field(default_factory=list)
+
+
+class VacancyRequirementsExtractionResponse(BaseModel):
+    vacancy_id: int
+    extraction_method: str
+    created_requirements: int
+    skipped_existing: int
+    requirements: list[RequirementImportItem]
+
 class VacancyImportItem(BaseModel):
     source: str = Field(..., max_length=50)
     external_id: str = Field(..., max_length=100)

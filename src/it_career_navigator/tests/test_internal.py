@@ -339,3 +339,33 @@ async def test_import_csv_vacancies_file_with_valid_key(client):
     assert response.json()["created_vacancies"] == 1
     assert response.json()["created_requirements"] == 1
     assert response.json()["errors"] == []
+
+
+@pytest.mark.anyio
+async def test_extract_vacancy_requirements_with_fallback(client):
+    vacancy_response = await client.post(
+        VACANCY_URL,
+        json={
+            **VACANCY_DATA,
+            "external_id": "extract-001",
+            "description": "Python, FastAPI and Docker are required",
+        },
+        headers=VALID_HEADERS,
+    )
+    assert vacancy_response.status_code == 200
+
+    response = await client.post(
+        (
+            "/internal/vacancies/"
+            f"{vacancy_response.json()['id']}/extract_requirements"
+        ),
+        headers=VALID_HEADERS,
+    )
+
+    assert response.status_code == 200
+    assert response.json()["extraction_method"] == "fallback"
+    assert response.json()["created_requirements"] == 3
+    assert {
+        requirement["name"]
+        for requirement in response.json()["requirements"]
+    } == {"Python", "FastAPI", "Docker"}
