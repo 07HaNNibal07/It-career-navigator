@@ -33,6 +33,17 @@ class SkillBase(BaseModel):
     name: str = Field(..., max_length=50)
 
 class SkillCreate(SkillBase):
+    pass
+
+
+class UserSkillCreate(SkillBase):
+    proficiency_level: str | None = Field(
+        None,
+        max_length=30,
+    )
+
+
+class UserSkillLevelUpdate(BaseModel):
     proficiency_level: str | None = Field(
         None,
         max_length=30,

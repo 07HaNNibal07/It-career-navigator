@@ -2,7 +2,7 @@ from datetime import UTC, datetime
 
 from fastapi import APIRouter,Depends, HTTPException, status
 from fastapi import APIRouter, Depends, HTTPException, status
-from it_career_navigator.schemas import RoadmapResponse, SkillStatisticResponse, UserSkillResponse, UserResponse, UserCreate, UserUpdate, UserTargetUpdate, SkillResponse, SkillCreate, AnalysisCreate, AnalysisResponse
+from it_career_navigator.schemas import RoadmapResponse, SkillStatisticResponse, UserSkillCreate, UserSkillLevelUpdate, UserSkillResponse, UserResponse, UserCreate, UserUpdate, UserTargetUpdate, SkillResponse, SkillCreate, AnalysisCreate, AnalysisResponse
 from it_career_navigator.auth import oauth2_scheme
 from fastapi.security import OAuth2PasswordRequestForm
 from it_career_navigator.models import SkillStatistic, User, Skill, UserSkill, Analysis
@@ -17,6 +17,27 @@ from it_career_navigator.config import settings
 from sqlalchemy.orm import selectinload
 
 router = APIRouter(tags=["users"], prefix="/users")
+
+
+def build_user_response(user: User) -> UserResponse:
+    return UserResponse(
+        id=user.id,
+        name=user.name,
+        surname=user.surname,
+        email=user.email,
+        age=user.age,
+        phone=user.phone,
+        target_level=user.target_level,
+        direction_id=user.direction_id,
+        skills=[
+            UserSkillResponse(
+                id=user_skill.skill.id,
+                name=user_skill.skill.name,
+                proficiency_level=user_skill.proficiency_level,
+            )
+            for user_skill in user.skills
+        ],
+    )
 
 @router.get("")
 async def read_users():
@@ -98,7 +119,7 @@ async def read_current_user(
             detail="User not found",
         )
 
-    return user
+    return build_user_response(user)
 
 @router.get("/{user_id}", response_model=UserResponse)
 async def read_user(user_id: int, db: Get_DB):
@@ -113,7 +134,7 @@ async def read_user(user_id: int, db: Get_DB):
             detail="User not found",
         )
 
-    return user
+    return build_user_response(user)
 
 
 @router.patch("/update_user", response_model=UserResponse)
@@ -148,22 +169,7 @@ async def update_user(
     )
     user = result.scalar_one()
 
-    return UserResponse(
-        id=user.id,
-        name=user.name,
-        surname=user.surname,
-        email=user.email,
-        age=user.age,
-        phone=user.phone,
-        skills=[
-    UserSkillResponse(
-        id=person_skill.skill.id,
-        name=person_skill.skill.name,
-        proficiency_level=person_skill.proficiency_level,
-    )
-    for person_skill in user.skills
-]
-    )
+    return build_user_response(user)
 
 @router.delete("/delete_user")
 async def delete_user(current_user: CurrentUser,
@@ -186,7 +192,7 @@ async def delete_user(current_user: CurrentUser,
 
 @router.post('/add_skills', response_model=UserResponse)
 async def add_skills(
-    skills: list[SkillCreate],
+    skills: list[UserSkillCreate],
     current_user: CurrentUser,
     db: Get_DB,
 ):
@@ -212,7 +218,23 @@ async def add_skills(
             await db.commit()
             await db.refresh(db_skill)
 
-        user_skill = UserSkill(user_id=user.id, skill_id=db_skill.id, proficiency_level=skill.proficiency_level)
+        existing_user_skill_result = await db.execute(
+            select(UserSkill).where(
+                UserSkill.user_id == user.id,
+                UserSkill.skill_id == db_skill.id,
+            )
+        )
+        if existing_user_skill_result.scalar_one_or_none():
+            raise HTTPException(
+                status_code=status.HTTP_400_BAD_REQUEST,
+                detail="Skill already added to user",
+            )
+
+        user_skill = UserSkill(
+            user_id=user.id,
+            skill_id=db_skill.id,
+            proficiency_level=skill.proficiency_level,
+        )
         db.add(user_skill)
 
     await db.commit()
@@ -220,22 +242,40 @@ async def add_skills(
         select(User).options(selectinload(User.skills).selectinload(UserSkill.skill)).where(User.id == user.id)
     )
     user = result.scalar_one_or_none()
-    return UserResponse(
-        id=user.id,
-        name=user.name,
-        surname=user.surname,
-        email=user.email,
-        age=user.age,
-        phone=user.phone,
-        skills=[
-            UserSkillResponse(
-                id=person_skill.skill.id,
-                name=person_skill.skill.name,
-                proficiency_level=person_skill.proficiency_level,
-            )
-            for person_skill in user.skills
-        ],
-)
+    return build_user_response(user)
+
+
+@router.patch("/skills/{skill_id}", response_model=UserSkillResponse)
+async def update_skill_level(
+    skill_id: int,
+    level_update: UserSkillLevelUpdate,
+    current_user: CurrentUser,
+    db: Get_DB,
+):
+    result = await db.execute(
+        select(UserSkill)
+        .options(selectinload(UserSkill.skill))
+        .where(
+            UserSkill.user_id == current_user["id"],
+            UserSkill.skill_id == skill_id,
+        )
+    )
+    user_skill = result.scalar_one_or_none()
+
+    if user_skill is None:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail="User skill not found",
+        )
+
+    user_skill.proficiency_level = level_update.proficiency_level
+    await db.commit()
+
+    return UserSkillResponse(
+        id=user_skill.skill.id,
+        name=user_skill.skill.name,
+        proficiency_level=user_skill.proficiency_level,
+    )
 
 
 @router.delete("/delete_skills", response_model=UserResponse)
@@ -271,22 +311,7 @@ async def delete_skills(
         user.skills.remove(person_skill)
         await db.delete(person_skill)
 
-    response = UserResponse(
-        id=user.id,
-        name=user.name,
-        surname=user.surname,
-        email=user.email,
-        age=user.age,
-        phone=user.phone,
-        skills=[
-            UserSkillResponse(
-                id=person_skill.skill.id,
-                name=person_skill.skill.name,
-                proficiency_level=person_skill.proficiency_level,
-            )
-            for person_skill in user.skills
-        ],
-    )
+    response = build_user_response(user)
 
     await db.commit()
     return response
@@ -325,24 +350,7 @@ async def update_target(
     user = result.scalar_one()
 
 
-    return UserResponse(
-        id=user.id,
-        name=user.name,
-        surname=user.surname,
-        email=user.email,
-        age=user.age,
-        phone=user.phone,
-        skills=[
-            UserSkillResponse(
-                id=person_skill.skill.id,
-                name=person_skill.skill.name,
-                proficiency_level=person_skill.proficiency_level,
-            )
-            for person_skill in user.skills
-        ],
-        target_level=user.target_level,
-        direction_id=user.direction_id,
-    )
+    return build_user_response(user)
 
 
 @router.post("/create_analysis", response_model=AnalysisResponse)

@@ -86,10 +86,29 @@ async def test_login_user(client):
 async def test_read_current_user_with_token(client):
     headers = await create_authenticated_headers(client)
 
+    add_skill_response = await client.post(
+        "/users/add_skills",
+        json=[
+            {
+                "name": "Python",
+                "proficiency_level": "advanced",
+            }
+        ],
+        headers=headers,
+    )
+    assert add_skill_response.status_code == 200
+
     response = await client.get("/users/me", headers=headers)
 
     assert response.status_code == 200
     assert response.json()["email"] == DEFAULT_EMAIL
+    assert response.json()["skills"] == [
+        {
+            "id": add_skill_response.json()["skills"][0]["id"],
+            "name": "Python",
+            "proficiency_level": "advanced",
+        }
+    ]
 
 
 @pytest.mark.anyio
@@ -109,7 +128,7 @@ async def test_add_skills_with_token(client):
     response = await client.post(
         "/users/add_skills",
         json=[
-            {"name": "Python"},
+            {"name": "Python", "proficiency_level": "advanced"},
             {"name": "FastAPI"},
         ],
         headers=headers,
@@ -118,6 +137,34 @@ async def test_add_skills_with_token(client):
     assert response.status_code == 200
     assert any(skill["name"] == "Python" for skill in response.json()["skills"])
     assert any(skill["name"] == "FastAPI" for skill in response.json()["skills"])
+    python_skill = next(
+        skill for skill in response.json()["skills"]
+        if skill["name"] == "Python"
+    )
+    assert python_skill["proficiency_level"] == "advanced"
+
+
+@pytest.mark.anyio
+async def test_update_skill_level_with_token(client):
+    headers = await create_authenticated_headers(client)
+
+    add_response = await client.post(
+        "/users/add_skills",
+        json=[{"name": "Python", "proficiency_level": "beginner"}],
+        headers=headers,
+    )
+    assert add_response.status_code == 200
+    skill_id = add_response.json()["skills"][0]["id"]
+
+    response = await client.patch(
+        f"/users/skills/{skill_id}",
+        json={"proficiency_level": "intermediate"},
+        headers=headers,
+    )
+
+    assert response.status_code == 200
+    assert response.json()["name"] == "Python"
+    assert response.json()["proficiency_level"] == "intermediate"
 
 
 @pytest.mark.anyio
