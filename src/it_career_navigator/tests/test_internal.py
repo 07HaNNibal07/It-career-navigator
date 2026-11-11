@@ -1,4 +1,5 @@
 import pytest
+import json
 
 
 URL = "/internal/create_skills"
@@ -6,6 +7,7 @@ VALID_HEADERS = {
     "X-Internal-API-Key": "test-internal-key",
 }
 VACANCY_URL = "/internal/create_vacancy"
+VACANCY_FILE_URL = "/internal/import_vacancies_file"
 
 VACANCY_DATA = {
     "source": "demo_json",
@@ -239,4 +241,101 @@ async def test_import_vacancies_with_valid_key(client):
     assert response.json()["created_vacancies"] == 1
     assert response.json()["created_requirements"] == 2
     assert response.json()["skipped_duplicates"] == 0
+    assert response.json()["errors"] == []
+
+
+@pytest.mark.anyio
+async def test_import_vacancies_file_without_key(client):
+    response = await client.post(
+        VACANCY_FILE_URL,
+        files={
+            "file": (
+                "vacancies.json",
+                b"[]",
+                "application/json",
+            )
+        },
+    )
+
+    assert response.status_code == 401
+
+
+@pytest.mark.anyio
+async def test_import_json_vacancies_file_with_valid_key(client):
+    direction_response = await client.post(
+        "/internal/create_directions",
+        json={"name": "File Python Backend"},
+        headers=VALID_HEADERS,
+    )
+    assert direction_response.status_code == 200
+
+    content = json.dumps(
+        [
+            {
+                "source": "file_json",
+                "external_id": "file-001",
+                "title": "Python Developer",
+                "description": "Python and Docker",
+                "direction_name": "File Python Backend",
+                "requirements": [
+                    {"name": "Python", "is_required": True},
+                ],
+            },
+            {
+                "source": "file_json",
+                "external_id": "file-invalid",
+                "description": "This row has no title",
+                "direction_name": "File Python Backend",
+            },
+        ]
+    ).encode()
+
+    response = await client.post(
+        VACANCY_FILE_URL,
+        files={
+            "file": (
+                "vacancies.json",
+                content,
+                "application/json",
+            )
+        },
+        headers=VALID_HEADERS,
+    )
+
+    assert response.status_code == 200
+    assert response.json()["created_vacancies"] == 1
+    assert response.json()["created_requirements"] == 1
+    assert len(response.json()["errors"]) == 1
+    assert response.json()["errors"][0].startswith("Item 2:")
+
+
+@pytest.mark.anyio
+async def test_import_csv_vacancies_file_with_valid_key(client):
+    direction_response = await client.post(
+        "/internal/create_directions",
+        json={"name": "CSV Python Backend"},
+        headers=VALID_HEADERS,
+    )
+    assert direction_response.status_code == 200
+
+    content = (
+        'source,external_id,title,description,direction_name,requirements\n'
+        'file_csv,file-001,Python Developer,Python and Docker,CSV Python Backend,"[{""name"": ""Docker"", ""is_required"": false}]"\n'
+    ).encode()
+
+    response = await client.post(
+        VACANCY_FILE_URL,
+        files={
+            "file": (
+                "vacancies.csv",
+                content,
+                "text/csv",
+            )
+        },
+        headers=VALID_HEADERS,
+    )
+
+    assert response.status_code == 200
+    assert response.json()["created_vacancies"] == 1
+    assert response.json()["created_requirements"] == 1
     assert response.json()["errors"] == []

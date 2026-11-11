@@ -6,6 +6,7 @@
     "company": "Demo Company",
     "url": "https://example.com/jobs/1",
     "description": "Python, FastAPI, PostgreSQL, Docker",
+    "direction_name": "Python Backend",
     "level": "junior",
     "requirements": [
       {"name": "Python", "is_required": true},

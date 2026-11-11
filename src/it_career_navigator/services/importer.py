@@ -1,7 +1,13 @@
 from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
 
-from it_career_navigator.models import Direction, Skill, Vacancy, VacancyRequirement
+from it_career_navigator.models import (
+    Direction,
+    Skill,
+    SkillAlias,
+    Vacancy,
+    VacancyRequirement,
+)
 from it_career_navigator.schemas import (
     ImportResult,
     VacancyImportItem,
@@ -60,9 +66,17 @@ async def import_vacancies(
             skill = skill_result.scalar_one_or_none()
 
             if skill is None:
-                skill = Skill(name=requirement.name)
-                db.add(skill)
-                await db.flush()
+                alias_result = await db.execute(
+                    select(Skill)
+                    .join(SkillAlias, SkillAlias.skill_id == Skill.id)
+                    .where(SkillAlias.alias == requirement.name)
+                )
+                skill = alias_result.scalar_one_or_none()
+
+                if skill is None:
+                    skill = Skill(name=requirement.name)
+                    db.add(skill)
+                    await db.flush()
 
             new_requirement = VacancyRequirement(
                 vacancy_id=new_vacancy.id,

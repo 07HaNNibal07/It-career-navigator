@@ -1,4 +1,6 @@
-from fastapi import APIRouter, Depends, HTTPException, status
+from typing import Annotated
+
+from fastapi import APIRouter, Depends, File, HTTPException, UploadFile, status
 from it_career_navigator.auth import InternalAPIKey
 from it_career_navigator.database import Get_DB
 from it_career_navigator.models import SkillAlias, User, Skill, UserSkill, Direction, Vacancy, VacancyRequirement
@@ -19,6 +21,7 @@ from it_career_navigator.schemas import (
     VacancyResponse,
 )
 from it_career_navigator.services.importer import import_vacancies
+from it_career_navigator.services.file_import import parse_vacancy_file
 
 router = APIRouter(tags=["internal"], prefix="/internal")
 
@@ -204,3 +207,25 @@ async def import_vacancies_endpoint(
     _: InternalAPIKey,
 ):
     return await import_vacancies(items, db)
+
+
+@router.post("/import_vacancies_file", response_model=ImportResult)
+async def import_vacancies_file_endpoint(
+    file: Annotated[UploadFile, File(...)],
+    db: Get_DB,
+    _: InternalAPIKey,
+):
+    try:
+        parsed_file = parse_vacancy_file(
+            file.filename,
+            await file.read(),
+        )
+    except ValueError as error:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail=str(error),
+        ) from error
+
+    result = await import_vacancies(parsed_file.items, db)
+    result.errors = [*parsed_file.errors, *result.errors]
+    return result
