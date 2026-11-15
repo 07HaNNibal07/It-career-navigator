@@ -2,6 +2,16 @@
 
 [English](README.md) | [Русский](README.ru.md)
 
+## Cover letters
+
+Open a matched vacancy and select “Подготовить письмо”, or view history at `/cover-letters`. Generation requires the existing `LLM_BASE_URL`, `LLM_API_KEY` and `LLM_MODEL` settings. It uses the current profile and saved vacancy. Candidate contact details, passwords and tokens are not sent.
+
+This first version uses constrained generation: the LLM selects 1–4 evidence IDs and an introduction variant; the server validates the selection and assembles a 150–250 word Russian draft from fixed wording and profile facts. Long source descriptions are shortened with an ellipsis. This limits invented candidate claims but can produce formulaic prose; users should review and edit it. User-provided facts themselves are not verified.
+
+Original text, edits, evidence, snapshots and model name are saved. Regeneration creates another draft. Copying requires review confirmation in the UI and copies the current editor text; saving is separate. Manual edits are not automatically fact-checked. No applications are sent automatically.
+
+JWT API: `POST /users/vacancy_matches/{id}/cover_letters`, `GET /users/cover_letters`, `GET/PATCH /users/cover_letters/{id}`. PATCH requires `edited_text` and the current `version`; stale updates return `409`. History supports `offset` and `limit`. Missing LLM configuration returns `503`, provider/invalid-plan errors return `502`, and an empty profile returns `422`. Failed generation leaves existing drafts intact. Generation currently runs in the HTTP request. Tests mock the LLM; live selection quality needs a separate manual evaluation.
+
 ## Personal vacancy matching
 
 After applying migrations, sign in and open `/vacancies`. Search filters start from the user's profile and can be overridden for each run. Matching uses imported vacancies and their saved structured requirements. Vacancies without extracted requirements appear without a score; matching does not call an LLM automatically.

@@ -1,0 +1,4 @@
+{% extends "base.html" %}
+{% block title %}Письмо не подготовлено{% endblock %}
+{% block content %}<section class="card"><h1>Не удалось подготовить письмо</h1><p class="error" role="alert">{{ error }}</p><p>Предыдущие письма сохранены в истории.</p><form action="/vacancies/matches/{{ match_id }}/cover-letter" method="post" data-generating><button class="button" type="submit">Попробовать снова</button></form><p><a href="/vacancies/matches/{{ match_id }}">← Вернуться к вакансии</a> · <a href="/cover-letters">Мои письма</a> · <a href="/profile">Заполнить профиль</a></p></section>{% endblock %}
+{% block scripts %}<script src="{{ url_for('static', path='cover-letters.js') }}" defer></script>{% endblock %}

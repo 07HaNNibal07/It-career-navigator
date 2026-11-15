@@ -203,6 +203,23 @@ class VacancyMatch(Base):
     )
 
 
+class CoverLetter(Base):
+    __tablename__ = "cover_letters"
+
+    id: Mapped[int] = mapped_column(primary_key=True)
+    user_id: Mapped[int] = mapped_column(ForeignKey("users.id", ondelete="CASCADE"), index=True)
+    match_id: Mapped[int | None] = mapped_column(ForeignKey("vacancy_matches.id", ondelete="SET NULL"), index=True)
+    original_text: Mapped[str] = mapped_column(Text)
+    edited_text: Mapped[str] = mapped_column(Text)
+    profile_snapshot: Mapped[dict] = mapped_column(JSON)
+    vacancy_snapshot: Mapped[dict] = mapped_column(JSON)
+    used_facts: Mapped[list] = mapped_column(JSON)
+    llm_model: Mapped[str] = mapped_column(String(200))
+    created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True))
+    updated_at: Mapped[datetime] = mapped_column(DateTime(timezone=True))
+    version: Mapped[int] = mapped_column(default=1)
+
+
 class Analysis(Base):
     __tablename__ = "analyses"
 

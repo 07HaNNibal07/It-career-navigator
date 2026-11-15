@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+{% block title %}Мои письма{% endblock %}
+{% block content %}
+<div class="page-heading"><div><p class="eyebrow">Отклики</p><h1>Сопроводительные письма</h1><p>Черновики для самостоятельного отклика. Каждая генерация сохраняется отдельно.</p></div><a class="button" href="/vacancies">Найти вакансию</a></div>
+<section class="card">{% if letters %}<div class="list">{% for letter in letters %}<a class="list-row" href="/cover-letters/{{ letter.id }}"><div><strong>{{ letter.vacancy_snapshot.title }}</strong><p>{{ letter.vacancy_snapshot.company or 'Компания не указана' }}</p></div><span>Письмо #{{ letter.id }} · {{ letter.created_at.strftime('%d.%m.%Y %H:%M') }} UTC</span></a>{% endfor %}</div>{% else %}<h2>Писем пока нет</h2><p>Открой результат подбора, выбери вакансию и нажми «Подготовить письмо».</p>{% endif %}
+<nav class="matching-pagination" aria-label="История писем">{% if offset > 0 %}<a href="?offset={{ [0, offset-20]|max }}">← Назад</a>{% endif %}{% if has_more %}<a href="?offset={{ offset+20 }}">Далее →</a>{% endif %}</nav></section>
+{% endblock %}

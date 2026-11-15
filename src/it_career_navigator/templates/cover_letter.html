@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %}Письмо #{{ letter.id }}{% endblock %}
+{% block content %}
+<div class="page-heading"><div><a href="/cover-letters">← Все письма</a><h1>Письмо #{{ letter.id }}</h1><p>{{ letter.vacancy_snapshot.title }} · {{ letter.vacancy_snapshot.company or 'Компания не указана' }}</p></div>{% if letter.match_id %}<a class="secondary" href="/vacancies/matches/{{ letter.match_id }}">К вакансии</a>{% endif %}</div>
+<div class="grid two"><section class="card"><h2>Редактор</h2>
+{% if error %}<p class="error" role="alert">{{ error }}</p>{% endif %}{% if saved %}<p role="status">Изменения сохранены.</p>{% endif %}
+<p>Проверь факты и адаптируй формулировки под себя. Ручные правки сохраняются как твой текст и не проходят автоматическую проверку.</p>
+<form action="/cover-letters/{{ letter.id }}" method="post"><input type="hidden" name="version" value="{{ letter.version }}"><label>Текст письма<textarea class="letter-editor" id="letter-text" name="edited_text" rows="20" maxlength="20000" required>{{ submitted_text if submitted_text is defined else letter.edited_text }}</textarea></label><button class="button" type="submit">Сохранить изменения</button></form>
+<div class="letter-copy"><label class="matching-checkbox"><input type="checkbox" id="letter-reviewed">Я проверил(а) текст и факты перед откликом</label><button class="secondary" id="copy-letter" type="button" disabled>Скопировать текст</button><p id="copy-status" role="status" aria-live="polite"></p></div>
+</section><section class="card"><h2>На чём основан черновик</h2><p>Данные профиля на {{ letter.profile_snapshot.as_of }}. Модель: {{ letter.llm_model }}.</p><ul>{% for fact in letter.used_facts %}<li>{{ fact.text }}</li>{% endfor %}</ul><p>Модель выбирает факты и их порядок по вакансии. Исходное письмо собирается из проверенных блоков; неподтверждённые утверждения модели не используются. Достоверность сведений, внесённых в профиль, подтверждаешь ты.</p>
+<details><summary>Исходный черновик</summary><p class="matching-description">{{ letter.original_text }}</p></details>
+{% if letter.match_id %}<hr><p>Новая генерация использует актуальные данные профиля и сохранённую вакансию. Этот черновик и его правки останутся в истории.</p><form action="/vacancies/matches/{{ letter.match_id }}/cover-letter" method="post" data-generating><button class="secondary" type="submit">Подготовить новый черновик</button></form>{% endif %}
+</section></div>
+{% endblock %}
+{% block scripts %}<script src="{{ url_for('static', path='cover-letters.js') }}" defer></script>{% endblock %}

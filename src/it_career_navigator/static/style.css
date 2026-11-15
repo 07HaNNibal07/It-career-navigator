@@ -96,5 +96,9 @@ select option { background: #1c1d36; color: #f5f1ff; }
 .matching-score { flex-shrink: 0; padding: 8px 14px; border-radius: 10px; color: #e0c3ff; background: #a66aff22; font-weight: 700; }
 .matching-description { white-space: pre-wrap; overflow-wrap: anywhere; }
 .matching-pagination { display: flex; justify-content: space-between; gap: 16px; margin-top: 20px; }
+.letter-actions { margin-top: 22px; }
+.letter-editor { width: 100%; min-height: 420px; resize: vertical; padding: 14px; border: 1px solid #b194dd66; border-radius: 11px; background: #191a32; color: var(--text); font: inherit; line-height: 1.7; }
+.letter-copy { display: grid; gap: 12px; margin-top: 20px; }
+button:disabled { opacity: .55; cursor: not-allowed; }
 @media(max-width: 640px) { .matching-result-heading { flex-direction: column; } }
 
