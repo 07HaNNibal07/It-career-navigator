@@ -1,0 +1,41 @@
+{
+  "languages": [
+    "Python", "JavaScript", "TypeScript", "Java", "Kotlin", "Go", "Rust", "C", "C++", "C#", "PHP", "Ruby", "Swift", "Dart", "Scala", "R", "Julia", "Elixir", "Erlang", "Haskell", "Clojure", "F#", "Lua", "Perl", "Objective-C", "Groovy", "Solidity", "SQL", "Bash", "PowerShell", "MATLAB", "Assembly", "VB.NET", "Delphi"
+  ],
+  "python_backend": [
+    "FastAPI", "Django", "Django REST Framework", "Flask", "Starlette", "aiohttp", "Tornado", "Sanic", "Litestar", "SQLAlchemy", "SQLModel", "Django ORM", "Tortoise ORM", "Peewee", "Pydantic", "Alembic", "Celery", "Dramatiq", "RQ", "APScheduler", "asyncio", "HTTPX", "Requests", "Uvicorn", "Gunicorn", "Poetry", "uv", "pip", "Pipenv", "Ruff", "Black", "mypy", "Pylint", "aiogram", "python-telegram-bot", "Scrapy", "Beautiful Soup"
+  ],
+  "other_backend": [
+    "Node.js", "Express", "NestJS", "Fastify", "Koa", "Hono", "Bun", "Deno", "Spring Boot", "Spring Framework", "Spring Security", "Spring Data", "Hibernate", "Quarkus", "Micronaut", "Maven", "Gradle", "ASP.NET Core", ".NET", "Entity Framework Core", "Dapper", "NuGet", "Laravel", "Symfony", "Yii", "Composer", "Ruby on Rails", "Sinatra", "Phoenix", "Gin", "Echo", "Fiber", "GORM", "Actix Web", "Axum"
+  ],
+  "frontend": [
+    "HTML", "CSS", "Sass", "Less", "React", "Next.js", "Vue.js", "Nuxt", "Angular", "Svelte", "SvelteKit", "SolidJS", "Astro", "jQuery", "Redux", "Redux Toolkit", "Zustand", "MobX", "Pinia", "Vuex", "RxJS", "TanStack Query", "React Router", "React Hook Form", "Zod", "Tailwind CSS", "Bootstrap", "Material UI", "Ant Design", "Chakra UI", "shadcn/ui", "Styled Components", "CSS Modules", "Vite", "Webpack", "Rollup", "Parcel", "Babel", "ESLint", "Prettier", "npm", "Yarn", "pnpm", "Storybook", "D3.js", "Chart.js", "Three.js", "WebGL", "WebAssembly", "PWA", "Web Components", "Accessibility", "Responsive Design"
+  ],
+  "databases": [
+    "PostgreSQL", "MySQL", "MariaDB", "SQLite", "Microsoft SQL Server", "Oracle Database", "Redis", "MongoDB", "Cassandra", "ClickHouse", "Elasticsearch", "OpenSearch", "Apache Solr", "Neo4j", "ArangoDB", "CouchDB", "DynamoDB", "Amazon Redshift", "BigQuery", "Snowflake", "DuckDB", "TimescaleDB", "InfluxDB", "Memcached", "etcd", "CockroachDB", "TiDB", "Supabase", "Firebase", "Prisma", "Drizzle ORM", "Liquibase", "Flyway", "Database Design", "Query Optimization", "Database Indexing", "Database Replication"
+  ],
+  "devops_cloud": [
+    "Linux", "Ubuntu", "Debian", "Alpine Linux", "Windows Server", "Docker", "Docker Compose", "Podman", "Kubernetes", "Helm", "Kustomize", "Terraform", "OpenTofu", "Pulumi", "Ansible", "Puppet", "Chef", "SaltStack", "Packer", "Vagrant", "CI/CD", "Jenkins", "GitHub Actions", "GitLab CI", "CircleCI", "TeamCity", "Argo CD", "Flux", "Nginx", "Apache HTTP Server", "Caddy", "HAProxy", "Traefik", "Envoy", "Istio", "AWS", "Microsoft Azure", "Google Cloud", "Yandex Cloud", "OpenStack", "Amazon EC2", "Amazon S3", "AWS Lambda", "Amazon ECS", "Amazon EKS", "Amazon RDS", "Azure DevOps", "Cloudflare", "Vercel", "Netlify", "Prometheus", "Grafana", "Loki", "Logstash", "Kibana", "Fluent Bit", "OpenTelemetry", "Jaeger", "Zipkin", "Sentry", "Datadog", "Zabbix", "Nagios", "Vault", "Consul", "systemd", "Proxmox", "VMware", "SRE", "Incident Management"
+  ],
+  "data_ml": [
+    "NumPy", "Pandas", "Polars", "SciPy", "Matplotlib", "Seaborn", "Plotly", "Jupyter", "scikit-learn", "PyTorch", "TensorFlow", "Keras", "XGBoost", "LightGBM", "CatBoost", "OpenCV", "Pillow", "NLTK", "spaCy", "Hugging Face Transformers", "Sentence Transformers", "LangChain", "LangGraph", "LlamaIndex", "MLflow", "DVC", "Weights & Biases", "BentoML", "ONNX", "TensorRT", "vLLM", "Ollama", "Apache Spark", "PySpark", "Apache Hadoop", "Apache Flink", "Apache Beam", "Apache Airflow", "Dagster", "Prefect", "dbt", "Great Expectations", "Apache NiFi", "ETL", "Data Modeling", "Data Warehousing", "Data Visualization", "Statistics", "A/B Testing", "Machine Learning", "Deep Learning", "NLP", "Computer Vision", "Time Series Analysis", "Feature Engineering", "MLOps", "RAG", "Prompt Engineering", "Fine-tuning", "Vector Search", "Qdrant", "Milvus", "Weaviate", "Pinecone", "FAISS", "pgvector", "Power BI", "Tableau", "Looker", "Metabase", "Apache Superset", "Excel"
+  ],
+  "testing": [
+    "Pytest", "unittest", "Hypothesis", "tox", "coverage.py", "Factory Boy", "Faker", "Testcontainers", "Selenium", "Playwright", "Cypress", "Puppeteer", "WebdriverIO", "Jest", "Vitest", "Mocha", "Chai", "Testing Library", "JUnit", "TestNG", "Mockito", "NUnit", "xUnit", "PHPUnit", "RSpec", "Appium", "Espresso", "XCTest", "Postman", "Insomnia", "SoapUI", "REST Assured", "JMeter", "Locust", "k6", "Gatling", "Allure", "Cucumber", "Behave", "Robot Framework", "Manual Testing", "API Testing", "Integration Testing", "Unit Testing", "End-to-End Testing", "Performance Testing", "Regression Testing", "Test Design", "TDD", "BDD"
+  ],
+  "mobile": [
+    "Android SDK", "Jetpack Compose", "Android Jetpack", "Coroutines", "Kotlin Flow", "Retrofit", "Room", "Hilt", "Koin", "SwiftUI", "UIKit", "Combine", "Core Data", "Swift Concurrency", "Flutter", "React Native", "Expo", "Ionic", "Capacitor", "Kotlin Multiplatform", ".NET MAUI", "Dio", "Bloc", "Riverpod", "Firebase Cloud Messaging", "Google Play Console", "App Store Connect"
+  ],
+  "architecture_networking": [
+    "REST API", "GraphQL", "gRPC", "WebSocket", "HTTP", "TCP/IP", "DNS", "TLS", "SSH", "VPN", "OAuth 2.0", "OpenID Connect", "JWT", "SAML", "RabbitMQ", "Apache Kafka", "NATS", "Apache Pulsar", "MQTT", "ZeroMQ", "Protocol Buffers", "OpenAPI", "JSON Schema", "Microservices", "Distributed Systems", "System Design", "Domain-Driven Design", "Clean Architecture", "Event-Driven Architecture", "CQRS", "Event Sourcing", "SOLID", "Design Patterns", "Algorithms", "Data Structures", "Object-Oriented Programming", "Functional Programming", "Concurrency", "Caching", "Load Balancing", "Idempotency", "Webhooks"
+  ],
+  "security": [
+    "OWASP", "Secure Coding", "Threat Modeling", "Penetration Testing", "Burp Suite", "OWASP ZAP", "Nmap", "Wireshark", "Metasploit", "Kali Linux", "SIEM", "Splunk", "Wazuh", "Suricata", "Snort", "SAST", "DAST", "SonarQube", "Trivy", "Snyk", "Cryptography", "Identity and Access Management", "RBAC", "Network Security", "Application Security", "DevSecOps"
+  ],
+  "tools_team_design": [
+    "Git", "GitHub", "GitLab", "Bitbucket", "Mercurial", "SVN", "Jira", "YouTrack", "Confluence", "Notion", "Trello", "Linear", "Figma", "Sketch", "Adobe XD", "Adobe Photoshop", "Adobe Illustrator", "UX Research", "UI Design", "Design Systems", "Prototyping", "Usability Testing", "Agile", "Scrum", "Kanban", "Code Review", "Technical Writing", "Requirements Analysis", "BPMN", "UML", "User Stories", "Product Analytics", "English"
+  ],
+  "games_embedded": [
+    "Unity", "Unreal Engine", "Godot", "Cocos2d-x", "Blender", "Maya", "HLSL", "GLSL", "OpenGL", "Vulkan", "DirectX", "SDL", "SFML", "CMake", "Make", "GCC", "Clang", "GDB", "LLDB", "Qt", "Boost", "STL", "Arduino", "ESP32", "STM32", "FreeRTOS", "Zephyr", "Embedded Linux", "Yocto", "Buildroot", "Raspberry Pi", "I2C", "SPI", "UART", "CAN Bus", "ROS", "ROS 2"
+  ]
+}

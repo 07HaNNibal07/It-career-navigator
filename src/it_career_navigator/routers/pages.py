@@ -22,6 +22,8 @@ from it_career_navigator.models import (
 )
 from it_career_navigator.services.analysis import run_analysis
 from it_career_navigator.services.roadmap import build_roadmap
+from it_career_navigator.services.career_profile import get_profile
+from it_career_navigator.career_schemas import WORK_FORMATS, EMPLOYMENT_TYPES
 
 
 templates = Jinja2Templates(
@@ -163,6 +165,10 @@ async def profile(request: Request, db: Get_DB):
             user=user,
             directions=directions,
             analysis_count=analysis_count,
+            career=await get_profile(user.id, db),
+            catalog=(await db.scalars(select(Skill).order_by(Skill.name))).all(),
+            work_format_options=WORK_FORMATS,
+            employment_options=EMPLOYMENT_TYPES,
         ),
     )
 

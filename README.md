@@ -2,6 +2,16 @@
 
 [English](README.md) | [Русский](README.ru.md)
 
+## Seed the skill catalog
+
+After applying database migrations, populate the configured PostgreSQL database with 553 skills across IT disciplines:
+
+```powershell
+uv run python -m it_career_navigator.seed_skills
+```
+
+The command adds missing skills and aliases while preserving existing records and profile/project links. Running it again creates no duplicates. The dataset lives in `src/it_career_navigator/data/skills_catalog.json`; its categories organize the source file. The command uses the project's `DB_URL`. Seeded skills become available in profile and project suggestions without being added to personal profiles automatically.
+
 IT Career Navigator is an asynchronous FastAPI backend for an IT career-planning system. The current version provides the foundation for user accounts, a personal skill profile, JWT-protected user actions, and API-key-protected internal skill-catalog operations.
 
 The project is being developed as a diploma project. Its target product will help a user compare their skills with IT vacancy requirements and receive a prioritized learning roadmap. Vacancy import, market analysis, LLM extraction, and the web interface are planned features; they are not part of the current API yet.

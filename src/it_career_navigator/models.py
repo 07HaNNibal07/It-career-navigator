@@ -1,8 +1,8 @@
-from datetime import datetime,UTC
+from datetime import date, datetime,UTC
 
 from sqlalchemy.orm import relationship, Mapped, mapped_column
 from it_career_navigator.database import Base
-from sqlalchemy import DateTime, ForeignKey,String,Text,UniqueConstraint
+from sqlalchemy import CheckConstraint, Column, Date, DateTime, ForeignKey, JSON, String, Table, Text, UniqueConstraint
 
 
 class User(Base):
@@ -19,6 +19,46 @@ class User(Base):
     direction_id: Mapped[int | None] = mapped_column(ForeignKey("directions.id", ondelete="SET NULL"), nullable=True)
     target_level: Mapped[str | None] = mapped_column(String(30), nullable=True)
     direction: Mapped["Direction | None"] = relationship(back_populates="users")
+    desired_position: Mapped[str | None] = mapped_column(String(200))
+    city: Mapped[str | None] = mapped_column(String(100))
+    work_formats: Mapped[list[str]] = mapped_column(JSON, default=list, server_default="[]")
+    employment_types: Mapped[list[str]] = mapped_column(JSON, default=list, server_default="[]")
+
+
+class UserExperience(Base):
+    __tablename__ = "user_experiences"
+
+    id: Mapped[int] = mapped_column(primary_key=True)
+    user_id: Mapped[int] = mapped_column(ForeignKey("users.id", ondelete="CASCADE"), index=True)
+    position: Mapped[str] = mapped_column(String(200))
+    organization: Mapped[str] = mapped_column(String(200))
+    start_date: Mapped[date] = mapped_column(Date)
+    end_date: Mapped[date | None] = mapped_column(Date)
+    description: Mapped[str] = mapped_column(Text, default="")
+    achievements: Mapped[str] = mapped_column(Text, default="")
+
+    __table_args__ = (
+        CheckConstraint("end_date IS NULL OR end_date >= start_date", name="ck_experience_dates"),
+    )
+
+
+project_skills = Table(
+    "project_skills", Base.metadata,
+    Column("project_id", ForeignKey("user_projects.id", ondelete="CASCADE"), primary_key=True),
+    Column("skill_id", ForeignKey("skills.id", ondelete="CASCADE"), primary_key=True),
+)
+
+
+class UserProject(Base):
+    __tablename__ = "user_projects"
+
+    id: Mapped[int] = mapped_column(primary_key=True)
+    user_id: Mapped[int] = mapped_column(ForeignKey("users.id", ondelete="CASCADE"), index=True)
+    name: Mapped[str] = mapped_column(String(200))
+    description: Mapped[str] = mapped_column(Text, default="")
+    role: Mapped[str] = mapped_column(String(200))
+    url: Mapped[str | None] = mapped_column(String(500))
+    skills: Mapped[list["Skill"]] = relationship(secondary=project_skills)
     
     
 class Skill(Base):

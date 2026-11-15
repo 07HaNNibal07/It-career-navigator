@@ -1,0 +1,72 @@
+{% macro experience_fields(item=none) %}
+  <div class="grid two career-fields">
+    <label>Должность<input name="position" value="{{ item.position if item else '' }}" required maxlength="200" placeholder="Например, Python-разработчик"></label>
+    <label>Организация<input name="organization" value="{{ item.organization if item else '' }}" required maxlength="200"></label>
+    <label>Дата начала<input name="start_date" type="date" value="{{ item.start_date if item else '' }}" required></label>
+    <label>Дата окончания · оставь пустой, если работаешь сейчас<input name="end_date" type="date" value="{{ item.end_date if item and item.end_date else '' }}"></label>
+  </div>
+  <label>Чем занимался<textarea name="description" rows="3" maxlength="10000">{{ item.description if item else '' }}</textarea></label>
+  <label>Достижения<textarea name="achievements" rows="2" maxlength="10000" placeholder="Укажи только реальные результаты">{{ item.achievements if item else '' }}</textarea></label>
+{% endmacro %}
+
+{% macro project_fields(item=none) %}
+  <div class="grid two career-fields">
+    <label>Название проекта<input name="name" value="{{ item.name if item else '' }}" required maxlength="200"></label>
+    <label>Твоя роль<input name="role" value="{{ item.role if item else '' }}" required maxlength="200" placeholder="Например, backend-разработчик"></label>
+  </div>
+  <label>Описание<textarea name="description" rows="3" maxlength="10000">{{ item.description if item else '' }}</textarea></label>
+  <label>Ссылка · необязательно<input name="url" type="url" value="{{ item.url if item and item.url else '' }}" maxlength="500" placeholder="https://github.com/..."></label>
+  <fieldset class="project-skill-picker"><legend>Использованные навыки</legend>
+    <div class="project-selected-skills" aria-label="Выбранные навыки">
+      {% for skill in catalog %}{% if item and skill.id in item.skill_ids %}
+      <span class="project-skill-chip" data-name="{{ skill.name }}"><span>{{ skill.name }}</span><input type="hidden" name="skill_ids" value="{{ skill.id }}"><button type="button" aria-label="Убрать {{ skill.name }}">×</button></span>
+      {% endif %}{% endfor %}
+    </div>
+    <div class="project-skill-search">
+      <input class="project-skill-query" name="skill_names" type="text" maxlength="50" autocomplete="off" placeholder="Найди или добавь навык, например Django" aria-label="Поиск навыка проекта" aria-autocomplete="list" aria-expanded="false">
+      <div class="project-skill-results" hidden></div>
+    </div>
+    <p class="project-skill-help">Начни вводить название и выбери подсказку. Новый навык добавится в каталог при сохранении проекта.</p>
+    <span class="project-skill-status" role="status" aria-live="polite"></span>
+  </fieldset>
+{% endmacro %}
+
+<section class="profile-card glass-panel career-section" id="preferences">
+  <div class="card-title"><div><h2>Рабочие предпочтения</h2><p>Расскажи, какую работу ты ищешь. Пустой список означает отсутствие ограничений.</p></div></div>
+  <form action="/profile/preferences" method="post">
+    <div class="grid two career-fields">
+      <label>Желаемая должность<input name="desired_position" value="{{ career.desired_position or '' }}" maxlength="200" placeholder="Например, Python Backend Developer"></label>
+      <label>Город<input name="city" value="{{ career.city or '' }}" maxlength="100" placeholder="Например, Москва"></label>
+    </div>
+    <fieldset class="career-options"><legend>Формат работы</legend>{% for value, title in work_format_options.items() %}<label><input type="checkbox" name="work_formats" value="{{ value }}" {% if value in career.work_formats %}checked{% endif %}>{{ title }}</label>{% endfor %}</fieldset>
+    <fieldset class="career-options"><legend>Занятость</legend>{% for value, title in employment_options.items() %}<label><input type="checkbox" name="employment_types" value="{{ value }}" {% if value in career.employment_types %}checked{% endif %}>{{ title }}</label>{% endfor %}</fieldset>
+    <button class="profile-button" type="submit">Сохранить предпочтения</button>
+  </form>
+</section>
+
+<section class="profile-card glass-panel career-section" id="experiences">
+  <div class="card-title"><div><h2>Опыт работы</h2><p>Укажи организации, обязанности и достижения. Учебные проекты добавь в следующем разделе.</p></div></div>
+  {% for item in career.experiences %}
+  <article class="career-entry">
+    <h3>{{ item.position }} · {{ item.organization }}</h3>
+    <p class="career-meta">{{ item.start_date.strftime('%d.%m.%Y') }} — {{ item.end_date.strftime('%d.%m.%Y') if item.end_date else 'по настоящее время' }}</p>
+    <details><summary>Редактировать</summary><form action="/profile/experiences/{{ item.id }}" method="post">{{ experience_fields(item) }}<button class="secondary" type="submit">Сохранить изменения</button></form></details>
+    <form action="/profile/experiences/{{ item.id }}/delete" method="post" class="career-delete"><button class="skill-delete" type="submit">Удалить запись</button></form>
+  </article>
+  {% else %}<p class="career-meta">Опыт пока не указан. Если опыта нет, можно начать с проектов.</p>{% endfor %}
+  <details class="career-add"><summary>＋ Добавить место работы</summary><form action="/profile/experiences" method="post">{{ experience_fields() }}<button class="profile-button" type="submit">Добавить опыт</button></form></details>
+</section>
+
+<section class="profile-card glass-panel career-section" id="projects">
+  <div class="card-title"><div><h2>Мои проекты</h2><p>Учебные, личные и рабочие проекты, в которых ты участвовал.</p></div></div>
+  {% for item in career.projects %}
+  <article class="career-entry">
+    <h3>{{ item.name }}</h3><p class="career-meta">{{ item.role }}</p>
+    {% if item.description %}<p class="career-description">{{ item.description }}</p>{% endif %}
+    {% if item.url %}<a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">Открыть проект ↗</a>{% endif %}
+    <details><summary>Редактировать</summary><form action="/profile/projects/{{ item.id }}" method="post">{{ project_fields(item) }}<button class="secondary" type="submit">Сохранить изменения</button></form></details>
+    <form action="/profile/projects/{{ item.id }}/delete" method="post" class="career-delete"><button class="skill-delete" type="submit">Удалить проект</button></form>
+  </article>
+  {% else %}<p class="career-meta">Проектов пока нет. Например, можно добавить свой дипломный проект.</p>{% endfor %}
+  <details class="career-add"><summary>＋ Добавить проект</summary><form action="/profile/projects" method="post">{{ project_fields() }}<button class="profile-button" type="submit">Добавить проект</button></form></details>
+</section>

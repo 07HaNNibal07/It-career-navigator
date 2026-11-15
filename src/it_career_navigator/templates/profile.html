@@ -9,6 +9,9 @@
       <a href="#my-skills"><span>▱</span>Мои навыки</a>
       <a href="#goal"><span>◎</span>Цели</a>
       <a href="#settings"><span>⚙</span>Настройки</a>
+      <a href="#preferences"><span>⌕</span>Работа</a>
+      <a href="#experiences"><span>▱</span>Опыт</a>
+      <a href="#projects"><span>‹/›</span>Проекты</a>
     </nav>
   </aside>
 
@@ -64,10 +67,12 @@
         <p class="empty-filter" id="empty-filter" hidden>Навык не найден.</p>
       {% else %}<p class="empty-skills">Навыков пока нет. Добавь первый выше.</p>{% endif %}
     </section>
+    {% include "_career_profile.html" %}
   </div>
 </div>
 {% endblock %}
 {% block scripts %}
+<script src="{{ url_for('static', path='project-skills.js') }}" defer></script>
 <script>
   const skillInput = document.querySelector("#skill-name");
   const suggestions = document.querySelector("#skill-suggestions");

@@ -5,7 +5,7 @@ from fastapi.staticfiles import StaticFiles
 from starlette.middleware.sessions import SessionMiddleware
 
 from it_career_navigator.config import settings
-from it_career_navigator.routers import internal, pages, users
+from it_career_navigator.routers import career, internal, pages, users
 
 
 app = FastAPI()
@@ -17,6 +17,8 @@ app.mount(
     name="static",
 )
 
+app.include_router(career.router)
+app.include_router(career.pages_router)
 app.include_router(users.router)
 app.include_router(internal.router)
 app.include_router(pages.router)
