@@ -115,7 +115,11 @@ async def create_vacancy(
         description=vacancy.description,
         direction_id=vacancy.direction_id,
         level=vacancy.level,
-        published_at=vacancy.published_at
+        published_at=vacancy.published_at,
+        city=vacancy.city,
+        work_format=vacancy.work_format,
+        employment_type=vacancy.employment_type,
+        min_experience_months=vacancy.min_experience_months,
     )
     db.add(new_vacancy)
     await db.commit()

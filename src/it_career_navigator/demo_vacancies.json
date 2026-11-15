@@ -8,6 +8,10 @@
     "description": "Разработка API на Python и FastAPI. Работа с PostgreSQL. Docker будет плюсом.",
     "direction_name": "Python Backend",
     "level": "Junior",
+    "city": "Москва",
+    "work_format": "remote",
+    "employment_type": "full_time",
+    "min_experience_months": 0,
     "published_at": "2026-10-01T09:00:00Z",
     "requirements": [
       {"name": "Python", "is_required": true},

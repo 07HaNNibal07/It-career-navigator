@@ -122,6 +122,10 @@ class Vacancy(Base):
         nullable=True,
     )
     level: Mapped[str | None] = mapped_column(String(30), nullable=True)
+    city: Mapped[str | None] = mapped_column(String(100))
+    work_format: Mapped[str | None] = mapped_column(String(30))
+    employment_type: Mapped[str | None] = mapped_column(String(30))
+    min_experience_months: Mapped[int | None] = mapped_column()
 
     direction: Mapped["Direction | None"] = relationship(
         back_populates="vacancies"
@@ -132,6 +136,10 @@ class Vacancy(Base):
             "source",
             "external_id",
             name="uq_vacancies_source_external_id",
+        ),
+        CheckConstraint(
+            "min_experience_months IS NULL OR min_experience_months >= 0",
+            name="ck_vacancies_min_experience_months",
         ),
     )
 

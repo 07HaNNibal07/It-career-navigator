@@ -1,5 +1,6 @@
-from pydantic import BaseModel, EmailStr, Field,ConfigDict
+from pydantic import BaseModel, EmailStr, Field,ConfigDict, field_validator
 from datetime import datetime
+from it_career_navigator.career_schemas import WorkFormat, EmploymentType
 
 
 class BaseUser(BaseModel):
@@ -85,7 +86,23 @@ class UserTargetUpdate(BaseModel):
 
 
     
-class VacancyCreate(BaseModel):
+class VacancyConditions(BaseModel):
+    city: str | None = Field(None, max_length=100)
+    work_format: WorkFormat | None = None
+    employment_type: EmploymentType | None = None
+    min_experience_months: int | None = Field(None, ge=0)
+
+    @field_validator("city", "work_format", "employment_type", "min_experience_months", mode="before")
+    @classmethod
+    def normalize_optional_fields(cls, value):
+        if isinstance(value, str):
+            return value.strip() or None
+        if isinstance(value, bool):
+            raise ValueError("Ожидается значение поля, а не true/false")
+        return value
+
+
+class VacancyCreate(VacancyConditions):
     source: str = Field(..., max_length=50)
     external_id: str = Field(..., max_length=100)
     title: str = Field(..., max_length=200)
@@ -100,7 +117,7 @@ class VacancyCreate(BaseModel):
 
 
 
-class VacancyResponse(BaseModel):
+class VacancyResponse(VacancyConditions):
     id: int
     source: str = Field(..., max_length=50)
     external_id: str = Field(..., max_length=100)
@@ -161,7 +178,7 @@ class VacancyRequirementsExtractionResponse(BaseModel):
     skipped_existing: int
     requirements: list[RequirementImportItem]
 
-class VacancyImportItem(BaseModel):
+class VacancyImportItem(VacancyConditions):
     source: str = Field(..., max_length=50)
     external_id: str = Field(..., max_length=100)
 

@@ -2,6 +2,10 @@
 
 [English](README.md) | [Русский](README.ru.md)
 
+## Vacancy work conditions
+
+Vacancy JSON/CSV imports and `POST /internal/create_vacancy` also accept optional work conditions: `city` (up to 100 characters), `work_format` (`remote`, `office`, `hybrid`), `employment_type` (`full_time`, `part_time`, `internship`, `contract`) and `min_experience_months` (a nonnegative integer). Missing/null values and empty CSV cells mean unknown; zero months explicitly means no experience required. Legacy files remain supported. Reimporting the same `source + external_id` skips the vacancy rather than updating its conditions; existing records retain unknown values after migration.
+
 ## Seed the skill catalog
 
 After applying database migrations, populate the configured PostgreSQL database with 553 skills across IT disciplines:

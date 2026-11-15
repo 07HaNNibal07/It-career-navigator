@@ -51,7 +51,11 @@ async def import_vacancies(
             description=item.description,
             level=item.level,
             published_at=item.published_at,
-            direction_id=direction.id
+            direction_id=direction.id,
+            city=item.city,
+            work_format=item.work_format,
+            employment_type=item.employment_type,
+            min_experience_months=item.min_experience_months,
         )
 
         db.add(new_vacancy)
