@@ -171,6 +171,38 @@ class SkillAlias(Base):
     skill: Mapped["Skill"] = relationship(back_populates="aliases")
 
 
+class VacancySearch(Base):
+    __tablename__ = "vacancy_searches"
+
+    id: Mapped[int] = mapped_column(primary_key=True)
+    user_id: Mapped[int] = mapped_column(ForeignKey("users.id", ondelete="CASCADE"), index=True)
+    filters: Mapped[dict] = mapped_column(JSON)
+    profile_snapshot: Mapped[dict] = mapped_column(JSON)
+    status: Mapped[str] = mapped_column(String(30), default="queued")
+    created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True))
+    error_message: Mapped[str | None] = mapped_column(Text)
+
+
+class VacancyMatch(Base):
+    __tablename__ = "vacancy_matches"
+
+    id: Mapped[int] = mapped_column(primary_key=True)
+    search_id: Mapped[int] = mapped_column(ForeignKey("vacancy_searches.id", ondelete="CASCADE"), index=True)
+    vacancy_id: Mapped[int | None] = mapped_column(ForeignKey("vacancies.id", ondelete="SET NULL"))
+    vacancy_snapshot: Mapped[dict] = mapped_column(JSON)
+    score: Mapped[float | None] = mapped_column()
+    skill_score: Mapped[float | None] = mapped_column()
+    experience_score: Mapped[float | None] = mapped_column()
+    matched_skills: Mapped[list] = mapped_column(JSON)
+    missing_skills: Mapped[list] = mapped_column(JSON)
+    explanation: Mapped[list] = mapped_column(JSON)
+    published_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True))
+
+    __table_args__ = (
+        UniqueConstraint("search_id", "vacancy_id", name="uq_search_vacancy"),
+    )
+
+
 class Analysis(Base):
     __tablename__ = "analyses"
 

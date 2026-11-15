@@ -2,6 +2,16 @@
 
 [English](README.md) | [Русский](README.ru.md)
 
+## Personal vacancy matching
+
+After applying migrations, sign in and open `/vacancies`. Search filters start from the user's profile and can be overridden for each run. Matching uses imported vacancies and their saved structured requirements. Vacancies without extracted requirements appear without a score; matching does not call an LLM automatically.
+
+Required skills have weight 2 and optional skills weight 1. With known experience, the final score is 80% skill coverage and 20% experience coverage; otherwise it uses skill coverage alone. Zero required months is satisfied explicitly. Overlapping employment periods count once; projects do not count as employment. Missing employment history means unknown experience. Skill proficiency and job-role relevance are not scored yet.
+
+Saved searches preserve profile and vacancy snapshots, matched/missing skills and explanations. Later profile changes require a new search. Results link to the existing educational analysis workflow. Cover letters remain a subsequent stage.
+
+JWT API: `POST/GET /users/vacancy_searches`, `GET /users/vacancy_searches/{id}`, `GET /users/vacancy_matches/{id}`. Omitted creation filters inherit profile values; explicit nulls/empty lists remove corresponding restrictions. History/results accept `offset` and `limit` (maximum 100). Computation currently runs within the HTTP request; Celery is a separate planned stage. Failed runs retain a safe failure status without partial results. All saved results are owner-only.
+
 ## Vacancy work conditions
 
 Vacancy JSON/CSV imports and `POST /internal/create_vacancy` also accept optional work conditions: `city` (up to 100 characters), `work_format` (`remote`, `office`, `hybrid`), `employment_type` (`full_time`, `part_time`, `internship`, `contract`) and `min_experience_months` (a nonnegative integer). Missing/null values and empty CSV cells mean unknown; zero months explicitly means no experience required. Legacy files remain supported. Reimporting the same `source + external_id` skips the vacancy rather than updating its conditions; existing records retain unknown values after migration.

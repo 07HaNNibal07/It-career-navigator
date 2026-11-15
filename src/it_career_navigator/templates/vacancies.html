@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block title %}Подбор вакансий{% endblock %}
+{% block content %}
+<div class="page-heading"><div><p class="eyebrow">Карьера</p><h1>Подбор вакансий</h1><p>Найди подходящие предложения среди загруженных вакансий.</p></div><a class="secondary" href="/profile#preferences">Настроить профиль</a></div>
+<div class="grid two">
+<section class="card"><h2>Новый подбор</h2><form action="/vacancies/searches" method="post">
+  <label>Название должности<input name="desired_position" maxlength="200" value="{{ user.desired_position or '' }}" placeholder="Например, Python — ищем эту фразу в заголовке"></label>
+  <label>Направление<select name="direction_id"><option value="">Любое</option>{% for direction in directions %}<option value="{{ direction.id }}" {% if user.direction_id == direction.id %}selected{% endif %}>{{ direction.name }}</option>{% endfor %}</select></label>
+  <label>Уровень<select name="target_level"><option value="">Любой</option>{% for level in ['Junior', 'Middle', 'Senior'] %}<option {% if user.target_level == level %}selected{% endif %}>{{ level }}</option>{% endfor %}</select></label>
+  <label>Город<input name="city" maxlength="100" value="{{ user.city or '' }}" placeholder="Любой город"></label>
+  <fieldset class="career-options"><legend>Формат работы</legend>{% for value, label in work_formats.items() %}<label><input type="checkbox" name="work_formats" value="{{ value }}" {% if value in user.work_formats %}checked{% endif %}>{{ label }}</label>{% endfor %}</fieldset>
+  <fieldset class="career-options"><legend>Занятость</legend>{% for value, label in employment_types.items() %}<label><input type="checkbox" name="employment_types" value="{{ value }}" {% if value in user.employment_types %}checked{% endif %}>{{ label }}</label>{% endfor %}</fieldset>
+  <label class="matching-checkbox"><input type="checkbox" name="include_unknown_conditions" checked>Включать вакансии, где город, формат или занятость не указаны</label>
+  <button class="button" type="submit">Найти вакансии</button>
+</form></section>
+<section class="card"><h2>Как считается соответствие</h2><p>Сравниваем навыки из профиля с требованиями вакансии. Обязательные требования имеют двойной вес.</p><p>Если стаж известен, навыки дают 80% балла, а опыт — 20%. Если данных недостаточно, оцениваем только навыки.</p><p>Процент показывает совпадение с указанными требованиями. Он не гарантирует приглашение на собеседование. Уровень владения навыком пока не влияет на балл.</p><p>Фильтры заполнены из твоего профиля. Их можно изменить для этого запуска.</p><a href="/analyses">Хочу узнать, чему учиться →</a></section>
+</div>
+<section class="card"><h2>История подборов</h2>{% if history %}<div class="list">{% for item in history %}<a class="list-row" href="/vacancies/searches/{{ item.id }}"><strong>Подбор #{{ item.id }}</strong><span>{{ item.filters.desired_position or 'Все должности' }}</span><span>{{ item.created_at.strftime('%d.%m.%Y %H:%M') }} UTC</span><span class="badge {{ item.status }}">{{ item.status }}</span></a>{% endfor %}</div>{% else %}<p>Подборов ещё нет. Заполни параметры выше и нажми «Найти вакансии».</p>{% endif %}
+<nav class="matching-pagination" aria-label="История">{% if offset > 0 %}<a href="/vacancies?offset={{ [0, offset-20]|max }}">← Назад</a>{% endif %}{% if has_more %}<a href="/vacancies?offset={{ offset+20 }}">Далее →</a>{% endif %}</nav></section>
+{% endblock %}

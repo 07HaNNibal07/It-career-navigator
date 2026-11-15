@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}Подбор #{{ search.id }}{% endblock %}
+{% block content %}
+<div class="page-heading"><div><a href="/vacancies">← Все подборы</a><h1>Подбор #{{ search.id }}</h1><p><span class="badge {{ search.status }}">{{ search.status }}</span> · Найдено вакансий: {{ total }}</p></div><a class="secondary" href="/profile">Мой профиль</a></div>
+<section class="card matching-context"><h2>Параметры запуска</h2><p>Должность: {{ search.filters.desired_position or 'любая' }} · Уровень: {{ search.filters.target_level or 'любой' }} · Город: {{ search.filters.city or 'любой' }}</p><p>Результаты сохранены по профилю на {{ search.profile_snapshot.as_of }}. Изменения профиля учитываются в новом подборе.</p></section>
+{% if search.status == 'failed' %}<p class="error">{{ search.error_message }}</p>{% elif search.status != 'completed' %}<section class="card"><p>Подбор обрабатывается. Обнови страницу позднее.</p></section>{% endif %}
+<section class="card"><h2>Подходящие вакансии</h2>
+{% if matches %}<div class="list">{% for match in matches %}<article class="matching-result">
+  <div class="matching-result-heading"><div><h3><a href="/vacancies/matches/{{ match.id }}">{{ match.vacancy_snapshot.title }}</a></h3><p>{{ match.vacancy_snapshot.company or 'Компания не указана' }} · {{ match.vacancy_snapshot.level or 'Уровень не указан' }}</p></div><span class="matching-score">{% if match.score is not none %}{{ match.score }}%{% else %}Без оценки{% endif %}</span></div>
+  <p>Совпадает: {% for skill in match.matched_skills %}{{ skill.name }}{% if not loop.last %}, {% endif %}{% else %}нет совпадений{% endfor %}</p>
+  <p>Не хватает: {% for skill in match.missing_skills %}{{ skill.name }}{% if not loop.last %}, {% endif %}{% else %}{% if match.score is none %}требования ещё не разобраны{% else %}все указанные навыки есть{% endif %}{% endfor %}</p>
+  {% if match.experience_score is none %}<p>Опыт не оценён.</p>{% endif %}
+  <a class="secondary" href="/vacancies/matches/{{ match.id }}">Почему эта вакансия</a>
+</article>{% endfor %}</div>
+{% elif search.status == 'completed' %}<p>По этим условиям вакансий нет. Попробуй убрать название должности, выбрать другой уровень или включить неизвестные условия. Если каталог пуст, вакансии сначала нужно импортировать.</p><a href="/vacancies">Изменить параметры</a>{% endif %}
+<nav class="matching-pagination" aria-label="Результаты">{% if offset > 0 %}<a href="?offset={{ [0, offset-20]|max }}">← Назад</a>{% endif %}{% if offset + 20 < total %}<a href="?offset={{ offset+20 }}">Далее →</a>{% endif %}</nav></section>
+{% endblock %}

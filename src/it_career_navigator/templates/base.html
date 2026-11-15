@@ -15,6 +15,7 @@
       {% if user %}
         <a href="/profile" {% if request.url.path == '/profile' %}class="active" aria-current="page"{% endif %}>Профиль</a>
         <a href="/analyses" {% if request.url.path.startswith('/analyses') or request.url.path.startswith('/roadmaps') %}class="active" aria-current="page"{% endif %}>Анализы</a>
+        <a href="/vacancies" {% if request.url.path.startswith('/vacancies') %}class="active" aria-current="page"{% endif %}>Вакансии</a>
         <form class="inline" action="/logout" method="post"><button class="link-button">Выйти</button></form>
       {% else %}
         <a href="/login">Войти</a>

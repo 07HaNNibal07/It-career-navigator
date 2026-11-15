@@ -85,4 +85,16 @@ tr:last-child td { border-bottom: 0; }
 }
 body::before { content: ''; position: fixed; inset: 0; pointer-events: none; background-image: radial-gradient(circle, #c09ae630 1px, transparent 1.6px); background-size: 43px 41px; z-index: -1; }
 select option { background: #1c1d36; color: #f5f1ff; }
+.matching-checkbox { display: flex; align-items: flex-start; gap: 10px; font-weight: 400; }
+.matching-checkbox input { flex: 0 0 18px; width: 18px; min-height: 18px; margin-top: 4px; accent-color: #a66aff; }
+.matching-context { margin-bottom: 22px; }
+.matching-result { padding: 18px 0; border-bottom: 1px solid var(--border); }
+.matching-result:last-child { border-bottom: 0; }
+.matching-result-heading { display: flex; align-items: flex-start; justify-content: space-between; gap: 18px; }
+.matching-result h3 { margin: 0; }
+.matching-result p { color: var(--muted); margin: 8px 0 14px; }
+.matching-score { flex-shrink: 0; padding: 8px 14px; border-radius: 10px; color: #e0c3ff; background: #a66aff22; font-weight: 700; }
+.matching-description { white-space: pre-wrap; overflow-wrap: anywhere; }
+.matching-pagination { display: flex; justify-content: space-between; gap: 16px; margin-top: 20px; }
+@media(max-width: 640px) { .matching-result-heading { flex-direction: column; } }
 
